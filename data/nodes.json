@@ -1,0 +1,458 @@
+{
+  "asOf": "2026-09-08",
+  "majorPowers": [
+    "us",
+    "china",
+    "russia",
+    "uk",
+    "france",
+    "germany",
+    "japan",
+    "india",
+    "austria-hungary",
+    "italy",
+    "ussr"
+  ],
+  "nodes": [
+    {
+      "id": "us",
+      "kind": "power",
+      "name": "United States",
+      "lon": -77.0,
+      "lat": 38.9,
+      "label": {
+        "dx": 8,
+        "dy": 4
+      }
+    },
+    {
+      "id": "china",
+      "kind": "power",
+      "name": "China",
+      "lon": 116.4,
+      "lat": 39.9,
+      "label": {
+        "dx": -8,
+        "dy": -6,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "russia",
+      "kind": "power",
+      "name": "Russia",
+      "lon": 37.6,
+      "lat": 55.8,
+      "label": {
+        "dx": 8,
+        "dy": -6
+      }
+    },
+    {
+      "id": "ussr",
+      "kind": "power",
+      "name": "Soviet Union",
+      "lon": 37.6,
+      "lat": 55.8,
+      "eras": [
+        "1939"
+      ],
+      "label": {
+        "dx": 8,
+        "dy": -6
+      }
+    },
+    {
+      "id": "uk",
+      "kind": "power",
+      "name": "United Kingdom",
+      "lon": -0.1,
+      "lat": 51.5,
+      "label": {
+        "dx": -8,
+        "dy": -4,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "france",
+      "kind": "power",
+      "name": "France",
+      "lon": 2.35,
+      "lat": 48.9,
+      "label": {
+        "dx": -8,
+        "dy": 10,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "germany",
+      "kind": "power",
+      "name": "Germany",
+      "lon": 13.4,
+      "lat": 52.5,
+      "eras": [
+        "1914",
+        "1939"
+      ],
+      "label": {
+        "dx": 4,
+        "dy": -8
+      }
+    },
+    {
+      "id": "austria-hungary",
+      "kind": "power",
+      "name": "Austria-Hungary",
+      "lon": 16.4,
+      "lat": 48.2,
+      "eras": [
+        "1914"
+      ],
+      "label": {
+        "dx": 6,
+        "dy": 10
+      }
+    },
+    {
+      "id": "italy",
+      "kind": "power",
+      "name": "Italy",
+      "lon": 12.5,
+      "lat": 41.9,
+      "eras": [
+        "1939"
+      ],
+      "label": {
+        "dx": 4,
+        "dy": 12
+      }
+    },
+    {
+      "id": "japan",
+      "kind": "power",
+      "name": "Japan",
+      "lon": 139.7,
+      "lat": 35.7,
+      "label": {
+        "dx": 8,
+        "dy": 4
+      }
+    },
+    {
+      "id": "india",
+      "kind": "power",
+      "name": "India",
+      "lon": 77.2,
+      "lat": 28.6,
+      "label": {
+        "dx": 8,
+        "dy": 4
+      }
+    },
+    {
+      "id": "pakistan",
+      "kind": "power",
+      "name": "Pakistan",
+      "lon": 73.1,
+      "lat": 33.7,
+      "label": {
+        "dx": -6,
+        "dy": -6,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "iran",
+      "kind": "power",
+      "name": "Iran",
+      "lon": 51.4,
+      "lat": 35.7,
+      "label": {
+        "dx": 6,
+        "dy": -8
+      }
+    },
+    {
+      "id": "israel",
+      "kind": "power",
+      "name": "Israel",
+      "lon": 35.2,
+      "lat": 31.8,
+      "label": {
+        "dx": -8,
+        "dy": 12,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "north-korea",
+      "kind": "power",
+      "name": "North Korea",
+      "lon": 125.7,
+      "lat": 39.0,
+      "label": {
+        "dx": -8,
+        "dy": -6,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "serbia",
+      "kind": "power",
+      "name": "Serbia",
+      "lon": 20.5,
+      "lat": 44.8,
+      "eras": [
+        "1914"
+      ],
+      "label": {
+        "dx": 6,
+        "dy": 10
+      }
+    },
+    {
+      "id": "ukraine",
+      "kind": "theater",
+      "name": "Ukraine",
+      "lon": 31.0,
+      "lat": 49.0
+    },
+    {
+      "id": "levant",
+      "kind": "theater",
+      "name": "Gaza, Israel and Lebanon",
+      "lon": 34.9,
+      "lat": 32.6,
+      "label": {
+        "dx": -10,
+        "dy": 4,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "gulf",
+      "kind": "theater",
+      "name": "Iran and the Gulf",
+      "lon": 54.0,
+      "lat": 27.0,
+      "label": {
+        "dx": 10,
+        "dy": 12
+      }
+    },
+    {
+      "id": "red-sea",
+      "kind": "theater",
+      "name": "Yemen and the Red Sea",
+      "lon": 44.0,
+      "lat": 15.0,
+      "label": {
+        "dx": 10,
+        "dy": 12
+      }
+    },
+    {
+      "id": "syria",
+      "kind": "theater",
+      "name": "Syria",
+      "lon": 38.5,
+      "lat": 35.0,
+      "label": {
+        "dx": -8,
+        "dy": -6,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "libya",
+      "kind": "theater",
+      "name": "Libya",
+      "lon": 17.0,
+      "lat": 30.5
+    },
+    {
+      "id": "sudan",
+      "kind": "theater",
+      "name": "Sudan",
+      "lon": 30.5,
+      "lat": 15.5,
+      "label": {
+        "dx": -10,
+        "dy": 4,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "south-asia",
+      "kind": "theater",
+      "name": "Kashmir line of control",
+      "lon": 74.5,
+      "lat": 34.0,
+      "label": {
+        "dx": 10,
+        "dy": -4
+      }
+    },
+    {
+      "id": "caucasus",
+      "kind": "theater",
+      "name": "Nagorno-Karabakh",
+      "lon": 46.7,
+      "lat": 39.9
+    },
+    {
+      "id": "myanmar",
+      "kind": "theater",
+      "name": "Myanmar",
+      "lon": 96.0,
+      "lat": 20.0
+    },
+    {
+      "id": "taiwan-strait",
+      "kind": "theater",
+      "name": "Taiwan Strait",
+      "lon": 120.0,
+      "lat": 24.0,
+      "status": "watch"
+    },
+    {
+      "id": "korea",
+      "kind": "theater",
+      "name": "Korean peninsula",
+      "lon": 127.5,
+      "lat": 37.5,
+      "status": "watch",
+      "label": {
+        "dx": 10,
+        "dy": 4
+      }
+    },
+    {
+      "id": "balkans",
+      "kind": "theater",
+      "name": "The Balkans",
+      "lon": 19.5,
+      "lat": 43.5,
+      "eras": [
+        "1914",
+        "1939"
+      ],
+      "label": {
+        "dx": 10,
+        "dy": 8
+      }
+    },
+    {
+      "id": "western-front",
+      "kind": "theater",
+      "name": "Western Front",
+      "lon": 3.5,
+      "lat": 50.0,
+      "eras": [
+        "1914",
+        "1939"
+      ],
+      "label": {
+        "dx": -10,
+        "dy": 4,
+        "anchor": "end"
+      }
+    },
+    {
+      "id": "eastern-front",
+      "kind": "theater",
+      "name": "Eastern Front",
+      "lon": 26.0,
+      "lat": 52.5,
+      "eras": [
+        "1914",
+        "1939"
+      ],
+      "label": {
+        "dx": 10,
+        "dy": 4
+      }
+    },
+    {
+      "id": "atlantic",
+      "kind": "theater",
+      "name": "North Atlantic",
+      "lon": -30.0,
+      "lat": 50.0,
+      "eras": [
+        "1914",
+        "1939"
+      ]
+    },
+    {
+      "id": "manchuria",
+      "kind": "theater",
+      "name": "Manchuria",
+      "lon": 123.4,
+      "lat": 41.8,
+      "eras": [
+        "1939"
+      ],
+      "label": {
+        "dx": 10,
+        "dy": -4
+      }
+    },
+    {
+      "id": "china-coast",
+      "kind": "theater",
+      "name": "Eastern China",
+      "lon": 118.0,
+      "lat": 32.0,
+      "eras": [
+        "1939"
+      ],
+      "label": {
+        "dx": 10,
+        "dy": 6
+      }
+    },
+    {
+      "id": "ethiopia",
+      "kind": "theater",
+      "name": "Ethiopia",
+      "lon": 39.0,
+      "lat": 9.0,
+      "eras": [
+        "1939"
+      ]
+    },
+    {
+      "id": "spain",
+      "kind": "theater",
+      "name": "Spain",
+      "lon": -3.7,
+      "lat": 40.4,
+      "eras": [
+        "1939"
+      ]
+    },
+    {
+      "id": "pacific",
+      "kind": "theater",
+      "name": "Pacific",
+      "lon": -157.9,
+      "lat": 21.3,
+      "eras": [
+        "1939"
+      ]
+    },
+    {
+      "id": "north-africa",
+      "kind": "theater",
+      "name": "North Africa",
+      "lon": 20.0,
+      "lat": 31.0,
+      "eras": [
+        "1939"
+      ]
+    }
+  ]
+}

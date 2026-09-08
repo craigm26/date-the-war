@@ -1,0 +1,117 @@
+:root {
+  color-scheme: light dark;
+  --bg: #faf8f4;
+  --fg: #1c1b18;
+  --muted: #6b675e;
+  --line: #d9d4c9;
+  --land: #e7e2d6;
+  --land-stroke: #cfc8b9;
+  --on: #b3261e;
+  --off: #9a9486;
+  --watch: #b58a2a;
+  --power: #1f3d8c;
+  --link: #b3261e;
+  --chip: #eee9de;
+  --general: #7a1410;
+  --linked: #a3560d;
+  --regional: #2f5f3a;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15140f;
+    --fg: #ece7dc;
+    --muted: #a39d8f;
+    --line: #34312a;
+    --land: #262419;
+    --land-stroke: #3b382d;
+    --off: #6f6a5c;
+    --chip: #262419;
+    --on: #e2574c;
+    --link: #e2574c;
+    --power: #7f9de6;
+    --general: #ff8a7e;
+    --linked: #f0a453;
+    --regional: #7fc48f;
+  }
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); color: var(--fg); }
+body { margin: 0; line-height: 1.5; font-size: 16px; }
+.wrap { max-width: 68rem; margin: 0 auto; padding: 1.5rem 1.25rem; }
+header.wrap { padding-bottom: 0.5rem; }
+h1 { font-size: 2.6rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; line-height: 1.05; }
+h2 { font-size: 1.35rem; margin: 2.5rem 0 0.75rem; }
+h3 { font-size: 0.95rem; margin: 0 0 0.35rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+p { margin: 0 0 0.75rem; }
+a { color: inherit; text-decoration-color: var(--muted); }
+.kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; color: var(--muted); margin: 0 0 0.25rem; }
+.premise { max-width: 48rem; font-size: 1.05rem; }
+.count { font-weight: normal; color: var(--muted); font-size: 0.9rem; margin-left: 0.5rem; }
+.fine { font-size: 0.85rem; color: var(--muted); max-width: 48rem; }
+.none { color: var(--muted); font-style: italic; margin: 0; }
+
+.eras { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+.era { font: inherit; padding: 0.4rem 0.9rem; border: 1px solid var(--line); background: transparent; color: inherit; border-radius: 999px; cursor: pointer; }
+.era.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.blurb { color: var(--muted); margin: 0.75rem 0 0.5rem; }
+
+.map { border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--bg); }
+.map svg { display: block; width: 100%; height: auto; }
+.land path { fill: var(--land); stroke: var(--land-stroke); stroke-width: 0.4; }
+.link { fill: none; stroke: var(--link); stroke-width: 1.4; stroke-dasharray: 3 2; opacity: 0.85; }
+.theater.on { fill: var(--on); stroke: var(--bg); stroke-width: 1.2; }
+.theater.off { fill: none; stroke: var(--off); stroke-width: 1.2; }
+.theater.watch { fill: none; stroke: var(--watch); stroke-width: 1.4; stroke-dasharray: 2 1.5; }
+.power.on { fill: var(--power); stroke: var(--bg); stroke-width: 1; }
+.power.off { fill: none; stroke: var(--power); stroke-width: 1; opacity: 0.55; }
+.label { font-size: 11px; fill: var(--fg); paint-order: stroke; stroke: var(--bg); stroke-width: 3px; stroke-linejoin: round; }
+.power-label { fill: var(--power); font-size: 10px; }
+
+.control { margin-top: 1rem; }
+.control label { font-weight: 600; }
+.scrub { display: flex; align-items: center; gap: 0.5rem; margin: 0.35rem 0; }
+.scrub input { flex: 1; accent-color: var(--on); }
+.scrub button { font: inherit; border: 1px solid var(--line); background: transparent; color: inherit; border-radius: 4px; padding: 0.2rem 0.6rem; cursor: pointer; }
+.range { margin: 0; }
+.key { display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem; font-size: 0.8rem; color: var(--muted); margin-top: 0.5rem; }
+.k::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 0.4rem; vertical-align: -1px; border-radius: 50%; }
+.k.theater-on::before { background: var(--on); }
+.k.theater-off::before { border: 1.5px solid var(--off); }
+.k.theater-watch::before { border: 1.5px dashed var(--watch); }
+.k.power-on::before { background: var(--power); border-radius: 1px; }
+.k.link::before { border-radius: 0; height: 0; width: 18px; border-top: 2px dashed var(--link); vertical-align: 3px; }
+
+.verdict { margin-top: 1.5rem; padding: 1.25rem; border: 1px solid var(--line); border-radius: 6px; }
+.verdict .lede { font-size: 1.15rem; margin-bottom: 0.25rem; }
+.verdict .rule { color: var(--muted); font-size: 0.9rem; }
+.tag.general { color: var(--general); }
+.tag.linked { color: var(--linked); }
+.tag.regional { color: var(--regional); }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; margin-top: 1rem; }
+.block ul { margin: 0; padding-left: 1.1rem; }
+.block li { margin: 0.15rem 0; }
+
+.events { list-style: none; padding: 0; margin: 0; }
+.ev { display: grid; grid-template-columns: 8rem 1fr; gap: 1rem; padding: 0.85rem 0; border-top: 1px solid var(--line); }
+.ev time { color: var(--muted); font-variant-numeric: tabular-nums; }
+.ev .title { font-weight: 600; margin: 0 0 0.2rem; }
+.ev.war-start .title::before { content: "\25CF "; color: var(--on); }
+.ev.war-end .title::before { content: "\25CB "; color: var(--muted); }
+.ev.link .title::before { content: "\2194 "; color: var(--link); }
+.ev.measure .title::before { content: "# "; color: var(--muted); }
+.ev .note { margin: 0 0 0.35rem; }
+.meta { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; font-size: 0.8rem; margin: 0; }
+.chip { background: var(--chip); border-radius: 999px; padding: 0.1rem 0.55rem; }
+.checked { color: var(--regional); }
+.unchecked { color: var(--muted); }
+@media (max-width: 40rem) { .ev { grid-template-columns: 1fr; gap: 0.2rem; } }
+
+.mechanisms { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem; }
+.mechanisms .title { font-weight: 600; margin: 0 0 0.2rem; }
+.mechanisms .image { font-weight: normal; color: var(--muted); font-size: 0.85rem; }
+.mechanisms .note { margin: 0; font-size: 0.95rem; }
+.definitions ul, .cites { padding-left: 1.2rem; }
+.definitions li, .cites li { margin: 0.35rem 0; }
+.cites { font-size: 0.9rem; }
+.position p { max-width: 48rem; }

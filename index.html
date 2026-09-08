@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Date the war</title>
+<meta name="description" content="A map that lets you pick the day a world war began and shows what that date makes you include. An experiment on why wars happen and whether this is one.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="wrap">
+  <p class="kicker">An experiment</p>
+  <h1>Date the war</h1>
+  <p class="premise">
+    A world war can begin gradually and get its start date afterward. Nobody on 18 September 1931 knew they were in one; some historians now say they were.
+    This page does not declare a third world war. It hands you the marker. Drag it to the day you think this one began, and the map shows what that dating makes you include, and which of the academic reasons for war are visible from there.
+  </p>
+</header>
+
+<main class="wrap">
+  <nav id="eras" class="eras" aria-label="Time scale"></nav>
+  <p id="era-blurb" class="blurb"></p>
+
+  <section id="map" class="map" aria-live="off"></section>
+
+  <section class="control">
+    <label for="from">Date it from</label>
+    <div class="scrub">
+      <button id="prev" type="button" aria-label="Previous event">&larr;</button>
+      <input id="from" type="range" min="0" max="1" value="0" step="1">
+      <button id="next" type="button" aria-label="Next event">&rarr;</button>
+    </div>
+    <p class="range"><b id="from-label"></b> to <span id="to-label"></span></p>
+    <p class="key">
+      <span class="k theater-on">theater active in the window</span>
+      <span class="k theater-off">theater in this era, outside the window</span>
+      <span class="k theater-watch">theater watched, no direct combat</span>
+      <span class="k power-on">state in direct combat</span>
+      <span class="k link">link formed between theaters</span>
+    </p>
+  </section>
+
+  <section id="verdict" class="verdict"></section>
+
+  <section class="events-wrap">
+    <h2>What happened in the window <span id="event-count" class="count"></span></h2>
+    <ul id="events" class="events"></ul>
+    <p class="fine">
+      Every entry carries the source it was taken from. "Checked" means the link was opened and read on that date for this page. "Unchecked" means it has not been re-opened yet; the fact is well established but the link is on you.
+    </p>
+  </section>
+
+  <section class="mechanisms-wrap">
+    <h2>Why wars happen, according to the field</h2>
+    <p>
+      Political science separates the things states fight over, such as territory, security, resources and identity, from the mechanisms that turn a dispute into violence.
+      The starting point is a puzzle: war destroys what both sides want, so a settlement both prefer to fighting should nearly always exist. The mechanisms below are the reasons states fail to find it, accept it, or keep it.
+      Each is tagged with the level it lives at, in the field's own scheme: the leader, the state, or the system.
+    </p>
+    <ul id="mechanisms" class="mechanisms"></ul>
+  </section>
+
+  <section class="definitions">
+    <h2>What "world war" would have to mean</h2>
+    <p>Three definitions get confused, and none of them is a checklist.</p>
+    <ul>
+      <li><b>International armed conflict</b> is a legal status. Armed force between states establishes it. No declaration is needed. The United States has been in one with Iran since February.</li>
+      <li><b>War</b> in the research datasets is a count. The Uppsala program calls a conflict a war in any year with at least 1,000 battle deaths. Thirteen conflicts cleared that bar in 2025, the most since 1992.</li>
+      <li><b>World war</b> is a historical label with no agreed threshold. The usual meaning is a general war among most of the major powers. The two previous ones were also marked by whole economies reorganized for the fight. Neither dataset above has a category for it.</li>
+    </ul>
+    <p>
+      The rule this page applies is stated next to every verdict so you can reject it. It asks one question: are at least two major powers shooting at each other directly, in more than one theater? Under that rule the present reads as linked wars, not a general one. The broadest alternative, which dates a single global war from the early 2010s, also swallows most of the Cold War, and a label that cannot tell those apart is not doing work.
+    </p>
+  </section>
+
+  <section class="position">
+    <h2>Where the author stands, as of 8 September 2026</h2>
+    <p>
+      The United States is at war with Iran. It is not in a world war on the conventional meaning, and there is no accepted list of requirements that can be declared met.
+      The conflicts are more connected than at any point since 1945, and they are colliding without converging: the participants still want different things.
+      What would change this reading is sustained direct combat between major powers spreading across linked theaters, with alliances pulling in more of them. That could justify the label before any nuclear use or any announcement, and a later historian might then date the war from a regional fight that had already been running for years.
+    </p>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <h3>Mechanisms</h3>
+    <ul class="cites">
+      <li>Fearon, J. D. (1995). Rationalist explanations for war. <i>International Organization</i> 49(3). Private information, commitment problems, indivisibility.</li>
+      <li>Jervis, R. (1978). Cooperation under the security dilemma. <i>World Politics</i> 30(2).</li>
+      <li>Levy, J. S. (1983). Misperception and the causes of war. <i>World Politics</i> 36(1).</li>
+      <li>Chiozza, G. and Goemans, H. E. (2004). International conflict and the tenure of leaders. <i>American Journal of Political Science</i> 48(3).</li>
+      <li>Toft, M. D. (2006). Issue indivisibility and time horizons as rationalist explanations for war. <i>Security Studies</i> 15(1).</li>
+      <li>Christensen, T. J. and Snyder, J. (1990). Chain gangs and passed bucks. <i>International Organization</i> 44(2).</li>
+      <li>Organski, A. F. K. (1958). <i>World Politics</i>. Power transition. See also Gilpin, R. (1981). <i>War and Change in World Politics</i>.</li>
+      <li>Vasquez, J. A. (1993). <i>The War Puzzle</i>. The steps-to-war model.</li>
+      <li>Fearon, J. D. and Laitin, D. D. (2003). Ethnicity, insurgency, and civil war. <i>American Political Science Review</i> 97(1).</li>
+      <li>Waltz, K. N. (1959). <i>Man, the State, and War</i>. The three images.</li>
+    </ul>
+    <h3>Definitions and the present</h3>
+    <ul class="cites">
+      <li><a href="https://www.icrc.org/en/law-and-policy" rel="noopener">ICRC</a>, on when an international armed conflict exists.</li>
+      <li><a href="https://ucdp.uu.se/" rel="noopener">UCDP</a>, the 1,000 battle-death threshold; <a href="https://www.uu.se/en/press/press-releases/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states" rel="noopener">UCDP 2025 release</a>, 9 June 2026.</li>
+      <li><a href="https://www.lowyinstitute.org/the-interpreter/stop-declaring-world-war-III" rel="noopener">Lowy Institute, "Stop declaring World War III"</a>, September 2026. Mobilization, not geography, made the first two.</li>
+      <li><a href="https://worldpeacefoundation.org/blog/world-war-x/" rel="noopener">World Peace Foundation, "World War X"</a>, the case for the broadest reading, dated from the early 2010s.</li>
+      <li><a href="https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/" rel="noopener">CENTCOM release</a>, 1 September 2026.</li>
+      <li><a href="https://www.cfr.org/global-conflict-tracker/conflict/confrontation-over-taiwan" rel="noopener">CFR Global Conflict Tracker, Taiwan</a>, the watched theater.</li>
+    </ul>
+    <p class="fine">Base map: Natural Earth via world-atlas, public domain. Code: <a href="https://github.com/craigm26/date-the-war" rel="noopener">github.com/craigm26/date-the-war</a>. Built by Craig Merry, pairing with Claude Code.</p>
+  </section>
+</main>
+
+<script type="module" src="./src/app.js"></script>
+</body>
+</html>

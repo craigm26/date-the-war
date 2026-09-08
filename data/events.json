@@ -1,0 +1,692 @@
+[
+  {
+    "id": "sarajevo",
+    "date": "1914-06-28",
+    "era": "1914",
+    "theater": "balkans",
+    "kind": "event",
+    "title": "The Austrian heir is shot in Sarajevo",
+    "note": "A regional dispute between an empire and a small neighbor, with a great-power patron behind each.",
+    "mechanisms": ["steps-to-war","indivisible-issues"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+    },
+    "checked": null
+  },
+  {
+    "id": "austria-serbia",
+    "date": "1914-07-28",
+    "era": "1914",
+    "theater": "balkans",
+    "kind": "war-start",
+    "title": "Austria-Hungary declares war on Serbia",
+    "combat": [["austria-hungary"],["serbia"]],
+    "note": "Still a local war. Every capital expected the other side to back down.",
+    "mechanisms": ["private-information","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/July_Crisis"
+    },
+    "checked": null
+  },
+  {
+    "id": "germany-russia",
+    "date": "1914-08-01",
+    "era": "1914",
+    "theater": "eastern-front",
+    "kind": "war-start",
+    "title": "Germany declares war on Russia",
+    "combat": [["germany"],["russia"]],
+    "link": ["russia","balkans"],
+    "note": "Russian mobilization for Serbia triggers the German war plan against France and Russia together. The alliances fire.",
+    "mechanisms": ["alliance-entanglement","security-dilemma"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/July_Crisis"
+    },
+    "checked": null
+  },
+  {
+    "id": "germany-france",
+    "date": "1914-08-03",
+    "era": "1914",
+    "theater": "western-front",
+    "kind": "war-start",
+    "title": "Germany declares war on France",
+    "combat": [["germany"],["france"]],
+    "link": ["eastern-front","western-front"],
+    "note": "The two-front war the German plan was built for.",
+    "mechanisms": ["alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/July_Crisis"
+    },
+    "checked": null
+  },
+  {
+    "id": "britain-germany",
+    "date": "1914-08-04",
+    "era": "1914",
+    "theater": "western-front",
+    "kind": "war-start",
+    "title": "Britain declares war on Germany",
+    "combat": [["uk"],["germany"]],
+    "link": ["uk","western-front"],
+    "note": "The conventional start date for a general European war. Four major powers are now fighting each other directly.",
+    "mechanisms": ["alliance-entanglement","misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/July_Crisis"
+    },
+    "checked": null
+  },
+  {
+    "id": "us-enters-ww1",
+    "date": "1917-04-06",
+    "era": "1914",
+    "theater": "atlantic",
+    "kind": "war-start",
+    "title": "The United States enters the war",
+    "combat": [["us"],["germany"]],
+    "link": ["us","atlantic"],
+    "note": "Unrestricted submarine warfare brings in the last major power still outside.",
+    "mechanisms": ["misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/American_entry_into_World_War_I"
+    },
+    "checked": null
+  },
+  {
+    "id": "armistice-1918",
+    "date": "1918-11-11",
+    "era": "1914",
+    "theater": "western-front",
+    "kind": "war-end",
+    "title": "Armistice",
+    "note": "The name World War arrived during the fighting; the numeral came later.",
+    "mechanisms": [],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
+    },
+    "checked": null
+  },
+  {
+    "id": "mukden",
+    "date": "1931-09-18",
+    "era": "1939",
+    "theater": "manchuria",
+    "kind": "war-start",
+    "title": "Japan seizes Manchuria",
+    "combat": [["japan"],["china"]],
+    "note": "Some historians date the Second World War from here. On the conventional European dating it is a prelude.",
+    "mechanisms": ["steps-to-war","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mukden_incident"
+    },
+    "checked": null
+  },
+  {
+    "id": "ethiopia-1935",
+    "date": "1935-10-03",
+    "era": "1939",
+    "theater": "ethiopia",
+    "kind": "war-start",
+    "title": "Italy invades Ethiopia",
+    "combat": [["italy"],[]],
+    "note": "The League of Nations fails its first serious test. Restraints on force weaken across the system.",
+    "mechanisms": ["misperception","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Second_Italo-Ethiopian_War"
+    },
+    "checked": null
+  },
+  {
+    "id": "spain-1936",
+    "date": "1936-07-17",
+    "era": "1939",
+    "theater": "spain",
+    "kind": "war-start",
+    "title": "Spanish civil war begins",
+    "link": ["germany","spain"],
+    "note": "A civil war that Germany, Italy and the Soviet Union all arm. The first theater where the coming coalitions test each other.",
+    "mechanisms": ["state-weakness","alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spanish_Civil_War"
+    },
+    "checked": null
+  },
+  {
+    "id": "marco-polo-bridge",
+    "date": "1937-07-07",
+    "era": "1939",
+    "theater": "china-coast",
+    "kind": "war-start",
+    "title": "Full war between Japan and China",
+    "combat": [["japan"],["china"]],
+    "link": ["manchuria","china-coast"],
+    "note": "Chinese historiography dates the world war from here. Two years before Poland, the deadliest theater of the war is already open.",
+    "mechanisms": ["steps-to-war","misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marco_Polo_Bridge_incident"
+    },
+    "checked": null
+  },
+  {
+    "id": "poland-1939",
+    "date": "1939-09-01",
+    "era": "1939",
+    "theater": "eastern-front",
+    "kind": "war-start",
+    "title": "Germany invades Poland; Britain and France declare war two days later",
+    "combat": [["germany"],["uk","france"]],
+    "link": ["uk","eastern-front"],
+    "note": "The conventional start date. On this dating the war in Asia is folded in retrospectively.",
+    "mechanisms": ["alliance-entanglement","commitment-problem","misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+    },
+    "checked": null
+  },
+  {
+    "id": "france-1940",
+    "date": "1940-05-10",
+    "era": "1939",
+    "theater": "western-front",
+    "kind": "event",
+    "title": "Germany attacks in the west",
+    "combat": [["germany"],["france"]],
+    "note": "France falls in six weeks. Britain fights on alone in Europe.",
+    "mechanisms": ["misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_France"
+    },
+    "checked": null
+  },
+  {
+    "id": "north-africa-1940",
+    "date": "1940-09-13",
+    "era": "1939",
+    "theater": "north-africa",
+    "kind": "war-start",
+    "title": "Italy invades Egypt",
+    "combat": [["italy"],["uk"]],
+    "link": ["western-front","north-africa"],
+    "note": "The Mediterranean becomes a theater because Italy joined Germany's war.",
+    "mechanisms": ["alliance-entanglement","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Western_Desert_campaign"
+    },
+    "checked": null
+  },
+  {
+    "id": "barbarossa",
+    "date": "1941-06-22",
+    "era": "1939",
+    "theater": "eastern-front",
+    "kind": "war-start",
+    "title": "Germany invades the Soviet Union",
+    "combat": [["germany"],["ussr"]],
+    "note": "The largest land war in history opens. A preventive war by a leadership convinced its window was closing.",
+    "mechanisms": ["commitment-problem","misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+    },
+    "checked": null
+  },
+  {
+    "id": "pearl-harbor",
+    "date": "1941-12-07",
+    "era": "1939",
+    "theater": "pacific",
+    "kind": "war-start",
+    "title": "Japan attacks Pearl Harbor; Germany declares war on the United States four days later",
+    "combat": [["japan"],["us"]],
+    "link": ["china-coast","pacific"],
+    "note": "The date the Asian and European wars become one war. Every major power is now in direct combat.",
+    "mechanisms": ["commitment-problem","alliance-entanglement","misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+    },
+    "checked": null
+  },
+  {
+    "id": "surrender-1945",
+    "date": "1945-09-02",
+    "era": "1939",
+    "theater": "pacific",
+    "kind": "war-end",
+    "title": "Japan surrenders",
+    "note": "The end date is not disputed. The start date still is.",
+    "mechanisms": [],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
+    },
+    "checked": null
+  },
+  {
+    "id": "syria-2011",
+    "date": "2011-03-15",
+    "era": "years",
+    "theater": "syria",
+    "kind": "war-start",
+    "title": "Uprising in Syria becomes a civil war",
+    "note": "Within four years Russia, Iran, Turkey, the Gulf states and the United States all have forces or proxies inside one country.",
+    "mechanisms": ["state-weakness","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Syrian_civil_war"
+    },
+    "checked": null
+  },
+  {
+    "id": "libya-2011",
+    "date": "2011-03-19",
+    "era": "years",
+    "theater": "libya",
+    "kind": "war-start",
+    "title": "NATO intervention in Libya begins",
+    "combat": [["us","uk","france"],[]],
+    "link": ["us","libya"],
+    "note": "The intervention that Moscow later cites as proof that a UN mandate can be stretched into regime change.",
+    "mechanisms": ["commitment-problem","state-weakness"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2011_military_intervention_in_Libya"
+    },
+    "checked": null
+  },
+  {
+    "id": "crimea-2014",
+    "date": "2014-03-18",
+    "era": "years",
+    "theater": "ukraine",
+    "kind": "war-start",
+    "title": "Russia annexes Crimea",
+    "combat": [["russia"],[]],
+    "note": "The first forcible annexation in Europe since 1945. Sanctions follow; the border war in the Donbas never stops.",
+    "mechanisms": ["indivisible-issues","commitment-problem","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation"
+    },
+    "checked": null
+  },
+  {
+    "id": "yemen-2015",
+    "date": "2015-03-26",
+    "era": "years",
+    "theater": "red-sea",
+    "kind": "war-start",
+    "title": "Saudi-led coalition intervenes in Yemen",
+    "link": ["gulf","red-sea"],
+    "note": "A civil war becomes a proxy war between Riyadh and Tehran, with American support on one side.",
+    "mechanisms": ["alliance-entanglement","state-weakness"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Saudi-led_intervention_in_the_Yemeni_civil_war"
+    },
+    "checked": null
+  },
+  {
+    "id": "russia-syria-2015",
+    "date": "2015-09-30",
+    "era": "years",
+    "theater": "syria",
+    "kind": "event",
+    "title": "Russia intervenes in Syria",
+    "combat": [["russia"],[]],
+    "link": ["russia","syria"],
+    "note": "Russian and American aircraft share Syrian airspace with a deconfliction hotline. The first theater where the two operate at arm's length.",
+    "mechanisms": ["alliance-entanglement","security-dilemma"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Russian_intervention_in_the_Syrian_civil_war"
+    },
+    "checked": null
+  },
+  {
+    "id": "karabakh-2020",
+    "date": "2020-09-27",
+    "era": "years",
+    "theater": "caucasus",
+    "kind": "war-start",
+    "title": "Second Nagorno-Karabakh war",
+    "note": "Six weeks, decided by drones. Turkey backs one side, Russia brokers the ceasefire, and the settlement is undone three years later.",
+    "mechanisms": ["indivisible-issues","commitment-problem"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War"
+    },
+    "checked": null
+  },
+  {
+    "id": "myanmar-2021",
+    "date": "2021-02-01",
+    "era": "years",
+    "theater": "myanmar",
+    "kind": "war-start",
+    "title": "Coup in Myanmar; civil war follows",
+    "note": "One of the deadliest conflicts of the decade and the least connected to the others. It is on the map to show that not everything links.",
+    "mechanisms": ["state-weakness","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Myanmar_civil_war_(2021%E2%80%93present)"
+    },
+    "checked": null
+  },
+  {
+    "id": "ukraine-2022",
+    "date": "2022-02-24",
+    "era": "years",
+    "theater": "ukraine",
+    "kind": "war-start",
+    "title": "Russia invades Ukraine",
+    "combat": [["russia"],[]],
+    "note": "The largest interstate war in Europe since 1945. Planned as a short campaign; in its fifth year as of this page's date.",
+    "mechanisms": ["commitment-problem","misperception","indivisible-issues"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+    },
+    "checked": null
+  },
+  {
+    "id": "shahed-2022",
+    "date": "2022-10-17",
+    "era": "years",
+    "theater": "ukraine",
+    "kind": "link",
+    "title": "Iranian-designed drones strike Kyiv",
+    "link": ["iran","ukraine"],
+    "note": "The first hard connection between the Gulf and Europe: one theater's weapons in another theater's sky.",
+    "mechanisms": ["alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HESA_Shahed_136"
+    },
+    "checked": null
+  },
+  {
+    "id": "sudan-2023",
+    "date": "2023-04-15",
+    "era": "years",
+    "theater": "sudan",
+    "kind": "war-start",
+    "title": "War between Sudan's army and the RSF",
+    "note": "The world's largest displacement crisis, armed from the Gulf on both sides.",
+    "mechanisms": ["state-weakness","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)"
+    },
+    "checked": null
+  },
+  {
+    "id": "gaza-2023",
+    "date": "2023-10-07",
+    "era": "years",
+    "theater": "levant",
+    "kind": "war-start",
+    "title": "Hamas attack; the Gaza war begins",
+    "combat": [["israel"],[]],
+    "note": "Within weeks the war has fronts in Lebanon, the Red Sea, Iraq and Syria.",
+    "mechanisms": ["indivisible-issues","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaza_war"
+    },
+    "checked": null
+  },
+  {
+    "id": "red-sea-2023",
+    "date": "2023-11-19",
+    "era": "years",
+    "theater": "red-sea",
+    "kind": "link",
+    "title": "Houthi attacks on Red Sea shipping begin",
+    "link": ["levant","red-sea"],
+    "note": "A war in Gaza reroutes global trade around Africa. American and European navies join a second front.",
+    "mechanisms": ["alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Red_Sea_crisis"
+    },
+    "checked": null
+  },
+  {
+    "id": "iran-israel-2024",
+    "date": "2024-04-13",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "link",
+    "title": "Iran's first direct strike on Israel",
+    "combat": [["iran"],["israel"]],
+    "link": ["gulf","levant"],
+    "note": "Decades of proxy war become direct fire between states. Telegraphed in advance, mostly intercepted, and a step that cannot be untaken.",
+    "mechanisms": ["private-information","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/April_2024_Iranian_strikes_on_Israel"
+    },
+    "checked": null
+  },
+  {
+    "id": "dprk-russia-2024",
+    "date": "2024-10-18",
+    "era": "years",
+    "theater": "ukraine",
+    "kind": "link",
+    "title": "North Korean troops reported in Russia",
+    "link": ["north-korea","ukraine"],
+    "note": "Soldiers from one theater-in-waiting fighting in another. The first time since 1953 that North Korean forces fight abroad.",
+    "mechanisms": ["alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/North_Korean_involvement_in_the_Russian_invasion_of_Ukraine"
+    },
+    "checked": null
+  },
+  {
+    "id": "assad-falls-2024",
+    "date": "2024-12-08",
+    "era": "years",
+    "theater": "syria",
+    "kind": "link",
+    "title": "The Syrian government falls",
+    "link": ["ukraine","syria"],
+    "note": "Russia, committed in Ukraine, and Iran, weakened by a year of Israeli strikes, cannot save their client. One theater's outcome is decided by two others.",
+    "mechanisms": ["commitment-problem","alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime"
+    },
+    "checked": null
+  },
+  {
+    "id": "india-pakistan-2025",
+    "date": "2025-05-07",
+    "era": "years",
+    "theater": "south-asia",
+    "kind": "war-start",
+    "title": "India strikes Pakistan after the Pahalgam attack",
+    "combat": [["india"],["pakistan"]],
+    "note": "Four days of missile and drone exchanges between two nuclear states. Chinese aircraft and Western aircraft meet in combat for the first time.",
+    "mechanisms": ["indivisible-issues","misperception","domestic-incentives"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_India%E2%80%93Pakistan_conflict"
+    },
+    "checked": null
+  },
+  {
+    "id": "israel-iran-2025",
+    "date": "2025-06-13",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "war-start",
+    "title": "Israel strikes Iran; the twelve-day war",
+    "combat": [["israel"],["iran"]],
+    "note": "A preventive war against a nuclear program, launched during negotiations.",
+    "mechanisms": ["commitment-problem","private-information"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_Iran%E2%80%93Israel_war"
+    },
+    "checked": null
+  },
+  {
+    "id": "us-strikes-iran-2025",
+    "date": "2025-06-22",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "link",
+    "title": "The United States bombs three Iranian nuclear sites",
+    "combat": [["us"],["iran"]],
+    "link": ["us","gulf"],
+    "note": "The first direct American strike on Iranian soil. A ceasefire follows within days.",
+    "mechanisms": ["commitment-problem","alliance-entanglement"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites"
+    },
+    "checked": null
+  },
+  {
+    "id": "iran-war-2026",
+    "date": "2026-02-28",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "war-start",
+    "title": "The 2026 Iran war begins",
+    "combat": [["us"],["iran"]],
+    "note": "American and Israeli strikes kill Iran's supreme leader. The United States is in an interstate war under any definition.",
+    "mechanisms": ["commitment-problem","domestic-incentives","misperception"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "hormuz-2026",
+    "date": "2026-03-08",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "event",
+    "title": "Iran closes the Strait of Hormuz",
+    "note": "A fifth of the world's oil trade is held hostage to the bargaining. The war's cost spreads to every economy.",
+    "mechanisms": ["private-information","indivisible-issues"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "ucdp-2025",
+    "date": "2026-06-09",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "measure",
+    "title": "UCDP: most state-based conflicts since 1946",
+    "note": "65 conflicts involving states in 2025, 13 at war intensity, and interstate conflicts doubled for the second year running. The count is a record; a count is not a world war.",
+    "mechanisms": [],
+    "source": {
+      "label": "Uppsala University",
+      "url": "https://www.uu.se/en/press/press-releases/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "islamabad-2026",
+    "date": "2026-06-17",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "war-end",
+    "title": "Islamabad Memorandum ends the war on paper",
+    "note": "Blockades lifted on both sides. A settlement each side prefers to fighting, which is what the theory predicts should exist.",
+    "mechanisms": [],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "ceasefire-collapse-2026",
+    "date": "2026-07-08",
+    "era": "years",
+    "theater": "gulf",
+    "kind": "war-start",
+    "title": "Ceasefire collapses over shipping in Hormuz",
+    "combat": [["us"],["iran"]],
+    "note": "The deal could not be enforced. The textbook commitment problem, three weeks after the signature.",
+    "mechanisms": ["commitment-problem"],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "centcom-2026-09-01",
+    "date": "2026-09-01",
+    "era": "days",
+    "theater": "gulf",
+    "kind": "event",
+    "title": "US strikes IRGC radars, air defenses and mine-laying assets",
+    "combat": [["us"],["iran"]],
+    "note": "The stated trigger is attempted attacks on shipping in Hormuz and on American personnel. The targets are the sensors Iran uses to find ships.",
+    "mechanisms": ["private-information","security-dilemma"],
+    "source": {
+      "label": "CENTCOM",
+      "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "iran-retaliation-2026-09-01",
+    "date": "2026-09-01",
+    "era": "days",
+    "theater": "gulf",
+    "kind": "event",
+    "title": "Iran strikes US bases in Bahrain, Jordan and Iraq",
+    "combat": [["iran"],["us"]],
+    "note": "The heaviest exchange in more than a month. Third countries are hit because the bases are there.",
+    "mechanisms": ["alliance-entanglement","domestic-incentives"],
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"
+    },
+    "checked": "2026-09-08"
+  },
+  {
+    "id": "tankers-2026-09-05",
+    "date": "2026-09-05",
+    "era": "days",
+    "theater": "gulf",
+    "kind": "event",
+    "title": "IRGC missiles at a carrier group; US disables or sinks three Iranian tankers",
+    "combat": [["us"],["iran"]],
+    "note": "Neither American ship is hit. The reply is economic by design: three ships for two shots.",
+    "mechanisms": ["private-information","domestic-incentives"],
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
+    },
+    "checked": "2026-09-08"
+  }
+]

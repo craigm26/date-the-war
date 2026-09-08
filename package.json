@@ -1,0 +1,13 @@
+{
+  "name": "date-the-war",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A map that lets you pick the day a world war began and shows what that date makes you include.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build:map": "node scripts/build-map.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "license": "MIT"
+}

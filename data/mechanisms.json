@@ -1,0 +1,62 @@
+[
+  {
+    "id": "security-dilemma",
+    "name": "Security dilemma",
+    "image": 3,
+    "short": "One state arms or allies to feel safe. Its neighbor reads that as preparation for attack and answers in kind. Defensive intentions produce a spiral neither side wanted."
+  },
+  {
+    "id": "private-information",
+    "name": "Private information",
+    "image": 3,
+    "short": "Each side hides its strength or exaggerates its resolve. Because neither can see the other's true bottom line, both demand more than the other will accept."
+  },
+  {
+    "id": "commitment-problem",
+    "name": "Commitment problem",
+    "image": 3,
+    "short": "A deal that works today cannot be enforced tomorrow. A state that expects to grow weaker fights now rather than trust a rising rival to keep its word."
+  },
+  {
+    "id": "misperception",
+    "name": "Misperception",
+    "image": 1,
+    "short": "Leaders underestimate resistance, misread intentions, or assume an ally will come. The error makes a ruinous war look short and manageable."
+  },
+  {
+    "id": "domestic-incentives",
+    "name": "Leaders' domestic incentives",
+    "image": 2,
+    "short": "The costs of war fall on society; the costs of backing down fall on the leader. When survival in office is at stake, the leader's calculation diverges from the country's."
+  },
+  {
+    "id": "indivisible-issues",
+    "name": "Issues treated as indivisible",
+    "image": 2,
+    "short": "Sovereignty, sacred ground, or national identity get framed so that splitting the difference is politically impossible."
+  },
+  {
+    "id": "alliance-entanglement",
+    "name": "Alliance entanglement",
+    "image": 3,
+    "short": "A state joins a war it did not start because an ally's defeat would leave it exposed. This is the mechanism that turns a local war into a wide one."
+  },
+  {
+    "id": "power-transition",
+    "name": "Power transition",
+    "image": 3,
+    "short": "A rising challenger approaches a declining leader. The leader is tempted to fight before it is overtaken; the challenger is tempted to fight once it can win."
+  },
+  {
+    "id": "steps-to-war",
+    "name": "Steps to war",
+    "image": 3,
+    "short": "A territorial dispute hardens into a rivalry, rivalry brings alliances and arms racing, and repeated crises teach both sides that the next one will be decided by force."
+  },
+  {
+    "id": "state-weakness",
+    "name": "State weakness",
+    "image": 2,
+    "short": "Where the state cannot police its territory, armed groups can recruit, hide, and survive. Diversity alone does not predict civil war; weak capacity does."
+  }
+]

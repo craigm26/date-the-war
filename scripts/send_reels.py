@@ -38,7 +38,7 @@ if not smtp:
 
 def api(path, method='GET', body=None):
     req = urllib.request.Request(sub['SUBSCRIBE_URL'].rstrip('/') + path, method=method,
-                                 headers={'authorization': 'Bearer ' + sub['ADMIN_TOKEN'], 'content-type': 'application/json'},
+                                 headers={'authorization': 'Bearer ' + sub['ADMIN_TOKEN'], 'content-type': 'application/json', 'user-agent': 'date-the-war-daily/1.0'},
                                  data=json.dumps(body).encode() if body is not None else None)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)

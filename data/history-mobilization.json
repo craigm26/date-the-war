@@ -1,0 +1,1241 @@
+[
+  {
+    "id": "dora-1914",
+    "date": "1914-08-08",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Britain takes emergency powers over industry, land and the press",
+    "note": "Four days into the war, Parliament passed sweeping powers to requisition factories and land, censor news and try civilians by court martial. The legal shell of a war economy arrived before the economy did.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.1,
+    "lat": 51.5,
+    "place": "London",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Defence_of_the_Realm_Act_1914"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "munitions-1915",
+    "date": "1915-06-09",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Britain creates a Ministry of Munitions after the shell shortage",
+    "note": "A public scandal over artillery shells produced a ministry that took over supply, set wages and dilution rules, and ran more than two hundred state factories by the armistice. Industrial mobilization became a department of government.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.1,
+    "lat": 51.5,
+    "place": "London",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ministry_of_Munitions"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "conscription-uk-1916",
+    "date": "1916-01-27",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Britain adopts conscription for the first time",
+    "note": "The volunteer army that had been a point of national pride could not replace its losses. Compulsory service for single men, extended to married men within months, marked the point where the state claimed the population as a military resource.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.1,
+    "lat": 51.5,
+    "place": "London",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Military_Service_Act_1916"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "hindenburg-programme-1916",
+    "date": "1916-08-29",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Germany's new high command sets a programme to double munitions output",
+    "note": "The army leadership demanded that shell and gun production double and machine-gun output triple, and followed it with compulsory civilian labor. The targets were not met, but the attempt reorganized the economy around the front.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.5,
+    "place": "Berlin",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hindenburg_Programme"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "liberty-bonds-1917",
+    "date": "1917-04-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "The United States finances its war with Liberty Bonds",
+    "note": "Four bond drives raised about seventeen billion dollars from the public, with celebrities, posters and workplace quotas. War finance became a mass participation exercise, and a template reused in 1941.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liberty_bond"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 17 USD billion",
+    "metricName": "Raised across four drives",
+    "global": false
+  },
+  {
+    "id": "selective-service-1917",
+    "date": "1917-05-18",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The United States drafts an army six weeks after declaring war",
+    "note": "Registration covered some twenty-four million men and the draft supplied about two and a half million soldiers. A country with a small standing army built a mass one in eighteen months.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Selective_Service_Act_of_1917"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 24,000,000 people registered",
+    "metricName": "Men registered",
+    "global": false
+  },
+  {
+    "id": "war-industries-board-1917",
+    "date": "1917-07-28",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "A War Industries Board directs American production",
+    "note": "A civilian board set priorities, allocated raw materials and standardized products across industry. It was dissolved within weeks of the armistice, and its alumni ran the same system again a generation later.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_Industries_Board"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "uk-rationing-1918",
+    "date": "1918-01-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Britain begins food rationing",
+    "note": "Submarine sinkings brought queues and then ration books for sugar, meat and fats. Civilian consumption was now a military variable.",
+    "mechanisms": [],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.1,
+    "lat": 51.5,
+    "place": "London",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom"
+    },
+    "checked": null,
+    "limitations": "Rationing was introduced in stages from late 1917; 1 January 1918 is used as the month sugar rationing became national.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "four-year-plan-1936",
+    "date": "1936-10-18",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Germany orders its economy to be ready for war in four years",
+    "note": "A secret memorandum set the goal that the army be operational and the economy fit for war within four years, and a new office got authority over raw materials, prices and foreign exchange. Rearmament stopped being a budget line and became the organizing purpose of the state.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.5,
+    "place": "Berlin",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Four_Year_Plan"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "japan-mobilization-law-1938",
+    "date": "1938-04-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Japan's National Mobilization Law puts industry and labor under military direction",
+    "note": "The law let the cabinet control materials, prices, labor and the press by decree, without going back to the legislature. A year into the war in China, the whole home economy was placed on a war footing.",
+    "mechanisms": [
+      "domestic-incentives",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Japan"
+    ],
+    "lon": 139.7,
+    "lat": 35.7,
+    "place": "Tokyo",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/National_Mobilization_Law"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "uk-peacetime-conscription-1939",
+    "date": "1939-05-26",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Britain introduces peacetime conscription for the first time",
+    "note": "Six months of training for twenty and twenty-one year olds, passed while the government still hoped to avoid war. Conscription in peacetime is the clearest signal a state can send that it expects one.",
+    "mechanisms": [
+      "security-dilemma",
+      "private-information"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.1,
+    "lat": 51.5,
+    "place": "London",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Military_Training_Act_1939"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "us-peacetime-draft-1940",
+    "date": "1940-09-16",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The United States adopts its first peacetime draft",
+    "note": "Fifteen months before Pearl Harbor, and while opinion still opposed entering the war, Congress required sixteen million men to register. The country was preparing for a war it had not decided to join.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Selective_Training_and_Service_Act_of_1940"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 16,000,000 people registered",
+    "metricName": "First registration",
+    "global": false
+  },
+  {
+    "id": "arsenal-of-democracy-1940",
+    "date": "1940-12-29",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "The US president pledges the country as the arsenal of democracy",
+    "note": "A radio address framed American industry as the supplier of Britain's war while the country stayed formally at peace. Production for someone else's war is how a neutral economy starts to mobilize.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        -0.1,
+        51.5
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arsenal_of_Democracy"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "lend-lease-1941",
+    "date": "1941-03-11",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Lend-Lease lets the United States arm belligerents without payment",
+    "note": "Congress authorized the transfer of weapons, food and fuel to any country whose defense the president judged vital. About fifty billion dollars flowed to Britain, the Soviet Union, China and others; American factories were in the war nine months before American troops.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Soviet Union",
+      "China"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        37.6,
+        55.8
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lend-Lease"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 50 USD billion",
+    "metricName": "Aid delivered 1941 to 1945",
+    "global": false
+  },
+  {
+    "id": "soviet-evacuation-1941",
+    "date": "1941-06-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Soviet Union moves its industry east of the Urals",
+    "note": "An evacuation council created two days after the invasion shipped more than fifteen hundred large factories and millions of workers by rail out of reach of the advancing army. The war economy was rebuilt in the open, in winter, on new ground.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Soviet Union"
+    ],
+    "lon": 60,
+    "lat": 55,
+    "place": "The Urals",
+    "arc": [
+      [
+        37.6,
+        55.8
+      ],
+      [
+        60,
+        55
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Evacuation_in_the_Soviet_Union"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "more than 1,500 facilities",
+    "metricName": "Large enterprises moved",
+    "global": false
+  },
+  {
+    "id": "soviet-rationing-1941",
+    "date": "1941-07-18",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Rationing begins in Moscow and Leningrad",
+    "note": "Bread, meat, fats and sugar went on cards within a month of the invasion, with allowances tied to the value of a person's work. In the besieged city the bread ration fell to 125 grams a day that winter.",
+    "mechanisms": [],
+    "countries": [
+      "Soviet Union"
+    ],
+    "lon": 37.6,
+    "lat": 55.8,
+    "place": "Moscow",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rationing_in_the_Soviet_Union"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "war-production-board-1942",
+    "date": "1942-01-16",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A War Production Board converts American industry",
+    "note": "Civilian car production stopped within weeks and the same plants built aircraft, tanks and trucks. By 1944 the United States was producing more war material than all the Axis powers together.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_Production_Board"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "war-bonds-1942",
+    "date": "1942-05-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "War bonds finance about a fifth of American war spending",
+    "note": "Eight drives sold bonds to some eighty-five million people, alongside payroll deduction. The bonds soaked up wages that rationing left unspent, which held inflation down while the deficit ran at wartime scale.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_bond"
+    },
+    "checked": null,
+    "limitations": "Series E bonds were first offered 1 May 1941; the date used is the first of the eight wartime drives.",
+    "metric": "about 85,000,000 people",
+    "metricName": "Buyers over the war",
+    "global": false
+  },
+  {
+    "id": "us-rationing-1942",
+    "date": "1942-05-05",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "The United States rations sugar, then gasoline, meat and shoes",
+    "note": "Ration books reached every household within the year. For a country that never faced invasion, rationing was the most direct daily evidence that the economy belonged to the war.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_States"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "total-war-1943",
+    "date": "1943-02-18",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Germany declares total war after Stalingrad",
+    "note": "A staged rally asked the public to accept the closing of nonessential businesses, longer hours and the conscription of women for labor. The demand came after the defeat, not before it: mobilization deepened as the odds worsened.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.5,
+    "place": "Berlin",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sportpalast_speech"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "us-spending-peak-1944",
+    "date": "1944-06-30",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 4,
+    "title": "American military spending peaks near two fifths of the economy",
+    "note": "In fiscal 1944 and 1945 defense took roughly thirty-seven percent of national output, against about one and a half percent in 1939. That ratio, not the size of the army, is the benchmark for what a world war does to an economy.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Military_budget_of_the_United_States"
+    },
+    "checked": null,
+    "limitations": "Share depends on the GDP series used; estimates for the peak run from 36 to 41 percent.",
+    "metric": "about 37 percent of GDP",
+    "metricName": "Defense share of output, fiscal 1944 to 1945",
+    "global": false
+  },
+  {
+    "id": "nsc68-1950",
+    "date": "1950-04-14",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A secret US strategy paper calls for tripling defense spending",
+    "note": "The paper argued that only a large permanent military could contain the Soviet Union, and the Korean war two months later made its budget politically possible. Defense went from about five percent of output to about fourteen percent by 1953 and never returned to the prewar norm.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "Soviet Union"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NSC_68"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 14 percent of GDP by 1953",
+    "metricName": "Defense share of output",
+    "global": false
+  },
+  {
+    "id": "defense-production-act-1950",
+    "date": "1950-09-08",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "The Defense Production Act gives the president standing powers over industry",
+    "note": "Passed for Korea and renewed ever since, the law lets the government prioritize contracts, allocate materials and finance capacity. It is the peacetime residue of the 1942 board, and it was invoked again in 2020 and 2022.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Defense_Production_Act_of_1950"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "berlin-callup-1961",
+    "date": "1961-07-25",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The United States calls up reserves and adds troops over Berlin",
+    "note": "In answer to a Soviet ultimatum the president asked for more than three billion dollars, a larger draft and the call-up of reservists, and told the public to think about fallout shelters. The Wall went up three weeks later.",
+    "mechanisms": [
+      "private-information",
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States",
+      "Soviet Union"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Crisis_of_1961"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "250,000 troops",
+    "metricName": "Requested increase in armed forces",
+    "global": false
+  },
+  {
+    "id": "draft-lottery-1969",
+    "date": "1969-12-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "A televised lottery decides who is drafted for Vietnam",
+    "note": "Birthdates drawn from a glass jar replaced local board discretion. Making the draft visibly random made its unfairness a national argument, and the all-volunteer force followed within four years.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Draft_lottery_(1969)"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "all-volunteer-1973",
+    "date": "1973-01-27",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "The United States ends the draft",
+    "note": "Conscription stopped the day the Paris peace accords were signed. Since then American wars have been fought by a professional force, which changes who bears the cost and how much the public feels it.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Conscription_in_the_United_States"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "draft-registration-1980",
+    "date": "1980-07-02",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 2,
+    "title": "Draft registration returns after the Soviet invasion of Afghanistan",
+    "note": "Registration, not conscription, was reinstated for men turning eighteen. It has continued for forty-five years as a standing option the state keeps open.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Selective_Service_System"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "sweden-conscription-2017",
+    "date": "2017-03-02",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 2,
+    "title": "Sweden reactivates conscription",
+    "note": "Seven years after abolishing it, the government brought back selective compulsory service for both men and women, citing the security situation after Crimea. Small states re-arm by drafting before they re-arm by spending.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Sweden"
+    ],
+    "lon": 18.1,
+    "lat": 59.3,
+    "place": "Stockholm",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Conscription_in_Sweden"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "ukraine-mobilization-2022",
+    "date": "2022-02-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine declares martial law and general mobilization",
+    "note": "Men aged eighteen to sixty were barred from leaving the country on the first day of the invasion. Military spending reached about a third of output by 2024, the highest burden of any country.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine"
+    ],
+    "lon": 30.5,
+    "lat": 50.45,
+    "place": "Kyiv",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Martial_law_in_Ukraine"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "34 percent of GDP in 2024",
+    "metricName": "Military burden (SIPRI)",
+    "global": false
+  },
+  {
+    "id": "zeitenwende-2022",
+    "date": "2022-02-27",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Germany announces a hundred-billion-euro defense fund",
+    "note": "Three days after the invasion the chancellor called it a turning point and promised a special fund and spending above two percent of output. The largest European economy reversed thirty years of drawdown in one speech.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.5,
+    "place": "Berlin",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zeitenwende"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "100 EUR billion",
+    "metricName": "Special fund",
+    "global": false
+  },
+  {
+    "id": "finland-shelters-2022",
+    "date": "2022-03-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Civil preparedness and resilience",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Finland's civil-defense shelters can hold most of its population",
+    "note": "About fifty thousand shelters with space for some four point eight million people, built into apartment blocks, car parks and metro stations over decades, became a reference point across Europe after the invasion. Preparedness is a stock, and it takes generations to build.",
+    "mechanisms": [],
+    "countries": [
+      "Finland"
+    ],
+    "lon": 24.9,
+    "lat": 60.2,
+    "place": "Helsinki",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Civil_defence_in_Finland"
+    },
+    "checked": null,
+    "limitations": "Capacity figures are Finnish Interior Ministry estimates; the date marks when they were widely reported, the shelters predate it.",
+    "metric": "about 4,800,000 people",
+    "metricName": "Shelter capacity",
+    "global": false
+  },
+  {
+    "id": "russia-mobilization-2022",
+    "date": "2022-09-21",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia orders a partial mobilization of reservists",
+    "note": "Seven months in, the first mobilization in Russia since 1941 called up three hundred thousand men and sent hundreds of thousands more across the borders to avoid it. A war sold as a special operation started taking the population.",
+    "mechanisms": [
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Russia"
+    ],
+    "lon": 37.6,
+    "lat": 55.8,
+    "place": "Moscow",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2022_Russian_mobilization"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "300,000 troops",
+    "metricName": "Reservists called up",
+    "global": false
+  },
+  {
+    "id": "japan-two-percent-2022",
+    "date": "2022-12-16",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Japan plans to double defense spending to two percent of output",
+    "note": "New security documents set a five-year budget of about forty-three trillion yen and adopted long-range strike capability for the first time. A country whose constitution renounces war moved to the NATO benchmark.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "Japan",
+      "China"
+    ],
+    "lon": 139.7,
+    "lat": 35.7,
+    "place": "Tokyo",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Japan_Self-Defense_Forces"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "2 percent of GDP by 2027",
+    "metricName": "Defense spending target",
+    "global": false
+  },
+  {
+    "id": "eu-ammunition-2023",
+    "date": "2023-07-20",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The EU subsidizes shell production to reach a million rounds a year",
+    "note": "A regulation paid manufacturers directly to expand 155 mm and missile capacity, the first time the union financed arms production. The gap between Ukraine's consumption and Europe's output made the war economy an EU competence.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "European NATO member countries",
+      "Ukraine"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Act_in_Support_of_Ammunition_Production"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "1,000,000 rounds a year",
+    "metricName": "Production target",
+    "global": false
+  },
+  {
+    "id": "israel-reservists-2023",
+    "date": "2023-10-08",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Israel calls up about three hundred thousand reservists",
+    "note": "The largest call-up in the country's history emptied workplaces within days. Military spending rose to nearly nine percent of output in 2024, the second highest burden in the world.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Israel"
+    ],
+    "lon": 34.8,
+    "lat": 32.1,
+    "place": "Tel Aviv",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Conscription_in_Israel"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 300,000 troops",
+    "metricName": "Reservists mobilized",
+    "global": false
+  },
+  {
+    "id": "taiwan-conscription-2024",
+    "date": "2024-01-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Taiwan extends compulsory service from four months to a year",
+    "note": "The first cohort under the longer term reported on the first day of 2024, with training rebuilt around drones and anti-armor weapons. Lengthening a draft is a quiet way to raise readiness without a headline budget.",
+    "mechanisms": [
+      "security-dilemma",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Taiwan",
+      "China"
+    ],
+    "lon": 121.5,
+    "lat": 25.0,
+    "place": "Taipei",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Conscription_in_Taiwan"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "rearm-europe-2025",
+    "date": "2025-03-04",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The EU proposes mobilizing eight hundred billion euros for defense",
+    "note": "The plan loosens deficit rules for military spending and offers joint loans for procurement. It is a financing framework, not a budget, but it sets the order of magnitude Europe now talks in.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma"
+    ],
+    "countries": [
+      "European NATO member countries"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ReArm_Europe"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "up to 800 EUR billion",
+    "metricName": "Headline mobilization",
+    "global": false
+  },
+  {
+    "id": "german-debt-brake-2025",
+    "date": "2025-03-18",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Germany exempts defense from its constitutional debt limit",
+    "note": "The outgoing parliament amended the constitution so that defense spending above one percent of output no longer counts against the borrowing cap. The fiscal rule that defined German politics for fifteen years was set aside for rearmament.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.5,
+    "place": "Berlin",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Debt_brake_(Germany)"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "sipri-2024-spending",
+    "date": "2025-04-28",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "World military spending rises 9.4 percent, the steepest since the Cold War",
+    "note": "Total spending reached 2,718 billion dollars in 2024. Russia spent 7.1 percent of output and a fifth of its budget; Europe including Russia rose 17 percent. A buildup shows up in the aggregates before it shows up in a declaration.",
+    "mechanisms": [],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Israel",
+      "Germany"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "SIPRI",
+      "url": "https://www.sipri.org/media/press-release/2025/unprecedented-rise-global-military-expenditure-european-and-middle-east-spending-surges"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "2,718 USD billion",
+    "metricName": "World military expenditure 2024",
+    "global": true
+  },
+  {
+    "id": "nato-five-percent-2025",
+    "date": "2025-06-25",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "NATO allies pledge five percent of GDP for defense by 2035",
+    "note": "The Hague declaration commits at least 3.5 percent to core defense and up to 1.5 percent to infrastructure, civil preparedness and the industrial base. The alliance benchmark of the last decade was more than doubled in one paragraph.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma"
+    ],
+    "countries": [
+      "European NATO member countries",
+      "United States",
+      "Canada"
+    ],
+    "lon": 4.3,
+    "lat": 52.1,
+    "place": "The Hague",
+    "arc": null,
+    "source": {
+      "label": "NATO",
+      "url": "https://www.nato.int/cps/en/natohq/official_texts_236705.htm"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "5 percent of GDP by 2035",
+    "metricName": "Spending commitment",
+    "global": false
+  }
+]

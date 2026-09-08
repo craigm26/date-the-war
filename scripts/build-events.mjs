@@ -35,6 +35,8 @@ export const SUB_TO_GROUP = {
   'Humanitarian consequences': 'Social',
   'Food security and climate stress': 'Environmental',
   'Cyber and hybrid activity': 'Technology',
+  'Mobilization and war economy': 'War / conflict',
+  'Civil preparedness and resilience': 'Social',
 };
 export const DIRS = ['Escalatory', 'De-escalatory', 'Mixed', 'Contextual'];
 const clamp = (n) => Math.max(1, Math.min(5, n));

@@ -10,7 +10,7 @@ Live at https://craigmerry.com/date-the-war/. This repo is the source; the perso
 
 - **One globe, 1900 to today.** A black-and-white orthographic globe with every sourced event as a marker: red disc for escalatory, ring for de-escalatory, half disc for mixed, square for contextual; size is impact 1 to 5; dashed red arcs are links between actors.
 - **A windowed timeline.** Days, months, or years; play it forward; cumulative mode; era shortcuts for 1914, 1939, since 2011, and this week; a year strip and a day slider. The window is in the URL hash (`#month@1939-09-01`, add `@c` for cumulative).
-- **Impact groups and indicators.** Seven groups (War / conflict, Economic, Political, Social, Environmental, Technology, Health) over sixteen indicator categories, all toggleable.
+- **Impact groups and indicators.** Seven groups (War / conflict, Economic, Political, Social, Environmental, Technology, Health) over eighteen indicator categories, all toggleable. Two of them, Mobilization and war economy and Civil preparedness and resilience, form the buildup layer the page's prose explains.
 - **Every event carries its source.** Entries marked `checked` were opened and read on the date shown. Entries marked `unchecked` are well established but the link has not been re-opened for this page yet.
 - **Mechanisms, not names.** The page prose names the mechanisms (security dilemma, commitment problem, alliance entanglement, power transition, steps to war, and so on) and files the papers under Sources. No individual is named in the body text.
 
@@ -22,6 +22,7 @@ Three ledgers merge into `data/all-events.json`, the one file the page reads. Re
 | --- | --- | --- |
 | `data/events.json` | repo schema: theater ids from `nodes.json`, `combat` as two sides, `link` pairs, mechanism ids | 1914, 1939, since 2011 |
 | `data/history-1900-1945.json`, `data/history-1946-2010.json` | merged shape with mechanism ids; hand-curated, every URL returned 200 when written | the rest of the century |
+| `data/history-mobilization.json` | same shape; the mobilization layer: conscription, industrial direction, rationing, war finance, call-ups, spending shares, civil preparedness (two extra indicator categories) | 1914 to 2025 |
 | `data/indicators-2026.csv` | 2026 Global Conflict Indicators ledger, 67 sourced rows as of 2026-09-08 | this year |
 
 Merge rules, stated so they can be argued with:

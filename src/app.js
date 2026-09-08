@@ -36,6 +36,7 @@ const [events, topo, mechanisms, meta] = await Promise.all([
 setRangeEnd(meta.asOf);
 const ERAS = eras();
 const END = meta.asOf;
+$('loading').remove();
 
 // ---------- state ----------
 const state = {
@@ -99,11 +100,15 @@ function canvasPt(e) {
 }
 
 function hitTest(x, y) {
+  // Tolerance grows as the canvas is scaled down, so a fingertip on a phone
+  // still lands.
+  const scale = canvas.width / Math.max(1, canvas.getBoundingClientRect().width);
+  const tol = 8 * Math.max(1, scale) + (matchMedia('(pointer: coarse)').matches ? 10 * scale : 0);
   let best = null;
   let bd = 1e9;
   for (const m of markers) {
     const d = Math.hypot(m.x - x, m.y - y);
-    if (d < m.r + 8 && d < bd) { bd = d; best = m; }
+    if (d < m.r + tol && d < bd) { bd = d; best = m; }
   }
   return best;
 }
@@ -137,8 +142,12 @@ canvas.addEventListener('click', (e) => {
   if (drag && drag.moved) return;
   const [x, y] = canvasPt(e);
   const m = hitTest(x, y);
-  if (m) select(m.ev.id);
+  if (m) { select(m.ev.id); revealRow(m.ev.id); }
 });
+function revealRow(id) {
+  const li = [...$('list').children].find((el) => el.dataset.id === id);
+  if (li) li.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+}
 
 // ---------- the reel ----------
 // A flyover of the window's events, oldest first: a title card, then for
@@ -404,6 +413,36 @@ const images = { 1: 'the leader', 2: 'the state', 3: 'the system' };
 for (const m of mechanisms) {
   mechList.append(h('li', {}, h('p', { class: 'mtitle' }, m.name, ' ', h('span', { class: 'image' }, images[m.image])), h('p', { class: 'mnote' }, m.short)));
 }
+
+// ---------- the guide ----------
+const guide = $('guide');
+function openGuide() { guide.hidden = false; guide.querySelector('button').focus(); }
+function closeGuide() { guide.hidden = true; try { localStorage.setItem('dtw:guide', '1'); } catch { /* private mode */ } }
+$('help').addEventListener('click', openGuide);
+guide.addEventListener('click', (e) => {
+  if (e.target === guide) closeGuide();
+  const b = e.target.closest('[data-go]');
+  if (!b) return;
+  closeGuide();
+  const go = b.dataset.go;
+  if (go === 'reel') { state.scale = 'day'; state.from = END; state.cumulative = false; render(); setTimeout(startReel, 400); }
+  else if (go === '2011') { goEra(ERAS.find((e) => e.label === 'Since 2011')); setTimeout(togglePlay, 600); }
+  else if (go === '1939') goEra(ERAS.find((e) => e.label === '1939'));
+});
+let seen = false;
+try { seen = localStorage.getItem('dtw:guide') === '1'; } catch { seen = true; }
+if (!seen && !wantReel && !location.hash) setTimeout(openGuide, 500);
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.matches('input, textarea, select')) return;
+  if (e.key === 'Escape') { if (!guide.hidden) closeGuide(); else if (reel) stopReel(); else if (state.playing) { stopPlay(); render(); } return; }
+  if (!guide.hidden) return;
+  if (e.key === ' ') { e.preventDefault(); if (reel) stopReel(); else togglePlay(); }
+  else if (e.key === 'ArrowRight') jump(1);
+  else if (e.key === 'ArrowLeft') jump(-1);
+  else if (e.key === 'r' || e.key === 'R') (reel ? stopReel() : startReel());
+  else if (e.key === '?') openGuide();
+});
 
 // ---------- render ----------
 function render() {

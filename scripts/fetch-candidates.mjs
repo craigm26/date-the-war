@@ -12,7 +12,12 @@ export const FEEDS = [
   { label: 'UN News', url: 'https://news.un.org/feed/subscribe/en/news/all/rss.xml' },
   { label: 'BBC News', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
   { label: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
-  { label: 'U.S. Central Command', url: 'https://www.centcom.mil/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=746&max=20' },
+  // CENTCOM's own RSS endpoint answers every client with an empty 200 (checked
+  // 2026-09-08), so its releases come in through the Defense Department feed.
+  { label: 'U.S. Department of Defense', url: 'https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=1&Site=945&max=20' },
+  { label: 'U.S. Department of State', url: 'https://www.state.gov/rss-feed/press-releases/feed/' },
+  { label: 'UN Press', url: 'https://press.un.org/en/rss.xml' },
+  { label: 'UK Ministry of Defence', url: 'https://www.gov.uk/government/organisations/ministry-of-defence.atom' },
   { label: 'International Crisis Group', url: 'https://www.crisisgroup.org/rss' },
 ];
 
@@ -44,7 +49,7 @@ function parseFeed(xml) {
     const it = m[0];
     let link = tag(it, 'link');
     if (!link) { const h = /<link[^>]*href="([^"]+)"/i.exec(it); link = h ? h[1] : ''; }
-    items.push({ title: tag(it, 'title'), link, published: tag(it, 'pubDate') || tag(it, 'published') || tag(it, 'updated'), summary: tag(it, 'description') || tag(it, 'summary') });
+    items.push({ title: tag(it, 'title'), link, published: tag(it, 'pubDate') || tag(it, 'published') || tag(it, 'updated'), summary: tag(it, 'description') || tag(it, 'summary') || tag(it, 'content') });
   }
   return items;
 }
@@ -60,9 +65,10 @@ const out = [];
 const seen = new Set();
 for (const f of FEEDS) {
   try {
-    const r = await fetch(f.url, { headers: { 'user-agent': 'Mozilla/5.0 (date-the-war daily fetch)' }, signal: AbortSignal.timeout(20000) });
+    const r = await fetch(f.url, { headers: { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36 date-the-war-daily' }, signal: AbortSignal.timeout(20000) });
     if (!r.ok) { console.error(`${f.label}: HTTP ${r.status}`); continue; }
     const xml = await r.text();
+    if (!xml.trim()) { console.error(`${f.label}: empty body`); continue; }
     let kept = 0;
     for (const it of parseFeed(xml)) {
       if (!it.link || seen.has(it.link)) continue;

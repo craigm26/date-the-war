@@ -56,7 +56,7 @@ No build step and no dependencies. Fonts load from Google Fonts. craigmerry.com 
 
 `scripts/daily.sh` runs from the systemd user timer `date-the-war-daily.timer` on the Pi every morning (06:40 local, plus up to ten minutes of jitter):
 
-1. `scripts/fetch-candidates.mjs` pulls five feeds (UN News, BBC World, Al Jazeera, CENTCOM, Crisis Group), keeps the last 36 hours, scores items for conflict and stress terms, and writes `data/inbox/YYYY-MM-DD.json`.
+1. `scripts/fetch-candidates.mjs` pulls eight feeds (UN News, UN Press, BBC World, Al Jazeera, Defense Department releases, State Department releases, UK Ministry of Defence, Crisis Group; CENTCOM's own RSS answers with an empty body, so its releases arrive through the Defense Department feed), keeps the last 36 hours, scores items for conflict and stress terms, and writes `data/inbox/YYYY-MM-DD.json`.
 2. `scripts/draft-daily.mjs` hands the inbox to the Claude Code CLI (`claude -p`, model from `DTW_MODEL`, default sonnet) with the schema and the impact rule, then validates every draft hard: known indicator category, direction, magnitude, coordinates, mechanism ids, a source URL that came from the inbox and returns 200, no duplicate URL, no em-dash, no more than eight. Survivors land in `data/daily/YYYY-MM-DD.json` with `auto: true`, `checked: <today>`, and a limitations note saying they are unreviewed. The page shows an `auto` tag on those rows.
 3. `build-events`, `npm test`, commit, push; then the personalsite sync, build, commit, push.
 4. `scripts/send_reels.py` mails confirmations to new subscribers and the day's reel to confirmed ones (see below).

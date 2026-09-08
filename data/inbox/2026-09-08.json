@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "fetched": "2026-09-08T18:15:41.033Z",
+  "fetched": "2026-09-08T18:29:35.663Z",
   "items": [
     {
       "source": "UN News",
@@ -8,6 +8,14 @@
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168291",
       "published": "2026-09-08T12:00:00.000Z",
       "summary": "In war-torn Gaza, a growing number of women-headed households face “impossible decisions” every day, amid ongoing Israeli airstrikes and still-scarce resources, UN humanitarians said on Tuesday.",
+      "score": 10
+    },
+    {
+      "source": "U.S. Department of State",
+      "title": "Secretary of State Marco Rubio Remarks to Press",
+      "link": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/secretary-of-state-marco-rubio-remarks-to-press-13/",
+      "published": "2026-09-08T17:02:07.000Z",
+      "summary": "Marco Rubio, Secretary of State Homestead, Florida Homestead Air Reserve Base Secretary of State Marco Rubio Remarks to Press Remarks September 8, 2026 SECRETARY RUBIO: So this is an important trip, obviously. We’re going to go visit three countries strongly aligned with the United States. We have a lot of common interests with them, both taking on regional transnational criminal terrorism and also economic engagements. We’re hoping to wrap up good, solid trade deals with all three of these countries in the foreseeable future. And of course, a lot of strong cultural links. So I think it’s part",
       "score": 10
     },
     {
@@ -67,6 +75,14 @@
       "score": 5
     },
     {
+      "source": "U.S. Department of State",
+      "title": "Operation Economic Outcast Grounds Iran’s Aviation Sector",
+      "link": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/operation-economic-outcast-grounds-irans-aviation-sector/",
+      "published": "2026-09-08T16:06:04.000Z",
+      "summary": "Thomas \"Tommy\" Pigott, SpokesmanOffice of the Spokesperson Operation Economic Outcast Grounds Iran’s Aviation Sector Press Statement September 8, 2026 Today, the United States continues implementation of Operation Economic Outcast by sanctioning 36 entities and individuals in multiple jurisdictions for aiding Iran’s aviation sector. This sector has enabled the regime to support proliferation and terrorism worldwide. On August 24, 2026, the U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) determined that Executive Order (E.O.) 13902 shall apply to Iran’s aviation sector",
+      "score": 5
+    },
+    {
       "source": "BBC News",
       "title": "Ukrainian TV channel building hit by Russian drone as five killed in Kyiv",
       "link": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss",
@@ -88,6 +104,14 @@
       "link": "https://www.aljazeera.com/video/witness/2026/9/8/the-tempe-57-a-fathers-fight-for-justice-after-greeces-worst-train-crash?traffic_source=rss",
       "published": "2026-09-08T14:30:00.000Z",
       "summary": "An immigrant father who lost his son in the 2023 Tempe train crash leads a protest movement in his search for justice.",
+      "score": 4
+    },
+    {
+      "source": "UK Ministry of Defence",
+      "title": "UK pledges winter air defence package to boost Ukraine's defences",
+      "link": "https://www.gov.uk/government/news/uk-pledges-winter-air-defence-package-to-boost-ukraines-defences",
+      "published": "2026-09-08T07:38:00.000Z",
+      "summary": "The UK will supply air defence interceptors, large-calibre artillery rounds and drones to help Ukraine defend itself against barbaric Russian attacks this winter, as part of Britain’s commitment to help Ukraine defend its freedom and sovereignty.",
       "score": 4
     },
     {
@@ -126,7 +150,7 @@
       "source": "BBC News",
       "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
       "link": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-08T17:59:07.000Z",
+      "published": "2026-09-08T18:25:40.000Z",
       "summary": "Britain's foreign secretary accuses settlers of carrying out the \"ethnic cleansing\" of Palestinians, as Israel responds by shutting the UK consulate in East Jerusalem.",
       "score": 3
     },
@@ -168,6 +192,22 @@
       "link": "https://www.aljazeera.com/news/2026/9/8/eu-condemns-serbias-ministers-for-attending-funeral-of-war-criminal-mladic?traffic_source=rss",
       "published": "2026-09-08T15:01:36.000Z",
       "summary": "EU leaders condemn Serbian officials&#039; presence at Ratko Mladic&#039;s funeral as a failure to confront past war crimes.",
+      "score": 3
+    },
+    {
+      "source": "U.S. Department of State",
+      "title": "Andorra National Day",
+      "link": "https://www.state.gov/releases/office-of-the-spokesperson/2026/09/andorra-national-day-2/",
+      "published": "2026-09-08T04:01:00.000Z",
+      "summary": "Marco Rubio, Secretary of State Andorra National Day Press Statement September 8, 2026 On behalf of the United States of America, I extend warm wishes to the people of Andorra as they celebrate their patron saint, Our Lady of Meritxell. The United States values Andorra as a steadfast friend that shares our commitment to national sovereignty and a secure, prosperous future for its citizens. The United States is proud of the momentum built over the past year in our relationship with the Principality of Andorra, particularly Andorra&#8217;s continued collaboration with American technology compani",
+      "score": 3
+    },
+    {
+      "source": "UK Ministry of Defence",
+      "title": "MOD War Detectives (the Joint Casualty and Compassionate Centre Commemorations team): our future services, current appeals and past cases",
+      "link": "https://www.gov.uk/guidance/mod-war-detectives-the-joint-casualty-and-compassionate-centre-commemorations-team-our-future-services-current-appeals-and-past-cases",
+      "published": "2026-09-07T10:15:10.000Z",
+      "summary": "Find out about future services and what current appeals are ongoing.",
       "score": 3
     },
     {

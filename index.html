@@ -15,8 +15,30 @@
 <header class="top">
   <div class="brand"><a href="https://craigmerry.com/">craigmerry.com</a><span class="sep">/</span><a href="https://craigmerry.com/experiments/">experiments</a><span class="sep">/</span>Date the war</div>
   <div class="caption"><span id="range-caption">1900 → </span><span id="total-count"></span></div>
-  <div id="scales" class="segmented" role="group" aria-label="Window scale"></div>
+  <div class="scalewrap"><span class="kicker muted">Window</span><div id="scales" class="segmented" role="group" aria-label="Window scale"></div></div>
+  <button id="help" type="button" class="ghost helpbtn" aria-haspopup="dialog" title="How this page works">? Guide</button>
 </header>
+
+<div id="guide" class="guide" role="dialog" aria-modal="true" aria-labelledby="guide-title" hidden>
+  <div class="guide-box">
+    <div class="kicker">Date the war</div>
+    <h2 id="guide-title">Every sourced event since 1900, on one globe</h2>
+    <p class="guide-lede">A world war can begin gradually and get its start date afterward. This page does not declare one. It hands you the record and the marker.</p>
+    <ol class="guide-steps">
+      <li><b>Pick a window.</b> Days, Months or Years at the top right. The slider and the year strip move it; ← → jump to the next event.</li>
+      <li><b>Read the globe.</b> Drag to turn it, or switch to Flat. Red discs escalate, rings de-escalate, half discs are mixed, squares are context. Size is impact 1 to 5. Dashed lines link actors.</li>
+      <li><b>Click anything.</b> A marker or a row opens the note, the source, and related events. Rows tagged <i>auto</i> came from the daily job and are unreviewed.</li>
+      <li><b>Play or Reel.</b> Play steps the window forward. Reel flies event to event, slowly, the way news actually settles.</li>
+    </ol>
+    <div class="guide-actions">
+      <button type="button" class="play" data-go="reel">▶ Watch today's reel</button>
+      <button type="button" class="ghost" data-go="2011">Play since 2011</button>
+      <button type="button" class="ghost" data-go="1939">Explore 1939</button>
+      <button type="button" class="ghost" data-go="close">Just look around</button>
+    </div>
+    <p class="guide-fine">Keys: space plays, R reels, ← → jump, Esc stops. Open this again with the Guide button.</p>
+  </div>
+</div>
 
 <main class="app">
   <section class="left">
@@ -36,6 +58,7 @@
     </div>
     <div class="globe-wrap">
       <canvas id="globe" aria-label="Map of sourced events in the window"></canvas>
+      <div id="loading" class="loading"><div class="loading-dot"></div>Loading the record, about a megabyte of sourced events…</div>
       <div id="tooltip" class="tooltip" hidden><div id="tip-title" class="tip-title"></div><div id="tip-meta" class="tip-meta"></div></div>
       <div id="reel-card" class="reel-card" hidden>
         <div id="reel-kicker" class="reel-kicker"></div>

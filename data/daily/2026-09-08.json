@@ -1,0 +1,261 @@
+[
+  {
+    "id": "d-20260908-yemen-war-reignites",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemen's civil war reignites around Sanaa and Red Sea",
+    "note": "Analysts say fighting between Yemen's government and Houthi forces has resumed at scale near Sanaa, with implications for Red Sea shipping, and could open a new protracted phase of the war rather than a quick decisive campaign.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.35,
+    "place": "Sanaa, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/8/yemens-war-is-back-a-new-battle-for-sanaa-and-the-red-sea?traffic_source=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Based on analyst commentary rather than confirmed battlefield reporting; scale and trajectory of renewed fighting are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-sudan-healthcare-collapse",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Sudan's healthcare system nears collapse amid war and aid cuts",
+    "note": "A medical charity warns Sudan's health system is close to collapse after funding cuts, leaving millions of people without adequate care amid the ongoing civil war.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30,
+    "lat": 15,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "millions of people",
+    "metricName": "population needing health assistance",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c62m8247yleo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Figures come from a single humanitarian organization; precise numbers in need are estimates. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-uk-sanctions-israeli-settlements",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UK sanctions Israeli settlement goods; Israel shuts UK consulate",
+    "note": "The UK announced a ban on trade in West Bank settlement goods and accused settlers of ethnic cleansing, and Israel responded by closing the UK consulate in East Jerusalem, deepening a diplomatic rift over the occupation.",
+    "mechanisms": [
+      "domestic-incentives",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 35.22,
+    "lat": 31.77,
+    "place": "London and Jerusalem",
+    "arc": [
+      [
+        -0.13,
+        51.51
+      ],
+      [
+        35.22,
+        31.77
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Characterizations by both governments are contested; the economic effect of the ban has not yet been measured. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-canada-us-tariff-escalation",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Canada imposes retaliatory tariffs up to 50 percent on US goods",
+    "note": "Canada's prime minister said the trade war will come at a cost as Canada applied levies as high as 50 percent on nearly 20 billion US dollars of American goods, escalating a tariff dispute with Washington.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Canada",
+      "United States"
+    ],
+    "lon": -75.7,
+    "lat": 45.4,
+    "place": "Ottawa, Canada",
+    "arc": [
+      [
+        -75.7,
+        45.4
+      ],
+      [
+        -77,
+        38.9
+      ]
+    ],
+    "global": false,
+    "metric": "about 20 USD billion",
+    "metricName": "value of goods subject to retaliatory tariffs",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Reported tariff scope and value reflect official statements; the full list of covered goods is not detailed in the source. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-kyiv-drone-strike-tv-building",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drone strike on Kyiv TV building kills five",
+    "note": "A daytime Russian drone attack hit a television broadcaster's building in Kyiv, killing five people, an attack Ukraine's president called a new low in the war.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "5 people",
+    "metricName": "reported fatalities",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Casualty figures are as initially reported and may be revised. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-gaza-strikes-displace-families",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Israeli strikes destroy homes and displace families in Gaza",
+    "note": "Israeli strikes hit multiple areas of Gaza, destroying homes in Khan Younis and forcing displacement from areas including Bureij camp, deepening a crisis in which women-headed households report facing impossible choices to survive.",
+    "mechanisms": [],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.45,
+    "lat": 31.4,
+    "place": "Gaza Strip",
+    "arc": [
+      [
+        34.75,
+        31.5
+      ],
+      [
+        34.45,
+        31.4
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/israeli-strikes-devastate-homes-displace-families-across-gaza?traffic_source=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Casualty and displacement figures are not quantified in the source, which is a single-outlet video report. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-eu-condemns-serbia-mladic-funeral",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "EU condemns Serbian ministers over a war criminal's funeral",
+    "note": "The EU criticized Serbian officials for attending the funeral of a Bosnian Serb wartime commander convicted of genocide, calling it a failure to reckon with wartime atrocities that strains Serbia's path toward EU accession.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Serbia"
+    ],
+    "lon": 20.46,
+    "lat": 44.79,
+    "place": "Belgrade, Serbia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/8/eu-condemns-serbias-ministers-for-attending-funeral-of-war-criminal-mladic?traffic_source=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "The report does not name which ministers attended, limiting attribution between official policy and individual conduct. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

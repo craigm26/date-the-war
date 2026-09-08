@@ -2,12 +2,14 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import {
-  RANGE_START, RANGE_END, GROUPS, unitStart, addUnit, windowBounds, windowEvents, jumpTarget, yearStrip, related, parseHash, toHash, addDays, daysBetween,
+  RANGE_START, RANGE_END, GROUPS, setRangeEnd, eras, unitStart, addUnit, windowBounds, windowEvents, jumpTarget, yearStrip, related, parseHash, toHash, addDays, daysBetween, reelPlan, REEL,
 } from '../src/timeline.js';
 
 const root = new URL('..', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 const all = read('data/all-events.json');
+const meta = read('data/meta.json');
+setRangeEnd(meta.asOf);
 const mechanisms = read('data/mechanisms.json');
 const mechIds = new Set(mechanisms.map((m) => m.id));
 const DIRS = ['Escalatory', 'De-escalatory', 'Mixed', 'Contextual'];
@@ -30,6 +32,38 @@ test('every merged event is well formed', () => {
     if (ev.arc) assert.ok(ev.arc.length === 2 && ev.arc.every((p) => p.length === 2), `${ev.id}: arc`);
     assert.ok(ev.checked === null || /^\d{4}-\d{2}-\d{2}$/.test(ev.checked), `${ev.id}: checked`);
   }
+});
+
+test('meta.asOf is the latest event date and This week ends there', () => {
+  assert.equal(meta.asOf, all.reduce((m, e) => (e.date > m ? e.date : m), '1900-01-01'));
+  assert.equal(meta.count, all.length);
+  const week = eras().find((e) => e.label === 'This week');
+  assert.equal(addDays(week.from, 6), meta.asOf);
+});
+
+test('daily ledgers are marked auto with a checked date and an inbox-shaped source', () => {
+  const dir = new URL('data/daily/', root);
+  let files = [];
+  try { files = readdirSync(dir).filter((f) => f.endsWith('.json')); } catch { files = []; }
+  for (const f of files) {
+    for (const ev of read(`data/daily/${f}`)) {
+      assert.equal(ev.auto, true, `${f} ${ev.id}`);
+      assert.match(ev.checked, /^\d{4}-\d{2}-\d{2}$/, `${f} ${ev.id}`);
+      assert.match(ev.id, /^d-\d{8}-/, `${f} ${ev.id}`);
+      assert.ok(ev.limitations.includes('not yet reviewed'), `${f} ${ev.id}`);
+    }
+  }
+});
+
+test('the reel plan walks the window oldest first with slow pacing', () => {
+  const st = { from: '2026-09-08', scale: 'day', cumulative: false, groupsOff: {}, subsOff: {} };
+  const plan = reelPlan(all, st);
+  assert.ok(plan.items.length >= 5);
+  for (let i = 1; i < plan.items.length; i++) assert.ok(plan.items[i - 1].date <= plan.items[i].date);
+  assert.equal(plan.steps[0].kind, 'intro');
+  assert.equal(plan.steps.at(-1).kind, 'outro');
+  assert.ok(REEL.dwell >= 4000, 'news takes time');
+  assert.equal(plan.total, REEL.intro + REEL.outro + plan.items.length * (REEL.fly + REEL.dwell + REEL.fade));
 });
 
 test('the merged file is sorted by date and covers the 2026 ledger', () => {
@@ -106,14 +140,15 @@ test('related events stay within 400 days and cap at three', () => {
 });
 
 test('hash round-trips', () => {
-  const st = { scale: 'day', from: '2026-09-01', cumulative: true, view: 'flat' };
+  const st = { scale: 'day', from: '2026-09-01', cumulative: true, view: 'flat', reel: true };
   assert.deepEqual(parseHash(toHash(st)), st);
-  assert.deepEqual(parseHash('#month@1939-09-01'), { scale: 'month', from: '1939-09-01', cumulative: false, view: 'globe' });
+  assert.deepEqual(parseHash('#month@1939-09-01'), { scale: 'month', from: '1939-09-01', cumulative: false, view: 'globe', reel: false });
   assert.equal(parseHash('#garbage'), null);
 });
 
 test('no em-dashes in anything that ships', () => {
   const files = ['index.html', 'README.md', ...readdirSync(new URL('data/', root)).filter((f) => f.endsWith('.json') || f.endsWith('.csv')).map((f) => `data/${f}`)];
+  try { for (const f of readdirSync(new URL('data/daily/', root))) files.push(`data/daily/${f}`); } catch { /* no daily yet */ }
   for (const f of files) {
     const text = readFileSync(new URL(f, root), 'utf8');
     assert.ok(!text.includes('—'), `${f} contains an em-dash`);

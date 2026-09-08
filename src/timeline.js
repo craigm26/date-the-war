@@ -1,15 +1,20 @@
 // Pure window logic. No DOM. Imported by the page and by the tests.
 
 export const RANGE_START = '1900-01-01';
-export const RANGE_END = '2026-09-08';
+// The end of the record moves every day the daily job runs; the page sets it
+// from data/meta.json. Tests set it from the events file.
+export let RANGE_END = '2026-09-08';
+export function setRangeEnd(iso) { RANGE_END = iso; }
 export const SCALES = ['day', 'month', 'year'];
 export const GROUPS = ['War / conflict', 'Economic', 'Political', 'Social', 'Environmental', 'Technology', 'Health'];
-export const ERAS = [
-  { label: '1914', from: '1914-06-01', scale: 'month' },
-  { label: '1939', from: '1931-09-01', scale: 'month' },
-  { label: 'Since 2011', from: '2011-01-01', scale: 'year' },
-  { label: 'This week', from: '2026-09-01', scale: 'day' },
-];
+export function eras() {
+  return [
+    { label: '1914', from: '1914-06-01', scale: 'month' },
+    { label: '1939', from: '1931-09-01', scale: 'month' },
+    { label: 'Since 2011', from: '2011-01-01', scale: 'year' },
+    { label: 'This week', from: addDays(RANGE_END, -6), scale: 'day' },
+  ];
+}
 
 export function addDays(iso, n) {
   const d = new Date(`${iso}T00:00:00Z`);
@@ -98,12 +103,23 @@ export function fmt(iso, style) {
 }
 
 export function parseHash(hash) {
-  const m = /^#?(day|month|year)@(\d{4}-\d{2}-\d{2})((?:@(?:c|flat))*)$/.exec(hash || '');
+  const m = /^#?(day|month|year)@(\d{4}-\d{2}-\d{2})((?:@(?:c|flat|reel))*)$/.exec(hash || '');
   if (!m) return null;
   const flags = m[3].split('@').filter(Boolean);
-  return { scale: m[1], from: clampDate(m[2]), cumulative: flags.includes('c'), view: flags.includes('flat') ? 'flat' : 'globe' };
+  return { scale: m[1], from: clampDate(m[2]), cumulative: flags.includes('c'), view: flags.includes('flat') ? 'flat' : 'globe', reel: flags.includes('reel') };
 }
 
-export function toHash({ scale, from, cumulative, view }) {
-  return `#${scale}@${from}${cumulative ? '@c' : ''}${view === 'flat' ? '@flat' : ''}`;
+export function toHash({ scale, from, cumulative, view, reel }) {
+  return `#${scale}@${from}${cumulative ? '@c' : ''}${view === 'flat' ? '@flat' : ''}${reel ? '@reel' : ''}`;
+}
+
+// The reel: a flyover of the window's events, oldest first, paced slowly.
+// Timings in milliseconds. Pure so the tests can check the plan.
+export const REEL = { intro: 2600, fly: 1600, dwell: 4600, fade: 500, outro: 3200 };
+export function reelPlan(events, state) {
+  const items = [...windowEvents(events, state)].reverse();
+  const steps = [{ kind: 'intro', ms: REEL.intro }];
+  for (const ev of items) steps.push({ kind: 'event', ev, ms: REEL.fly + REEL.dwell + REEL.fade });
+  steps.push({ kind: 'outro', ms: REEL.outro });
+  return { items, steps, total: steps.reduce((a, s) => a + s.ms, 0) };
 }

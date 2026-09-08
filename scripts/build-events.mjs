@@ -5,7 +5,7 @@
 //   data/indicators-2026.csv    2026 Global Conflict Indicators (67 rows, sourced)
 //
 // Rules are stated in the README and in the page footer. Run: npm run build:events
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -204,12 +204,18 @@ function fromCsv(r) {
 }
 
 // ---------- merge ----------
+if (process.argv[1] && process.argv[1].endsWith('build-events.mjs')) {
 const repo = read('events.json').map(fromRepo);
 const history = readdirSync(join(root, 'data')).filter((f) => /^history-.*\.json$/.test(f)).sort()
   .flatMap((f) => read(f).map(fromHistory));
+// Auto-drafted daily ledgers, one file per day, written by scripts/daily.sh.
+const dailyDir = join(root, 'data', 'daily');
+const daily = existsSync(dailyDir)
+  ? readdirSync(dailyDir).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().flatMap((f) => read(`daily/${f}`).map(fromHistory))
+  : [];
 const csv = parseCsv(readFileSync(join(root, 'data', 'indicators-2026.csv'), 'utf8')).map(fromCsv);
 
-const all = [...repo, ...history, ...csv].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : a.id < b.id ? -1 : 1));
+const all = [...repo, ...history, ...daily, ...csv].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : a.id < b.id ? -1 : 1));
 const ids = new Set();
 for (const ev of all) {
   if (ids.has(ev.id)) throw new Error(`duplicate id ${ev.id}`);
@@ -219,4 +225,28 @@ for (const ev of all) {
   if (!(ev.lon >= -180 && ev.lon <= 180 && ev.lat >= -90 && ev.lat <= 90)) throw new Error(`${ev.id}: lon/lat`);
 }
 writeFileSync(join(root, 'data', 'all-events.json'), JSON.stringify(all));
-console.log(`wrote ${all.length} events (${repo.length} repo, ${history.length} history, ${csv.length} indicators)`);
+const asOf = all.reduce((m, e) => (e.date > m ? e.date : m), '1900-01-01');
+// One reel per day that has sourced events this year, newest first: the
+// subscription feed and the source of the reel mail.
+const SITE = 'https://craigmerry.com/date-the-war/';
+const byDay = {};
+for (const e of all) if (e.date >= `${asOf.slice(0, 4)}-01-01`) (byDay[e.date] ||= []).push(e);
+const reels = Object.keys(byDay).sort().reverse().slice(0, 90).map((date) => ({
+  date, count: byDay[date].length, auto: byDay[date].filter((e) => e.auto).length,
+  url: `${SITE}#day@${date}@reel`,
+  titles: byDay[date].sort((a, b) => b.mag - a.mag).map((e) => e.title),
+}));
+writeFileSync(join(root, 'data', 'reels.json'), JSON.stringify(reels, null, 1) + '\n');
+const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>Date the war: daily reel</title>
+<link>${SITE}</link>
+<description>Each day's sourced events on the globe, as a flyover. Entries marked auto were drafted by a daily job and have not been reviewed.</description>
+${reels.map((r) => `<item><title>${esc(r.date)}: ${r.count} sourced ${r.count === 1 ? 'event' : 'events'}</title><link>${esc(r.url)}</link><guid isPermaLink="false">dtw-reel-${r.date}</guid><pubDate>${new Date(`${r.date}T12:00:00Z`).toUTCString()}</pubDate><description>${esc(r.titles.join(' · '))}</description></item>`).join('\n')}
+</channel></rss>
+`;
+writeFileSync(join(root, 'reels.xml'), rss);
+writeFileSync(join(root, 'data', 'meta.json'), JSON.stringify({ asOf, count: all.length, built: new Date().toISOString().slice(0, 10) }) + '\n');
+console.log(`wrote ${all.length} events (${repo.length} repo, ${history.length} history, ${daily.length} daily, ${csv.length} indicators), as of ${asOf}`);
+}

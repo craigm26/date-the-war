@@ -1,0 +1,9 @@
+{
+  "name": "dtw-subscribe",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-01",
+  "account_id": "71d59adbd067633aca3e95f915fbf2b4",
+  "workers_dev": true,
+  "kv_namespaces": [{ "binding": "SUBS", "id": "9f2b8d67b1a347129bbdcf4c23f009ef" }],
+  "observability": { "enabled": true }
+}

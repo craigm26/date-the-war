@@ -52,6 +52,23 @@ test/                node --test
 
 No build step and no dependencies. Fonts load from Google Fonts. craigmerry.com serves a copy of `index.html`, `style.css`, `src/`, `data/` from `public/date-the-war/`.
 
+## The daily job
+
+`scripts/daily.sh` runs from the systemd user timer `date-the-war-daily.timer` on the Pi every morning (06:40 local, plus up to ten minutes of jitter):
+
+1. `scripts/fetch-candidates.mjs` pulls five feeds (UN News, BBC World, Al Jazeera, CENTCOM, Crisis Group), keeps the last 36 hours, scores items for conflict and stress terms, and writes `data/inbox/YYYY-MM-DD.json`.
+2. `scripts/draft-daily.mjs` hands the inbox to the Claude Code CLI (`claude -p`, model from `DTW_MODEL`, default sonnet) with the schema and the impact rule, then validates every draft hard: known indicator category, direction, magnitude, coordinates, mechanism ids, a source URL that came from the inbox and returns 200, no duplicate URL, no em-dash, no more than eight. Survivors land in `data/daily/YYYY-MM-DD.json` with `auto: true`, `checked: <today>`, and a limitations note saying they are unreviewed. The page shows an `auto` tag on those rows.
+3. `build-events`, `npm test`, commit, push; then the personalsite sync, build, commit, push.
+4. `scripts/send_reels.py` mails confirmations to new subscribers and the day's reel to confirmed ones (see below).
+
+Logs: `~/date-the-war-daily.log`. Run by hand: `bash scripts/daily.sh`. Dry-run the drafting for a date: `node scripts/fetch-candidates.mjs 2026-09-08 && node scripts/draft-daily.mjs 2026-09-08`.
+
+## The reel and the mail
+
+`▶ Reel` flies over the window's events oldest first: a title card, then for each event a slow fly, a long dwell with a card and a progress bar, a fade, and a closing card. `#day@YYYY-MM-DD@reel` opens a day and starts it. Pacing lives in `REEL` in `src/timeline.js` and is deliberately slow.
+
+`reels.xml` is an RSS feed with one item per day that has sourced events this year. The subscribe form posts to a small Cloudflare Worker (`workers/subscribe/`, KV-backed, double opt-in, honeypot and per-IP rate limit). Mail itself goes out from the Pi through SMTP: put `~/.config/date-the-war/smtp.env` in place (see `scripts/send_reels.py`) and the next morning's run sends confirmations and reels. Without it, addresses are stored and nothing is sent.
+
 ## Working on it
 
 ```

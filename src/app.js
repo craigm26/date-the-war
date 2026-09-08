@@ -1,7 +1,7 @@
 import { Globe, buildTexture, greatCircle } from './globe.js';
 import {
-  RANGE_START, RANGE_END, GROUPS, ERAS, addDays, daysBetween, clampDate, unitStart, addUnit,
-  windowBounds, passes, windowEvents, jumpTarget, yearStrip, related, fmt, parseHash, toHash,
+  RANGE_START, RANGE_END, GROUPS, setRangeEnd, eras, addDays, daysBetween, clampDate, unitStart, addUnit,
+  windowBounds, passes, windowEvents, jumpTarget, yearStrip, related, fmt, parseHash, toHash, reelPlan, REEL,
 } from './timeline.js';
 
 const INK = '#201e1d';
@@ -27,18 +27,24 @@ async function load(path) {
   return r.json();
 }
 
-const [events, topo, mechanisms] = await Promise.all([
+const [events, topo, mechanisms, meta] = await Promise.all([
   load('./data/all-events.json'),
   load('./data/countries-110m.json'),
   load('./data/mechanisms.json'),
+  load('./data/meta.json'),
 ]);
+setRangeEnd(meta.asOf);
+const ERAS = eras();
+const END = meta.asOf;
 
 // ---------- state ----------
 const state = {
-  scale: 'month', from: '2026-09-01', cumulative: false, playing: false, view: 'globe', rotate: true,
+  scale: 'month', from: unitStart(END, 'month'), cumulative: false, playing: false, view: 'globe', rotate: true, reel: false,
   groupsOff: {}, subsOff: {}, selected: null, hover: null, hoverPos: null,
   ...(parseHash(location.hash) || {}),
 };
+const wantReel = state.reel;
+state.reel = false;
 state.from = unitStart(state.from, state.scale);
 
 // ---------- globe ----------
@@ -102,7 +108,7 @@ function hitTest(x, y) {
   return best;
 }
 
-function onDown(e) { if (isFlat()) return; const [x, y] = canvasPt(e); drag = { x, y, moved: false }; fly = null; }
+function onDown(e) { stopReel(); if (isFlat()) return; const [x, y] = canvasPt(e); drag = { x, y, moved: false }; fly = null; }
 function onMove(e) {
   const [x, y, sx, sy] = canvasPt(e);
   if (drag) {
@@ -134,9 +140,65 @@ canvas.addEventListener('click', (e) => {
   if (m) select(m.ev.id);
 });
 
+// ---------- the reel ----------
+// A flyover of the window's events, oldest first: a title card, then for
+// each event a slow fly, a long dwell with a card and a progress bar, a fade,
+// and a closing card. Deliberately unhurried: news takes time to settle.
+let reel = null;
+function startReel() {
+  const plan = reelPlan(events, state);
+  if (!plan.items.length) return;
+  stopPlay();
+  reel = { plan, i: 0, t0: performance.now() };
+  state.reel = true;
+  state.selected = null;
+  $('reel-card').hidden = false;
+  render();
+}
+function stopReel() {
+  if (!reel) return;
+  reel = null;
+  state.reel = false;
+  $('reel-card').hidden = true;
+  render();
+}
+function reelTick(t) {
+  const step = reel.plan.steps[reel.i];
+  if (!step) { stopReel(); return; }
+  const el = t - reel.t0;
+  const card = $('reel-card');
+  if (step.kind === 'intro') {
+    setCard(fmt(windowBounds(state).unit, state.scale), `${reel.plan.items.length} sourced ${reel.plan.items.length === 1 ? 'event' : 'events'} in the window`, 'The record, in the order it arrived.', 0, 'intro');
+  } else if (step.kind === 'outro') {
+    setCard('End of the record for this window', 'Entries marked auto were drafted by a daily job and have not been reviewed.', 'Sources take days to settle. Come back.', 0, 'outro');
+  } else {
+    const ev = step.ev;
+    if (el < 16 || state.selected !== ev.id) {
+      state.selected = ev.id;
+      flyTo(ev.lon, ev.lat, REEL.fly);
+      renderList(windowEvents(events, state));
+    }
+    const dwellStart = REEL.fly;
+    const p = Math.max(0, Math.min(1, (el - dwellStart) / REEL.dwell));
+    setCard(`${fmt(ev.date, 'day')} · ${ev.place}`, ev.title, `${ev.dir} · impact ${ev.mag} of 5 · ${ev.sub}${ev.auto ? ' · auto' : ''}`, p, ev.dir.toLowerCase().replace('-', ''));
+    card.style.opacity = el < 300 ? String(el / 300) : el > step.ms - REEL.fade ? String(Math.max(0, (step.ms - el) / REEL.fade)) : '1';
+  }
+  if (el >= step.ms) { reel.i += 1; reel.t0 = t; }
+}
+function setCard(kicker, title, meta, progress, cls) {
+  const card = $('reel-card');
+  if (card.dataset.cls !== cls) { card.className = `reel-card ${cls}`; card.dataset.cls = cls; }
+  if ($('reel-kicker').textContent !== kicker) $('reel-kicker').textContent = kicker;
+  if ($('reel-title').textContent !== title) $('reel-title').textContent = title;
+  if ($('reel-meta').textContent !== meta) $('reel-meta').textContent = meta;
+  $('reel-bar').style.width = `${progress * 100}%`;
+  if (cls === 'intro' || cls === 'outro') card.style.opacity = '1';
+}
+
 function frame(t) {
   requestAnimationFrame(frame);
   if (!globe.tex) return;
+  if (reel) reelTick(t);
   if (isFlat()) { draw(t); return; }
   if (fly) {
     const k = Math.min(1, (t - fly.t0) / (fly.dur || 1));
@@ -256,10 +318,11 @@ function stopPlay() {
 
 function togglePlay() {
   if (state.playing) { stopPlay(); render(); return; }
+  stopReel();
   const ms = { day: 90, month: 220, year: 700 }[state.scale];
   timer = setInterval(() => {
     const next = addUnit(unitStart(state.from, state.scale), state.scale, 1);
-    if (next > RANGE_END) { stopPlay(); render(); return; }
+    if (next > END) { stopPlay(); render(); return; }
     state.from = next;
     render();
   }, ms);
@@ -299,11 +362,14 @@ function goEra(era) {
 
 // ---------- static UI ----------
 $('total-count').textContent = `${events.length} sourced events`;
+$('range-caption').textContent = `1900 → ${fmt(END, 'day')} · `;
+$('year-last').textContent = END.slice(0, 4);
 const scaleBar = $('scales');
 for (const [id, label] of [['day', 'Days'], ['month', 'Months'], ['year', 'Years']]) {
   scaleBar.append(h('button', { type: 'button', class: 'seg', 'data-scale': id, onclick: () => setScale(id) }, label));
 }
-$('play').addEventListener('click', togglePlay);
+$('play').addEventListener('click', () => { stopReel(); togglePlay(); });
+$('reel').addEventListener('click', () => (reel ? stopReel() : startReel()));
 $('view-globe').addEventListener('click', () => { state.view = 'globe'; applyView(); render(); });
 $('view-flat').addEventListener('click', () => { state.view = 'flat'; applyView(); render(); });
 $('rotate').addEventListener('click', () => { state.rotate = !state.rotate; lastMove = performance.now(); render(); });
@@ -317,7 +383,7 @@ for (const era of ERAS) eraBar.append(h('button', { type: 'button', class: 'ghos
 const strip = $('strip');
 const stripCells = [];
 const Y0 = +RANGE_START.slice(0, 4);
-const Y1 = +RANGE_END.slice(0, 4);
+const Y1 = +END.slice(0, 4);
 for (let y = Y0; y <= Y1; y++) {
   const cell = h('div', { class: 'cell' });
   stripCells.push(cell);
@@ -329,7 +395,7 @@ strip.addEventListener('click', (e) => {
   setFrom(`${Math.min(Y1, y)}-01-01`);
 });
 const slider = $('slider');
-slider.max = daysBetween(RANGE_START, RANGE_END);
+slider.max = daysBetween(RANGE_START, END);
 slider.addEventListener('input', () => setFrom(addDays(RANGE_START, +slider.value)));
 $('groups-reset').addEventListener('click', () => { state.groupsOff = {}; state.subsOff = {}; render(); });
 
@@ -350,6 +416,8 @@ function render() {
   $('window-label').textContent = state.cumulative ? `→ ${fmt(end, 'day')}` : fmt(unit, state.scale);
   $('window-count').textContent = `${win.length} events · ${win.filter((e) => e.arc).length} links`;
   $('play').textContent = state.playing ? '❚❚ Pause' : '▶ Play';
+  $('reel').textContent = reel ? '■ Stop reel' : '▶ Reel';
+  $('reel').setAttribute('aria-pressed', !!reel);
   $('view-globe').setAttribute('aria-pressed', !isFlat());
   $('view-flat').setAttribute('aria-pressed', isFlat());
   $('rotate').textContent = state.rotate ? '❚❚ Pause globe' : '↻ Spin globe';
@@ -417,6 +485,7 @@ function renderList(win) {
         h('button', { type: 'button', class: 'rowbtn', onclick: () => select(ev.id) },
           h('div', { class: 'meta' },
             h('span', {}, fmt(ev.date, 'day')), h('span', {}, ev.place),
+            ev.auto && h('span', { class: 'auto', title: 'Drafted by the daily job from the linked source; not yet reviewed' }, 'auto'),
             h('span', { class: 'mag', title: `Impact ${ev.mag} of 5` }, ...[1, 2, 3, 4, 5].map((i) => h('span', { class: `sq ${i <= ev.mag ? 'on' : ''}` }))),
           ),
           h('div', { class: 'title' }, ev.title),
@@ -466,3 +535,4 @@ applyView();
 flyTo(48, 30, 0);
 render();
 requestAnimationFrame(frame);
+if (wantReel) setTimeout(startReel, 600);

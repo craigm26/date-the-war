@@ -14,7 +14,7 @@
 <body>
 <header class="top">
   <div class="brand"><a href="https://craigmerry.com/">craigmerry.com</a><span class="sep">/</span><a href="https://craigmerry.com/experiments/">experiments</a><span class="sep">/</span>Date the war</div>
-  <div class="caption">1900 → 8 Sep 2026 · <span id="total-count"></span></div>
+  <div class="caption"><span id="range-caption">1900 → </span><span id="total-count"></span></div>
   <div id="scales" class="segmented" role="group" aria-label="Window scale"></div>
 </header>
 
@@ -37,6 +37,12 @@
     <div class="globe-wrap">
       <canvas id="globe" aria-label="Map of sourced events in the window"></canvas>
       <div id="tooltip" class="tooltip" hidden><div id="tip-title" class="tip-title"></div><div id="tip-meta" class="tip-meta"></div></div>
+      <div id="reel-card" class="reel-card" hidden>
+        <div id="reel-kicker" class="reel-kicker"></div>
+        <div id="reel-title" class="reel-title"></div>
+        <div id="reel-meta" class="reel-meta"></div>
+        <div class="reel-track"><div id="reel-bar" class="reel-bar"></div></div>
+      </div>
     </div>
     <div class="legend">
       <span><i class="lg esc"></i>escalatory</span>
@@ -49,6 +55,7 @@
     <div class="timeline">
       <div class="transport">
         <button id="play" type="button" class="play">▶ Play</button>
+        <button id="reel" type="button" class="ghost reelbtn" title="Fly over the window's events, one at a time">▶ Reel</button>
         <button id="prev" type="button" class="icon" title="Previous event">←</button>
         <button id="next" type="button" class="icon" title="Next event">→</button>
         <div class="segmented modes">
@@ -59,7 +66,7 @@
       </div>
       <div id="strip" class="strip" aria-hidden="true"></div>
       <input id="slider" type="range" min="0" max="1" step="1" value="0" aria-label="Date the window from">
-      <div class="ticks"><span>1900</span><span>1914</span><span>1939</span><span>1945</span><span>1990</span><span>2011</span><span>2026</span></div>
+      <div class="ticks"><span>1900</span><span>1914</span><span>1939</span><span>1945</span><span>1990</span><span>2011</span><span id="year-last">2026</span></div>
     </div>
   </section>
 
@@ -75,6 +82,17 @@
     <div class="lhead"><h3>What the window includes</h3><span id="list-count" class="muted12"></span></div>
     <p id="list-empty" class="empty" hidden>No sourced events in this window. Use → to jump to the next one.</p>
     <ol id="list" class="list"></ol>
+    <div class="subscribe">
+      <div class="kicker muted">Daily reel by email</div>
+      <p class="sub-lede">Each morning the day's sourced events, a link to its flyover, and nothing else. Confirm by email; leave with one click.</p>
+      <form id="sub-form" class="sub-form" autocomplete="off">
+        <input id="sub-email" type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="play">Subscribe</button>
+      </form>
+      <p id="sub-msg" class="sub-msg" aria-live="polite"></p>
+      <p class="sub-alt">Or the <a href="./reels.xml">reel feed</a> for any reader.</p>
+    </div>
     <div class="rule">
       <b>Impact 1 to 5 rule.</b> Escalatory 3 · Mixed 2 · De-escalatory 2 · Contextual 1; +1 for direct interstate combat; +1/+2 when the reported metric is large (≥10k / ≥1M people, ≥50%, ≥10bn / ≥100bn). Declared wars between major powers score 5. Judgment, not measurement.
     </div>
@@ -142,5 +160,26 @@
 </section>
 
 <script type="module" src="./src/app.js"></script>
+<script>
+  (() => {
+    const form = document.getElementById('sub-form');
+    const msg = document.getElementById('sub-msg');
+    const ENDPOINT = 'https://dtw-subscribe.craigm26.workers.dev/subscribe';
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('sub-email').value.trim();
+      const hp = form.querySelector('.hp').value;
+      msg.textContent = 'Sending…';
+      try {
+        const r = await fetch(ENDPOINT, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ email, website: hp }) });
+        const j = await r.json().catch(() => ({}));
+        msg.textContent = r.ok ? (j.message || 'Check your inbox for a confirmation link.') : (j.error || 'That did not work. Try again in a minute.');
+        if (r.ok) form.reset();
+      } catch {
+        msg.textContent = 'Could not reach the subscription service. The feed link below works without it.';
+      }
+    });
+  })();
+</script>
 </body>
 </html>

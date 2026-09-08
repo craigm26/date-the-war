@@ -98,11 +98,12 @@ export function fmt(iso, style) {
 }
 
 export function parseHash(hash) {
-  const m = /^#?(day|month|year)@(\d{4}-\d{2}-\d{2})(?:@(c))?$/.exec(hash || '');
+  const m = /^#?(day|month|year)@(\d{4}-\d{2}-\d{2})((?:@(?:c|flat))*)$/.exec(hash || '');
   if (!m) return null;
-  return { scale: m[1], from: clampDate(m[2]), cumulative: m[3] === 'c' };
+  const flags = m[3].split('@').filter(Boolean);
+  return { scale: m[1], from: clampDate(m[2]), cumulative: flags.includes('c'), view: flags.includes('flat') ? 'flat' : 'globe' };
 }
 
-export function toHash({ scale, from, cumulative }) {
-  return `#${scale}@${from}${cumulative ? '@c' : ''}`;
+export function toHash({ scale, from, cumulative, view }) {
+  return `#${scale}@${from}${cumulative ? '@c' : ''}${view === 'flat' ? '@flat' : ''}`;
 }

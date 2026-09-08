@@ -35,7 +35,7 @@ const [events, topo, mechanisms] = await Promise.all([
 
 // ---------- state ----------
 const state = {
-  scale: 'month', from: '2026-09-01', cumulative: false, playing: false,
+  scale: 'month', from: '2026-09-01', cumulative: false, playing: false, view: 'globe', rotate: true,
   groupsOff: {}, subsOff: {}, selected: null, hover: null, hoverPos: null,
   ...(parseHash(location.hash) || {}),
 };
@@ -44,7 +44,34 @@ state.from = unitStart(state.from, state.scale);
 // ---------- globe ----------
 const canvas = $('globe');
 const globe = new Globe(canvas, 720);
-globe.setTexture(buildTexture(topo, { ocean: INK, land: GROUND, border: '#7d7979', grid: '#444141' }));
+const tex = buildTexture(topo, { ocean: INK, land: GROUND, border: '#7d7979', grid: '#444141' });
+globe.setTexture(tex);
+// The same texture as a drawable image, for the flat view.
+const TW = 2048;
+const TH = 1024;
+const texCanvas = document.createElement('canvas');
+texCanvas.width = TW; texCanvas.height = TH;
+texCanvas.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(tex.buffer), TW, TH), 0, 0);
+const FLAT_W = 1440;
+const FLAT_H = 720;
+
+function isFlat() { return state.view === 'flat'; }
+// Marker sizes are tuned for a 720px canvas; the flat canvas is twice as wide.
+function K() { return isFlat() ? 1.5 : 1; }
+function proj(lon, lat) {
+  if (!isFlat()) return globe.project(lon, lat);
+  return [((lon + 180) / 360) * FLAT_W, ((90 - lat) / 180) * FLAT_H, true, 1];
+}
+function applyView() {
+  if (isFlat()) {
+    canvas.width = FLAT_W; canvas.height = FLAT_H;
+    canvas.style.aspectRatio = '2 / 1'; canvas.style.maxWidth = '100%'; canvas.style.cursor = 'default';
+  } else {
+    canvas.width = 720; canvas.height = 720;
+    canvas.style.aspectRatio = '1 / 1'; canvas.style.maxWidth = '680px'; canvas.style.cursor = 'grab';
+  }
+  $('rotate').hidden = isFlat();
+}
 let drag = null;
 let fly = null;
 let lastMove = performance.now();
@@ -52,6 +79,7 @@ let markers = [];
 let timer = null;
 
 function flyTo(lon, lat, dur = 900) {
+  if (isFlat()) return;
   let dl = lon - globe.lon0;
   dl = ((dl + 540) % 360) - 180;
   fly = { t0: performance.now(), dur, l0: globe.lon0, p0: globe.lat0, dl, dp: Math.max(-70, Math.min(70, lat)) - globe.lat0 };
@@ -74,7 +102,7 @@ function hitTest(x, y) {
   return best;
 }
 
-function onDown(e) { const [x, y] = canvasPt(e); drag = { x, y, moved: false }; fly = null; }
+function onDown(e) { if (isFlat()) return; const [x, y] = canvasPt(e); drag = { x, y, moved: false }; fly = null; }
 function onMove(e) {
   const [x, y, sx, sy] = canvasPt(e);
   if (drag) {
@@ -109,13 +137,14 @@ canvas.addEventListener('click', (e) => {
 function frame(t) {
   requestAnimationFrame(frame);
   if (!globe.tex) return;
+  if (isFlat()) { draw(t); return; }
   if (fly) {
     const k = Math.min(1, (t - fly.t0) / (fly.dur || 1));
     const e = 1 - (1 - k) ** 3;
     globe.lon0 = fly.l0 + fly.dl * e;
     globe.lat0 = fly.p0 + fly.dp * e;
     if (k >= 1) fly = null;
-  } else if (!drag && t - lastMove > 2500) {
+  } else if (state.rotate && !drag && t - lastMove > 2500) {
     globe.lon0 += 0.06 * Math.min(1, (t - lastMove - 2500) / 2000);
   }
   draw(t);
@@ -123,10 +152,17 @@ function frame(t) {
 
 function draw(t) {
   const ctx = globe.ctx;
-  const S = globe.size;
-  globe.drawBase();
-  ctx.lineWidth = 2; ctx.strokeStyle = INK;
-  ctx.beginPath(); ctx.arc(globe.cx, globe.cy, globe.R + 1, 0, Math.PI * 2); ctx.stroke();
+  const S = canvas.width;
+  const k = K();
+  if (isFlat()) {
+    ctx.clearRect(0, 0, FLAT_W, FLAT_H);
+    ctx.drawImage(texCanvas, 0, 0, FLAT_W, FLAT_H);
+    ctx.lineWidth = 2; ctx.strokeStyle = INK; ctx.strokeRect(1, 1, FLAT_W - 2, FLAT_H - 2);
+  } else {
+    globe.drawBase();
+    ctx.lineWidth = 2; ctx.strokeStyle = INK;
+    ctx.beginPath(); ctx.arc(globe.cx, globe.cy, globe.R + 1, 0, Math.PI * 2); ctx.stroke();
+  }
   const evs = windowEvents(events, state);
   const sel = state.selected;
   const hov = state.hover;
@@ -136,17 +172,21 @@ function draw(t) {
     const emph = ev.id === sel || ev.id === hov;
     ctx.beginPath();
     let pen = false;
+    let last = null;
     for (const [lon, lat, lift] of pts) {
-      const [x, y, , z] = globe.project(lon, lat);
+      const [x, y, , z] = proj(lon, lat);
       if (z > -0.02) {
-        const px = globe.cx + (x - globe.cx) * lift;
-        const py = globe.cy + (y - globe.cy) * lift;
+        const px = isFlat() ? x : globe.cx + (x - globe.cx) * lift;
+        const py = isFlat() ? y : globe.cy + (y - globe.cy) * lift;
+        // In the flat view, break the path where the arc crosses the antimeridian.
+        if (pen && isFlat() && last && Math.abs(px - last) > FLAT_W / 2) pen = false;
         if (pen) ctx.lineTo(px, py); else ctx.moveTo(px, py);
         pen = true;
+        last = px;
       } else pen = false;
     }
-    ctx.setLineDash(emph ? [] : [5, 4]);
-    ctx.lineWidth = emph ? 2.5 : 1.5;
+    ctx.setLineDash(emph ? [] : [5 * k, 4 * k]);
+    ctx.lineWidth = (emph ? 2.5 : 1.5) * k;
     ctx.strokeStyle = ev.dir === 'De-escalatory' ? 'rgba(243,242,242,.9)' : ACCENT;
     ctx.stroke();
     ctx.setLineDash([]);
@@ -154,41 +194,41 @@ function draw(t) {
   markers = [];
   const sorted = [...evs].sort((a, b) => (a.id === sel) - (b.id === sel));
   for (const ev of sorted) {
-    const [x, y, vis] = globe.project(ev.lon, ev.lat);
+    const [x, y, vis] = proj(ev.lon, ev.lat);
     if (!vis) continue;
-    const r = ev.global ? 4 + ev.mag : 4 + ev.mag * 2.2;
+    const r = (ev.global ? 4 + ev.mag : 4 + ev.mag * 2.2) * k;
     const emph = ev.id === sel || ev.id === hov;
     markers.push({ ev, x, y, r });
     if (emph || ev.dir === 'Escalatory') {
-      ctx.beginPath(); ctx.arc(x, y, r + 6 + ev.mag * 5, 0, Math.PI * 2);
+      ctx.beginPath(); ctx.arc(x, y, r + (6 + ev.mag * 5) * k, 0, Math.PI * 2);
       ctx.strokeStyle = ev.dir === 'Escalatory' ? 'rgba(236,48,19,.45)' : 'rgba(243,242,242,.5)';
-      ctx.lineWidth = 1; ctx.stroke();
+      ctx.lineWidth = k; ctx.stroke();
     }
     if (ev.id === sel) {
       const pulse = (t / 900) % 1;
-      ctx.beginPath(); ctx.arc(x, y, r + 4 + pulse * 22, 0, Math.PI * 2);
-      ctx.strokeStyle = `rgba(236,48,19,${(1 - pulse) * 0.9})`; ctx.lineWidth = 2; ctx.stroke();
+      ctx.beginPath(); ctx.arc(x, y, r + (4 + pulse * 22) * k, 0, Math.PI * 2);
+      ctx.strokeStyle = `rgba(236,48,19,${(1 - pulse) * 0.9})`; ctx.lineWidth = 2 * k; ctx.stroke();
     }
-    ctx.lineWidth = 1.5; ctx.strokeStyle = INK;
+    ctx.lineWidth = 1.5 * k; ctx.strokeStyle = INK;
     if (ev.dir === 'Escalatory') {
       ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = ACCENT; ctx.fill(); ctx.strokeStyle = GROUND; ctx.stroke();
     } else if (ev.dir === 'De-escalatory') {
-      ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = 'rgba(32,30,29,.55)'; ctx.fill(); ctx.strokeStyle = GROUND; ctx.lineWidth = 2; ctx.stroke();
+      ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = 'rgba(32,30,29,.55)'; ctx.fill(); ctx.strokeStyle = GROUND; ctx.lineWidth = 2 * k; ctx.stroke();
     } else if (ev.dir === 'Mixed') {
       ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = INK; ctx.fill();
       ctx.beginPath(); ctx.arc(x, y, r, Math.PI / 2, Math.PI * 1.5); ctx.fillStyle = GROUND; ctx.fill();
-      ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.strokeStyle = GROUND; ctx.lineWidth = 2; ctx.stroke();
+      ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.strokeStyle = GROUND; ctx.lineWidth = 2 * k; ctx.stroke();
     } else {
-      const s = Math.max(6, r * 1.2);
+      const s = Math.max(6 * k, r * 1.2);
       ctx.fillStyle = GROUND; ctx.fillRect(x - s / 2, y - s / 2, s, s);
       ctx.strokeStyle = INK; ctx.strokeRect(x - s / 2, y - s / 2, s, s);
     }
     if (emph) {
-      ctx.font = '600 14px Archivo, system-ui, sans-serif'; ctx.textBaseline = 'middle';
+      ctx.font = `600 ${14 * k}px Archivo, system-ui, sans-serif`; ctx.textBaseline = 'middle';
       const label = ev.place;
       const w = ctx.measureText(label).width;
-      const lx = x + r + 10 + w > S - 8 ? x - r - 10 - w : x + r + 10;
-      ctx.fillStyle = INK; ctx.fillRect(lx - 5, y - 11, w + 10, 22);
+      const lx = x + r + 10 * k + w > S - 8 ? x - r - 10 * k - w : x + r + 10 * k;
+      ctx.fillStyle = INK; ctx.fillRect(lx - 5 * k, y - 11 * k, w + 10 * k, 22 * k);
       ctx.fillStyle = GROUND; ctx.fillText(label, lx, y);
     }
   }
@@ -264,6 +304,9 @@ for (const [id, label] of [['day', 'Days'], ['month', 'Months'], ['year', 'Years
   scaleBar.append(h('button', { type: 'button', class: 'seg', 'data-scale': id, onclick: () => setScale(id) }, label));
 }
 $('play').addEventListener('click', togglePlay);
+$('view-globe').addEventListener('click', () => { state.view = 'globe'; applyView(); render(); });
+$('view-flat').addEventListener('click', () => { state.view = 'flat'; applyView(); render(); });
+$('rotate').addEventListener('click', () => { state.rotate = !state.rotate; lastMove = performance.now(); render(); });
 $('prev').addEventListener('click', () => jump(-1));
 $('next').addEventListener('click', () => jump(1));
 $('mode-window').addEventListener('click', () => { state.cumulative = false; render(); });
@@ -307,6 +350,10 @@ function render() {
   $('window-label').textContent = state.cumulative ? `→ ${fmt(end, 'day')}` : fmt(unit, state.scale);
   $('window-count').textContent = `${win.length} events · ${win.filter((e) => e.arc).length} links`;
   $('play').textContent = state.playing ? '❚❚ Pause' : '▶ Play';
+  $('view-globe').setAttribute('aria-pressed', !isFlat());
+  $('view-flat').setAttribute('aria-pressed', isFlat());
+  $('rotate').textContent = state.rotate ? '❚❚ Pause globe' : '↻ Spin globe';
+  $('rotate').setAttribute('aria-pressed', !state.rotate);
   $('mode-window').setAttribute('aria-pressed', !state.cumulative);
   $('mode-cumulative').setAttribute('aria-pressed', state.cumulative);
 
@@ -415,6 +462,7 @@ function renderTooltip() {
   $('tip-meta').textContent = `${fmt(ev.date, 'day')} · ${ev.dir} · impact ${ev.mag}`;
 }
 
+applyView();
 flyTo(48, 30, 0);
 render();
 requestAnimationFrame(frame);

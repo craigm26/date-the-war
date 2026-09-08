@@ -106,8 +106,9 @@ test('related events stay within 400 days and cap at three', () => {
 });
 
 test('hash round-trips', () => {
-  const st = { scale: 'day', from: '2026-09-01', cumulative: true };
+  const st = { scale: 'day', from: '2026-09-01', cumulative: true, view: 'flat' };
   assert.deepEqual(parseHash(toHash(st)), st);
+  assert.deepEqual(parseHash('#month@1939-09-01'), { scale: 'month', from: '1939-09-01', cumulative: false, view: 'globe' });
   assert.equal(parseHash('#garbage'), null);
 });
 

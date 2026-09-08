@@ -1,0 +1,2154 @@
+[
+  {
+    "id": "pop-2b",
+    "date": "1927-01-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "World population passes two billion",
+    "note": "It took all of human history to reach the first billion and about 120 years to add the second. The pace of the next additions is the backdrop to every resource argument on this page.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_population"
+    },
+    "checked": null,
+    "limitations": "UN estimate; year-only dating.",
+    "metric": "2,000,000,000 people",
+    "metricName": "World population",
+    "global": true
+  },
+  {
+    "id": "saudi-oil-1938",
+    "date": "1938-03-03",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Oil is struck in Saudi Arabia",
+    "note": "The seventh well at Dammam came in after six dry ones. Within a decade the kingdom's fields were the strategic fact of the Middle East.",
+    "mechanisms": [],
+    "countries": [
+      "Saudi Arabia",
+      "United States"
+    ],
+    "lon": 50.1,
+    "lat": 26.3,
+    "place": "Dhahran",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dammam_No._7"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "quincy-1945",
+    "date": "1945-02-14",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "The US president and the Saudi king meet on a warship",
+    "note": "Security for oil, in a conversation on a cruiser in the Suez Canal on the way home from Yalta. The arrangement has outlasted every other from that week.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Saudi Arabia"
+    ],
+    "lon": 32.4,
+    "lat": 30.3,
+    "place": "Great Bitter Lake",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Quincy_Agreement"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "iran-oil-1951",
+    "date": "1951-03-15",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran nationalizes its oil industry",
+    "note": "Parliament took the British-run fields, Britain blockaded the exports, and two years later a coup restored the concession. The memory of it runs under every negotiation with Tehran since.",
+    "mechanisms": [
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran",
+      "United Kingdom",
+      "United States"
+    ],
+    "lon": 51.4,
+    "lat": 35.7,
+    "place": "Tehran",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nationalization_of_the_Iranian_oil_industry"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "pop-3b",
+    "date": "1960-01-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "World population passes three billion",
+    "note": "One more billion in thirty-three years. The Green Revolution that fed it was still eight years away.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_population"
+    },
+    "checked": null,
+    "limitations": "UN estimate; year-only dating.",
+    "metric": "3,000,000,000 people",
+    "metricName": "World population",
+    "global": true
+  },
+  {
+    "id": "aral-sea-1960",
+    "date": "1960-01-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Soviet planners divert the rivers that feed the Aral Sea",
+    "note": "Cotton irrigation in the desert dried the fourth largest lake in the world to a tenth of its size within a lifetime. The five states that inherited the basin still argue over what is left.",
+    "mechanisms": [],
+    "countries": [
+      "Soviet Union",
+      "Kazakhstan",
+      "Uzbekistan"
+    ],
+    "lon": 59.5,
+    "lat": 45.0,
+    "place": "Aral Sea",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aral_Sea"
+    },
+    "checked": null,
+    "limitations": "Year-only dating; diversion expanded through the 1960s.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "opec-1960",
+    "date": "1960-09-14",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Five exporters found OPEC",
+    "note": "Iran, Iraq, Kuwait, Saudi Arabia and Venezuela organized against the companies that set their prices. Thirteen years later they set the price themselves.",
+    "mechanisms": [],
+    "countries": [
+      "Iran",
+      "Iraq",
+      "Kuwait",
+      "Saudi Arabia",
+      "Venezuela"
+    ],
+    "lon": 44.4,
+    "lat": 33.3,
+    "place": "Baghdad",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OPEC"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "indus-treaty-1960",
+    "date": "1960-09-19",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "India and Pakistan divide the Indus rivers by treaty",
+    "note": "Brokered by the World Bank, the treaty survived three wars and sixty-five years. It is the standard example of water cooperation between enemies.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "lon": 67.0,
+    "lat": 24.9,
+    "place": "Karachi",
+    "arc": [
+      [
+        77.2,
+        28.6
+      ],
+      [
+        73.1,
+        33.7
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indus_Waters_Treaty"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "green-revolution-1968",
+    "date": "1968-01-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "India's wheat harvest jumps with new seed",
+    "note": "High-yield varieties, fertilizer and irrigation took India from famine warnings to surplus in a decade. The relief it bought is the reason food stress fell off the war agenda for a generation.",
+    "mechanisms": [],
+    "countries": [
+      "India"
+    ],
+    "lon": 75.3,
+    "lat": 31.1,
+    "place": "Punjab",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Green_Revolution_in_India"
+    },
+    "checked": null,
+    "limitations": "Year-only dating.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "us-peak-1970",
+    "date": "1970-01-01",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "US crude production peaks, as predicted",
+    "note": "A geologist had forecast the year in 1956. Three years later the embargo showed what dependence on imports meant, and it shaped forty years of policy until shale reversed the curve.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -99.0,
+    "lat": 31.5,
+    "place": "Texas",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peak_oil"
+    },
+    "checked": null,
+    "limitations": "Year-only dating.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "grain-robbery-1972",
+    "date": "1972-07-08",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "The Soviet Union quietly buys up American grain",
+    "note": "A crop failure sent Soviet buyers through American exporters before anyone noticed, and world prices tripled. Food became a Cold War lever in both directions.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "Soviet Union",
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        37.6,
+        55.8
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Grain_Robbery"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "sahel-drought-1973",
+    "date": "1973-01-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Drought and famine across the Sahel",
+    "note": "Six years of failed rains killed about 100,000 people and most of the region's livestock. The states that emerged from it are the ones now fighting insurgencies from Mali to Chad.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Mali",
+      "Niger",
+      "Chad",
+      "Senegal"
+    ],
+    "lon": 2.1,
+    "lat": 13.5,
+    "place": "Niamey",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sahel_drought"
+    },
+    "checked": null,
+    "limitations": "Year-only dating; the drought ran 1968 to 1974. Death toll estimates vary.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "world-food-conference-1974",
+    "date": "1974-11-05",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "The first World Food Conference",
+    "note": "After two years of price spikes and famine warnings, governments met in Rome and pledged that no child would go to bed hungry within a decade. The machinery it created still runs; the pledge did not.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 12.5,
+    "lat": 41.9,
+    "place": "Rome",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Food_Conference"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "one-child-1980",
+    "date": "1980-09-25",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "China limits families to one child",
+    "note": "A demographic brake applied by the state for thirty-five years. The working-age population it produced is now shrinking, which shapes how much time the leadership believes it has.",
+    "mechanisms": [
+      "domestic-incentives",
+      "power-transition"
+    ],
+    "countries": [
+      "China"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Beijing",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/One-child_policy"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "mexico-default-1982",
+    "date": "1982-08-12",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Mexico cannot pay, and the Latin American debt crisis begins",
+    "note": "A weekend announcement that the country was out of reserves pulled a decade of petrodollar lending into default across the region. The lost decade that followed shaped the region's politics for thirty years.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Mexico"
+    ],
+    "lon": -99.1,
+    "lat": 19.4,
+    "place": "Mexico City",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Latin_American_debt_crisis"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "oil-glut-1986",
+    "date": "1986-01-01",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Oil falls by two thirds",
+    "note": "Saudi Arabia stopped defending the price and flooded the market. The Soviet Union, which sold oil for hard currency, lost the income it needed at the moment its reforms began.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Soviet Union"
+    ],
+    "lon": 46.7,
+    "lat": 24.7,
+    "place": "Riyadh",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1980s_oil_glut"
+    },
+    "checked": null,
+    "limitations": "Year-only dating; the fall ran through the first half of 1986.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "pop-5b",
+    "date": "1987-07-11",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Five billion people, and a day named for it",
+    "note": "The UN marked the day in Zagreb. Twelve years per billion was the fastest the curve ever ran.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Day_of_Five_Billion"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "5,000,000,000 people",
+    "metricName": "World population",
+    "global": true
+  },
+  {
+    "id": "pop-6b",
+    "date": "1999-10-12",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Six billion people",
+    "note": "Marked in Sarajevo, four years after that city's siege ended. Growth was already slowing in most of the world and accelerating in the Sahel.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Day_of_Six_Billion"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "6,000,000,000 people",
+    "metricName": "World population",
+    "global": true
+  },
+  {
+    "id": "heat-wave-2003",
+    "date": "2003-08-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "A European heat wave kills about 70,000 people",
+    "note": "The deadliest weather event in modern European history, mostly older people in cities. It reset what governments expected a hot summer to cost.",
+    "mechanisms": [],
+    "countries": [
+      "France",
+      "Italy",
+      "Spain",
+      "Germany"
+    ],
+    "lon": 2.35,
+    "lat": 48.9,
+    "place": "Paris",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2003_European_heat_wave"
+    },
+    "checked": null,
+    "limitations": "Month-precision date; excess-death estimates range from 30,000 to 70,000.",
+    "metric": "about 70,000 people",
+    "metricName": "Excess deaths",
+    "global": false
+  },
+  {
+    "id": "food-crisis-2008",
+    "date": "2008-04-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Food prices double and riots follow in more than thirty countries",
+    "note": "Oil at record highs, biofuel mandates, export bans and a weak dollar pushed rice and wheat to multiples of their 2006 prices. Governments fell in Haiti and wobbled elsewhere.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2007%E2%80%932008_world_food_price_crisis"
+    },
+    "checked": null,
+    "limitations": "Month-precision date at the peak of the price run.",
+    "metric": "",
+    "metricName": "",
+    "global": true
+  },
+  {
+    "id": "oil-147-2008",
+    "date": "2008-07-11",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Oil touches 147 dollars a barrel",
+    "note": "The peak of a five-year run driven by Chinese demand and flat supply, two months before the financial crisis cut it by three quarters.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": -74.0,
+    "lat": 40.7,
+    "place": "New York",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2000s_energy_crisis"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "147 USD per barrel",
+    "metricName": "Brent and WTI intraday high",
+    "global": false
+  },
+  {
+    "id": "wheat-ban-2010",
+    "date": "2010-08-05",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russia bans grain exports after drought and fires",
+    "note": "The world's third largest wheat exporter shut its border and prices rose by half within months. The bread-price link to the uprisings that began in December is often cited and hard to prove.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Russia",
+      "Egypt"
+    ],
+    "lon": 37.6,
+    "lat": 55.8,
+    "place": "Moscow",
+    "arc": [
+      [
+        37.6,
+        55.8
+      ],
+      [
+        31.2,
+        30.0
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2010%E2%80%932012_world_food_price_crisis"
+    },
+    "checked": null,
+    "limitations": "The causal link to the Arab Spring is argued, not established.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "rare-earth-2010",
+    "date": "2010-09-22",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "China halts rare earth exports to Japan",
+    "note": "After a boat collision near disputed islands, shipments of the metals Japan's industry ran on stopped for two months. Every later mineral policy in Tokyo, Washington and Brussels dates from this.",
+    "mechanisms": [
+      "indivisible-issues",
+      "private-information"
+    ],
+    "countries": [
+      "China",
+      "Japan"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Beijing",
+    "arc": [
+      [
+        116.4,
+        39.9
+      ],
+      [
+        139.7,
+        35.7
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2010_Senkaku_boat_collision_incident"
+    },
+    "checked": null,
+    "limitations": "China denied an official embargo; the stoppage is documented in customs data.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "arab-spring-2010",
+    "date": "2010-12-17",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A street vendor's protest starts the Arab Spring",
+    "note": "One act of desperation in a provincial town became a wave that removed four governments and started two civil wars. Food prices, youth unemployment and a decade of frozen politics were the fuel.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Tunisia",
+      "Egypt",
+      "Libya",
+      "Syria",
+      "Yemen",
+      "Bahrain"
+    ],
+    "lon": 9.5,
+    "lat": 35.0,
+    "place": "Sidi Bouzid",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arab_Spring"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "somalia-famine-2011",
+    "date": "2011-07-20",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The UN declares famine in Somalia",
+    "note": "Drought, an insurgency that blocked aid, and a slow donor response killed about a quarter of a million people, half of them children. Famine in this century is a political event, not a weather one.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Somalia"
+    ],
+    "lon": 45.3,
+    "lat": 2.0,
+    "place": "Mogadishu",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2011_East_Africa_drought"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 260,000 people",
+    "metricName": "Deaths",
+    "global": false
+  },
+  {
+    "id": "pop-7b",
+    "date": "2011-10-31",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Seven billion people",
+    "note": "The year of the Arab Spring, whose crowds were the largest youth cohort in the region's history entering a labor market that had no room for them.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Day_of_Seven_Billion"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "7,000,000,000 people",
+    "metricName": "World population",
+    "global": true
+  },
+  {
+    "id": "isis-2014",
+    "date": "2014-06-29",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The Islamic State declares a caliphate",
+    "note": "A group that had taken Mosul three weeks earlier claimed a state across Syria and Iraq. It drew an international coalition, Russian intervention and Iranian militias into the same theater.",
+    "mechanisms": [
+      "state-weakness",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Iraq",
+      "Syria"
+    ],
+    "lon": 43.1,
+    "lat": 36.3,
+    "place": "Mosul",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Islamic_State"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "opec-2014",
+    "date": "2014-11-27",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "OPEC declines to cut, and oil halves",
+    "note": "Saudi Arabia chose market share over price to squeeze American shale. Venezuela, Nigeria and Russia absorbed the loss; the cartel's grip on the price was shown to have limits.",
+    "mechanisms": [],
+    "countries": [
+      "Saudi Arabia",
+      "Russia",
+      "Venezuela"
+    ],
+    "lon": 16.4,
+    "lat": 48.2,
+    "place": "Vienna",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2010s_oil_glut"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "jcpoa-2015",
+    "date": "2015-07-14",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "Iran and six powers sign the nuclear deal",
+    "note": "Enrichment capped and inspected in return for sanctions relief. For three years it was the most intrusive verification regime ever accepted by a state.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Iran",
+      "United States",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Russia",
+      "China"
+    ],
+    "lon": 16.4,
+    "lat": 48.2,
+    "place": "Vienna",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "migrant-crisis-2015",
+    "date": "2015-09-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "More than a million people cross into Europe in a year",
+    "note": "War in Syria, collapse in Libya and stalled economies pushed the largest movement of people into Europe since 1945. The politics of half the continent turned on it within two years.",
+    "mechanisms": [
+      "state-weakness",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Germany",
+      "Greece",
+      "Turkey",
+      "Syria"
+    ],
+    "lon": 26.0,
+    "lat": 38.5,
+    "place": "Aegean Sea",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2015_European_migrant_crisis"
+    },
+    "checked": null,
+    "limitations": "Month-precision date; the flow peaked in late summer and autumn.",
+    "metric": "about 1,300,000 people",
+    "metricName": "Asylum applications in the EU, 2015",
+    "global": false
+  },
+  {
+    "id": "brexit-2016",
+    "date": "2016-06-23",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Britain votes to leave the European Union",
+    "note": "The first departure from the bloc, decided by a narrow majority. It weakened the union's weight in the security arguments that followed and consumed a decade of British politics.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.1,
+    "lat": 51.5,
+    "place": "London",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Brexit"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "turkey-coup-2016",
+    "date": "2016-07-15",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 2,
+    "title": "A coup attempt fails in Turkey",
+    "note": "Parts of the military moved on Ankara and Istanbul and lost within a night. The purge that followed reshaped NATO's second largest army.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Turkey"
+    ],
+    "lon": 32.9,
+    "lat": 39.9,
+    "place": "Ankara",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2016_Turkish_coup_attempt"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "rohingya-2017",
+    "date": "2017-08-25",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "About 700,000 Rohingya flee Myanmar into Bangladesh",
+    "note": "A military clearance operation emptied northern Rakhine in weeks. The camps at Cox's Bazar are still the largest in the world.",
+    "mechanisms": [
+      "indivisible-issues",
+      "state-weakness"
+    ],
+    "countries": [
+      "Myanmar",
+      "Bangladesh"
+    ],
+    "lon": 92.0,
+    "lat": 21.4,
+    "place": "Cox's Bazar",
+    "arc": [
+      [
+        92.9,
+        20.9
+      ],
+      [
+        92.0,
+        21.4
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rohingya_genocide"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 700,000 people",
+    "metricName": "Refugees in the first months",
+    "global": false
+  },
+  {
+    "id": "nk-test-2017",
+    "date": "2017-09-03",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea tests a weapon it calls a hydrogen bomb",
+    "note": "The sixth and largest test, about ten times the yield of the previous one, followed two intercontinental missile launches that summer. Deterrence in the Pacific changed shape in one year.",
+    "mechanisms": [
+      "security-dilemma",
+      "private-information"
+    ],
+    "countries": [
+      "North Korea",
+      "United States",
+      "South Korea",
+      "Japan"
+    ],
+    "lon": 129.1,
+    "lat": 41.3,
+    "place": "Punggye-ri",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2017_North_Korean_nuclear_test"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "venezuela-exodus-2018",
+    "date": "2018-01-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Venezuela's collapse sends millions abroad",
+    "note": "Hyperinflation and a broken oil industry drove the largest displacement in the hemisphere's history, most of it into Colombia, Peru and Brazil. Migration became the lever of regional politics.",
+    "mechanisms": [
+      "state-weakness",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Venezuela",
+      "Colombia"
+    ],
+    "lon": -66.6,
+    "lat": 7.1,
+    "place": "Venezuela",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Venezuelan_refugee_crisis"
+    },
+    "checked": null,
+    "limitations": "Year-only dating; the outflow ran from about 2015.",
+    "metric": "about 7,700,000 people",
+    "metricName": "Venezuelans abroad (UNHCR)",
+    "global": false
+  },
+  {
+    "id": "cape-town-2018",
+    "date": "2018-01-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Cape Town counts down to Day Zero",
+    "note": "A three-year drought took a city of four million to within weeks of shutting off its taps. Rationing and rain postponed the day; the map of which cities are next did not change.",
+    "mechanisms": [],
+    "countries": [
+      "South Africa"
+    ],
+    "lon": 18.4,
+    "lat": -33.9,
+    "place": "Cape Town",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cape_Town_water_crisis"
+    },
+    "checked": null,
+    "limitations": "Month-precision date; the countdown was announced in January 2018.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "us-largest-producer-2018",
+    "date": "2018-01-01",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "The United States becomes the world's largest crude producer",
+    "note": "Shale took American output past Russia and Saudi Arabia. Energy independence changed what the country was willing to risk in the Gulf.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -102.5,
+    "lat": 31.8,
+    "place": "Permian Basin",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petroleum_in_the_United_States"
+    },
+    "checked": null,
+    "limitations": "Year-only dating; the crossover was reported during 2018.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "jcpoa-exit-2018",
+    "date": "2018-05-08",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The United States leaves the Iran nuclear deal",
+    "note": "Sanctions returned and Iran stepped away from its limits over the following year. Every strike on Iranian nuclear sites since has been argued from this decision.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        51.4,
+        35.7
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joint_Comprehensive_Plan_of_Action"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "singapore-2018",
+    "date": "2018-06-12",
+    "era": "history",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "The US and North Korean leaders meet for the first time",
+    "note": "A page of promises and a pause in tests. The follow-up summit collapsed eight months later, and the tests resumed.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "North Korea"
+    ],
+    "lon": 103.8,
+    "lat": 1.35,
+    "place": "Singapore",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2018_North_Korea%E2%80%93United_States_Singapore_Summit"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "trade-war-2018",
+    "date": "2018-07-06",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The United States and China begin tariffing each other",
+    "note": "The first tranche covered 34 billion dollars each way and grew to cover most of the trade between the two largest economies. Interdependence, the argument for peace since 1990, started to run in reverse.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        116.4,
+        39.9
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "34 USD billion",
+    "metricName": "Goods covered by the first tariff round",
+    "global": false
+  },
+  {
+    "id": "hong-kong-2019",
+    "date": "2019-06-09",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 2,
+    "title": "A million people march in Hong Kong",
+    "note": "Protests against an extradition law ran for months and ended with a national security law that closed the city's separate politics. Taiwan watched and drew its own conclusion.",
+    "mechanisms": [
+      "indivisible-issues",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "China"
+    ],
+    "lon": 114.2,
+    "lat": 22.3,
+    "place": "Hong Kong",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "inf-2019",
+    "date": "2019-08-02",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The INF treaty ends",
+    "note": "The 1987 ban on intermediate-range missiles lapsed after each side accused the other of cheating. The class of weapons that had been removed from Europe is being rebuilt on both sides.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        37.6,
+        55.8
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Intermediate-Range_Nuclear_Forces_Treaty"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "abqaiq-2019",
+    "date": "2019-09-14",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Drones and missiles knock out half of Saudi oil output",
+    "note": "The attack on Abqaiq and Khurais halted about 5.7 million barrels a day, the largest single supply disruption in history. Production was back within weeks; the lesson about air defense was not.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Iran",
+      "Yemen"
+    ],
+    "lon": 49.7,
+    "lat": 26.0,
+    "place": "Abqaiq",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abqaiq%E2%80%93Khurais_attack"
+    },
+    "checked": null,
+    "limitations": "Attribution contested: Yemen's Houthis claimed it; the US and Saudi Arabia blamed Iran.",
+    "metric": "5,700,000 barrels per day",
+    "metricName": "Output halted",
+    "global": false
+  },
+  {
+    "id": "soleimani-2020",
+    "date": "2020-01-03",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A US drone kills Iran's top general at Baghdad airport",
+    "note": "Iran answered five days later with ballistic missiles on two bases housing American troops, the first direct state-on-state strike on US forces in decades. Both sides then stepped back.",
+    "mechanisms": [
+      "private-information",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Iran",
+      "Iraq"
+    ],
+    "lon": 44.4,
+    "lat": 33.3,
+    "place": "Baghdad",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        44.4,
+        33.3
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Qasem_Soleimani"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "locust-2020",
+    "date": "2020-02-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "The worst desert locust upsurge in decades reaches East Africa",
+    "note": "Two unusual cyclone seasons bred swarms across the Arabian peninsula and the Horn. It arrived in the same weeks as the pandemic and competed with it for attention and money.",
+    "mechanisms": [],
+    "countries": [
+      "Kenya",
+      "Ethiopia",
+      "Somalia",
+      "Yemen"
+    ],
+    "lon": 36.8,
+    "lat": -1.3,
+    "place": "Nairobi",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2019%E2%80%932022_locust_infestation"
+    },
+    "checked": null,
+    "limitations": "Month-precision date.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "covid-2020",
+    "date": "2020-03-11",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 5,
+    "title": "The WHO declares a pandemic",
+    "note": "Borders closed, supply chains broke and governments spent at wartime scale. Trust between the major powers, already low, did not survive the argument over where it came from.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    },
+    "checked": null,
+    "limitations": "Reported deaths understate the toll; WHO excess-death estimates run to about 15 million by the end of 2021.",
+    "metric": "about 7,000,000 people",
+    "metricName": "Reported deaths (excess-death estimates are several times higher)",
+    "global": true
+  },
+  {
+    "id": "negative-oil-2020",
+    "date": "2020-04-20",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "A barrel of oil sells for less than nothing",
+    "note": "With storage full and demand gone, the expiring US futures contract settled below zero. Petro-states lost a year of revenue in a quarter.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": -74.0,
+    "lat": 40.7,
+    "place": "New York",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2020_Russia%E2%80%93Saudi_Arabia_oil_price_war"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "-37.63 USD per barrel",
+    "metricName": "WTI May contract settlement",
+    "global": false
+  },
+  {
+    "id": "gerd-2020",
+    "date": "2020-07-21",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Ethiopia completes the first filling of its Nile dam",
+    "note": "Egypt, which depends on the river for nearly all its water, called the unilateral filling an existential threat. Three fillings later there is still no agreement on how the dam is run in a drought.",
+    "mechanisms": [
+      "indivisible-issues",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Egypt",
+      "Sudan"
+    ],
+    "lon": 35.1,
+    "lat": 11.2,
+    "place": "Blue Nile",
+    "arc": [
+      [
+        35.1,
+        11.2
+      ],
+      [
+        31.2,
+        30.0
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Grand_Ethiopian_Renaissance_Dam"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "capitol-2021",
+    "date": "2021-01-06",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A crowd storms the US Capitol to stop a transfer of power",
+    "note": "The certification was delayed by hours, not stopped. Allies and rivals both re-priced the stability of the country that underwrites the alliance system.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "kabul-2021",
+    "date": "2021-08-15",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Kabul falls and the twenty-year war ends",
+    "note": "The government collapsed before the last American troops had left. The speed of it was read in Moscow and Beijing as a measure of American staying power six months before Ukraine.",
+    "mechanisms": [
+      "misperception",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan"
+    ],
+    "lon": 69.2,
+    "lat": 34.5,
+    "place": "Kabul",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fall_of_Kabul_(2021)"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "fao-index-2022",
+    "date": "2022-03-04",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "The FAO food price index hits an all-time high",
+    "note": "The invasion of Ukraine took a fifth of world wheat exports off the market in the same month, on top of energy and fertilizer costs already at records. Importers from Egypt to Lebanon felt it first.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FAO_Food_Price_Index"
+    },
+    "checked": null,
+    "limitations": "Dated to the release week; the index is published monthly.",
+    "metric": "about 160 index points",
+    "metricName": "FAO Food Price Index, March 2022",
+    "global": true
+  },
+  {
+    "id": "pakistan-floods-2022",
+    "date": "2022-06-14",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Monsoon floods put a third of Pakistan under water",
+    "note": "About 33 million people were affected and a country already in a debt crisis lost a harvest. Climate loss and damage got its first line item at the UN talks that autumn.",
+    "mechanisms": [],
+    "countries": [
+      "Pakistan"
+    ],
+    "lon": 68.5,
+    "lat": 26.0,
+    "place": "Sindh",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2022_Pakistan_floods"
+    },
+    "checked": null,
+    "limitations": "Start date is when the monsoon flooding began; the worst came in August.",
+    "metric": "about 33,000,000 people",
+    "metricName": "People affected",
+    "global": false
+  },
+  {
+    "id": "sri-lanka-2022",
+    "date": "2022-07-09",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Sri Lanka's president flees as crowds take the palace",
+    "note": "Months of fuel and food shortages after a sovereign default ended with protesters in the presidential pool. A debt crisis became a legitimacy crisis in one season.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
+    "lon": 79.9,
+    "lat": 6.9,
+    "place": "Colombo",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2022_Sri_Lankan_protests"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "energy-crisis-2022",
+    "date": "2022-07-11",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russia throttles gas to Europe",
+    "note": "Deliveries through the main pipeline fell to a fifth of normal and then to zero. Europe spent hundreds of billions on substitutes and subsidies; gas as a weapon was tried and mostly absorbed.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.5,
+    "place": "Berlin",
+    "arc": [
+      [
+        37.6,
+        55.8
+      ],
+      [
+        13.4,
+        52.5
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_energy_crisis"
+    },
+    "checked": null,
+    "limitations": "Dated to the pipeline's maintenance shutdown; flows had been cut in steps since June.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "grain-initiative-2022",
+    "date": "2022-07-22",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "The Black Sea Grain Initiative reopens Ukraine's ports",
+    "note": "A UN and Turkish brokered deal let grain ships sail through a war zone. About 33 million tonnes moved in a year, and prices came off their peak within weeks of the signing.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "Turkey"
+    ],
+    "lon": 29.0,
+    "lat": 41.0,
+    "place": "Istanbul",
+    "arc": [
+      [
+        30.7,
+        46.5
+      ],
+      [
+        29.0,
+        41.0
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Sea_Grain_Initiative"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 33,000,000 tonnes",
+    "metricName": "Grain shipped under the deal",
+    "global": false
+  },
+  {
+    "id": "nord-stream-2022",
+    "date": "2022-09-26",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Explosions destroy the Nord Stream pipelines",
+    "note": "Three of four lines were breached on the Baltic seabed. Whoever did it, the option of turning the gas back on was gone.",
+    "mechanisms": [],
+    "countries": [
+      "Russia",
+      "Germany",
+      "Denmark",
+      "Sweden"
+    ],
+    "lon": 15.0,
+    "lat": 55.1,
+    "place": "Bornholm",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2022_Nord_Stream_pipeline_sabotage"
+    },
+    "checked": null,
+    "limitations": "Attribution unresolved in public sources.",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "pop-8b",
+    "date": "2022-11-15",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Eight billion people",
+    "note": "Eleven years for the last billion, and the UN expects the next to take fifteen. Growth is now concentrated in eight countries, most of them already under food and water stress.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Day_of_Eight_Billion"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "8,000,000,000 people",
+    "metricName": "World population",
+    "global": true
+  },
+  {
+    "id": "new-start-suspend-2023",
+    "date": "2023-02-21",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 2,
+    "title": "Russia suspends the last arms control treaty",
+    "note": "Inspections had already stopped; the announcement made it official. The treaty expired three years later with nothing to replace it.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "lon": 37.6,
+    "lat": 55.8,
+    "place": "Moscow",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/New_START"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "india-most-populous-2023",
+    "date": "2023-04-14",
+    "era": "history",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "India passes China as the most populous country",
+    "note": "The UN's crossover estimate. One country is young and growing, the other is aging and shrinking, and both read the fact as a statement about the next fifty years.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "India",
+      "China"
+    ],
+    "lon": 77.2,
+    "lat": 28.6,
+    "place": "New Delhi",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Demographics_of_India"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "grain-initiative-ends-2023",
+    "date": "2023-07-17",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russia leaves the grain deal and strikes the ports",
+    "note": "The corridor closed and the port of Odesa was bombed the same week. Food exports became a target again, which is what the deal had existed to prevent.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.7,
+    "lat": 46.5,
+    "place": "Odesa",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Sea_Grain_Initiative"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "hottest-2023",
+    "date": "2024-01-09",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "2023 confirmed as the hottest year on record",
+    "note": "About 1.48 degrees above the pre-industrial average, with every day of the year above one degree. The climate signal moved from projection to measurement.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Copernicus",
+      "url": "https://climate.copernicus.eu/copernicus-2023-hottest-year-record"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 1.48 degrees C above pre-industrial",
+    "metricName": "Global mean temperature, 2023",
+    "global": true
+  },
+  {
+    "id": "sudan-famine-2024",
+    "date": "2024-08-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Famine confirmed in a Darfur displacement camp",
+    "note": "The first famine declaration anywhere since Somalia in 2011, in a camp of about half a million people besieged by one side of Sudan's war. Starvation was a tactic, not an accident.",
+    "mechanisms": [
+      "state-weakness",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 25.3,
+    "lat": 13.6,
+    "place": "El Fasher",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Famine_in_Sudan_(2024%E2%80%93present)"
+    },
+    "checked": null,
+    "limitations": "Dated to the IPC review; the determination was published 1 August 2024.",
+    "metric": "about 500,000 people",
+    "metricName": "Population of the camp",
+    "global": false
+  },
+  {
+    "id": "above-1p5-2024",
+    "date": "2025-01-10",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "2024 is the first calendar year more than 1.5 degrees above pre-industrial",
+    "note": "About 1.6 degrees, on the Copernicus record. One year is not the Paris threshold, which is a twenty-year average, but the line was crossed on the calendar.",
+    "mechanisms": [],
+    "countries": [],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "source": {
+      "label": "Copernicus",
+      "url": "https://climate.copernicus.eu/copernicus-2024-first-year-exceed-15degc-above-pre-industrial-level"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "about 1.6 degrees C above pre-industrial",
+    "metricName": "Global mean temperature, 2024",
+    "global": true
+  },
+  {
+    "id": "tariffs-2025",
+    "date": "2025-04-02",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The United States announces tariffs on nearly every trading partner",
+    "note": "A baseline tariff on all imports and higher rates for dozens of countries, announced from the White House lawn. Markets fell for a week and China answered within days.",
+    "mechanisms": [
+      "domestic-incentives",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": -77,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "rare-earth-2025",
+    "date": "2025-04-04",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "China restricts exports of seven rare earths",
+    "note": "Announced two days after sweeping US tariffs, the licensing rules covered metals used in magnets, aircraft and missiles. Supply, not price, became the pressure point.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "China",
+      "United States"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Beijing",
+    "arc": [
+      [
+        116.4,
+        39.9
+      ],
+      [
+        -77,
+        38.9
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rare_earth_industry_in_China"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "indus-abeyance-2025",
+    "date": "2025-04-23",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "India holds the Indus Waters Treaty in abeyance",
+    "note": "The day after an attack in Kashmir, India suspended the treaty that had survived every previous war. Two weeks later the two countries were exchanging missiles.",
+    "mechanisms": [
+      "indivisible-issues",
+      "steps-to-war"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "lon": 77.2,
+    "lat": 28.6,
+    "place": "New Delhi",
+    "arc": [
+      [
+        77.2,
+        28.6
+      ],
+      [
+        73.1,
+        33.7
+      ]
+    ],
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indus_Waters_Treaty"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  },
+  {
+    "id": "gaza-famine-2025",
+    "date": "2025-08-22",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Famine confirmed in Gaza governorate",
+    "note": "The IPC confirmed famine in the north of the strip after twenty-two months of war and restricted aid. It was the first famine determination in the Middle East.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza City",
+    "arc": null,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gaza_Strip_famine"
+    },
+    "checked": null,
+    "limitations": "",
+    "metric": "",
+    "metricName": "",
+    "global": false
+  }
+]

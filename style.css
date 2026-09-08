@@ -52,6 +52,10 @@ input[type=range] { accent-color: var(--accent); }
 
 .winhead { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 20px 0; gap: 12px; flex-wrap: wrap; }
 .winhead h2 { font-size: 28px; line-height: 1.1; }
+.winctl { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.winctl .seg { padding: 5px 10px; font-size: 12px; }
+.winctl .ghost { padding: 5px 10px; font-size: 12px; }
+.winctl .ghost[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .globe-wrap { position: relative; padding: 8px 20px 12px; }
 #globe { display: block; width: 100%; max-width: 680px; aspect-ratio: 1 / 1; margin: 0 auto; cursor: grab; touch-action: none; }
 #globe:active { cursor: grabbing; }

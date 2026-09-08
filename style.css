@@ -45,6 +45,9 @@ h2 { font-size: 1.35rem; margin: 2.5rem 0 0.75rem; }
 h3 { font-size: 0.95rem; margin: 0 0 0.35rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
 p { margin: 0 0 0.75rem; }
 a { color: inherit; text-decoration-color: var(--muted); }
+.site { font-size: 0.85rem; color: var(--muted); margin: 0 0 1.5rem; }
+.site a { text-decoration: none; }
+.site span { margin: 0 0.35rem; }
 .kicker { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.75rem; color: var(--muted); margin: 0 0 0.25rem; }
 .premise { max-width: 48rem; font-size: 1.05rem; }
 .count { font-weight: normal; color: var(--muted); font-size: 0.9rem; margin-left: 0.5rem; }

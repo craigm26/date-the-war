@@ -4,7 +4,7 @@ An experiment for craigmerry.com. One map, one marker, four time scales.
 
 A world war can begin gradually and get its start date afterward. Nobody on 18 September 1931 knew they were in one; some historians now say they were. This page does not declare a third world war. It hands the visitor the marker. Drag it to the day you think this one began, and the map shows what that dating makes you include, and which of the academic mechanisms for war are visible from there.
 
-Live at https://craigm26.github.io/date-the-war/ once Pages is enabled.
+Live at https://craigmerry.com/date-the-war/. This repo is the source; the personalsite repo serves a copy of the runtime files (`index.html`, `style.css`, `src/`, `data/`) from `public/date-the-war/`, pulled in by its `scripts/sync-date-the-war.sh`. Push here, then run the sync there.
 
 ## What it does
 

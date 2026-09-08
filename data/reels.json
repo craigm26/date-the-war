@@ -1,8 +1,8 @@
 [
  {
   "date": "2026-09-08",
-  "count": 17,
-  "auto": 7,
+  "count": 21,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-08@reel",
   "titles": [
    "Houthi attacks hit Saudi cities and energy facilities",
@@ -11,17 +11,30 @@
    "Israeli strikes destroy homes and displace families in Gaza",
    "Russian drone strike on Kyiv TV building kills five",
    "Haiti assessment documents large-scale displacement and hunger",
+   "Saudi Arabia vows retaliation after Houthi strikes on cities",
    "Sudan's healthcare system nears collapse amid war and aid cuts",
    "UK sanctions Israeli settlement goods; Israel shuts UK consulate",
+   "UK pledges winter air defence package to Ukraine",
+   "Yemen's reignited war drives new wave of child recruitment",
    "Yemen's civil war reignites around Sanaa and Red Sea",
    "France announces planned restrictions on settlement products",
    "Germany announces additional Patriot interceptors for Ukraine",
    "U.S. expands sanctions targeting Iranian aviation networks",
    "U.S. explores wider access to Venezuelan minerals",
    "Ukraine reports promising ideas from renewed U.S. mediation",
+   "US declines to join UK ban on Israeli settlement trade",
    "Oil rises after Saudi energy-site attacks",
    "UNCTAD warns Hormuz disruption threatens smaller businesses",
    "EU condemns Serbian ministers over a war criminal's funeral"
+  ]
+ },
+ {
+  "date": "2026-09-06",
+  "count": 1,
+  "auto": 1,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-09-06@reel",
+  "titles": [
+   "New reservoir aims to ease deadly cattle-raid conflict in South Sudan"
   ]
  },
  {

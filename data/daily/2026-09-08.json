@@ -257,5 +257,189 @@
     "checked": "2026-09-08",
     "auto": true,
     "limitations": "The report does not name which ministers attended, limiting attribution between official policy and individual conduct. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-saudi-vows-response-houthi",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi Arabia vows retaliation after Houthi strikes on cities",
+    "note": "Saudi Arabia says it will respond after Iran-backed Houthi attacks injured 73 people and set fire to energy facilities, raising the risk of a wider Saudi-Houthi confrontation.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen",
+      "Iran"
+    ],
+    "lon": 45,
+    "lat": 24,
+    "place": "Saudi Arabia",
+    "arc": [
+      [
+        44,
+        15.5
+      ],
+      [
+        45,
+        24
+      ]
+    ],
+    "global": false,
+    "metric": "73 people",
+    "metricName": "reported injuries from Houthi strikes on Saudi cities",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Injury and damage figures come from Saudi authorities and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-yemen-child-recruitment",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemen's reignited war drives new wave of child recruitment",
+    "note": "Aid groups report both Yemeni government and Houthi forces are recruiting children as fighting resumes around Sanaa, a sign of deepening mobilization and eroding civilian protections.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44,
+    "lat": 15.5,
+    "place": "Sanaa, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/8/yemens-reignited-war-fuels-a-new-wave-in-child-recruitment?traffic_source=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "No specific count of recruited children given; account relies on aid groups and analysts. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-uk-winter-air-defence-ukraine",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UK pledges winter air defence package to Ukraine",
+    "note": "The UK will supply air defence interceptors, large-calibre artillery rounds and drones to help Ukraine counter Russian strikes this winter, adding to Western military support for Kyiv.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 31,
+    "lat": 49,
+    "place": "Ukraine",
+    "arc": [
+      [
+        -2,
+        54
+      ],
+      [
+        31,
+        49
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/government/news/uk-pledges-winter-air-defence-package-to-boost-ukraines-defences"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Government announcement; exact equipment quantities and delivery timeline are not specified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-south-sudan-reservoir-cattle",
+    "date": "2026-09-06",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "New reservoir aims to ease deadly cattle-raid conflict in South Sudan",
+    "note": "A new water reservoir in South Sudan's Terekeka county aims to reduce clashes over grazing and water access that have driven cattle raids and destroyed villages, a rare local step against water-scarcity conflict.",
+    "mechanisms": [
+      "state-weakness",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "South Sudan"
+    ],
+    "lon": 31.1,
+    "lat": 5.5,
+    "place": "Terekeka, South Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168266"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Single UN News report on one local project; unclear whether it reduces region-wide cattle-raid violence. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260908-us-declines-uk-settlement-ban",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US declines to join UK ban on Israeli settlement trade",
+    "note": "The US secretary of state says Washington will not follow the UK in banning trade with Israeli settlement goods, exposing a split among Western allies over how to respond to settlement expansion.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Israel"
+    ],
+    "lon": -77,
+    "lat": 39,
+    "place": "Washington, D.C.",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/09-08-rubio-comments-uk-sanctions-clip-mp4?traffic_source=rss"
+    },
+    "checked": "2026-09-08",
+    "auto": true,
+    "limitations": "Based on a brief video clip of remarks; full policy rationale is not detailed. Drafted by an automated daily job from the linked report; not yet reviewed."
   }
 ]

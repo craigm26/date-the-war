@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test test/*.test.mjs",
-    "build:map": "node scripts/build-map.mjs",
+    "build:events": "node scripts/build-events.mjs",
     "serve": "python3 -m http.server 8000"
   },
   "license": "MIT"

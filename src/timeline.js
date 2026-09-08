@@ -1,99 +1,16 @@
-// Pure dating logic. No DOM. Imported by the page and by the tests.
+// Pure window logic. No DOM. Imported by the page and by the tests.
 
-export function inWindow(ev, from, to) {
-  return ev.date >= from && ev.date <= to;
-}
+export const RANGE_START = '1900-01-01';
+export const RANGE_END = '2026-09-08';
+export const SCALES = ['day', 'month', 'year'];
+export const GROUPS = ['War / conflict', 'Economic', 'Political', 'Social', 'Environmental', 'Technology', 'Health'];
+export const ERAS = [
+  { label: '1914', from: '1914-06-01', scale: 'month' },
+  { label: '1939', from: '1931-09-01', scale: 'month' },
+  { label: 'Since 2011', from: '2011-01-01', scale: 'year' },
+  { label: 'This week', from: '2026-09-01', scale: 'day' },
+];
 
-export function eventsIn(events, from, to, eventEras) {
-  return events
-    .filter((ev) => (!eventEras || eventEras.includes(ev.era)) && inWindow(ev, from, to))
-    .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
-}
-
-export function activeTheaters(events) {
-  return [...new Set(events.map((ev) => ev.theater))];
-}
-
-export function linksFormed(events) {
-  const seen = new Set();
-  const out = [];
-  for (const ev of events) {
-    if (!ev.link) continue;
-    const key = [...ev.link].sort().join('|');
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push({ from: ev.link[0], to: ev.link[1], date: ev.date, eventId: ev.id });
-  }
-  return out;
-}
-
-// `combat` on an event is two sides: [[powers on side A], [powers on side B]].
-// A coalition on one side is not fighting itself.
-export function combatSides(ev) {
-  const [a = [], b = []] = ev.combat || [];
-  return [a, b];
-}
-
-// Pairs of major powers that fired on each other directly inside the window.
-export function majorPowerPairs(events, majorPowers) {
-  const seen = new Set();
-  const out = [];
-  for (const ev of events) {
-    const [a, b] = combatSides(ev);
-    for (const p of a.filter((x) => majorPowers.includes(x))) {
-      for (const q of b.filter((x) => majorPowers.includes(x))) {
-        const key = [p, q].sort().join('|');
-        if (seen.has(key)) continue;
-        seen.add(key);
-        out.push({ pair: [p, q], date: ev.date, eventId: ev.id });
-      }
-    }
-  }
-  return out;
-}
-
-// Powers in direct combat with anyone, major or not.
-export function powersInCombat(events) {
-  return [...new Set(events.flatMap((ev) => combatSides(ev).flat()))];
-}
-
-export function mechanismCounts(events) {
-  const counts = {};
-  for (const ev of events) for (const m of ev.mechanisms || []) counts[m] = (counts[m] || 0) + 1;
-  return Object.entries(counts)
-    .sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1))
-    .map(([id, n]) => ({ id, n }));
-}
-
-// The rule, stated so a reader can disagree with it:
-//   general  = at least one pair of major powers fighting each other directly,
-//              in at least two theaters
-//   linked   = no such pair, but at least one link between theaters
-//   regional = neither
-export const RULE = {
-  general: 'At least one pair of major powers in direct combat with each other, across two or more theaters.',
-  linked: 'No two major powers fighting each other directly, but at least one theater feeding another.',
-  regional: 'Fighting confined to one theater, with no cross-theater links.',
-};
-
-export function classify({ theaters, pairs, links }) {
-  if (pairs.length >= 1 && theaters.length >= 2) return 'general';
-  if (links.length >= 1) return 'linked';
-  return 'regional';
-}
-
-export function verdict(events, from, to, { majorPowers, eventEras }) {
-  const evs = eventsIn(events, from, to, eventEras);
-  const theaters = activeTheaters(evs);
-  const links = linksFormed(evs);
-  const pairs = majorPowerPairs(evs, majorPowers);
-  const powers = powersInCombat(evs);
-  const mechanisms = mechanismCounts(evs);
-  const label = classify({ theaters, pairs, links });
-  return { from, to, events: evs, theaters, links, pairs, powers, mechanisms, label, rule: RULE[label] };
-}
-
-// Date arithmetic on ISO strings, UTC, no library.
 export function addDays(iso, n) {
   const d = new Date(`${iso}T00:00:00Z`);
   d.setUTCDate(d.getUTCDate() + n);
@@ -104,6 +21,88 @@ export function daysBetween(a, b) {
   return Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000);
 }
 
-export function clampDate(iso, lo, hi) {
+export function clampDate(iso, lo = RANGE_START, hi = RANGE_END) {
   return iso < lo ? lo : iso > hi ? hi : iso;
+}
+
+export function unitStart(iso, scale) {
+  return scale === 'day' ? iso : scale === 'month' ? `${iso.slice(0, 8)}01` : `${iso.slice(0, 5)}01-01`;
+}
+
+export function addUnit(iso, scale, n) {
+  if (scale === 'day') return addDays(iso, n);
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (scale === 'month') d.setUTCMonth(d.getUTCMonth() + n);
+  else d.setUTCFullYear(d.getUTCFullYear() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+export function windowBounds({ from, scale, cumulative }) {
+  const start = unitStart(from, scale);
+  const end = clampDate(addDays(addUnit(start, scale, 1), -1));
+  return { start: cumulative ? RANGE_START : start, end, unit: start };
+}
+
+export function passes(ev, { groupsOff = {}, subsOff = {} }) {
+  return !groupsOff[ev.group] && !subsOff[ev.sub];
+}
+
+// Events inside the window, newest first.
+export function windowEvents(events, state) {
+  const { start, end } = windowBounds(state);
+  return events
+    .filter((ev) => ev.date >= start && ev.date <= end && passes(ev, state))
+    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : a.id < b.id ? -1 : 1));
+}
+
+// Next event after the window (dir > 0) or before it (dir < 0), respecting filters.
+export function jumpTarget(events, state, dir) {
+  const { unit, end } = windowBounds(state);
+  const evs = events.filter((ev) => passes(ev, state));
+  return dir > 0 ? evs.find((ev) => ev.date > end) : [...evs].reverse().find((ev) => ev.date < unit);
+}
+
+// One bucket per year for the strip: count, and whether the year is in the window.
+export function yearStrip(events, state) {
+  const { unit, end, start } = windowBounds(state);
+  const per = {};
+  for (const ev of events) if (passes(ev, state)) per[ev.date.slice(0, 4)] = (per[ev.date.slice(0, 4)] || 0) + 1;
+  const max = Math.max(1, ...Object.values(per));
+  const y0 = +RANGE_START.slice(0, 4);
+  const y1 = +RANGE_END.slice(0, 4);
+  const yFrom = +(state.cumulative ? start : unit).slice(0, 4);
+  const yEnd = +end.slice(0, 4);
+  const out = [];
+  for (let y = y0; y <= y1; y++) {
+    const n = per[y] || 0;
+    out.push({ year: y, n, inWindow: y >= yFrom && y <= yEnd, h: n ? Math.max(3, Math.round(Math.sqrt(n / max) * 42)) : 1 });
+  }
+  return out;
+}
+
+// Up to three related events: same indicator, or same place with an arc, within 400 days.
+export function related(events, ev) {
+  return events
+    .filter((o) => o.id !== ev.id && (o.sub === ev.sub || (ev.arc && o.arc && o.place === ev.place)) && Math.abs(daysBetween(ev.date, o.date)) <= 400)
+    .sort((a, b) => Math.abs(daysBetween(ev.date, a.date)) - Math.abs(daysBetween(ev.date, b.date)))
+    .slice(0, 3);
+}
+
+export function fmt(iso, style) {
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  const o = style === 'day' ? { day: 'numeric', month: 'short', year: 'numeric' }
+    : style === 'month' ? { month: 'long', year: 'numeric' }
+    : { year: 'numeric' };
+  return dt.toLocaleDateString('en-GB', { ...o, timeZone: 'UTC' });
+}
+
+export function parseHash(hash) {
+  const m = /^#?(day|month|year)@(\d{4}-\d{2}-\d{2})(?:@(c))?$/.exec(hash || '');
+  if (!m) return null;
+  return { scale: m[1], from: clampDate(m[2]), cumulative: m[3] === 'c' };
+}
+
+export function toHash({ scale, from, cumulative }) {
+  return `#${scale}@${from}${cumulative ? '@c' : ''}`;
 }

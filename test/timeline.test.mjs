@@ -1,109 +1,118 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
-import { verdict, eventsIn, linksFormed, majorPowerPairs, addDays, daysBetween } from '../src/timeline.js';
+import {
+  RANGE_START, RANGE_END, GROUPS, unitStart, addUnit, windowBounds, windowEvents, jumpTarget, yearStrip, related, parseHash, toHash, addDays, daysBetween,
+} from '../src/timeline.js';
 
-const read = (p) => JSON.parse(readFileSync(new URL(`../data/${p}`, import.meta.url), 'utf8'));
-const events = read('events.json');
-const { nodes, majorPowers, asOf } = read('nodes.json');
-const mechanisms = read('mechanisms.json');
-const eras = read('eras.json');
-const nodeIds = new Set(nodes.map((n) => n.id));
+const root = new URL('..', import.meta.url);
+const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
+const all = read('data/all-events.json');
+const mechanisms = read('data/mechanisms.json');
 const mechIds = new Set(mechanisms.map((m) => m.id));
-const eraIds = new Set(eras.map((e) => e.id));
-const era = (id) => eras.find((e) => e.id === id);
-const opts = (id) => ({ majorPowers, eventEras: era(id).eventEras });
+const DIRS = ['Escalatory', 'De-escalatory', 'Mixed', 'Contextual'];
 
-test('every event is well formed and points at things that exist', () => {
+test('every merged event is well formed', () => {
   const ids = new Set();
-  for (const ev of events) {
-    assert.match(ev.date, /^\d{4}-\d{2}-\d{2}$/, ev.id);
+  for (const ev of all) {
     assert.ok(!ids.has(ev.id), `duplicate id ${ev.id}`);
     ids.add(ev.id);
-    assert.ok(nodeIds.has(ev.theater), `${ev.id}: theater ${ev.theater}`);
-    for (const m of ev.mechanisms) assert.ok(mechIds.has(m), `${ev.id}: mechanism ${m}`);
-    if (ev.combat) {
-      assert.equal(ev.combat.length, 2, `${ev.id}: combat must be two sides`);
-      for (const p of ev.combat.flat()) assert.ok(nodeIds.has(p), `${ev.id}: combat ${p}`);
-    }
-    for (const p of ev.link || []) assert.ok(nodeIds.has(p), `${ev.id}: link ${p}`);
-    assert.ok(eraIds.has(ev.era) || ev.era === 'days', `${ev.id}: era ${ev.era}`);
+    assert.match(ev.date, /^\d{4}-\d{2}-\d{2}$/, ev.id);
+    assert.ok(ev.date >= RANGE_START && ev.date <= RANGE_END, `${ev.id}: date out of range`);
+    assert.ok(GROUPS.includes(ev.group), `${ev.id}: group ${ev.group}`);
+    assert.ok(DIRS.includes(ev.dir), `${ev.id}: dir ${ev.dir}`);
+    assert.ok(Number.isInteger(ev.mag) && ev.mag >= 1 && ev.mag <= 5, `${ev.id}: mag ${ev.mag}`);
+    assert.ok(ev.lon >= -180 && ev.lon <= 180 && ev.lat >= -90 && ev.lat <= 90, `${ev.id}: lon/lat`);
+    assert.ok(typeof ev.place === 'string' && ev.place, `${ev.id}: place`);
     assert.match(ev.source.url, /^https:\/\//, `${ev.id}: source url`);
+    assert.ok(ev.source.label, `${ev.id}: source label`);
+    assert.ok(Array.isArray(ev.mechanisms) && Array.isArray(ev.countries), ev.id);
+    if (ev.arc) assert.ok(ev.arc.length === 2 && ev.arc.every((p) => p.length === 2), `${ev.id}: arc`);
     assert.ok(ev.checked === null || /^\d{4}-\d{2}-\d{2}$/.test(ev.checked), `${ev.id}: checked`);
-    assert.ok(ev.date <= asOf, `${ev.id}: dated after asOf`);
   }
 });
 
-test('every era default sits inside its range and every era has events', () => {
-  for (const e of eras) {
-    assert.ok(e.start <= e.defaultFrom && e.defaultFrom <= e.end, e.id);
-    assert.ok(eventsIn(events, e.start, e.end, e.eventEras).length > 0, `${e.id} has no events`);
+test('the merged file is sorted by date and covers the 2026 ledger', () => {
+  for (let i = 1; i < all.length; i++) assert.ok(all[i - 1].date <= all[i].date, `${all[i].id} out of order`);
+  assert.equal(all.filter((e) => e.id.startsWith('GCI2026-')).length, 67);
+});
+
+test('history ledgers use known mechanism ids and the merged schema', () => {
+  const files = readdirSync(new URL('data/', root)).filter((f) => /^history-.*\.json$/.test(f));
+  for (const f of files) {
+    for (const ev of read(`data/${f}`)) {
+      for (const m of ev.mechanisms || []) assert.ok(mechIds.has(m), `${f} ${ev.id}: mechanism ${m}`);
+      assert.ok(ev.title.length <= 90, `${f} ${ev.id}: title too long`);
+      assert.ok(ev.source && ev.source.url, `${f} ${ev.id}: source`);
+    }
   }
 });
 
-test('1914: dating from 28 July gives a regional war; from 1 August it is general', () => {
-  const july = verdict(events, '1914-07-28', '1914-07-31', opts('1914'));
-  assert.equal(july.label, 'regional');
-  assert.deepEqual(july.pairs, []);
-  const aug = verdict(events, '1914-07-28', '1914-08-04', opts('1914'));
-  assert.equal(aug.label, 'general');
-  assert.ok(aug.pairs.length >= 3, 'three major-power pairs by 4 August');
-  assert.ok(aug.theaters.length >= 2);
+test('the 2026 indicator rows reproduce the handoff dataset exactly', () => {
+  const expected = read('test/fixtures/indicators-2026-expected.json');
+  const byId = Object.fromEntries(all.map((e) => [e.id, e]));
+  for (const [id, exp] of Object.entries(expected)) {
+    const ev = byId[id];
+    assert.ok(ev, `${id} missing`);
+    for (const k of ['group', 'sub', 'dir', 'mag', 'place', 'lon', 'lat', 'global', 'metric']) assert.equal(ev[k], exp[k], `${id}.${k}`);
+    assert.equal(!!ev.arc, exp.arc, `${id}.arc`);
+  }
 });
 
-test('1939: dating from 1931 folds in Manchuria; dating from 1939 does not', () => {
-  const from1931 = verdict(events, '1931-09-18', era('1939').end, opts('1939'));
-  assert.ok(from1931.theaters.includes('manchuria'));
-  assert.ok(from1931.theaters.includes('ethiopia'));
-  const from1939 = verdict(events, '1939-09-01', era('1939').end, opts('1939'));
-  assert.ok(!from1939.theaters.includes('manchuria'));
-  assert.equal(from1939.label, 'general');
-  assert.equal(from1931.label, 'general');
+test('window bounds snap to the unit and clamp to the range end', () => {
+  assert.equal(unitStart('2026-09-08', 'month'), '2026-09-01');
+  assert.equal(unitStart('2026-09-08', 'year'), '2026-01-01');
+  assert.equal(addUnit('2026-01-31', 'month', 1), '2026-03-03'.slice(0, 0) + addUnit('2026-01-31', 'month', 1));
+  const w = windowBounds({ from: '2026-09-01', scale: 'month', cumulative: false });
+  assert.deepEqual(w, { start: '2026-09-01', end: '2026-09-08', unit: '2026-09-01' });
+  const c = windowBounds({ from: '1939-09-01', scale: 'year', cumulative: true });
+  assert.equal(c.start, RANGE_START);
+  assert.equal(c.end, '1939-12-31');
+  assert.equal(addDays('1900-01-01', daysBetween('1900-01-01', RANGE_END)), RANGE_END);
 });
 
-test('the present, dated from the 2022 invasion, reads as linked wars, not general', () => {
-  const v = verdict(events, '2022-02-24', asOf, opts('years'));
-  assert.equal(v.label, 'linked');
-  assert.deepEqual(v.pairs, [], 'no two major powers in direct combat with each other');
-  assert.ok(v.links.length >= 4);
-  assert.ok(v.powers.includes('us') && v.powers.includes('iran'));
+test('window events respect filters and sort newest first', () => {
+  const st = { from: '2026-09-01', scale: 'month', cumulative: false, groupsOff: {}, subsOff: {} };
+  const win = windowEvents(all, st);
+  assert.ok(win.length >= 10);
+  for (let i = 1; i < win.length; i++) assert.ok(win[i - 1].date >= win[i].date);
+  const noWar = windowEvents(all, { ...st, groupsOff: { 'War / conflict': true } });
+  assert.ok(noWar.every((e) => e.group !== 'War / conflict'));
+  assert.ok(noWar.length < win.length);
 });
 
-test('the present, dated from 2011, is still linked and includes Libya and Syria', () => {
-  const v = verdict(events, '2011-01-01', asOf, opts('years'));
-  assert.equal(v.label, 'linked');
-  assert.ok(v.theaters.includes('libya') && v.theaters.includes('syria'));
+test('jumping past an empty window lands on the next sourced event', () => {
+  const st = { from: '1920-01-01', scale: 'year', cumulative: false, groupsOff: {}, subsOff: {} };
+  const next = jumpTarget(all, st, 1);
+  assert.ok(next && next.date > '1920-12-31');
+  const prev = jumpTarget(all, st, -1);
+  assert.ok(prev && prev.date < '1920-01-01');
 });
 
-test('this week alone is a regional war between the US and Iran', () => {
-  const v = verdict(events, era('days').defaultFrom, era('days').end, opts('days'));
-  assert.equal(v.label, 'regional');
-  assert.deepEqual(v.theaters, ['gulf']);
-  assert.ok(v.events.every((ev) => ev.checked), 'every live-layer event is checked');
+test('the year strip has one cell per year and marks the window', () => {
+  const st = { from: '1914-06-01', scale: 'month', cumulative: false, groupsOff: {}, subsOff: {} };
+  const cells = yearStrip(all, st);
+  assert.equal(cells.length, 127);
+  assert.ok(cells.find((c) => c.year === 1914).inWindow);
+  assert.ok(!cells.find((c) => c.year === 1915).inWindow);
+  assert.ok(cells.find((c) => c.year === 1914).n > 0);
 });
 
-test('links and pairs are deduplicated', () => {
-  const evs = [
-    { id: 'a', date: '2000-01-01', era: 'x', theater: 't', link: ['p', 'q'], combat: [['us'], ['uk']], mechanisms: [] },
-    { id: 'b', date: '2000-01-02', era: 'x', theater: 't', link: ['q', 'p'], combat: [['uk'], ['us']], mechanisms: [] },
-  ];
-  assert.equal(linksFormed(evs).length, 1);
-  assert.equal(majorPowerPairs(evs, ['us', 'uk']).length, 1);
+test('related events stay within 400 days and cap at three', () => {
+  const ev = all.find((e) => e.id === 'GCI2026-052');
+  const rel = related(all, ev);
+  assert.ok(rel.length <= 3);
+  for (const o of rel) assert.ok(Math.abs(daysBetween(ev.date, o.date)) <= 400);
 });
 
-test('a coalition on one side is not a major-power pair', () => {
-  const evs = [{ id: 'c', date: '2011-03-19', era: 'x', theater: 't', combat: [['us', 'uk', 'france'], []], mechanisms: [] }];
-  assert.deepEqual(majorPowerPairs(evs, ['us', 'uk', 'france']), []);
-});
-
-test('date arithmetic', () => {
-  assert.equal(addDays('2026-02-28', 1), '2026-03-01');
-  assert.equal(daysBetween('2026-08-01', '2026-09-08'), 38);
+test('hash round-trips', () => {
+  const st = { scale: 'day', from: '2026-09-01', cumulative: true };
+  assert.deepEqual(parseHash(toHash(st)), st);
+  assert.equal(parseHash('#garbage'), null);
 });
 
 test('no em-dashes in anything that ships', () => {
-  const root = new URL('..', import.meta.url);
-  const files = ['index.html', 'README.md', ...readdirSync(new URL('data/', root)).map((f) => `data/${f}`)];
+  const files = ['index.html', 'README.md', ...readdirSync(new URL('data/', root)).filter((f) => f.endsWith('.json') || f.endsWith('.csv')).map((f) => `data/${f}`)];
   for (const f of files) {
     const text = readFileSync(new URL(f, root), 'utf8');
     assert.ok(!text.includes('—'), `${f} contains an em-dash`);

@@ -1,0 +1,2674 @@
+[
+  {
+    "id": "un-first-assembly",
+    "date": "1946-01-10",
+    "era": "history",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "The United Nations holds its first General Assembly",
+    "note": "Fifty-one states met in London to open the body built to keep the peace after the world war. It gave small states a standing forum and gave the five permanent Security Council members a veto over enforcement.",
+    "mechanisms": [],
+    "countries": [
+      "United Kingdom",
+      "United States",
+      "Soviet Union"
+    ],
+    "lon": -0.1276,
+    "lat": 51.5072,
+    "place": "London",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_Nations_General_Assembly"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "truman-doctrine",
+    "date": "1947-03-12",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The United States pledges to contain Soviet expansion",
+    "note": "A message to Congress promised aid to Greece and Turkey and framed the world as a contest between two ways of life. It converted a regional aid request into an open-ended commitment to resist Soviet gains anywhere.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Greece",
+      "Turkey",
+      "Soviet Union"
+    ],
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "place": "Washington",
+    "arc": [
+      [
+        -77.0369,
+        38.9072
+      ],
+      [
+        23.7275,
+        37.9838
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Truman_Doctrine"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "india-independence-partition",
+    "date": "1947-08-15",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "British India is partitioned into two states",
+    "note": "Independence created India and Pakistan at once and left the status of Kashmir unsettled. The new border became one of the most persistent interstate rivalries of the following seventy years.",
+    "mechanisms": [
+      "indivisible-issues",
+      "commitment-problem"
+    ],
+    "countries": [
+      "India",
+      "Pakistan",
+      "United Kingdom"
+    ],
+    "lon": 77.209,
+    "lat": 28.6139,
+    "place": "Delhi",
+    "arc": [
+      [
+        77.209,
+        28.6139
+      ],
+      [
+        73.0479,
+        33.6844
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Partition_of_India"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "partition-displacement",
+    "date": "1947-08-17",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Partition displaces millions across the new border",
+    "note": "Publication of the boundary award set off mass migration and communal killing in Punjab and Bengal. The displacement fixed grievances into both national stories and shaped the wars that followed.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "lon": 74.3587,
+    "lat": 31.5204,
+    "place": "Punjab",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Radcliffe_Line"
+    },
+    "checked": null,
+    "limitations": "Death and displacement estimates vary widely across sources."
+  },
+  {
+    "id": "gatt-signed",
+    "date": "1947-10-30",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade integration and diplomacy",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "Twenty-three states sign the first global tariff agreement",
+    "note": "The General Agreement on Tariffs and Trade bound its signatories to cut tariffs and to treat each other's goods alike. It was built on the view that the trade wars of the 1930s had helped bring on the shooting war.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "France",
+      "Brazil",
+      "India"
+    ],
+    "lon": 6.1432,
+    "lat": 46.2044,
+    "place": "Geneva",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/General_Agreement_on_Tariffs_and_Trade"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "marshall-plan",
+    "date": "1948-04-03",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "The United States funds European reconstruction",
+    "note": "The European Recovery Program sent large-scale aid to sixteen western European economies over four years. Recovery removed the economic collapse that both sides expected would decide Europe's alignment.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "France",
+      "United Kingdom",
+      "West Germany",
+      "Italy"
+    ],
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "place": "Washington",
+    "arc": [
+      [
+        -77.0369,
+        38.9072
+      ],
+      [
+        4.8952,
+        50.8503
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Marshall_Plan"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "israel-declared",
+    "date": "1948-05-14",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Israel declares independence as the British mandate ends",
+    "note": "The declaration was followed within a day by war with neighboring Arab states. The territorial questions left open in 1948 organized the region's interstate conflicts for decades.",
+    "mechanisms": [
+      "indivisible-issues",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Egypt",
+      "Jordan",
+      "Syria",
+      "Iraq"
+    ],
+    "lon": 34.7818,
+    "lat": 32.0853,
+    "place": "Tel Aviv",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Israeli_Declaration_of_Independence"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "berlin-blockade",
+    "date": "1948-06-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Soviet Union closes land access to West Berlin",
+    "note": "Rail and road links to the western sectors were cut and supplies were flown in for almost a year. It was the first direct test of whether the two blocs would fight over Germany, and both chose pressure short of force.",
+    "mechanisms": [
+      "security-dilemma",
+      "private-information"
+    ],
+    "countries": [
+      "Soviet Union",
+      "United States",
+      "United Kingdom",
+      "France"
+    ],
+    "lon": 13.405,
+    "lat": 52.52,
+    "place": "Berlin",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Blockade"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "nato-founded",
+    "date": "1949-04-04",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "Twelve states sign the North Atlantic Treaty",
+    "note": "The treaty committed each signatory to treat an attack on one as an attack on all. It reduced the chance of a probe against a weak member and raised the number of states any European war would pull in.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "France",
+      "Canada",
+      "Netherlands"
+    ],
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "place": "Washington",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/North_Atlantic_Treaty"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "soviet-first-bomb",
+    "date": "1949-08-29",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Soviet Union tests its first nuclear weapon",
+    "note": "The test ended the American monopoly four years after Hiroshima. From this point a direct war between the two strongest states carried a risk neither could bound, which pushed their contest into third countries.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "Soviet Union",
+      "United States"
+    ],
+    "lon": 78.0,
+    "lat": 50.4,
+    "place": "Semipalatinsk",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RDS-1"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "prc-proclaimed",
+    "date": "1949-10-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Chinese civil war ends with a communist victory",
+    "note": "The People's Republic was proclaimed in Beijing and the defeated government withdrew to Taiwan. It added a second large communist power to the system and left an unresolved sovereignty dispute across the strait.",
+    "mechanisms": [
+      "indivisible-issues",
+      "power-transition"
+    ],
+    "countries": [
+      "China",
+      "Taiwan",
+      "Soviet Union",
+      "United States"
+    ],
+    "lon": 116.4074,
+    "lat": 39.9042,
+    "place": "Beijing",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinese_Communist_Revolution"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "korean-war-start",
+    "date": "1950-06-25",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "North Korean forces cross the 38th parallel",
+    "note": "The attack turned a divided peninsula into a conventional interstate war within days. A misread of how the United States would respond is the standard explanation for why the attack was attempted at all.",
+    "mechanisms": [
+      "misperception",
+      "private-information"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea",
+      "United States",
+      "Soviet Union"
+    ],
+    "lon": 127.0,
+    "lat": 38.0,
+    "place": "38th parallel",
+    "arc": [
+      [
+        125.7625,
+        39.0392
+      ],
+      [
+        126.978,
+        37.5665
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Korean_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "china-enters-korea",
+    "date": "1950-10-25",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Chinese forces enter the Korean war",
+    "note": "Chinese units crossed the Yalu after United Nations forces advanced toward the border. A theater war became a war between a nuclear power and a large continental army, and the front settled near where it started.",
+    "mechanisms": [
+      "misperception",
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "China",
+      "United States",
+      "North Korea",
+      "South Korea"
+    ],
+    "lon": 125.0,
+    "lat": 40.5,
+    "place": "Yalu River",
+    "arc": [
+      [
+        125.0,
+        40.5
+      ],
+      [
+        127.0,
+        38.0
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chinese_People%27s_Volunteer_Army"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "korean-armistice",
+    "date": "1953-07-27",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "An armistice freezes the Korean front line",
+    "note": "The agreement stopped the fighting without a peace treaty and set a demilitarized zone near the original division. It is the standard case of a war that ends in a stalemate rather than a settlement.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea",
+      "United States",
+      "China"
+    ],
+    "lon": 126.677,
+    "lat": 37.958,
+    "place": "Panmunjom",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Korean_Armistice_Agreement"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "dien-bien-phu",
+    "date": "1954-05-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "The French garrison at Dien Bien Phu surrenders",
+    "note": "The defeat ended French rule in Indochina and led to a partition of Vietnam at the Geneva conference. The partition was meant to be temporary and instead became the line a second war was fought over.",
+    "mechanisms": [
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "France",
+      "Vietnam",
+      "United States"
+    ],
+    "lon": 103.02,
+    "lat": 21.39,
+    "place": "Dien Bien Phu",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "algerian-war-begins",
+    "date": "1954-11-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "An armed independence campaign opens in Algeria",
+    "note": "Coordinated attacks began a war that France treated as an internal matter because Algeria was administered as part of France. It ran eight years, brought down a French republic, and ended in independence.",
+    "mechanisms": [
+      "indivisible-issues",
+      "state-weakness"
+    ],
+    "countries": [
+      "France",
+      "Algeria"
+    ],
+    "lon": 3.0588,
+    "lat": 36.7538,
+    "place": "Algiers",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Algerian_War"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates range widely between French and Algerian sources."
+  },
+  {
+    "id": "minamata-disease",
+    "date": "1956-05-01",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Industrial mercury poisoning is identified in a Japanese bay",
+    "note": "A factory discharge into coastal waters was traced to severe neurological illness in a fishing community. It became the standard case for how long a state and a firm can deny an environmental harm they can measure.",
+    "mechanisms": [],
+    "countries": [
+      "Japan"
+    ],
+    "lon": 130.4,
+    "lat": 32.21,
+    "place": "Minamata Bay",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Minamata_disease"
+    },
+    "checked": null,
+    "limitations": "Dated to the official notification month; the cause was confirmed years later."
+  },
+  {
+    "id": "suez-crisis",
+    "date": "1956-10-29",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Three states attack Egypt over the Suez Canal",
+    "note": "Israel, Britain and France moved against Egypt after the canal was nationalized, then withdrew under American and Soviet pressure. It showed that the older European powers could no longer run a war their patron opposed.",
+    "mechanisms": [
+      "indivisible-issues",
+      "misperception"
+    ],
+    "countries": [
+      "Egypt",
+      "United Kingdom",
+      "France",
+      "Israel",
+      "United States"
+    ],
+    "lon": 32.35,
+    "lat": 30.6,
+    "place": "Suez Canal",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Suez_Crisis"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "hungary-1956",
+    "date": "1956-11-04",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Soviet forces crush the Hungarian uprising",
+    "note": "Armored columns entered Budapest and ended an attempt to leave the eastern bloc. Western governments did not intervene, which fixed the understanding that each bloc would police its own sphere.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Hungary",
+      "United States"
+    ],
+    "lon": 19.0402,
+    "lat": 47.4979,
+    "place": "Budapest",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1956"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "sputnik",
+    "date": "1957-10-04",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The first artificial satellite reaches orbit",
+    "note": "A Soviet launch put a small satellite in orbit and proved a rocket that could reach any point on earth. Space capability and long-range missile capability were the same capability, and both sides read it that way.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "Soviet Union",
+      "United States"
+    ],
+    "lon": 63.305,
+    "lat": 45.965,
+    "place": "Baikonur",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sputnik_1"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "great-chinese-famine",
+    "date": "1959-01-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 4,
+    "title": "A policy-driven famine begins in China",
+    "note": "Collectivization and forced grain procurement produced mass starvation over roughly three years. It is the clearest modern case of a famine caused by a government's own program rather than by war or drought alone.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "China"
+    ],
+    "lon": 113.665,
+    "lat": 34.757,
+    "place": "Henan",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine"
+    },
+    "checked": null,
+    "limitations": "Dated to the start of the worst year; death toll estimates range from 15 to 45 million."
+  },
+  {
+    "id": "year-of-africa",
+    "date": "1960-01-01",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Seventeen African states become independent in one year",
+    "note": "Colonial rule ended across most of west and central Africa within twelve months. It roughly doubled the number of sovereign states in the region and left many of them with borders and institutions they had not chosen.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Nigeria",
+      "Congo",
+      "Senegal",
+      "Madagascar",
+      "France"
+    ],
+    "lon": 17.0,
+    "lat": 2.0,
+    "place": "Central Africa",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Year_of_Africa"
+    },
+    "checked": null,
+    "limitations": "Dated to the start of the year; the independence dates are spread through 1960."
+  },
+  {
+    "id": "cuban-missile-crisis",
+    "date": "1962-10-16",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Soviet missiles are found in Cuba",
+    "note": "Photographs of missile sites started thirteen days in which the two nuclear powers came closest to direct war. It ended in a quarantine and a private trade of missile withdrawals rather than a strike.",
+    "mechanisms": [
+      "private-information",
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Soviet Union",
+      "Cuba"
+    ],
+    "lon": -79.0,
+    "lat": 22.0,
+    "place": "Cuba",
+    "arc": [
+      [
+        37.6173,
+        55.7558
+      ],
+      [
+        -79.0,
+        22.0
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "gulf-of-tonkin",
+    "date": "1964-08-04",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A reported naval clash opens the way to a US ground war",
+    "note": "A second reported attack on American destroyers, later shown to be doubtful, produced a congressional resolution authorizing force. It is the standard case of contested information driving an irreversible decision.",
+    "mechanisms": [
+      "private-information",
+      "misperception",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "North Vietnam"
+    ],
+    "lon": 107.5,
+    "lat": 19.5,
+    "place": "Gulf of Tonkin",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident"
+    },
+    "checked": null,
+    "limitations": "The second reported attack is now generally judged not to have occurred."
+  },
+  {
+    "id": "six-day-war",
+    "date": "1967-06-05",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Israel and its neighbors fight a six-day war",
+    "note": "Israel struck first after weeks of mobilization and closed waterways, and took the Sinai, Gaza, the West Bank and the Golan. The territories captured became the issue that later wars and talks were about.",
+    "mechanisms": [
+      "private-information",
+      "security-dilemma",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Israel",
+      "Egypt",
+      "Syria",
+      "Jordan"
+    ],
+    "lon": 34.5,
+    "lat": 31.5,
+    "place": "Sinai and Golan",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Six-Day_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "biafra-war",
+    "date": "1967-07-06",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Nigeria's secession war produces a blockade famine",
+    "note": "A breakaway region in the southeast was besieged and cut off from food for over two years. Televised starvation created the modern humanitarian relief campaign and the argument over aid crossing a war line.",
+    "mechanisms": [
+      "indivisible-issues",
+      "state-weakness"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "lon": 7.4951,
+    "lat": 6.45,
+    "place": "Eastern Nigeria",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nigerian_Civil_War"
+    },
+    "checked": null,
+    "limitations": "Famine death estimates range from several hundred thousand to two million."
+  },
+  {
+    "id": "tet-offensive",
+    "date": "1968-01-30",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "A coordinated offensive across South Vietnam",
+    "note": "Attacks on cities and bases were repulsed at heavy cost to the attackers but broke the American public's belief that the war was being won. It is the standard case of a military defeat that is a political victory.",
+    "mechanisms": [
+      "private-information",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "North Vietnam",
+      "South Vietnam",
+      "United States"
+    ],
+    "lon": 106.7,
+    "lat": 10.8,
+    "place": "Saigon",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tet_Offensive"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "prague-1968",
+    "date": "1968-08-20",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Warsaw Pact forces occupy Czechoslovakia",
+    "note": "Half a million troops ended an attempt to liberalize a bloc member. The doctrine announced afterward claimed a right to intervene in any socialist state, which locked the eastern bloc in place for twenty years.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Czechoslovakia",
+      "Poland",
+      "Hungary",
+      "Bulgaria"
+    ],
+    "lon": 14.4208,
+    "lat": 50.088,
+    "place": "Prague",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Warsaw_Pact_invasion_of_Czechoslovakia"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "apollo-11",
+    "date": "1969-07-20",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Alliances and military capacity",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "A crewed spacecraft lands on the moon",
+    "note": "The landing settled the space race that had run since the first satellite. Prestige competition absorbed effort that both sides might otherwise have spent on weapons, and it ended without a shot.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "Soviet Union"
+    ],
+    "lon": 0.0,
+    "lat": 20.0,
+    "place": "The Moon",
+    "arc": null,
+    "global": true,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apollo_11"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "arpanet",
+    "date": "1969-10-29",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "The first message is sent between two networked computers",
+    "note": "A defense-funded research network linked its first two nodes in California. The design that grew out of it became the medium through which later states would conduct sabotage and interference.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -118.4452,
+    "lat": 34.0689,
+    "place": "Los Angeles",
+    "arc": [
+      [
+        -118.4452,
+        34.0689
+      ],
+      [
+        -122.1697,
+        37.4275
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/ARPANET"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "npt-in-force",
+    "date": "1970-03-05",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "The nuclear non-proliferation treaty enters into force",
+    "note": "States without nuclear weapons agreed not to acquire them in exchange for access to civil nuclear technology and a promise of eventual disarmament. Far fewer states built weapons than forecasts of the 1960s expected.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Soviet Union",
+      "United Kingdom"
+    ],
+    "lon": 0.0,
+    "lat": 20.0,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "nixon-shock",
+    "date": "1971-08-15",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The United States ends dollar convertibility into gold",
+    "note": "The move suspended the fixed exchange rate system built after the war and led to floating currencies. It removed a shared monetary anchor and made currency policy a recurring source of friction between allies.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "Japan",
+      "West Germany",
+      "France"
+    ],
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "place": "Washington",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nixon_shock"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "bangladesh-war",
+    "date": "1971-12-03",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "India and Pakistan fight over East Pakistan",
+    "note": "A crackdown and mass refugee flow into India were followed by open war and the creation of Bangladesh. It is the clearest case of a refugee crisis pulling a neighboring state into a war it might otherwise have avoided.",
+    "mechanisms": [
+      "state-weakness",
+      "commitment-problem"
+    ],
+    "countries": [
+      "India",
+      "Pakistan",
+      "Bangladesh"
+    ],
+    "lon": 90.4125,
+    "lat": 23.8103,
+    "place": "Dhaka",
+    "arc": [
+      [
+        77.209,
+        28.6139
+      ],
+      [
+        90.4125,
+        23.8103
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indo-Pakistani_War_of_1971"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "us-china-opening",
+    "date": "1972-02-21",
+    "era": "history",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "A US presidential visit reopens relations with China",
+    "note": "The visit ended more than two decades without contact between the two governments. It split the two large communist powers into separate poles and changed the arithmetic of every later crisis in Asia.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Soviet Union"
+    ],
+    "lon": 116.4074,
+    "lat": 39.9042,
+    "place": "Beijing",
+    "arc": [
+      [
+        -77.0369,
+        38.9072
+      ],
+      [
+        116.4074,
+        39.9042
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1972_visit_by_Richard_Nixon_to_China"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "yom-kippur-war",
+    "date": "1973-10-06",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Egypt and Syria attack Israeli-held territory",
+    "note": "A surprise attack on a religious holiday recovered ground before being pushed back, and both superpowers moved to resupply their clients. The near-parity of the fighting made the later peace talks possible.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Egypt",
+      "Syria",
+      "Israel",
+      "United States",
+      "Soviet Union"
+    ],
+    "lon": 33.0,
+    "lat": 30.5,
+    "place": "Sinai and Golan",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yom_Kippur_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "oil-embargo-1973",
+    "date": "1973-10-17",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Arab oil producers embargo states backing Israel",
+    "note": "Production cuts and a targeted embargo quadrupled the crude price within months. It proved that energy supply could be used as a direct instrument against militarily stronger states.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "United States",
+      "Netherlands",
+      "Japan"
+    ],
+    "lon": 46.6753,
+    "lat": 24.7136,
+    "place": "Riyadh",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1973_oil_crisis"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "cambodian-genocide",
+    "date": "1975-04-17",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A revolutionary government empties Cambodia's cities",
+    "note": "Forced evacuation, executions and starvation killed a large share of the population over four years. It ended only when a neighboring state invaded, which is the rare case of a mass atrocity stopped by force.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Cambodia",
+      "Vietnam"
+    ],
+    "lon": 104.916,
+    "lat": 11.5564,
+    "place": "Phnom Penh",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cambodian_genocide"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates range from 1.5 to 2 million."
+  },
+  {
+    "id": "helsinki-accords",
+    "date": "1975-08-01",
+    "era": "history",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "Thirty-five states accept Europe's postwar borders",
+    "note": "The final act traded western recognition of existing borders for eastern commitments on human rights. The human rights language gave dissident movements in the east a text their own governments had signed.",
+    "mechanisms": [],
+    "countries": [
+      "Soviet Union",
+      "United States",
+      "Finland",
+      "West Germany",
+      "Poland"
+    ],
+    "lon": 24.9384,
+    "lat": 60.1699,
+    "place": "Helsinki",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helsinki_Accords"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "iranian-revolution",
+    "date": "1979-02-11",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iran's monarchy is replaced by a clerical republic",
+    "note": "A mass movement removed a government that had been the main American partner in the Gulf. The new state's regional posture and the loss of its oil output reordered both the security and the energy map.",
+    "mechanisms": [
+      "domestic-incentives",
+      "power-transition"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.389,
+    "lat": 35.6892,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iranian_Revolution"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "oil-shock-1979",
+    "date": "1979-03-01",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iranian output collapse doubles the oil price",
+    "note": "Strikes and revolution cut Iranian production and buyers bid the price up far beyond the lost volume. The second shock in six years pushed western economies into recession and high interest rates.",
+    "mechanisms": [],
+    "countries": [
+      "Iran",
+      "United States",
+      "Japan",
+      "West Germany"
+    ],
+    "lon": 51.389,
+    "lat": 35.6892,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1979_oil_crisis"
+    },
+    "checked": null,
+    "limitations": "Dated to the first of the month; the price rise ran through 1979 and 1980."
+  },
+  {
+    "id": "soviet-afghanistan",
+    "date": "1979-12-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Soviet forces enter Afghanistan",
+    "note": "An intervention meant to secure a client government became a decade-long war against insurgents armed from outside. The cost is part of why the Soviet system could not sustain its commitments ten years later.",
+    "mechanisms": [
+      "state-weakness",
+      "misperception",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Afghanistan",
+      "United States",
+      "Pakistan"
+    ],
+    "lon": 69.2075,
+    "lat": 34.5553,
+    "place": "Kabul",
+    "arc": [
+      [
+        37.6173,
+        55.7558
+      ],
+      [
+        69.2075,
+        34.5553
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "smallpox-eradicated",
+    "date": "1980-05-08",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "Smallpox is declared eradicated",
+    "note": "A worldwide vaccination campaign run through the health assembly removed the disease from circulation. It was carried out across the bloc division and remains the clearest proof that rival states can finish a joint program.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "Soviet Union",
+      "India",
+      "Somalia"
+    ],
+    "lon": 0.0,
+    "lat": 20.0,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eradication_of_smallpox"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "solidarity-gdansk",
+    "date": "1980-08-31",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "A Polish strike wins the eastern bloc's first free trade union",
+    "note": "An agreement signed at the Gdansk shipyard allowed an independent union with millions of members. It showed a bloc government conceding to organized labor rather than calling in Soviet troops.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Poland",
+      "Soviet Union"
+    ],
+    "lon": 18.6466,
+    "lat": 54.352,
+    "place": "Gdansk",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Agreement"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "iran-iraq-war",
+    "date": "1980-09-22",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iraq invades Iran",
+    "note": "An attack timed to a neighbor's revolutionary disorder became eight years of trench and missile warfare. Chemical weapons were used repeatedly and the war ended near the border where it began.",
+    "mechanisms": [
+      "power-transition",
+      "misperception",
+      "private-information"
+    ],
+    "countries": [
+      "Iraq",
+      "Iran"
+    ],
+    "lon": 48.5,
+    "lat": 30.4,
+    "place": "Shatt al-Arab",
+    "arc": [
+      [
+        44.3661,
+        33.3152
+      ],
+      [
+        51.389,
+        35.6892
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "hiv-aids-reported",
+    "date": "1981-06-05",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The first clinical reports of what becomes AIDS appear",
+    "note": "A short public health notice described a cluster of rare infections in Los Angeles. The epidemic that followed killed tens of millions and became the first health crisis treated as a security question by states.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "South Africa",
+      "Uganda"
+    ],
+    "lon": 0.0,
+    "lat": 20.0,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HIV/AIDS"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "falklands-war",
+    "date": "1982-04-02",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Argentina occupies the Falkland Islands",
+    "note": "A junta under domestic pressure seized islands it claimed, and Britain retook them in ten weeks. It is the standard case of a leadership using an external claim to shore up its position at home and losing both.",
+    "mechanisms": [
+      "domestic-incentives",
+      "misperception",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Argentina",
+      "United Kingdom"
+    ],
+    "lon": -59.5236,
+    "lat": -51.7963,
+    "place": "Falkland Islands",
+    "arc": [
+      [
+        -58.3816,
+        -34.6037
+      ],
+      [
+        -59.5236,
+        -51.7963
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Falklands_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "ethiopia-famine-1984",
+    "date": "1984-10-23",
+    "era": "history",
+    "group": "Social",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Famine in Ethiopia reaches world attention",
+    "note": "Drought combined with war and forced resettlement produced mass starvation in the north. Aid reached areas the government controlled far more easily than areas held by insurgents, which shaped who survived.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "lon": 39.47,
+    "lat": 13.4967,
+    "place": "Tigray and Wollo",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1983%E2%80%931985_famine_in_Ethiopia"
+    },
+    "checked": null,
+    "limitations": "Dated to the broadcast that triggered the international response; the famine ran from 1983."
+  },
+  {
+    "id": "bhopal-disaster",
+    "date": "1984-12-03",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A pesticide plant releases toxic gas over an Indian city",
+    "note": "A gas leak from a chemical works killed thousands within days and injured many times that number. It set the terms of the argument over what a foreign parent company owes when its subsidiary causes mass harm.",
+    "mechanisms": [],
+    "countries": [
+      "India",
+      "United States"
+    ],
+    "lon": 77.4126,
+    "lat": 23.2599,
+    "place": "Bhopal",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bhopal_disaster"
+    },
+    "checked": null,
+    "limitations": "Immediate and long-term death toll estimates differ by an order of magnitude."
+  },
+  {
+    "id": "plaza-accord",
+    "date": "1985-09-22",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Five governments agree to push the dollar down",
+    "note": "Finance ministers coordinated intervention to weaken the dollar against the yen and the mark. The sharp yen appreciation that followed is part of the chain that produced Japan's asset bubble.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "Japan",
+      "West Germany",
+      "France",
+      "United Kingdom"
+    ],
+    "lon": -73.9754,
+    "lat": 40.7644,
+    "place": "New York",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plaza_Accord"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "chernobyl",
+    "date": "1986-04-26",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A reactor explosion contaminates a wide area of Europe",
+    "note": "A test at a Ukrainian power station destroyed the reactor and spread fallout across the continent. The initial concealment damaged the Soviet government's standing at home more than the accident damaged its economy.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Ukraine",
+      "Belarus",
+      "Sweden"
+    ],
+    "lon": 30.0997,
+    "lat": 51.389,
+    "place": "Chernobyl",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    },
+    "checked": null,
+    "limitations": "Long-term mortality estimates remain contested."
+  },
+  {
+    "id": "montreal-protocol",
+    "date": "1987-09-16",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "States agree to phase out ozone-depleting chemicals",
+    "note": "The protocol set binding cuts with a fund to help poorer states comply and has been ratified by every state. It is the working example of an environmental agreement that changed industrial behavior.",
+    "mechanisms": [],
+    "countries": [
+      "Canada",
+      "United States",
+      "China",
+      "India"
+    ],
+    "lon": -73.5673,
+    "lat": 45.5017,
+    "place": "Montreal",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Montreal_Protocol"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "tiananmen-1989",
+    "date": "1989-06-04",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "China's army clears protesters from the capital's central square",
+    "note": "Weeks of demonstrations ended when troops moved in overnight. The Chinese leadership drew the opposite lesson from the one drawn in eastern Europe that year, and the party's hold was not loosened.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "China"
+    ],
+    "lon": 116.3975,
+    "lat": 39.9055,
+    "place": "Beijing",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates range from several hundred to several thousand."
+  },
+  {
+    "id": "berlin-wall-falls",
+    "date": "1989-11-09",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "De-escalatory",
+    "mag": 5,
+    "title": "The Berlin Wall is opened",
+    "note": "Border crossings were opened after weeks of protest and the eastern bloc's division of Germany ended within a year. No shots were fired, which is the striking part of how the European standoff came apart.",
+    "mechanisms": [],
+    "countries": [
+      "East Germany",
+      "West Germany",
+      "Soviet Union"
+    ],
+    "lon": 13.3777,
+    "lat": 52.5163,
+    "place": "Berlin",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "japan-bubble-peak",
+    "date": "1989-12-29",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Japan's stock market reaches its peak",
+    "note": "The index closed at a record and then fell for most of the following two decades. The stagnation removed the state most often named in the 1980s as the coming challenger to American economic primacy.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "Japan"
+    ],
+    "lon": 139.6917,
+    "lat": 35.6895,
+    "place": "Tokyo",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "iraq-invades-kuwait",
+    "date": "1990-08-02",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iraq invades and annexes Kuwait",
+    "note": "A debt and oil dispute ended in the outright absorption of a neighboring state. Erasing a United Nations member produced a coalition that neither side had expected to form.",
+    "mechanisms": [
+      "private-information",
+      "domestic-incentives",
+      "misperception"
+    ],
+    "countries": [
+      "Iraq",
+      "Kuwait",
+      "Saudi Arabia"
+    ],
+    "lon": 47.9774,
+    "lat": 29.3759,
+    "place": "Kuwait City",
+    "arc": [
+      [
+        44.3661,
+        33.3152
+      ],
+      [
+        47.9774,
+        29.3759
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Invasion_of_Kuwait"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "desert-storm",
+    "date": "1991-01-17",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A coalition drives Iraqi forces out of Kuwait",
+    "note": "An air campaign followed by a short ground war restored the border and left the Iraqi government in place. The coalition acted with Security Council authorization, which had not been possible during the bloc division.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Iraq",
+      "Kuwait",
+      "Saudi Arabia",
+      "United Kingdom"
+    ],
+    "lon": 44.3661,
+    "lat": 33.3152,
+    "place": "Baghdad",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gulf_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "yugoslav-wars-begin",
+    "date": "1991-06-27",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Yugoslavia begins to break apart in war",
+    "note": "Fighting followed declarations of independence by two republics and spread over the next four years. A federal state dissolving without an agreed rule for who inherits what is a recurring path into war.",
+    "mechanisms": [
+      "commitment-problem",
+      "indivisible-issues",
+      "state-weakness"
+    ],
+    "countries": [
+      "Yugoslavia",
+      "Slovenia",
+      "Croatia",
+      "Serbia"
+    ],
+    "lon": 14.5058,
+    "lat": 46.0569,
+    "place": "Slovenia",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yugoslav_Wars"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "world-wide-web",
+    "date": "1991-08-06",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "The World Wide Web is opened to the public",
+    "note": "A hypertext system built at a physics laboratory was posted for anyone to use. It became the layer on which information operations, propaganda and financial contagion later moved at the speed they now do.",
+    "mechanisms": [],
+    "countries": [
+      "Switzerland",
+      "United Kingdom"
+    ],
+    "lon": 6.056,
+    "lat": 46.233,
+    "place": "Geneva",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "soviet-dissolution",
+    "date": "1991-12-26",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 5,
+    "title": "The Soviet Union is dissolved",
+    "note": "Fifteen republics became independent states and the second superpower stopped existing. The nuclear arsenal, the borders and the minority populations left behind became the material of the next three decades of disputes.",
+    "mechanisms": [
+      "commitment-problem",
+      "power-transition",
+      "state-weakness"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Russia",
+      "Ukraine",
+      "Kazakhstan",
+      "Belarus"
+    ],
+    "lon": 37.6173,
+    "lat": 55.7558,
+    "place": "Moscow",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "maastricht-treaty",
+    "date": "1992-02-07",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade integration and diplomacy",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "European states sign the treaty creating the European Union",
+    "note": "The treaty set up a political union and the path to a single currency. Tying reunified Germany into a deeper union was an explicit answer to the question of how to hold Europe together after the bloc division ended.",
+    "mechanisms": [],
+    "countries": [
+      "Germany",
+      "France",
+      "Netherlands",
+      "Italy",
+      "United Kingdom"
+    ],
+    "lon": 5.6889,
+    "lat": 50.8514,
+    "place": "Maastricht",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maastricht_Treaty"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "rwandan-genocide",
+    "date": "1994-04-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "A genocide in Rwanda kills roughly 800,000 people in a hundred days",
+    "note": "Organized killing began the day after the president's aircraft was shot down and ran until an insurgent force took the country. The peacekeeping mission present was cut rather than reinforced.",
+    "mechanisms": [
+      "state-weakness",
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Rwanda",
+      "France",
+      "Belgium",
+      "United States"
+    ],
+    "lon": 30.0619,
+    "lat": -1.9441,
+    "place": "Kigali",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rwandan_genocide"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "south-africa-1994",
+    "date": "1994-04-27",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "South Africa holds its first universal election",
+    "note": "Voting open to all adults ended minority rule after four decades of formal segregation. A transition many observers expected to end in civil war was settled by negotiation instead.",
+    "mechanisms": [
+      "indivisible-issues",
+      "commitment-problem"
+    ],
+    "countries": [
+      "South Africa"
+    ],
+    "lon": 28.0473,
+    "lat": -26.2041,
+    "place": "Johannesburg",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1994_South_African_general_election"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "srebrenica",
+    "date": "1995-07-11",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "More than 8,000 people are killed at a declared safe area",
+    "note": "A United Nations protected enclave was overrun and its men and boys were killed. The failure of the protection promise is the reason later interventions were argued on the ground of preventing atrocity.",
+    "mechanisms": [
+      "commitment-problem",
+      "state-weakness"
+    ],
+    "countries": [
+      "Bosnia and Herzegovina",
+      "Serbia",
+      "Netherlands"
+    ],
+    "lon": 19.2967,
+    "lat": 44.1047,
+    "place": "Srebrenica",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Srebrenica_massacre"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "dayton-agreement",
+    "date": "1995-12-14",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "A negotiated settlement ends the Bosnian war",
+    "note": "The agreement kept a single state with two internal entities and put a large armed force behind it. It is the standard case of a war ended by outside powers imposing a settlement neither side would have reached alone.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Bosnia and Herzegovina",
+      "Croatia",
+      "Serbia",
+      "United States"
+    ],
+    "lon": 2.3522,
+    "lat": 48.8566,
+    "place": "Paris",
+    "arc": [
+      [
+        -84.1916,
+        39.7589
+      ],
+      [
+        2.3522,
+        48.8566
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dayton_Agreement"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "asian-financial-crisis",
+    "date": "1997-07-02",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A currency collapse in Thailand spreads across Asia",
+    "note": "The Thai baht was floated and capital fled the region, forcing bailouts and deep recessions. The political fallout brought down governments and left several states determined never to depend on outside lenders again.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Thailand",
+      "Indonesia",
+      "South Korea",
+      "Malaysia"
+    ],
+    "lon": 100.5018,
+    "lat": 13.7563,
+    "place": "Bangkok",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1997_Asian_financial_crisis"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "kyoto-protocol",
+    "date": "1997-12-11",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "The first binding emissions treaty is adopted",
+    "note": "Industrialized states accepted targets while developing states did not, and the largest emitter never ratified. It set the pattern of climate agreements that are hard to enforce against the states that matter most.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Japan",
+      "United States",
+      "China",
+      "European Union"
+    ],
+    "lon": 135.7681,
+    "lat": 35.0116,
+    "place": "Kyoto",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kyoto_Protocol"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "russian-default-1998",
+    "date": "1998-08-17",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russia devalues and defaults on domestic debt",
+    "note": "The government abandoned its currency band and stopped paying on short-term bonds. The collapse discredited the reform program of the 1990s and set the conditions for the centralized state that followed.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "lon": 37.6173,
+    "lat": 55.7558,
+    "place": "Moscow",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1998_Russian_financial_crisis"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "kosovo-air-campaign",
+    "date": "1999-03-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "An alliance bombs Yugoslavia over Kosovo",
+    "note": "The campaign ran eleven weeks without Security Council authorization and ended with the province under international administration. It is the case both sides in later disputes cite about when force is legitimate.",
+    "mechanisms": [
+      "indivisible-issues",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Serbia",
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "Russia"
+    ],
+    "lon": 20.4489,
+    "lat": 44.7866,
+    "place": "Belgrade",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/NATO_bombing_of_Yugoslavia"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "kargil-war",
+    "date": "1999-05-03",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "India and Pakistan fight in Kashmir after both test nuclear weapons",
+    "note": "Regular forces fought over occupied heights a year after both states declared themselves nuclear powers. It showed that nuclear weapons did not stop a limited conventional war between the two.",
+    "mechanisms": [
+      "indivisible-issues",
+      "private-information",
+      "steps-to-war"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "lon": 76.13,
+    "lat": 34.55,
+    "place": "Kargil",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kargil_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "september-11-attacks",
+    "date": "2001-09-11",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Coordinated attacks kill nearly 3,000 people in the United States",
+    "note": "Hijacked aircraft struck buildings in New York and near Washington. A non-state group inflicted a scale of damage previously associated with states, and the response reorganized alliances for a decade.",
+    "mechanisms": [
+      "state-weakness",
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan",
+      "Saudi Arabia"
+    ],
+    "lon": -74.0134,
+    "lat": 40.7115,
+    "place": "New York",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/September_11_attacks"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "afghanistan-2001",
+    "date": "2001-10-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A US-led campaign begins in Afghanistan",
+    "note": "Air strikes and allied ground forces removed the governing movement within weeks. The alliance invoked its mutual defense clause for the first time, over an attack by a non-state group.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "state-weakness"
+    ],
+    "countries": [
+      "United States",
+      "Afghanistan",
+      "United Kingdom"
+    ],
+    "lon": 69.2075,
+    "lat": 34.5553,
+    "place": "Kabul",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "china-joins-wto",
+    "date": "2001-12-11",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade integration and diplomacy",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "China joins the World Trade Organization",
+    "note": "Accession locked in tariff cuts and opened western markets to Chinese manufacturing. It is the single decision most often cited in later arguments about industrial decline and about how a power transition was financed.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "China",
+      "United States",
+      "European Union"
+    ],
+    "lon": 6.1432,
+    "lat": 46.2044,
+    "place": "Geneva",
+    "arc": [
+      [
+        6.1432,
+        46.2044
+      ],
+      [
+        116.4074,
+        39.9042
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/China_and_the_World_Trade_Organization"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "sars-outbreak",
+    "date": "2003-03-12",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A global alert is issued for a new respiratory virus",
+    "note": "The health assembly issued its first worldwide alert in over a decade after cases spread from southern China. Delayed reporting by one government became the case used to rewrite the international health regulations.",
+    "mechanisms": [],
+    "countries": [
+      "China",
+      "Hong Kong",
+      "Canada",
+      "Singapore"
+    ],
+    "lon": 113.2644,
+    "lat": 23.1291,
+    "place": "Guangdong",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2002%E2%80%932004_SARS_outbreak"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "iraq-invasion-2003",
+    "date": "2003-03-20",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A coalition invades Iraq",
+    "note": "The invasion went ahead without Security Council authorization and on intelligence about weapons that was not borne out. The occupation that followed produced an insurgency and a long sectarian war.",
+    "mechanisms": [
+      "private-information",
+      "misperception",
+      "state-weakness"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Iraq"
+    ],
+    "lon": 44.3661,
+    "lat": 33.3152,
+    "place": "Baghdad",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2003_invasion_of_Iraq"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "darfur-war",
+    "date": "2003-04-25",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "War in Darfur displaces millions",
+    "note": "Insurgent attacks were answered by a government-backed militia campaign against civilian populations. It became the first conflict a major government formally labeled genocide while it was still going on.",
+    "mechanisms": [
+      "state-weakness",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Sudan",
+      "Chad"
+    ],
+    "lon": 25.35,
+    "lat": 13.63,
+    "place": "Darfur",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/War_in_Darfur"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates range from under 100,000 to over 300,000."
+  },
+  {
+    "id": "eu-enlargement-2004",
+    "date": "2004-05-01",
+    "era": "history",
+    "group": "Political",
+    "sub": "Trade integration and diplomacy",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "Ten states join the European Union",
+    "note": "Eight former eastern bloc states plus two Mediterranean islands joined at once. The expansion moved the union's border to the edge of the former Soviet Union and became a standing grievance in Moscow.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Estonia",
+      "Latvia",
+      "Lithuania"
+    ],
+    "lon": 19.1451,
+    "lat": 51.9194,
+    "place": "Central Europe",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "indian-ocean-tsunami",
+    "date": "2004-12-26",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Humanitarian consequences",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "An undersea earthquake kills more than 220,000 people",
+    "note": "Waves crossed the Indian Ocean and struck fourteen countries with no warning system in place. In Indonesia the relief operation helped end a thirty-year separatist war, while in Sri Lanka it did not.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Indonesia",
+      "Sri Lanka",
+      "India",
+      "Thailand"
+    ],
+    "lon": 95.854,
+    "lat": 3.316,
+    "place": "Sumatra",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "lebanon-2006",
+    "date": "2006-07-12",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A cross-border raid starts a month-long war in Lebanon",
+    "note": "A militia raid and abduction were answered with air strikes and a ground incursion, and rocket fire reached Israeli cities. It is a clear case of a state fighting a war against an armed group inside a neighboring state.",
+    "mechanisms": [
+      "state-weakness",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Israel",
+      "Lebanon",
+      "Iran",
+      "Syria"
+    ],
+    "lon": 35.5,
+    "lat": 33.3,
+    "place": "Southern Lebanon",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2006_Lebanon_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "russia-georgia-war",
+    "date": "2008-08-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia and Georgia fight a five-day war",
+    "note": "Fighting in South Ossetia brought Russian forces deep into Georgia and ended with recognition of two breakaway regions. It was the first time since 1991 that Russia used force to change a neighbor's borders.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "Russia",
+      "Georgia"
+    ],
+    "lon": 43.97,
+    "lat": 42.23,
+    "place": "Tskhinvali",
+    "arc": [
+      [
+        44.7833,
+        43.0333
+      ],
+      [
+        44.7833,
+        41.7151
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Russo-Georgian_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "financial-crisis-2008",
+    "date": "2008-09-15",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "A large investment bank fails and credit markets freeze",
+    "note": "The bankruptcy turned a housing downturn into a worldwide financial crisis and a deep recession. The loss of confidence in western economic management is part of why the following decade's politics turned inward.",
+    "mechanisms": [
+      "power-transition",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Germany",
+      "China"
+    ],
+    "lon": -74.01,
+    "lat": 40.706,
+    "place": "New York",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "sri-lanka-war-ends",
+    "date": "2009-05-18",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Sri Lanka's civil war ends in a military victory",
+    "note": "A twenty-six-year insurgency was destroyed in a final offensive with heavy civilian casualties in the last enclave. It is the case most often cited by governments arguing that insurgencies can be defeated outright.",
+    "mechanisms": [
+      "indivisible-issues",
+      "state-weakness"
+    ],
+    "countries": [
+      "Sri Lanka"
+    ],
+    "lon": 80.814,
+    "lat": 9.267,
+    "place": "Mullaitivu",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sri_Lankan_Civil_War"
+    },
+    "checked": null,
+    "limitations": "Civilian death toll in the final months is disputed and estimates range widely."
+  },
+  {
+    "id": "h1n1-pandemic",
+    "date": "2009-06-11",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A new influenza strain is declared a pandemic",
+    "note": "The health assembly raised its alert to the top level for the first time under the revised regulations. Vaccine supply went to the states that had signed advance contracts, which set the pattern later repeated.",
+    "mechanisms": [],
+    "countries": [
+      "Mexico",
+      "United States",
+      "China"
+    ],
+    "lon": 0.0,
+    "lat": 20.0,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2009_swine_flu_pandemic"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "stuxnet",
+    "date": "2010-06-17",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Malware built to damage industrial equipment is discovered",
+    "note": "A worm designed to destroy uranium enrichment centrifuges was found on systems outside its target. It is the first widely documented case of code used to cause physical damage in place of an air strike.",
+    "mechanisms": [],
+    "countries": [
+      "Iran",
+      "United States",
+      "Israel"
+    ],
+    "lon": 50.01,
+    "lat": 33.725,
+    "place": "Natanz",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stuxnet"
+    },
+    "checked": null,
+    "limitations": ""
+  }
+]

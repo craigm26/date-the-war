@@ -12,7 +12,9 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
     },
-    "checked": null
+    "checked": null,
+    "dir": "Escalatory",
+    "mag": 3
   },
   {
     "id": "austria-serbia",
@@ -111,7 +113,8 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
     },
-    "checked": null
+    "checked": null,
+    "mag": 4
   },
   {
     "id": "mukden",
@@ -274,7 +277,8 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Surrender_of_Japan"
     },
-    "checked": null
+    "checked": null,
+    "mag": 4
   },
   {
     "id": "syria-2011",
@@ -513,7 +517,8 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Fall_of_the_Assad_regime"
     },
-    "checked": null
+    "checked": null,
+    "dir": "Mixed"
   },
   {
     "id": "india-pakistan-2025",
@@ -565,22 +570,6 @@
     "checked": null
   },
   {
-    "id": "iran-war-2026",
-    "date": "2026-02-28",
-    "era": "years",
-    "theater": "gulf",
-    "kind": "war-start",
-    "title": "The 2026 Iran war begins",
-    "combat": [["us"],["iran"]],
-    "note": "American and Israeli strikes kill Iran's supreme leader. The United States is in an interstate war under any definition.",
-    "mechanisms": ["commitment-problem","domestic-incentives","misperception"],
-    "source": {
-      "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
-    },
-    "checked": "2026-09-08"
-  },
-  {
     "id": "hormuz-2026",
     "date": "2026-03-08",
     "era": "years",
@@ -593,22 +582,11 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
-    "checked": "2026-09-08"
-  },
-  {
-    "id": "ucdp-2025",
-    "date": "2026-06-09",
-    "era": "years",
-    "theater": "gulf",
-    "kind": "measure",
-    "title": "UCDP: most state-based conflicts since 1946",
-    "note": "65 conflicts involving states in 2025, 13 at war intensity, and interstate conflicts doubled for the second year running. The count is a record; a count is not a world war.",
-    "mechanisms": [],
-    "source": {
-      "label": "Uppsala University",
-      "url": "https://www.uu.se/en/press/press-releases/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states"
-    },
-    "checked": "2026-09-08"
+    "checked": "2026-09-08",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4
   },
   {
     "id": "islamabad-2026",
@@ -623,7 +601,9 @@
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
     },
-    "checked": "2026-09-08"
+    "checked": "2026-09-08",
+    "dir": "De-escalatory",
+    "mag": 3
   },
   {
     "id": "ceasefire-collapse-2026",
@@ -642,22 +622,6 @@
     "checked": "2026-09-08"
   },
   {
-    "id": "centcom-2026-09-01",
-    "date": "2026-09-01",
-    "era": "days",
-    "theater": "gulf",
-    "kind": "event",
-    "title": "US strikes IRGC radars, air defenses and mine-laying assets",
-    "combat": [["us"],["iran"]],
-    "note": "The stated trigger is attempted attacks on shipping in Hormuz and on American personnel. The targets are the sensors Iran uses to find ships.",
-    "mechanisms": ["private-information","security-dilemma"],
-    "source": {
-      "label": "CENTCOM",
-      "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/"
-    },
-    "checked": "2026-09-08"
-  },
-  {
     "id": "iran-retaliation-2026-09-01",
     "date": "2026-09-01",
     "era": "days",
@@ -670,22 +634,6 @@
     "source": {
       "label": "Al Jazeera",
       "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran"
-    },
-    "checked": "2026-09-08"
-  },
-  {
-    "id": "tankers-2026-09-05",
-    "date": "2026-09-05",
-    "era": "days",
-    "theater": "gulf",
-    "kind": "event",
-    "title": "IRGC missiles at a carrier group; US disables or sinks three Iranian tankers",
-    "combat": [["us"],["iran"]],
-    "note": "Neither American ship is hit. The reply is economic by design: three ships for two shots.",
-    "mechanisms": ["private-information","domestic-incentives"],
-    "source": {
-      "label": "NPR",
-      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
     },
     "checked": "2026-09-08"
   }

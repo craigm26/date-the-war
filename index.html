@@ -4,113 +4,124 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Date the war</title>
-<meta name="description" content="A map that lets you pick the day a world war began and shows what that date makes you include. An experiment on why wars happen and whether this is one.">
+<meta name="description" content="A globe and a timeline of sourced events from 1900 to today. Pick the day you think a world war began and see what that dating makes you include.">
 <link rel="canonical" href="https://craigmerry.com/date-the-war/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header class="wrap">
-  <p class="site"><a href="https://craigmerry.com/">craigmerry.com</a> <span>/</span> date the war</p>
-  <p class="kicker">An experiment</p>
-  <h1>Date the war</h1>
-  <p class="premise">
-    A world war can begin gradually and get its start date afterward. Nobody on 18 September 1931 knew they were in one; some historians now say they were.
-    This page does not declare a third world war. It hands you the marker. Drag it to the day you think this one began, and the map shows what that dating makes you include, and which of the academic reasons for war are visible from there.
-  </p>
+<header class="top">
+  <div class="brand"><a href="https://craigmerry.com/">craigmerry.com</a><span class="sep">/</span>Date the war</div>
+  <div class="caption">1900 → 8 Sep 2026 · <span id="total-count"></span></div>
+  <div id="scales" class="segmented" role="group" aria-label="Window scale"></div>
 </header>
 
-<main class="wrap">
-  <nav id="eras" class="eras" aria-label="Time scale"></nav>
-  <p id="era-blurb" class="blurb"></p>
-
-  <section id="map" class="map" aria-live="off"></section>
-
-  <section class="control">
-    <label for="from">Date it from</label>
-    <div class="scrub">
-      <button id="prev" type="button" aria-label="Previous event">&larr;</button>
-      <input id="from" type="range" min="0" max="1" value="0" step="1">
-      <button id="next" type="button" aria-label="Next event">&rarr;</button>
+<main class="app">
+  <section class="left">
+    <div class="winhead">
+      <div>
+        <div id="mode-label" class="kicker"></div>
+        <h2 id="window-label"></h2>
+      </div>
+      <div id="window-count" class="muted13"></div>
     </div>
-    <p class="range"><b id="from-label"></b> to <span id="to-label"></span></p>
-    <p class="key">
-      <span class="k theater-on">theater active in the window</span>
-      <span class="k theater-off">theater in this era, outside the window</span>
-      <span class="k theater-watch">theater watched, no direct combat</span>
-      <span class="k power-on">state in direct combat</span>
-      <span class="k link">link formed between theaters</span>
-    </p>
+    <div class="globe-wrap">
+      <canvas id="globe" aria-label="Globe of sourced events in the window"></canvas>
+      <div id="tooltip" class="tooltip" hidden><div id="tip-title" class="tip-title"></div><div id="tip-meta" class="tip-meta"></div></div>
+    </div>
+    <div class="legend">
+      <span><i class="lg esc"></i>escalatory</span>
+      <span><i class="lg des"></i>de-escalatory</span>
+      <span><i class="lg mix"></i>mixed</span>
+      <span><i class="lg ctx"></i>contextual</span>
+      <span><i class="lg arc"></i>link between actors</span>
+      <span>· size = impact 1 to 5</span>
+    </div>
+    <div class="timeline">
+      <div class="transport">
+        <button id="play" type="button" class="play">▶ Play</button>
+        <button id="prev" type="button" class="icon" title="Previous event">←</button>
+        <button id="next" type="button" class="icon" title="Next event">→</button>
+        <div class="segmented modes">
+          <button id="mode-window" type="button" class="seg">In window</button>
+          <button id="mode-cumulative" type="button" class="seg">Cumulative</button>
+        </div>
+        <div id="era-shortcuts" class="eras"></div>
+      </div>
+      <div id="strip" class="strip" aria-hidden="true"></div>
+      <input id="slider" type="range" min="0" max="1" step="1" value="0" aria-label="Date the window from">
+      <div class="ticks"><span>1900</span><span>1914</span><span>1939</span><span>1945</span><span>1990</span><span>2011</span><span>2026</span></div>
+    </div>
   </section>
 
-  <section id="verdict" class="verdict"></section>
+  <aside class="right">
+    <div class="filters">
+      <div class="fhead"><div class="kicker muted">Impact groups</div><button id="groups-reset" type="button" class="link">Reset</button></div>
+      <div id="groups" class="chips"></div>
+      <details class="refine">
+        <summary id="subs-summary">Refine by indicator</summary>
+        <div id="subs" class="tags-wrap"></div>
+      </details>
+    </div>
+    <div class="lhead"><h3>What the window includes</h3><span id="list-count" class="muted12"></span></div>
+    <p id="list-empty" class="empty" hidden>No sourced events in this window. Use → to jump to the next one.</p>
+    <ol id="list" class="list"></ol>
+    <div class="rule">
+      <b>Impact 1 to 5 rule.</b> Escalatory 3 · Mixed 2 · De-escalatory 2 · Contextual 1; +1 for direct interstate combat; +1/+2 when the reported metric is large (≥10k / ≥1M people, ≥50%, ≥10bn / ≥100bn). Declared wars between major powers score 5. Judgment, not measurement.
+    </div>
+  </aside>
+</main>
 
-  <section class="events-wrap">
-    <h2>What happened in the window <span id="event-count" class="count"></span></h2>
-    <ul id="events" class="events"></ul>
-    <p class="fine">
-      Every entry carries the source it was taken from. "Checked" means the link was opened and read on that date for this page. "Unchecked" means it has not been re-opened yet; the fact is well established but the link is on you.
+<section class="prose">
+  <div class="col">
+    <h2>What this page is for</h2>
+    <p>
+      A world war can begin gradually and get its start date afterward. Nobody on 18 September 1931 knew they were in one; some historians now say they were.
+      This page does not declare a third world war. It puts every sourced event since 1900 on one globe, lets you narrow the window to a day, a month, or a year, and lets you play the record forward. Date it from wherever you like and see what that dating makes you include.
     </p>
-  </section>
-
-  <section class="mechanisms-wrap">
     <h2>Why wars happen, according to the field</h2>
     <p>
       Political science separates the things states fight over, such as territory, security, resources and identity, from the mechanisms that turn a dispute into violence.
-      The starting point is a puzzle: war destroys what both sides want, so a settlement both prefer to fighting should nearly always exist. The mechanisms below are the reasons states fail to find it, accept it, or keep it.
-      Each is tagged with the level it lives at, in the field's own scheme: the leader, the state, or the system.
+      The starting point is a puzzle: war destroys what both sides want, so a settlement both prefer to fighting should nearly always exist. The mechanisms below are the reasons states fail to find it, accept it, or keep it. Each is tagged with the level it lives at: the leader, the state, or the system.
     </p>
     <ul id="mechanisms" class="mechanisms"></ul>
-  </section>
-
-  <section class="definitions">
+  </div>
+  <div class="col">
     <h2>What "world war" would have to mean</h2>
-    <p>Three definitions get confused, and none of them is a checklist.</p>
-    <ul>
+    <ul class="defs">
       <li><b>International armed conflict</b> is a legal status. Armed force between states establishes it. No declaration is needed. The United States has been in one with Iran since February.</li>
       <li><b>War</b> in the research datasets is a count. The Uppsala program calls a conflict a war in any year with at least 1,000 battle deaths. Thirteen conflicts cleared that bar in 2025, the most since 1992.</li>
       <li><b>World war</b> is a historical label with no agreed threshold. The usual meaning is a general war among most of the major powers. The two previous ones were also marked by whole economies reorganized for the fight. Neither dataset above has a category for it.</li>
     </ul>
     <p>
-      The rule this page applies is stated next to every verdict so you can reject it. It asks one question: are at least two major powers shooting at each other directly, in more than one theater? Under that rule the present reads as linked wars, not a general one. The broadest alternative, which dates a single global war from the early 2010s, also swallows most of the Cold War, and a label that cannot tell those apart is not doing work.
+      The test that fits the label is one question: are at least two major powers shooting at each other directly, in more than one theater? On the record here the present reads as linked wars, not a general one. The broadest alternative, which dates a single global war from the early 2010s, also swallows most of the Cold War, and a label that cannot tell those apart is not doing work.
     </p>
-  </section>
-
-  <section class="position">
     <h2>Where the author stands, as of 8 September 2026</h2>
     <p>
       The United States is at war with Iran. It is not in a world war on the conventional meaning, and there is no accepted list of requirements that can be declared met.
       The conflicts are more connected than at any point since 1945, and they are colliding without converging: the participants still want different things.
       What would change this reading is sustained direct combat between major powers spreading across linked theaters, with alliances pulling in more of them. That could justify the label before any nuclear use or any announcement, and a later historian might then date the war from a regional fight that had already been running for years.
     </p>
-  </section>
-
-  <section class="sources">
     <h2>Sources</h2>
-    <h3>Mechanisms</h3>
+    <p class="muted12">Every event on the globe links to the source it was taken from and says whether that link was re-opened for this page. The 2026 indicator rows come from a sourced ledger of 67 items as of 8 September 2026; the earlier record is curated from reference articles and is being checked entry by entry.</p>
     <ul class="cites">
-      <li>Fearon, J. D. (1995). Rationalist explanations for war. <i>International Organization</i> 49(3). Private information, commitment problems, indivisibility.</li>
+      <li>Fearon, J. D. (1995). Rationalist explanations for war. <i>International Organization</i> 49(3).</li>
       <li>Jervis, R. (1978). Cooperation under the security dilemma. <i>World Politics</i> 30(2).</li>
       <li>Levy, J. S. (1983). Misperception and the causes of war. <i>World Politics</i> 36(1).</li>
       <li>Chiozza, G. and Goemans, H. E. (2004). International conflict and the tenure of leaders. <i>American Journal of Political Science</i> 48(3).</li>
       <li>Toft, M. D. (2006). Issue indivisibility and time horizons as rationalist explanations for war. <i>Security Studies</i> 15(1).</li>
       <li>Christensen, T. J. and Snyder, J. (1990). Chain gangs and passed bucks. <i>International Organization</i> 44(2).</li>
-      <li>Organski, A. F. K. (1958). <i>World Politics</i>. Power transition. See also Gilpin, R. (1981). <i>War and Change in World Politics</i>.</li>
-      <li>Vasquez, J. A. (1993). <i>The War Puzzle</i>. The steps-to-war model.</li>
+      <li>Organski, A. F. K. (1958). <i>World Politics</i>; Gilpin, R. (1981). <i>War and Change in World Politics</i>.</li>
+      <li>Vasquez, J. A. (1993). <i>The War Puzzle</i>.</li>
       <li>Fearon, J. D. and Laitin, D. D. (2003). Ethnicity, insurgency, and civil war. <i>American Political Science Review</i> 97(1).</li>
-      <li>Waltz, K. N. (1959). <i>Man, the State, and War</i>. The three images.</li>
+      <li>Waltz, K. N. (1959). <i>Man, the State, and War</i>.</li>
+      <li><a href="https://www.icrc.org/en/law-and-policy" rel="noopener">ICRC</a> on international armed conflict · <a href="https://ucdp.uu.se/" rel="noopener">UCDP</a> and its <a href="https://www.uu.se/en/press/press-releases/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states" rel="noopener">2025 release</a> · <a href="https://www.lowyinstitute.org/the-interpreter/stop-declaring-world-war-III" rel="noopener">Lowy Institute, "Stop declaring World War III"</a> · <a href="https://worldpeacefoundation.org/blog/world-war-x/" rel="noopener">World Peace Foundation, "World War X"</a> · <a href="https://www.cfr.org/global-conflict-tracker/conflict/confrontation-over-taiwan" rel="noopener">CFR conflict tracker, Taiwan</a>.</li>
     </ul>
-    <h3>Definitions and the present</h3>
-    <ul class="cites">
-      <li><a href="https://www.icrc.org/en/law-and-policy" rel="noopener">ICRC</a>, on when an international armed conflict exists.</li>
-      <li><a href="https://ucdp.uu.se/" rel="noopener">UCDP</a>, the 1,000 battle-death threshold; <a href="https://www.uu.se/en/press/press-releases/2026/2026-06-09-ucdp-record-number-of-conflicts-between-states" rel="noopener">UCDP 2025 release</a>, 9 June 2026.</li>
-      <li><a href="https://www.lowyinstitute.org/the-interpreter/stop-declaring-world-war-III" rel="noopener">Lowy Institute, "Stop declaring World War III"</a>, September 2026. Mobilization, not geography, made the first two.</li>
-      <li><a href="https://worldpeacefoundation.org/blog/world-war-x/" rel="noopener">World Peace Foundation, "World War X"</a>, the case for the broadest reading, dated from the early 2010s.</li>
-      <li><a href="https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/" rel="noopener">CENTCOM release</a>, 1 September 2026.</li>
-      <li><a href="https://www.cfr.org/global-conflict-tracker/conflict/confrontation-over-taiwan" rel="noopener">CFR Global Conflict Tracker, Taiwan</a>, the watched theater.</li>
-    </ul>
-    <p class="fine">Base map: Natural Earth via world-atlas, public domain. Code: <a href="https://github.com/craigm26/date-the-war" rel="noopener">github.com/craigm26/date-the-war</a>. Built by Craig Merry, pairing with Claude Code.</p>
-  </section>
-</main>
+    <p class="muted12">Base map: Natural Earth via world-atlas, public domain. Code: <a href="https://github.com/craigm26/date-the-war" rel="noopener">github.com/craigm26/date-the-war</a>. Built by Craig Merry, pairing with Claude Code.</p>
+  </div>
+</section>
 
 <script type="module" src="./src/app.js"></script>
 </body>

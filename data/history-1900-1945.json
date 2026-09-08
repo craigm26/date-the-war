@@ -1,0 +1,1580 @@
+[
+  {
+    "id": "boxer-protocol",
+    "date": "1901-09-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Eight powers impose the Boxer Protocol on China",
+    "note": "An eight-nation intervention ended with an indemnity, foreign garrisons and bans on arms imports for China. Settling a war on terms the loser cannot revise is one way a defeat becomes the grievance behind the next conflict.",
+    "mechanisms": [
+      "commitment-problem",
+      "state-weakness"
+    ],
+    "countries": [
+      "China",
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Russia",
+      "Japan",
+      "United States",
+      "Italy",
+      "Austria-Hungary"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Beijing",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boxer_Protocol"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "wright-first-flight",
+    "date": "1903-12-17",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "The first powered flight, at Kitty Hawk",
+    "note": "A twelve second hop opened a domain that within a decade carried reconnaissance and bombs. Military organizations adopted the aircraft faster than any law of war kept up with it.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -75.67,
+    "lat": 36.02,
+    "place": "Kitty Hawk",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wright_Flyer"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "russo-japanese-war",
+    "date": "1904-02-08",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Japan attacks the Russian fleet at Port Arthur",
+    "note": "A surprise naval attack opened a war between two empires over Korea and Manchuria, fought without a declaration first. Both sides had believed the other would concede rather than fight.",
+    "mechanisms": [
+      "private-information",
+      "power-transition",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Japan",
+      "Russia",
+      "China",
+      "Korea"
+    ],
+    "lon": 121.27,
+    "lat": 38.85,
+    "place": "Port Arthur",
+    "arc": [
+      [
+        139.69,
+        35.69
+      ],
+      [
+        121.27,
+        38.85
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Russo-Japanese_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "first-moroccan-crisis",
+    "date": "1905-03-31",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 2,
+    "title": "The first Moroccan crisis tests the new alignments",
+    "note": "A German challenge to French primacy in Morocco was meant to split the new understanding between France and Britain and instead hardened it. Crises that fail to break an alignment usually deepen it.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Germany",
+      "France",
+      "United Kingdom",
+      "Morocco"
+    ],
+    "lon": -5.8,
+    "lat": 35.77,
+    "place": "Tangier",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_Moroccan_Crisis"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "tsushima",
+    "date": "1905-05-27",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "The Russian fleet is destroyed in the Tsushima Strait",
+    "note": "A European great power lost a fleet to an Asian one in a single battle, and the war ended within months. Defeat abroad fed revolution at home in Russia, a pattern repeated in 1917.",
+    "mechanisms": [
+      "power-transition",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Japan",
+      "Russia"
+    ],
+    "lon": 129.4,
+    "lat": 34.4,
+    "place": "Tsushima Strait",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Tsushima"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "panic-1907",
+    "date": "1907-10-22",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "A run on a New York trust sets off the Panic of 1907",
+    "note": "A banking panic with no central bank behind it was contained by private rescue, and the episode led to the creation of the Federal Reserve in 1913. Financial fragility shapes what states can afford when a war arrives.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -74.01,
+    "lat": 40.71,
+    "place": "Wall Street",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panic_of_1907"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "xinhai-revolution",
+    "date": "1911-10-10",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "An uprising at Wuchang ends the Chinese empire",
+    "note": "The Qing dynasty fell and a republic that could not control its own generals took its place, opening decades of warlord rule. A weak center in a large state invites both internal war and outside intervention.",
+    "mechanisms": [
+      "state-weakness",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "China"
+    ],
+    "lon": 114.31,
+    "lat": 30.55,
+    "place": "Wuchang",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Xinhai_Revolution"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "first-balkan-war",
+    "date": "1912-10-08",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The Balkan League attacks the Ottoman Empire",
+    "note": "Four small states won quickly and pushed Ottoman rule almost out of Europe, redrawing borders the great powers then had to bless. Each had a great power patron watching, which is how a regional war becomes everyone's problem.",
+    "mechanisms": [
+      "steps-to-war",
+      "alliance-entanglement",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Serbia",
+      "Bulgaria",
+      "Greece",
+      "Montenegro",
+      "Ottoman Empire"
+    ],
+    "lon": 22.0,
+    "lat": 42.0,
+    "place": "The Balkans",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/First_Balkan_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "second-balkan-war",
+    "date": "1913-06-29",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The winners of the first Balkan war turn on each other",
+    "note": "Bulgaria attacked its former allies over the division of Macedonia and lost, leaving it looking for a patron willing to reverse the result. Unsettled spoils from one war are a standing invitation to the next.",
+    "mechanisms": [
+      "indivisible-issues",
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Bulgaria",
+      "Serbia",
+      "Greece",
+      "Romania",
+      "Ottoman Empire"
+    ],
+    "lon": 22.5,
+    "lat": 41.5,
+    "place": "Macedonia",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Second_Balkan_War"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "armenian-genocide",
+    "date": "1915-04-24",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Mass deportations and killings of Ottoman Armenians begin",
+    "note": "Under cover of war the Ottoman government deported and killed its Armenian population, with deaths generally estimated between 600,000 and 1.5 million. Wartime emergency powers are repeatedly the setting in which states turn on their own civilians.",
+    "mechanisms": [
+      "domestic-incentives",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Ottoman Empire",
+      "Armenia"
+    ],
+    "lon": 35.0,
+    "lat": 39.0,
+    "place": "Ottoman Anatolia",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Armenian_genocide"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates range widely and the characterization remains politically contested."
+  },
+  {
+    "id": "gallipoli",
+    "date": "1915-04-25",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Allied troops land on the Gallipoli peninsula",
+    "note": "An attempt to knock the Ottoman Empire out of the war by forcing the straits became an eight month stalemate and a withdrawal. It is the standard case of a plan to shorten a war that lengthened it.",
+    "mechanisms": [
+      "misperception",
+      "private-information"
+    ],
+    "countries": [
+      "United Kingdom",
+      "France",
+      "Australia",
+      "New Zealand",
+      "Ottoman Empire"
+    ],
+    "lon": 26.25,
+    "lat": 40.2,
+    "place": "Gallipoli",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "somme",
+    "date": "1916-07-01",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "The Somme offensive opens on the Western Front",
+    "note": "More than a million men were killed or wounded over four and a half months for a few miles of ground. When neither side can win quickly and neither can afford to quit, the war stops being about the original dispute.",
+    "mechanisms": [
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "United Kingdom",
+      "France",
+      "Germany"
+    ],
+    "lon": 2.7,
+    "lat": 50.0,
+    "place": "The Somme",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_the_Somme"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "october-revolution",
+    "date": "1917-11-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "The Bolsheviks take power in Petrograd",
+    "note": "A great power left the war through revolution rather than defeat, freeing German divisions for the west and creating a state that other powers treated as an enemy on principle. War strain and regime collapse run in both directions.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Russia",
+      "Germany"
+    ],
+    "lon": 30.31,
+    "lat": 59.94,
+    "place": "Petrograd",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/October_Revolution"
+    },
+    "checked": null,
+    "limitations": "Dated by the Gregorian calendar; Russian sources of the time used 25 October."
+  },
+  {
+    "id": "spanish-flu-1918",
+    "date": "1918-03-04",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 5,
+    "title": "The 1918 influenza pandemic reaches the armies",
+    "note": "An influenza pandemic spread along troop movements and killed on the order of tens of millions worldwide, more than the war itself. Wartime censorship in the belligerent states delayed public warning almost everywhere.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Spain",
+      "India"
+    ],
+    "lon": 0.0,
+    "lat": 20.0,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spanish_flu"
+    },
+    "checked": null,
+    "limitations": "The first recorded case is disputed; the 4 March 1918 Kansas case is a common but not certain marker. Death toll estimates range from 17 to 50 million or more."
+  },
+  {
+    "id": "russian-civil-war",
+    "date": "1918-05-25",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Russian civil war becomes a general war",
+    "note": "A revolt along the Trans-Siberian railway turned scattered resistance into a multi-front civil war that drew in Allied expeditionary forces. Foreign intervention in a civil war rarely decides it and reliably poisons relations afterwards.",
+    "mechanisms": [
+      "state-weakness",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Soviet Union",
+      "United Kingdom",
+      "France",
+      "United States",
+      "Japan",
+      "Czechoslovakia"
+    ],
+    "lon": 60.0,
+    "lat": 55.0,
+    "place": "The Volga and Siberia",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Russian_Civil_War"
+    },
+    "checked": null,
+    "limitations": "Start dates for the civil war range from late 1917 to mid 1918; the May 1918 revolt is one common marker."
+  },
+  {
+    "id": "treaty-of-versailles",
+    "date": "1919-06-28",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "The Treaty of Versailles is signed",
+    "note": "The settlement assigned war guilt, stripped territory and set reparations that were revised repeatedly and never paid in full. A peace strong enough to humiliate but too weak to enforce is the textbook setup for revision by force.",
+    "mechanisms": [
+      "commitment-problem",
+      "domestic-incentives",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Germany",
+      "France",
+      "United Kingdom",
+      "United States",
+      "Italy",
+      "Japan"
+    ],
+    "lon": 2.12,
+    "lat": 48.8,
+    "place": "Versailles",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "league-of-nations",
+    "date": "1920-01-10",
+    "era": "history",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "The League of Nations comes into being",
+    "note": "The first standing organization for collective security opened without the United States and with no force of its own. It could name an aggressor but could not stop one, which is what the 1930s tested.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Japan",
+      "United States"
+    ],
+    "lon": 6.14,
+    "lat": 46.2,
+    "place": "Geneva",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/League_of_Nations"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "treaty-of-sevres",
+    "date": "1920-08-10",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "The Ottoman Empire is partitioned at Sevres",
+    "note": "The treaty carved up Ottoman territory, was rejected by the nationalist movement in Anatolia, and was replaced three years later after a war the victors had not planned for. Imposing a settlement on a government that no longer controls the country does not end anything.",
+    "mechanisms": [
+      "commitment-problem",
+      "state-weakness",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Ottoman Empire",
+      "United Kingdom",
+      "France",
+      "Italy",
+      "Greece",
+      "Turkey"
+    ],
+    "lon": 2.21,
+    "lat": 48.82,
+    "place": "Sevres",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_S%C3%A8vres"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "london-schedule-reparations",
+    "date": "1921-05-05",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Reparations are fixed at 132 billion gold marks",
+    "note": "The reparations bill was set under threat of occupation and became the central grievance of German politics for a decade. War debts and reparations tied the economies of former enemies together in a way that transmitted every crisis.",
+    "mechanisms": [
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Germany",
+      "France",
+      "United Kingdom",
+      "Belgium"
+    ],
+    "lon": -0.13,
+    "lat": 51.51,
+    "place": "London",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/London_Schedule_of_Payments"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "washington-naval-treaty",
+    "date": "1922-02-06",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "The naval powers agree to limit capital ships",
+    "note": "Five powers accepted tonnage ratios and a battleship holiday, the first modern arms control treaty with real cuts. It worked while the signatories wanted it to and collapsed once one of them decided the ratio was a permanent second place.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Japan",
+      "France",
+      "Italy"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Washington_Naval_Treaty"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "march-on-rome",
+    "date": "1922-10-28",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A fascist movement is handed power in Italy",
+    "note": "A paramilitary march ended with the king inviting the fascist leadership to form a government rather than resisting it. The first fascist state in Europe supplied both a model and, later, a partner for the next one.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "lon": 12.5,
+    "lat": 41.9,
+    "place": "Rome",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/March_on_Rome"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "greek-turkish-exchange",
+    "date": "1923-01-30",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Greece and Turkey agree a compulsory population exchange",
+    "note": "About 1.6 million people were moved across the Aegean by treaty, sorted by religion, after a war that had already displaced most of them. It ended the fighting and set a precedent that partitions later in the century copied.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Greece",
+      "Turkey"
+    ],
+    "lon": 6.63,
+    "lat": 46.52,
+    "place": "Lausanne",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "weimar-hyperinflation",
+    "date": "1923-11-15",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "German hyperinflation ends with a new currency",
+    "note": "Prices had risen to the point where a single dollar bought trillions of marks before a replacement currency stopped it. The savings of the German middle class were wiped out, and the political effects outlasted the monetary fix by a decade.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Germany",
+      "France",
+      "Belgium"
+    ],
+    "lon": 13.4,
+    "lat": 52.52,
+    "place": "Berlin",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "wall-street-crash",
+    "date": "1929-10-24",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The New York stock market crashes",
+    "note": "The crash began a depression that spread through the gold standard and short term credit into every industrial economy. Mass unemployment gave the movements that wanted to overturn the 1919 settlement their opening.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": -74.01,
+    "lat": 40.71,
+    "place": "Wall Street",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "salt-march",
+    "date": "1930-03-12",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Mass civil disobedience begins in British India",
+    "note": "A 240 mile march against the salt monopoly opened a campaign that filled the prisons and made the cost of holding India visible. Anti-colonial pressure was already reshaping what the European empires could commit elsewhere.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "India",
+      "United Kingdom"
+    ],
+    "lon": 72.62,
+    "lat": 20.92,
+    "place": "Dandi",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salt_March"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "smoot-hawley",
+    "date": "1930-06-17",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The United States raises tariffs across the board",
+    "note": "The tariff invited retaliation and helped world trade fall by roughly two thirds over three years. States that cannot buy what they need turn to taking it, which is the argument the expansionist powers then made at home.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "France",
+      "United Kingdom"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "britain-leaves-gold",
+    "date": "1931-09-21",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Britain leaves the gold standard",
+    "note": "After a run on sterling Britain suspended convertibility, and much of the world followed into competing currency blocs. The blocs turned trade into a matter of empire and alignment rather than price.",
+    "mechanisms": [],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.13,
+    "lat": 51.51,
+    "place": "London",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gold_standard"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "soviet-famine-1932-33",
+    "date": "1933-01-22",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Peasants are barred from leaving the famine regions",
+    "note": "A directive stopped movement out of Ukraine and the North Caucasus while requisitioning continued, and several million people died in the famine of 1932 and 1933. Policy, not weather, turned a bad harvest into mass death.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Ukraine",
+      "Kazakhstan"
+    ],
+    "lon": 32.0,
+    "lat": 49.0,
+    "place": "Ukraine",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soviet_famine_of_1930%E2%80%931933"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates range from about 5 to 8 million across the affected regions."
+  },
+  {
+    "id": "nazi-seizure-of-power",
+    "date": "1933-01-30",
+    "era": "history",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Nazi party takes power in Germany",
+    "note": "A party committed to overturning the 1919 settlement was appointed to government and dismantled the republic within months. Rearmament and territorial revision followed as stated policy rather than as improvisation.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem",
+      "power-transition"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "lon": 13.4,
+    "lat": 52.52,
+    "place": "Berlin",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Machtergreifung"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "lytton-report",
+    "date": "1933-02-24",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "The League condemns the seizure of Manchuria and Japan leaves",
+    "note": "The Assembly adopted a report finding Japan the aggressor, Japan walked out, and nothing followed. The first test of collective security showed that naming an aggressor without a cost is an invitation to the next one.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Japan",
+      "China",
+      "United Kingdom",
+      "France"
+    ],
+    "lon": 6.14,
+    "lat": 46.2,
+    "place": "Geneva",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lytton_Report"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "dust-bowl-black-sunday",
+    "date": "1935-04-14",
+    "era": "history",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "A dust storm darkens the southern plains",
+    "note": "Drought and plowed grassland produced storms that stripped topsoil from millions of acres and pushed hundreds of thousands of people off the land. Environmental collapse inside a rich state still took a decade and a federal program to arrest.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -101.0,
+    "lat": 36.0,
+    "place": "Oklahoma panhandle",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Sunday_(storm)"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "rhineland-remilitarization",
+    "date": "1936-03-07",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "German troops re-enter the Rhineland",
+    "note": "A treaty limit was broken with a force too small to resist a French response, and no response came. Each unanswered move lowered the price of the next one and taught the German leadership that the guarantors were bluffing.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Germany",
+      "France",
+      "United Kingdom"
+    ],
+    "lon": 6.96,
+    "lat": 50.94,
+    "place": "The Rhineland",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Remilitarization_of_the_Rhineland"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "munich-agreement",
+    "date": "1938-09-30",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Four powers hand the Sudetenland to Germany",
+    "note": "Britain, France, Germany and Italy transferred Czechoslovak territory without Czechoslovakia in the room, in exchange for a promise of no further claims. The promise lasted five months, which is why the word Munich now means a concession that buys nothing.",
+    "mechanisms": [
+      "commitment-problem",
+      "misperception",
+      "private-information"
+    ],
+    "countries": [
+      "United Kingdom",
+      "France",
+      "Germany",
+      "Italy",
+      "Czechoslovakia"
+    ],
+    "lon": 11.58,
+    "lat": 48.14,
+    "place": "Munich",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Munich_Agreement"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "enigma-handover",
+    "date": "1939-07-25",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Polish cryptanalysts hand Enigma decryption to Britain and France",
+    "note": "Five weeks before the invasion, Polish intelligence gave its allies the reconstructed machine and its methods, which became the basis of the wartime decryption effort. Reading an enemy's traffic changes what leaders believe they know when they choose to fight.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "Poland",
+      "United Kingdom",
+      "France",
+      "Germany"
+    ],
+    "lon": 21.02,
+    "lat": 52.14,
+    "place": "Pyry, near Warsaw",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "molotov-ribbentrop",
+    "date": "1939-08-23",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Germany and the Soviet Union sign a non-aggression pact",
+    "note": "A public non-aggression treaty carried secret protocols dividing eastern Europe into spheres, removing the two front problem that had held Germany back. War in Poland followed nine days later.",
+    "mechanisms": [
+      "commitment-problem",
+      "alliance-entanglement",
+      "private-information"
+    ],
+    "countries": [
+      "Germany",
+      "Soviet Union",
+      "Poland",
+      "Finland",
+      "Estonia",
+      "Latvia",
+      "Lithuania",
+      "Romania"
+    ],
+    "lon": 37.62,
+    "lat": 55.75,
+    "place": "Moscow",
+    "arc": [
+      [
+        13.4,
+        52.52
+      ],
+      [
+        37.62,
+        55.75
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Molotov%E2%80%93Ribbentrop_Pact"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "battle-of-britain",
+    "date": "1940-07-10",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "The air battle over Britain begins",
+    "note": "The first campaign decided by air power alone denied Germany the conditions for invasion and kept a base in Europe for the coalition that formed later. Radar and ground control, not aircraft numbers, carried the defense.",
+    "mechanisms": [
+      "misperception",
+      "private-information"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Germany"
+    ],
+    "lon": 0.5,
+    "lat": 51.3,
+    "place": "Southern England",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Britain"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "japan-asset-freeze",
+    "date": "1941-07-26",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The United States freezes Japanese assets and cuts off oil",
+    "note": "The freeze, matched by Britain and the Dutch East Indies, ended about four fifths of Japan's oil imports and set a clock running on its fleet. Sanctions meant to deter can instead narrow a target's choices to attacking sooner.",
+    "mechanisms": [
+      "commitment-problem",
+      "power-transition",
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Japan",
+      "United Kingdom",
+      "Netherlands"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        139.69,
+        35.69
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Events_leading_to_the_attack_on_Pearl_Harbor"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "wannsee-conference",
+    "date": "1942-01-20",
+    "era": "history",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Officials coordinate the deportation and murder of Europe's Jews",
+    "note": "A meeting of ministry and police officials organized the machinery of a killing programme already under way, which took about six million lives. Genocide here was administered by a functioning bureaucracy under the cover of a war.",
+    "mechanisms": [
+      "indivisible-issues",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Germany",
+      "Poland",
+      "Soviet Union",
+      "Hungary",
+      "France",
+      "Netherlands"
+    ],
+    "lon": 13.16,
+    "lat": 52.43,
+    "place": "Wannsee, Berlin",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wannsee_Conference"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "stalingrad",
+    "date": "1942-08-23",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "The battle for Stalingrad begins",
+    "note": "Five months of urban and encirclement fighting cost close to two million casualties on both sides and destroyed a German army. It is the point after which the German position in the east was never restored.",
+    "mechanisms": [
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Germany",
+      "Romania",
+      "Italy",
+      "Hungary"
+    ],
+    "lon": 44.52,
+    "lat": 48.71,
+    "place": "Stalingrad",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+    },
+    "checked": null,
+    "limitations": "Casualty figures for both sides are estimates and vary between sources."
+  },
+  {
+    "id": "bengal-famine-1943",
+    "date": "1943-01-01",
+    "era": "history",
+    "group": "Social",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Famine in Bengal kills millions during the war",
+    "note": "A cyclone, a lost import route, wartime requisitioning and export bans between Indian provinces combined into a famine that killed roughly two to three million people. Relief was slowed by the priorities of a war being fought next door.",
+    "mechanisms": [
+      "state-weakness",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "India",
+      "United Kingdom",
+      "Japan"
+    ],
+    "lon": 89.0,
+    "lat": 23.5,
+    "place": "Bengal",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bengal_famine_of_1943"
+    },
+    "checked": null,
+    "limitations": "Only the year is used as a date; deaths were concentrated in the second half of 1943. Toll estimates range from about 2 to 3.8 million."
+  },
+  {
+    "id": "penicillin-mass-production",
+    "date": "1944-03-01",
+    "era": "history",
+    "group": "Health",
+    "sub": "Humanitarian consequences",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "Deep tank fermentation puts penicillin into mass production",
+    "note": "A new fermentation process moved penicillin from laboratory quantities to millions of doses in time for the invasion of France. Wound infection stopped being the main way a wounded soldier died.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "United Kingdom"
+    ],
+    "lon": -73.95,
+    "lat": 40.68,
+    "place": "Brooklyn",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_penicillin"
+    },
+    "checked": null,
+    "limitations": "Scale-up ran through 1943 and 1944; the March 1944 plant opening is one marker among several."
+  },
+  {
+    "id": "normandy-landings",
+    "date": "1944-06-06",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Allied forces land in Normandy",
+    "note": "The largest amphibious operation ever mounted opened a second front in western Europe against an enemy already losing in the east. From here the war's end was a question of timing and of who would hold which capital.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "France",
+      "Germany"
+    ],
+    "lon": -0.6,
+    "lat": 49.35,
+    "place": "Normandy",
+    "arc": [
+      [
+        -1.09,
+        50.8
+      ],
+      [
+        -0.6,
+        49.35
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Normandy_landings"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "bretton-woods",
+    "date": "1944-07-01",
+    "era": "history",
+    "group": "Economic",
+    "sub": "Trade integration and diplomacy",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "Forty four nations design the postwar monetary system",
+    "note": "Delegates agreed on fixed but adjustable exchange rates, the International Monetary Fund and the World Bank, explicitly to avoid repeating the currency blocs of the 1930s. The economic settlement was written before the war it followed had ended.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Soviet Union",
+      "China",
+      "France"
+    ],
+    "lon": -71.44,
+    "lat": 44.26,
+    "place": "Bretton Woods",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "yalta-conference",
+    "date": "1945-02-04",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 4,
+    "title": "The three main allies divide postwar Europe",
+    "note": "The meeting set occupation zones, the terms for a Soviet entry into the Pacific war, and the shape of governments in eastern Europe. What each side thought it had agreed differed, and that gap became the opening of the next confrontation.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Soviet Union",
+      "Germany",
+      "Poland"
+    ],
+    "lon": 34.16,
+    "lat": 44.5,
+    "place": "Yalta",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yalta_Conference"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "un-charter",
+    "date": "1945-06-26",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 4,
+    "title": "Fifty states sign the United Nations Charter",
+    "note": "The Charter banned the use of force except in self defense or when the Security Council authorizes it, and gave five powers a veto over that authorization. Making the strongest states permanent judges was the price of getting them to join.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Soviet Union",
+      "China",
+      "France"
+    ],
+    "lon": -122.42,
+    "lat": 37.77,
+    "place": "San Francisco",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/United_Nations_Charter"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "trinity-test",
+    "date": "1945-07-16",
+    "era": "history",
+    "group": "Technology",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "The first nuclear device is detonated in New Mexico",
+    "note": "A test in the desert proved a weapon that made the destruction of a city the work of one aircraft. Every later argument about deterrence, arms control and proliferation starts from this morning.",
+    "mechanisms": [
+      "power-transition",
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Soviet Union"
+    ],
+    "lon": -106.48,
+    "lat": 33.68,
+    "place": "Alamogordo",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+    },
+    "checked": null,
+    "limitations": ""
+  },
+  {
+    "id": "hiroshima",
+    "date": "1945-08-06",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "A nuclear weapon is used on Hiroshima",
+    "note": "One bomb killed on the order of 70,000 to 140,000 people by the end of the year. It is the first of the only two uses of nuclear weapons in war, and the reference point for every threat made since.",
+    "mechanisms": [
+      "private-information",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "Japan"
+    ],
+    "lon": 132.46,
+    "lat": 34.39,
+    "place": "Hiroshima",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates vary widely depending on whether later radiation deaths are counted."
+  },
+  {
+    "id": "nagasaki",
+    "date": "1945-08-09",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "A second nuclear weapon is used on Nagasaki",
+    "note": "A second bomb killed on the order of 40,000 to 80,000 people, and Japan announced its surrender five days later. The two attacks are the whole empirical record of nuclear use against a city.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Japan"
+    ],
+    "lon": 129.87,
+    "lat": 32.75,
+    "place": "Nagasaki",
+    "arc": null,
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+    },
+    "checked": null,
+    "limitations": "Death toll estimates vary widely depending on whether later radiation deaths are counted."
+  },
+  {
+    "id": "soviet-invasion-manchuria",
+    "date": "1945-08-09",
+    "era": "history",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "The Soviet Union enters the war against Japan",
+    "note": "A Soviet offensive destroyed the Japanese army in Manchuria within days and removed the last hope in Tokyo of a negotiated end through Moscow. Historians still argue whether this or the bombs weighed more in the surrender.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Soviet Union",
+      "Japan",
+      "China",
+      "Mongolia"
+    ],
+    "lon": 125.0,
+    "lat": 45.0,
+    "place": "Manchuria",
+    "arc": [
+      [
+        113.5,
+        52.03
+      ],
+      [
+        126.6,
+        45.8
+      ]
+    ],
+    "global": false,
+    "source": {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Manchuria"
+    },
+    "checked": null,
+    "limitations": ""
+  }
+]

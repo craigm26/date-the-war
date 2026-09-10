@@ -1,0 +1,222 @@
+[
+  {
+    "id": "d-20260910-ukraine-arctic-gas",
+    "date": "2026-09-10",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine strikes Russian Arctic gas plants; strikes kill seven",
+    "note": "Al Jazeera reports Ukrainian long-range drones hit gas plants deep in Russia's Arctic region in one of Kyiv's farthest strikes yet, while Russian attacks on Ukraine killed seven people the same day.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 76,
+    "lat": 68,
+    "place": "Arctic Russia",
+    "arc": [
+      [
+        30.5234,
+        50.4501
+      ],
+      [
+        76,
+        68
+      ]
+    ],
+    "global": false,
+    "metric": "7 people",
+    "metricName": "reported deaths from Russian strikes on Ukraine",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/russian-attacks-kill-7-in-ukraine-as-kyiv-targets-gas-plants-deep-in-arctic?traffic_source=rss"
+    },
+    "checked": "2026-09-10",
+    "auto": true,
+    "limitations": "Strike details and the death toll are as reported by one side and not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260910-iaea-iran-noncompliance",
+    "date": "2026-09-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "IAEA accuses Iran of nuclear noncompliance",
+    "note": "Al Jazeera reports the UN nuclear watchdog says it has gone more than a year without inspecting key Iranian sites, while Iran says US attacks have made access unsafe, deepening the standoff over its nuclear program.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 51.4,
+    "lat": 35.7,
+    "place": "Tehran, Iran",
+    "arc": null,
+    "global": false,
+    "metric": "more than 1 year",
+    "metricName": "time since last IAEA inspection of key sites",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/iaea-accuses-iran-of-non-compliance-why-and-what-now?traffic_source=rss"
+    },
+    "checked": "2026-09-10",
+    "auto": true,
+    "limitations": "Iran disputes the characterization of inspection access, citing safety concerns after US strikes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260910-gaza-strikes-ceasefire",
+    "date": "2026-09-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Israeli strikes kill four in Gaza despite October ceasefire",
+    "note": "Al Jazeera reports Israeli attacks on northern Gaza killed at least four Palestinians, continuing despite a ceasefire brokered in October and underscoring how fragile the truce remains.",
+    "mechanisms": [
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.4668,
+    "lat": 31.5017,
+    "place": "Northern Gaza",
+    "arc": [
+      [
+        34.7818,
+        32.0853
+      ],
+      [
+        34.4668,
+        31.5017
+      ]
+    ],
+    "global": false,
+    "metric": "at least 4 people",
+    "metricName": "reported deaths from Israeli strikes",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/10/israeli-attacks-kill-at-least-four-palestinians-in-northern-gaza?traffic_source=rss"
+    },
+    "checked": "2026-09-10",
+    "auto": true,
+    "limitations": "Casualty figures are as reported locally and have not been independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260910-libya-election-deal",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "UN Security Council welcomes Libya election deal",
+    "note": "UN News reports the Security Council welcomed a breakthrough agreement between Libya's rival political blocs as an important step toward the country's first national elections in over a decade.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Libya"
+    ],
+    "lon": 13.1913,
+    "lat": 32.8872,
+    "place": "Tripoli, Libya",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168302"
+    },
+    "checked": "2026-09-10",
+    "auto": true,
+    "limitations": "The agreement has not yet been implemented and could still unravel before elections are held. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260910-education-attacks",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Record attacks on education leave 93 million out of school",
+    "note": "UN News reports a global education fund warns that 93 million children are out of class amid an unprecedented number of attacks on schools and learning, concentrated in conflict-affected countries.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "metric": "93 million children",
+    "metricName": "children out of school amid attacks on education",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168300"
+    },
+    "checked": "2026-09-10",
+    "auto": true,
+    "limitations": "The figure aggregates global data and does not isolate the share directly attributable to armed conflict. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260910-trump-iran-war-elections",
+    "date": "2026-09-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US president says Iran war will continue past November vote",
+    "note": "The BBC reports the US president said the war with Iran will not end until after crucial November elections and that oil prices will not fall before then, tying the conflict's course to domestic politics.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "place": "Washington / Tehran",
+    "arc": [
+      [
+        -77.0369,
+        38.9072
+      ],
+      [
+        51.4,
+        35.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-10",
+    "auto": true,
+    "limitations": "The claim that Iran seeks to influence the election is asserted without evidence, per the source. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

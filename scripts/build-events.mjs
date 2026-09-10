@@ -206,7 +206,7 @@ function fromCsv(r) {
 // ---------- merge ----------
 if (process.argv[1] && process.argv[1].endsWith('build-events.mjs')) {
 const repo = read('events.json').map(fromRepo);
-const history = readdirSync(join(root, 'data')).filter((f) => /^history-.*\.json$/.test(f)).sort()
+const history = readdirSync(join(root, 'data')).filter((f) => /^(history-.*|curated-.*)\.json$/.test(f)).sort()
   .flatMap((f) => read(f).map(fromHistory));
 // Auto-drafted daily ledgers, one file per day, written by scripts/daily.sh.
 const dailyDir = join(root, 'data', 'daily');

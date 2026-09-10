@@ -1,0 +1,216 @@
+[
+  {
+    "id": "d-20260909-oil-100-barrel",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Oil price hits $100 a barrel after US and Houthi strikes",
+    "note": "Brent crude topped $100 a barrel for the first time since July after the US struck Iranian oil tankers and Houthi forces hit Saudi cities and energy facilities. The surge signals markets pricing in a wider Gulf energy disruption.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States",
+      "Yemen",
+      "Saudi Arabia",
+      "Iran"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global oil markets",
+    "arc": null,
+    "global": true,
+    "metric": "100 USD per barrel",
+    "metricName": "Brent crude oil price",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-09",
+    "auto": true,
+    "limitations": "Price move reflects market reaction rather than a direct measure of supply loss. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260909-us-canada-import-ban",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US to ban some Canadian alcohol, dairy and motorbike imports",
+    "note": "The US said it will ban imports of some Canadian alcohol, dairy products and motorbikes, the latest step in an escalating trade dispute. The move follows Canadian counter-tariffs of up to 50 percent that took effect this week.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "lon": -76.4,
+    "lat": 42,
+    "place": "US-Canada trade dispute",
+    "arc": [
+      [
+        -77.03,
+        38.89
+      ],
+      [
+        -75.69,
+        45.42
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-09",
+    "auto": true,
+    "limitations": "Full list of affected goods and effective date not yet confirmed by officials. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260909-nigeria-boko-haram-ceasefire",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Nigeria and Boko Haram reach secret three-month ceasefire",
+    "note": "Nigeria's government and Boko Haram have reportedly reached a secret three-month ceasefire, following the release of 360 villagers abducted in an earlier attack. The unconfirmed truce would mark a rare pause in an insurgency that has displaced millions in the northeast.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Nigeria"
+    ],
+    "lon": 13.15,
+    "lat": 11.85,
+    "place": "Borno State, Nigeria",
+    "arc": null,
+    "global": false,
+    "metric": "about 360 people",
+    "metricName": "villagers released before the reported ceasefire",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/9/nigeria-boko-haram-reportedly-reach-secret-three-month-ceasefire?traffic_source=rss"
+    },
+    "checked": "2026-09-09",
+    "auto": true,
+    "limitations": "The ceasefire is reported as secret and unconfirmed by either party officially. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260909-car-am-dafock-displacement",
+    "date": "2026-09-08",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "UN sees gradual return after CAR border attack displaces 17,000",
+    "note": "A UN stabilization mission reports gradual signs of normal life returning to Am-Dafock in the Central African Republic, near the Sudan border, after an armed group attack killed 29 people and displaced more than 17,000. Increased patrols have helped over 5,000 people return home.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Central African Republic",
+      "Sudan"
+    ],
+    "lon": 22.75,
+    "lat": 11.13,
+    "place": "Am-Dafock, Central African Republic",
+    "arc": null,
+    "global": false,
+    "metric": "about 17,000 people",
+    "metricName": "people displaced by armed group attack",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db260908.doc.htm"
+    },
+    "checked": "2026-09-09",
+    "auto": true,
+    "limitations": "Casualty and displacement figures are from a UN mission report and not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260909-russia-ukraine-moldova-strikes",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia and Ukraine trade strikes; two killed near Moldova border",
+    "note": "Russia and Ukraine exchanged strikes overnight, with two people killed near the Moldova border and four more, including a child, killed in the Russian city of Novorossiysk. The strikes underscore how the war continues to draw in areas near Ukraine's borders.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Moldova"
+    ],
+    "lon": 29,
+    "lat": 48,
+    "place": "Ukraine-Moldova border",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        29,
+        48
+      ]
+    ],
+    "global": false,
+    "metric": "at least 6 people",
+    "metricName": "people killed in overnight strikes",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-09",
+    "auto": true,
+    "limitations": "Casualty figures are preliminary and attribution of specific strikes is contested by both sides. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260909-iran-us-submarine-drone",
+    "date": "2026-09-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran claims capture of US Navy underwater drone",
+    "note": "Iran says it captured a US Navy unmanned underwater vehicle, the Dive-LD, while Washington maintains the submersible had malfunctioned a day earlier. The disputed claim adds another flashpoint to rising US-Iran military tensions in the Gulf.",
+    "mechanisms": [
+      "misperception",
+      "private-information"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.5,
+    "lat": 26.5,
+    "place": "Persian Gulf",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/9/has-iran-captured-an-unmanned-us-submarine-what-we-know?traffic_source=rss"
+    },
+    "checked": "2026-09-09",
+    "auto": true,
+    "limitations": "Iran's capture claim is unconfirmed by Washington, and reporting relies on contested single-source statements from both sides. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

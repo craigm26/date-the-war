@@ -17,7 +17,7 @@ Live at https://craigmerry.com/date-the-war/. This repo is the source; the perso
 
 ## Data
 
-Three ledgers merge into `data/all-events.json`, the one file the page reads. Regenerate with `npm run build:events`.
+The ledgers below merge into `data/all-events.json`, the one file the page reads. Regenerate with `npm run build:events`.
 
 | Ledger | Shape | Rows |
 | --- | --- | --- |
@@ -26,6 +26,7 @@ Three ledgers merge into `data/all-events.json`, the one file the page reads. Re
 | `data/history-mobilization.json` | same shape; the mobilization layer: conscription, industrial direction, rationing, war finance, call-ups, spending shares, civil preparedness (two extra indicator categories) | 1914 to 2025 |
 | `data/history-stress.json` | same shape; the stress layer: population milestones and migration, harvests and food prices, heat, floods and record years, shared rivers, oil found, peaked, embargoed and attacked, critical minerals, debt defaults, plus the 2011 to 2025 non-war gaps (pandemic, trade war, arms control lapses) | 1927 to 2025 |
 | `data/indicators-2026.csv` | 2026 Global Conflict Indicators ledger, 67 sourced rows as of 2026-09-08 | this year |
+| `data/curated-2026.json` | same shape as the history ledgers; hand-reviewed 2026 rows for events the daily feeds missed or under-weighted, every URL opened and returned 200 on the `checked` date | this year |
 
 Merge rules, stated so they can be argued with:
 

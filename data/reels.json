@@ -1,12 +1,34 @@
 [
  {
+  "date": "2026-09-12",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-09-12@reel",
+  "titles": [
+   "Russia strikes cargo vessels and steel plants across Ukraine",
+   "Saudi Arabia shuts key oil pipeline after cross-border drone strike",
+   "UN warns Ukraine faces its toughest winter of the war"
+  ]
+ },
+ {
+  "date": "2026-09-11",
+  "count": 2,
+  "auto": 2,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-09-11@reel",
+  "titles": [
+   "Houthi forces seize Yemen's Red Sea coast near Bab al-Mandeb",
+   "UN Security Council renews Sudan arms embargo for one month"
+  ]
+ },
+ {
   "date": "2026-09-10",
-  "count": 8,
-  "auto": 4,
+  "count": 9,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-10@reel",
   "titles": [
    "Israeli strikes kill four in Gaza despite October ceasefire",
    "Ukraine strikes Russian Arctic gas plants; strikes kill seven",
+   "Drone strike on Chornobyl shelter risks nuclear catastrophe, UN says",
    "August 2026 was the joint hottest month ever recorded, 1.65 C above pre-industrial",
    "Britain, Norway and the US disclose that they confronted a Russian subsea-cable sabotage exercise near Svalbard",
    "IAEA accuses Iran of nuclear noncompliance",

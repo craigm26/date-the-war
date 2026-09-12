@@ -1,0 +1,225 @@
+[
+  {
+    "id": "d-20260912-yemen-houthi-coast",
+    "date": "2026-09-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthi forces seize Yemen's Red Sea coast near Bab al-Mandeb",
+    "note": "Iran-aligned Houthi forces captured a stretch of Yemen's Red Sea coastline, including the island of Perim, in their most significant military gain in years. Analysts warn the advance near the Bab al-Mandeb strait risks adding a dangerous new dimension to the wider regional confrontation with Iran.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Yemen",
+      "Iran",
+      "Saudi Arabia"
+    ],
+    "lon": 43.3,
+    "lat": 12.6,
+    "place": "Bab al-Mandeb, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-12",
+    "auto": true,
+    "limitations": "Territorial claims come from the armed group itself and cannot be independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260912-saudi-pipeline-drone",
+    "date": "2026-09-12",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Saudi Arabia shuts key oil pipeline after cross-border drone strike",
+    "note": "Saudi Arabia shut a critical oil pipeline after a drone attack confirmed to have been launched from Iraqi territory; Iraq removed a military commander and closed the border while investigating. The US president said Iran was probably behind the strike.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Iraq",
+      "Iran",
+      "United States"
+    ],
+    "lon": 46,
+    "lat": 28.5,
+    "place": "Saudi Arabia-Iraq border",
+    "arc": [
+      [
+        44.4,
+        33.3
+      ],
+      [
+        46,
+        28.5
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-12",
+    "auto": true,
+    "limitations": "Attribution of the strike to Iran is an allegation by the US president and has not been independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260912-chornobyl-drone",
+    "date": "2026-09-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Drone strike on Chornobyl shelter risks nuclear catastrophe, UN says",
+    "note": "A senior UN official said a drone strike on the protective structure covering the Chornobyl nuclear plant could have endangered the safety of millions of people, warning against gambling with nuclear safety during the war.",
+    "mechanisms": [
+      "misperception",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.22,
+    "lat": 51.28,
+    "place": "Chornobyl, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.7
+      ],
+      [
+        30.22,
+        51.28
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168312"
+    },
+    "checked": "2026-09-12",
+    "auto": true,
+    "limitations": "Responsibility for the strike is not independently attributed in the source. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260912-un-sudan-sanctions-renewal",
+    "date": "2026-09-11",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UN Security Council renews Sudan arms embargo for one month",
+    "note": "The Security Council unanimously renewed Sudan's sanctions regime, including an arms embargo, asset freezes and travel bans, for one month to leave room for negotiations over the civil war.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": -73.97,
+    "lat": 40.75,
+    "place": "New York (UN Headquarters)",
+    "arc": null,
+    "global": false,
+    "metric": "one month",
+    "metricName": "sanctions renewal period",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16450.doc.htm"
+    },
+    "checked": "2026-09-12",
+    "auto": true,
+    "limitations": "A one-month renewal is a temporary compromise and leaves the underlying dispute over expanding the regime unresolved. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260912-ukraine-toughest-winter",
+    "date": "2026-09-12",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Civil preparedness and resilience",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN warns Ukraine faces its toughest winter of the war",
+    "note": "A senior UN official said Ukraine faces a race against time to secure power and water access through the coming winter, calling it the toughest since Russia's full-scale invasion began.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwyz59yyqk4o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-12",
+    "auto": true,
+    "limitations": "The assessment is a single official's characterization rather than a quantified measurement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260912-russia-strikes-ukraine-industry",
+    "date": "2026-09-12",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia strikes cargo vessels and steel plants across Ukraine",
+    "note": "Russia's defence ministry said its forces struck several industrial facilities and cargo vessels across Ukraine, widening attacks on infrastructure that supports Ukraine's war economy.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 32,
+    "lat": 49,
+    "place": "Ukraine (multiple sites)",
+    "arc": [
+      [
+        37.6,
+        55.7
+      ],
+      [
+        32,
+        49
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/12/russia-strikes-cargo-vessels-steel-plants-across-ukraine?traffic_source=rss"
+    },
+    "checked": "2026-09-12",
+    "auto": true,
+    "limitations": "The claim comes from Russia's own defence ministry and has not been independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

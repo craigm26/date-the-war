@@ -1,0 +1,229 @@
+[
+  {
+    "id": "d-20260913-iraq-drone-platform",
+    "date": "2026-09-13",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iraq seizes drone platform behind Saudi pipeline attack",
+    "note": "Iraq says it seized a drone-launching site in Maysan province near the Iranian border, tracing the origin of an attack that forced Saudi Arabia to shut a key oil pipeline. The find implicates Iraqi territory in a widening web of strikes on Gulf energy infrastructure.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Iraq",
+      "Saudi Arabia",
+      "Iran"
+    ],
+    "lon": 47.15,
+    "lat": 31.83,
+    "place": "Maysan province, Iraq",
+    "arc": [
+      [
+        47.15,
+        31.83
+      ],
+      [
+        49.6,
+        26.3
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/13/iraq-seizes-drone-launching-platform-used-for-targeting-saudi-oil-pipeline?traffic_source=rss"
+    },
+    "checked": "2026-09-13",
+    "auto": true,
+    "limitations": "Attribution rests on Saudi and Iraqi tracing; the group responsible for launching the drone has not been independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260913-ukraine-strikes-poland-border",
+    "date": "2026-09-13",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukrainian strikes near Poland border kill four, Russia says",
+    "note": "Russia says Ukrainian drone strikes killed four people close to the Polish border, as both sides continue nightly waves of drone attacks. The fighting keeps pressing against NATO's frontier even as the wider war grinds on.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "Poland"
+    ],
+    "lon": 23,
+    "lat": 53,
+    "place": "near Poland border, Russia",
+    "arc": [
+      [
+        31,
+        49
+      ],
+      [
+        23,
+        53
+      ]
+    ],
+    "global": false,
+    "metric": "four people",
+    "metricName": "people killed",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/13/ukraine-drone-strikes-kill-four-as-russia-attacks-close-to-poland-border?traffic_source=rss"
+    },
+    "checked": "2026-09-13",
+    "auto": true,
+    "limitations": "Casualty figures and exact location come solely from Russian authorities and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260913-yemen-displacement-surge",
+    "date": "2026-09-11",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Yemen fighting displaces 46,000 people in southwest in a week",
+    "note": "The International Organization for Migration reports at least 46,000 people have fled renewed fighting between Houthi rebels and pro-government forces in southwestern Yemen since last week. The scale shows how quickly the reignited war is uprooting civilians.",
+    "mechanisms": [
+      "steps-to-war",
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 43.3,
+    "lat": 13.5,
+    "place": "southwestern Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "46,000 people",
+    "metricName": "people newly displaced",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168314"
+    },
+    "checked": "2026-09-13",
+    "auto": true,
+    "limitations": "Figure is a preliminary IOM estimate and likely to be revised as access improves. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260913-brics-avoids-condemning-iran-war",
+    "date": "2026-09-13",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "BRICS summit avoids condemning US-Israel war on Iran",
+    "note": "The 11-nation BRICS bloc closes its summit without condemning the US-Israel war on Iran, exposing divisions among members over how to respond. The outcome underscores the limits of BRICS as a counterweight on active wars involving its partners.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran",
+      "China",
+      "Russia",
+      "India",
+      "Brazil",
+      "South Africa"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "BRICS summit",
+    "arc": null,
+    "global": true,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/13/brics-summit-2026-what-are-the-key-takeaways?traffic_source=rss"
+    },
+    "checked": "2026-09-13",
+    "auto": true,
+    "limitations": "Summary characterization of a multilateral communique; does not capture each member's internal deliberations. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260913-houthis-seize-mayun-island",
+    "date": "2026-09-13",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthis seize Yemen's Mayun Island in Bab al-Mandeb strait",
+    "note": "Yemen's Houthi forces have seized Mayun Island, tightening their grip on the Bab al-Mandeb strait, a chokepoint for global oil and shipping trade. The advance deepens Houthi control over one of the world's most strategic waterways.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 43.38,
+    "lat": 12.66,
+    "place": "Mayun Island, Bab al-Mandeb",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/yemens-houthis-seize-strategic-mayun-island-in-red-sea?traffic_source=rss"
+    },
+    "checked": "2026-09-13",
+    "auto": true,
+    "limitations": "Single-source report; full extent of control over the island is not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260913-lebanon-displacement-permanent",
+    "date": "2026-09-13",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli destruction in south Lebanon leaves displacement permanent",
+    "note": "Widespread destruction from Israeli strikes in south Lebanon is leaving displaced Lebanese unable to return, as lost homes and livelihoods harden into a lasting crisis. The report shows how war damage can convert temporary displacement into permanent demographic change.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Lebanon",
+      "Israel"
+    ],
+    "lon": 35.5,
+    "lat": 33.3,
+    "place": "south Lebanon",
+    "arc": [
+      [
+        35.2,
+        31.5
+      ],
+      [
+        35.5,
+        33.3
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/13/how-israels-destruction-of-south-lebanon-is-making-displacement-permanent?traffic_source=rss"
+    },
+    "checked": "2026-09-13",
+    "auto": true,
+    "limitations": "Based on features and resident testimony rather than official damage or displacement statistics. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

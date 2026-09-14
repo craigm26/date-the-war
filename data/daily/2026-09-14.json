@@ -1,0 +1,206 @@
+[
+  {
+    "id": "d-20260914-yemen-taiz-advance",
+    "date": "2026-09-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Yemen government forces advance in Taiz as Houthis claim Saudi attack",
+    "note": "Yemeni government troops report gains against Houthi forces in western Taiz, while the Houthis claim a new attack on Saudi Arabia the same day. The dual-front fighting keeps Yemen's war and its regional spillover active.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.02,
+    "lat": 13.58,
+    "place": "Taiz, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/14/yemen-govt-forces-advance-in-taiz-as-houthis-claim-attack-on-saudi-arabia?traffic_source=rss"
+    },
+    "checked": "2026-09-14",
+    "auto": true,
+    "limitations": "Territorial gains and the Houthi attack claim are reported by the parties involved and not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260914-hormuz-summit-deferred",
+    "date": "2026-09-14",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Iran-Arab summit on Hormuz crisis falls through",
+    "note": "A planned summit on a temporary Hormuz Strait arrangement collapsed after Saudi Arabia asked to postpone it, though Iran says it will keep seeking a regionally backed deal. The stalled talks leave the oil chokepoint crisis unresolved.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran",
+      "Saudi Arabia"
+    ],
+    "lon": 56.25,
+    "lat": 26.57,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news-analysis/2026/9/14/temporary-hormuz-solution-deferred-as-iran-arab-summit-falls-through?traffic_source=rss"
+    },
+    "checked": "2026-09-14",
+    "auto": true,
+    "limitations": "The account of why the summit was postponed comes from Iranian officials only. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260914-oil-107-hormuz",
+    "date": "2026-09-14",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Oil tops $107 a barrel as US works to clear Hormuz traffic",
+    "note": "Brent crude passed $107 a barrel as the US says it is working to clear tanker traffic through the Strait of Hormuz after days of strikes disrupted shipping. The surge shows how combat near the strait is squeezing global oil supply.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.25,
+    "lat": 26.57,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "about 107 USD per barrel",
+    "metricName": "Brent crude oil price",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/14/us-says-its-clearing-hormuz-traffic-why-are-oil-futures-beyond-100?traffic_source=rss"
+    },
+    "checked": "2026-09-14",
+    "auto": true,
+    "limitations": "The price move is attributed to Hormuz disruptions by the source; other market drivers are not ruled out. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260914-saudi-pipeline-5pct",
+    "date": "2026-09-14",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi pipeline closure threatens 5% of global oil supply",
+    "note": "Saudi Arabia's 1,200-kilometre East-West pipeline remains shut after a cross-border drone strike, and analysts say the closure could affect up to five percent of global oil supply. It shows how attacks on chokepoint infrastructure ripple through world energy markets.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "lon": 42,
+    "lat": 24,
+    "place": "East-West pipeline, Saudi Arabia",
+    "arc": null,
+    "global": false,
+    "metric": "up to 5 percent",
+    "metricName": "share of global oil supply affected",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/14/why-saudi-arabias-east-west-pipeline-matters-for-global-oil?traffic_source=rss"
+    },
+    "checked": "2026-09-14",
+    "auto": true,
+    "limitations": "The supply-impact figure is analyst commentary, not a confirmed loss estimate. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260914-ai-autonomous-warfare",
+    "date": "2026-09-14",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russia and Ukraine race to build fully autonomous attack drones",
+    "note": "Both militaries are developing AI-directed drones meant to strike without human control, part of a broader push toward automated weapons systems. The shift toward autonomy raises the risk of faster, less controllable escalation.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 37,
+    "lat": 48,
+    "place": "Russia-Ukraine front",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/14/attacks-will-be-fully-autonomous-russia-ukraine-race-towards-ai-warfare?traffic_source=rss"
+    },
+    "checked": "2026-09-14",
+    "auto": true,
+    "limitations": "Claims about the pace and scope of full autonomy rely on official and industry sources that are hard to verify independently. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260914-westbank-displacement",
+    "date": "2026-09-14",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Rights group says Israel is erasing Palestinian presence in West Bank",
+    "note": "An Israeli human rights group says Israeli authorities and settlers use five mechanisms, including demolitions and movement restrictions, to dismantle Palestinian communities in the West Bank. The report adds to warnings that West Bank policy is entrenching permanent displacement alongside the Gaza and Lebanon conflicts.",
+    "mechanisms": [
+      "state-weakness",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 35.3,
+    "lat": 31.9,
+    "place": "West Bank",
+    "arc": [
+      [
+        34.78,
+        32.08
+      ],
+      [
+        35.3,
+        31.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/14/israel-working-to-eliminate-palestinian-presence-from-west-bank-ngo-warns?traffic_source=rss"
+    },
+    "checked": "2026-09-14",
+    "auto": true,
+    "limitations": "Findings come from a single Israeli NGO report; a government response is not included. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "id": "d-20260915-hormuz-tanker-attack",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Tanker attack in Hormuz leaves two sailors missing",
+    "note": "The BBC reports Oman says the oil tanker El Gaia was hit by a missile and then a drone, an account the US backs while Iran attributes the fire to mines; two crew remain missing. The incident raises the risk of wider disruption to Gulf oil shipping routes.",
+    "mechanisms": [
+      "misperception",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Oman",
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.25,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "2 sailors missing",
+    "metricName": "missing crew",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "Attribution is contested between Iranian and US accounts and cannot be independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260915-nato-drone-lithuania",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "NATO jets shoot down drone that entered Lithuanian airspace",
+    "note": "The BBC reports NATO aircraft downed a drone over Lithuania that authorities believe entered from Belarus, an ally of Russia. The incident adds to a string of airspace violations testing NATO's eastern-flank commitments.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "Lithuania",
+      "Belarus",
+      "Russia"
+    ],
+    "lon": 24,
+    "lat": 55.2,
+    "place": "Lithuanian airspace",
+    "arc": [
+      [
+        27.57,
+        53.9
+      ],
+      [
+        24,
+        55.2
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "The drone's origin and intent are unconfirmed and Belarus has not commented. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260915-denmark-russian-warship-flares",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Denmark says Russian warship fired flares at helicopter",
+    "note": "The BBC reports Denmark's government accused a Russian warship of recklessly firing flares at a Danish military helicopter. The Kremlin has not responded, and the incident adds to a pattern of naval friction between Russia and NATO members in northern Europe.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Denmark",
+      "Russia"
+    ],
+    "lon": 12.57,
+    "lat": 55.68,
+    "place": "Baltic Sea",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        12.57,
+        55.68
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "The account relies on Denmark's government and Russia has not yet commented. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260915-ukraine-pause-attacks-offer",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Ukraine's president offers to pause attacks if Russia spares grid",
+    "note": "Al Jazeera reports Ukraine's president says Kyiv will pause attacks if Russia stops striking Ukrainian infrastructure, conditioned on US assurances that Russia's readiness to de-escalate is genuine. The offer comes amid continuing US-brokered diplomacy to end the war.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/15/zelenskyy-says-ukraine-will-pause-attacks-if-russia-spares-infrastructure?traffic_source=rss"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "The offer is conditional and has not been confirmed by Russia or independent monitors. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260915-sudan-aid-collapse-warning",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN warns Sudan aid system could collapse amid funding gaps",
+    "note": "UN News reports aid agencies say they may be forced to scale back humanitarian operations in Sudan, home to the world's worst hunger and displacement crisis, due to funding shortfalls. A collapse would deepen state weakness and worsen conditions driving the civil war.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 32.53,
+    "lat": 15.59,
+    "place": "Khartoum",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168331"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "The warning describes a possible future collapse rather than a confirmed funding cutoff and does not quantify the shortfall. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260915-south-sudan-el-nino-hunger",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Super El Nino deepens hunger crisis in South Sudan, UN says",
+    "note": "The UN World Food Programme says a strengthening El Nino is worsening South Sudan's hunger crisis, as violence, extreme weather and dwindling aid leave millions without enough food. The combination of climate stress and conflict is pushing the country toward deeper food insecurity.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "South Sudan"
+    ],
+    "lon": 31.58,
+    "lat": 4.85,
+    "place": "Juba",
+    "arc": null,
+    "global": false,
+    "metric": "millions of people",
+    "metricName": "people facing hunger",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168334"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "The number affected is given only as 'millions' and comes from a UN agency without independent verification. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260915-gaza-school-strike-un-staff-killed",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Israeli strike on Gaza school kills six UN staff",
+    "note": "UN News reports an Israeli strike killed six UN staff and civilians at a school sheltering displaced families in Gaza, despite the standing ceasefire. The UN agency for Palestine refugees says humanitarian needs in Gaza continue to grow even as fighting has formally paused.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.47,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": [
+      [
+        34.78,
+        32.08
+      ],
+      [
+        34.47,
+        31.5
+      ]
+    ],
+    "global": false,
+    "metric": "6 UN staff killed",
+    "metricName": "fatalities",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168333"
+    },
+    "checked": "2026-09-15",
+    "auto": true,
+    "limitations": "Casualty figures and attribution come from the UN agency for Palestine refugees and have not been independently confirmed by Israel. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "date": "2026-09-15",
+  "fetched": "2026-09-15T13:44:34.136Z",
+  "items": [
+    {
+      "source": "BBC News",
+      "title": "Two sailors missing after tanker attacked in Strait of Hormuz, Oman says",
+      "link": "https://www.bbc.co.uk/news/articles/c3n07ydqdzlvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-15T13:05:36.000Z",
+      "summary": "Iran says El Gaia caught fire after hitting mines, but the US says the oil tanker was struck by a missile and then a drone.",
+      "score": 13
+    },
+    {
+      "source": "UN News",
+      "title": "‘Super El Niño’ deepens hunger crisis in South Sudan – WFP",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168334",
+      "published": "2026-09-15T12:00:00.000Z",
+      "summary": "The already dire hunger crisis in South Sudan is becoming increasingly critical as violence, extreme weather and dwindling aid leave millions without enough food, the UN World Food Programme (WFP) warned on Tuesday.",
+      "score": 12
+    },
+    {
+      "source": "UN News",
+      "title": "Civilians bear the brunt, with deadly US strikes in Iran and thousands displaced in Yemen",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168328",
+      "published": "2026-09-14T12:00:00.000Z",
+      "summary": "Independent UN human rights investigators called for an immediate cessation of hostilities on Monday following a series of United States airstrikes on Iran in recent weeks that have killed civilians as tensions ripple through the region.",
+      "score": 12
+    },
+    {
+      "source": "UN News",
+      "title": "Six UN staff killed in Gaza school strike; Lebanon violations mount",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168333",
+      "published": "2026-09-14T12:00:00.000Z",
+      "summary": "Israeli strikes killed six UN workers and civilians at a school sheltering displaced families in Gaza as needs grow, according to the UN agency for Palestine refugees, UNRWA.",
+      "score": 10
+    },
+    {
+      "source": "International Crisis Group",
+      "title": "Nuclear Deterrence in Europe (and another round of U.S. Ukraine-Russia diplomacy)",
+      "link": "https://www.crisisgroup.org/pod/europe/nuclear-deterrence-europe-and-another-round-us-ukraine-russia-diplomacy",
+      "published": null,
+      "summary": "<p><meta charset=\"utf-8\"></p><p>This week on Hold Your Fire!, Richard speaks with Crisis Group expert Olga Oliker about evolving nuclear calculations in Europe amid doubts about the U.S.’s NATO commitments. They also talk about the latest round of U.S. diplomatic efforts to end the Ukraine war. </p>",
+      "score": 10
+    },
+    {
+      "source": "International Crisis Group",
+      "title": "The Critical Minerals Linking Myanmar’s Civil War to the World",
+      "link": "https://www.crisisgroup.org/vis/asia-pacific/myanmar/critical-minerals-linking-myanmars-civil-war-world",
+      "published": null,
+      "summary": "<p>From AI data centres to makers of electric vehicles, luxury goods and missile systems, industries around the world depend on minerals extracted in Myanmar. These stories show how four globally important resources have become intertwined with the country’s civil war.</p>",
+      "score": 10
+    },
+    {
+      "source": "UN News",
+      "title": "UN agencies warn humanitarian system in Sudan ‘could collapse’",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168331",
+      "published": "2026-09-14T12:00:00.000Z",
+      "summary": "UN aid agencies on Monday said they may be forced to scale back humanitarian aid in Sudan – home of the world’s worst hunger and displacement crisis – due to funding shortfalls.",
+      "score": 8
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "El Nino reaches super status: Where will it bring rain, drought and heat?",
+      "link": "https://www.aljazeera.com/news/2026/9/15/el-nino-reaches-super-status-where-will-it-bring-rain-drought-and-heat?traffic_source=rss",
+      "published": "2026-09-15T13:10:26.000Z",
+      "summary": "Forecasters say the Pacific Ocean warming pattern could be the strongest on record. Here is what that means for you.",
+      "score": 8
+    },
+    {
+      "source": "UN Press",
+      "title": "Threat of Nuclear Catastrophe ‘Immediate, Growing’, Secretary-General Warns on International Day",
+      "link": "https://press.un.org/en/2026/sgsm23281.doc.htm",
+      "published": "2026-09-14T22:01:22.000Z",
+      "summary": "Following is UN Secretary-General António Guterres’ message for the International Day for the Total Elimination of Nuclear Weapons, observed on 26 September:",
+      "score": 6
+    },
+    {
+      "source": "UN News",
+      "title": "Gaza remains recovery points to possible war crimes, says UN rights chief",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168335",
+      "published": "2026-09-15T12:00:00.000Z",
+      "summary": "Bodies are still being pulled from the rubble of Gaza, three years after Israeli bombardment flattened entire neighbourhoods – most of them women and children.",
+      "score": 5
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Zelenskyy says Ukraine will pause attacks if Russia spares infrastructure",
+      "link": "https://www.aljazeera.com/news/2026/9/15/zelenskyy-says-ukraine-will-pause-attacks-if-russia-spares-infrastructure?traffic_source=rss",
+      "published": "2026-09-15T11:54:37.000Z",
+      "summary": "Zelenskyy insists de-escalation depends on US ensuring Russia&#039;s genuine readiness to stop war and attacks on Ukraine.",
+      "score": 5
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Internet shutdown crosses 100 days in Pakistan-administered Kashmir",
+      "link": "https://www.aljazeera.com/news/2026/9/15/internet-shutdown-crosses-100-days-in-pakistan-administered-kashmir?traffic_source=rss",
+      "published": "2026-09-15T05:47:52.000Z",
+      "summary": "Mobile data, broadband services suspended in the territory since protests calling for electoral reform in June.",
+      "score": 5
+    },
+    {
+      "source": "U.S. Department of State",
+      "title": "U.S. Sanctions VTB Bank for Aiding Iran&#8217;s Sanctions Evasion",
+      "link": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/u-s-sanctions-vtb-bank-for-aiding-irans-sanctions-evasion/",
+      "published": "2026-09-14T19:35:42.000Z",
+      "summary": "Thomas \"Tommy\" Pigott, SpokesmanOffice of the Spokesman U.S. Sanctions VTB Bank for Aiding Iran&#8217;s Sanctions Evasion Press Statement September 14, 2026 The United States sanctioned VTB Bank, one of Russia&#8217;s largest financial institutions, for helping Iran evade sanctions and sustain its support for terrorism. VTB Bank opened offices in Iran, built banking ties with sanctioned Iranian financial institutions, and worked to move billions of dollars in Iranian assets.The United States remains steadfast in cutting off the financial lifelines that allow the Iranian regime to fund terroris",
+      "score": 5
+    },
+    {
+      "source": "U.S. Department of State",
+      "title": "Joint Statement on the Quad Tabletop Exercise in Tokyo to Advance Indo-Pacific Logistics Network",
+      "link": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/joint-statement-on-the-quad-tabletop-exercise-in-tokyo-to-advance-indo-pacific-logistics-network/",
+      "published": "2026-09-14T13:55:19.000Z",
+      "summary": "Office of the Spokesman Joint Statement on the Quad Tabletop Exercise in Tokyo to Advance Indo-Pacific Logistics Network Media Note September 14, 2026 The text of the following statement was released by the Governments of Japan, Australia, India, and the United States of America following the completion of a Tabletop Exercise (TTX) in Tokyo to advance the Quad Indo-Pacific Logistics Network (IPLN). Begin Text: On September 3 and 4, 2026, the Quad partners (Australia, India, Japan and the United States) conducted a Tabletop Exercise (TTX) in Tokyo, Japan to advance the Quad Indo-Pacific Logisti",
+      "score": 5
+    },
+    {
+      "source": "BBC News",
+      "title": "Nato jets down drone that entered Lithuanian airspace",
+      "link": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-15T09:07:35.000Z",
+      "summary": "The origin of the drone is currently unknown, but authorities say it likely entered Lithuania from neighbouring Belarus, an ally of Russia.",
+      "score": 4
+    },
+    {
+      "source": "BBC News",
+      "title": "Donald Trump Jr and Bettina Trump say Putin ally paid for some wedding festivities as a 'gift'",
+      "link": "https://www.bbc.co.uk/news/articles/cmqjkg121kr9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-14T22:56:44.000Z",
+      "summary": "An Instagram post from the couple said two nights of their wedding festivities in the Bahamas were partially funded by Umar Kremlev.",
+      "score": 4
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Houthi-run TV releases video of abandoned Mocha airport",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/15/houthi-run-tv-releases-video-of-abandoned-mocha-airport?traffic_source=rss",
+      "published": "2026-09-15T13:11:13.000Z",
+      "summary": "Houthi-run TV has aired drone video of Yemen’s Mocha International Airport, empty and abandoned.",
+      "score": 4
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "What to watch in the US’s Delaware primary elections",
+      "link": "https://www.aljazeera.com/news/2026/9/15/what-to-watch-in-the-uss-delaware-primary-elections?traffic_source=rss",
+      "published": "2026-09-15T07:52:46.000Z",
+      "summary": "It&#039;s the last state primary scheduled before November&#039;s midterm elections.",
+      "score": 4
+    },
+    {
+      "source": "U.S. Department of State",
+      "title": "Honduras National Day",
+      "link": "https://www.state.gov/releases/office-of-the-spokesman/2026/09/honduras-national-day-2/",
+      "published": "2026-09-15T04:01:00.000Z",
+      "summary": "Marco Rubio, Secretary of State Honduras National Day Press Statement September 15, 2026 On behalf of the United States of America, I congratulate the people of Honduras as you celebrate your Independence Day. This occasion honors the enduring principles of liberty and justice that continue to guide Honduras forward. Honduras stands with us as a founding member of the Shield of the Americas, defending democratic sovereignty across our hemisphere. Our nations share a partnership grounded in mutual respect and a commitment to the safety and prosperity of our citizens. I commend President Nasry A",
+      "score": 4
+    },
+    {
+      "source": "International Crisis Group",
+      "title": "Special Episode: Will the Houthis Shut Down the Bab al-Mandab Strait?",
+      "link": "https://www.crisisgroup.org/pod/middle-east-north-africa/yemen/special-episode-will-houthis-shut-down-bab-al-mandab-strait",
+      "published": null,
+      "summary": "<p><em><meta charset=\"utf-8\"></em></p><p><em>In this special episode of Hold Your Fire!, Richard speaks with Crisis Group expert Ahmed Nagi about the rapid Houthi advances along Yemen’s Red Sea coast, what they mean for Saudi Arabia and the wider region, and the risk of a broader shipping crisis.</em><br> </p>",
+      "score": 4
+    },
+    {
+      "source": "International Crisis Group",
+      "title": "Gold: Funding the Grassroots Resistance to Military Rule",
+      "link": "https://www.crisisgroup.org/vis/asia-pacific/myanmar/gold-funding-grassroots-resistance-military-rule",
+      "published": null,
+      "summary": "<p>Gold mining in Sagaing region has become a military objective for both the regime and its opponents. While it provides jobs in a devastated economy and revenues for armed groups fighting the regime, it also destroys farmland, pollutes waterways and makes nearby communities targets in the war.</p>",
+      "score": 4
+    },
+    {
+      "source": "UN News",
+      "title": "IAEA chief underscores commitment to nuclear safety and verification",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
+      "published": "2026-09-14T12:00:00.000Z",
+      "summary": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
+      "score": 3
+    },
+    {
+      "source": "UN News",
+      "title": "Guterres: Old global order must change as power shifts to emerging economies",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168323",
+      "published": "2026-09-13T12:00:00.000Z",
+      "summary": "UN Secretary-General António Guterres told leaders of a bloc of major emerging economies in New Delhi on Sunday that a more balanced global order requires an overhaul of the institutions built after the Second World War, including the UN Security Council.",
+      "score": 3
+    },
+    {
+      "source": "BBC News",
+      "title": "Denmark says Russian warship fired flares at military helicopter",
+      "link": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-15T11:40:00.000Z",
+      "summary": "The Danish prime minister has accused Russia of \"reckless\" behaviour, while the Kremlin is yet to comment.",
+      "score": 3
+    },
+    {
+      "source": "BBC News",
+      "title": "Welsh actor Matthew Rhys makes Emmy Awards history with double win",
+      "link": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-15T03:50:06.000Z",
+      "summary": "He becomes the first person to win two lead acting prizes in one night at the prestigious TV ceremony.",
+      "score": 3
+    },
+    {
+      "source": "BBC News",
+      "title": "Mass nesting brings swarms of turtles to Mexican beach",
+      "link": "https://www.bbc.co.uk/news/videos/cm4gkvk7wzkpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-15T01:08:55.000Z",
+      "summary": "Thousands of turtles arrived at La Escobilla beach in Oaxaca within 48 hours, sanctuary officials said.",
+      "score": 3
+    },
+    {
+      "source": "BBC News",
+      "title": "Superstars and broken records: 2026 Emmy highlights",
+      "link": "https://www.bbc.co.uk/news/videos/c6j9xym8zjy3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-15T05:14:24.000Z",
+      "summary": "The 78th Primetime Emmy Awards were hosted by Law & Order star Mariska Hargitay at the Peacock Theatre in Los Angeles.",
+      "score": 3
+    },
+    {
+      "source": "BBC News",
+      "title": "‘Great’ or ‘alarming’ - Should AI be reined in?",
+      "link": "https://www.bbc.co.uk/news/videos/cmdx5wdl7z0lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-14T21:58:41.000Z",
+      "summary": "The BBC asked people in Washington DC about the technology’s rapid development and whether it poses a threat to humanity, as some experts warn.",
+      "score": 3
+    },
+    {
+      "source": "BBC News",
+      "title": "Flash flooding interrupts half-marathon, submerges cars",
+      "link": "https://www.bbc.co.uk/news/articles/cx1l6rzj86vgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-14T15:01:28.000Z",
+      "summary": "Parts of New York, New Jersey and Connecticut were hit by flash flooding, leading to water rescues, stranded motorists and half-marathon runners battling the floodwaters.",
+      "score": 3
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Palestine weekly: Settlement sanctions spark diplomatic crisis",
+      "link": "https://www.aljazeera.com/news/2026/9/15/palestine-weekly-settlement-sanctions-spark-diplomatic-crisis?traffic_source=rss",
+      "published": "2026-09-15T06:53:50.000Z",
+      "summary": "New B&#039;Tselem report frames events on ground as Israel&#039;s &#039;project of elimination&#039; of Palestinians.",
+      "score": 3
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "‘More dangerous than drugs’: BJP’s war on beef in India’s West Bengal",
+      "link": "https://www.aljazeera.com/features/2026/9/15/bjp-effect-beef-is-vanishing-from-indian-bengal-forcing-diet-changes?traffic_source=rss",
+      "published": "2026-09-15T06:15:43.000Z",
+      "summary": "Since Prime Minister Modi&#039;s BJP came to power in West Bengal, beef is vanishing from menus as supplies become harder.",
+      "score": 3
+    },
+    {
+      "source": "Al Jazeera",
+      "title": "Leeds United defeat Newcastle 4-1 to go third in Premier League",
+      "link": "https://www.aljazeera.com/sports/2026/9/15/leeds-united-defeat-newcastle-4-1-to-go-third-in-premier-league?traffic_source=rss",
+      "published": "2026-09-15T05:55:45.000Z",
+      "summary": "Goals from in-form forward Calvert-Lewin, Okafor and Bogle boost Leeds&#039; standing in the league table.",
+      "score": 3
+    },
+    {
+      "source": "UN Press",
+      "title": "Secretary-General Spotlights ‘Profound’ Empathy of King Harald V of Norway, Whose Life Shaped by Exile, War, as General Assembly Pays Tribute to Late Leader",
+      "link": "https://press.un.org/en/2026/sgsm23280.doc.htm",
+      "published": "2026-09-14T16:20:34.000Z",
+      "summary": "Following are UN Secretary-General António Guterres’ remarks, delivered by Chef de Cabinet Earle Courtenay Rattray, at the General Assembly’s tribute to the memory of His Majesty King Harald V of Norway, in New York today:",
+      "score": 3
+    },
+    {
+      "source": "UN Press",
+      "title": "Amidst Heightened Nuclear Concerns, Secretary-General Stresses Importance of International Atomic Energy Agency as Body Begins Annual Conference",
+      "link": "https://press.un.org/en/2026/sgsm23278.doc.htm",
+      "published": "2026-09-14T16:04:20.000Z",
+      "summary": "Following is UN Secretary-General António Guterres’ message — delivered by Monica Juma, Executive Director of the UN Office on Drugs and Crime (UNODC) and Director-General of the UN Office at Vienna — to the opening of the seventieth regular session of the General Conference of the International Atomic Energy Agency (IAEA), in Vienna today:",
+      "score": 3
+    },
+    {
+      "source": "International Crisis Group",
+      "title": "Tin: The Mine that Moves the Market",
+      "link": "https://www.crisisgroup.org/vis/asia-pacific/myanmar/tin-mine-moves-market",
+      "published": null,
+      "summary": "<p>A single mine’s disruption led to a spike in global tin prices. As AI-driven demand surges, supply now depends on opaque politics in a militia-run enclave at the Myanmar-China border.</p>",
+      "score": 3
+    }
+  ]
+}

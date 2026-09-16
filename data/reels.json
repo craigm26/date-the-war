@@ -1,8 +1,19 @@
 [
  {
+  "date": "2026-09-16",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-09-16@reel",
+  "titles": [
+   "Russian drone strike near Ukraine front line kills five",
+   "Saudi Arabia shoots down Houthi drone near Mecca",
+   "US set to approve 60,000 heavy bombs for Israel"
+  ]
+ },
+ {
   "date": "2026-09-15",
-  "count": 7,
-  "auto": 7,
+  "count": 9,
+  "auto": 9,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-15@reel",
   "titles": [
    "Super El Nino deepens hunger crisis in South Sudan, UN says",
@@ -11,6 +22,8 @@
    "Tanker attack in Hormuz leaves two sailors missing",
    "NATO jets shoot down drone that entered Lithuanian airspace",
    "UN warns Sudan aid system could collapse amid funding gaps",
+   "Pentagon inspector confirms US munitions shortfalls from Iran war",
+   "US confirms weapons in orbit, sparking space arms race warning",
    "Ukraine's president offers to pause attacks if Russia spares grid"
   ]
  },

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "d-20260916-us-orbit-weapons",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US confirms weapons in orbit, sparking space arms race warning",
+    "note": "The US confirmed it has placed weapons in Earth's orbit, prompting defense analysts to warn of a new arms race extending into space.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Earth orbit",
+    "arc": null,
+    "global": true,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-16",
+    "auto": true,
+    "limitations": "Details of the weapons system and which countries it is aimed at are not specified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260916-us-munitions-shortfall",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Pentagon inspector confirms US munitions shortfalls from Iran war",
+    "note": "A Pentagon inspector general found the war with Iran has caused US munitions shortfalls and a resupply bottleneck, contradicting claims that American weapons stocks are virtually limitless.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": -98,
+    "lat": 39,
+    "place": "United States",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-16",
+    "auto": true,
+    "limitations": "The extent of the shortfall in specific munition types is not quantified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260916-us-bombs-israel",
+    "date": "2026-09-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US set to approve 60,000 heavy bombs for Israel",
+    "note": "The US is preparing to approve a package of 60,000 2,000-pound bombs for Israel, expanding military support amid its offensive in Gaza and occupation of south Lebanon.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Israel"
+    ],
+    "lon": 34.8,
+    "lat": 31,
+    "place": "Israel",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        34.8,
+        31
+      ]
+    ],
+    "global": false,
+    "metric": "60,000 bombs",
+    "metricName": "heavy bombs approved for transfer",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/16/us-set-to-approve-60000-heavy-bombs-for-israel-what-that-means?traffic_source=rss"
+    },
+    "checked": "2026-09-16",
+    "auto": true,
+    "limitations": "The approval is reported as pending, not yet finalized. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260916-saudi-drone-mecca",
+    "date": "2026-09-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Saudi Arabia shoots down Houthi drone near Mecca",
+    "note": "Saudi Arabia said it intercepted a Houthi drone south of Mecca, while the Houthis denied targeting Islam's holiest city, as fighting along Yemen's Red Sea coast intensifies.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 39.826,
+    "lat": 21.422,
+    "place": "Mecca, Saudi Arabia",
+    "arc": [
+      [
+        43,
+        15.5
+      ],
+      [
+        39.826,
+        21.422
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-16",
+    "auto": true,
+    "limitations": "Attribution and the drone's intended target are disputed between Saudi authorities and the Houthis. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260916-russia-drone-nikopol",
+    "date": "2026-09-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drone strike near Ukraine front line kills five",
+    "note": "A Russian drone strike near Nikopol in southeastern Ukraine killed at least five people and injured seven, a regional governor said, as strikes continue ahead of a harsh winter.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 34.4,
+    "lat": 47.57,
+    "place": "Nikopol, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        34.4,
+        47.57
+      ]
+    ],
+    "global": false,
+    "metric": "at least five people killed",
+    "metricName": "deaths from strike",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/16/at-least-five-killed-in-russian-drone-strike-near-ukraine-front-line?traffic_source=rss"
+    },
+    "checked": "2026-09-16",
+    "auto": true,
+    "limitations": "Casualty figures are from a regional governor and not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

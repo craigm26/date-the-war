@@ -1,0 +1,236 @@
+[
+  {
+    "id": "d-20260917-gaza-building-collapse",
+    "date": "2026-09-16",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "War-damaged Gaza building collapses, killing 21 including children",
+    "note": "Rescuers say a six-storey building in Gaza City, struck by an Israeli air raid last year and left structurally unsound, collapsed and killed 21 residents including eight children, underscoring the lingering lethality of war damage.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza City",
+    "arc": null,
+    "global": false,
+    "metric": "21 people, including 8 children",
+    "metricName": "deaths from building collapse",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-17",
+    "auto": true,
+    "limitations": "Death toll and cause reported by rescuers on the ground, not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260917-us-tariffs-russian-oil",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US tariffs on Russian oil buyers take effect, targeting China, India",
+    "note": "New US tariffs on buyers of Russian oil have passed, aimed chiefly at China and India as Moscow's two largest crude customers, raising the economic cost of sustaining Russia's war effort.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "Russia",
+      "China",
+      "India"
+    ],
+    "lon": -77.03,
+    "lat": 38.9,
+    "place": "Washington, DC",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        37.6,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/9/17/us-tariffs-against-russian-oil-buyers-pass-what-it-means-for-china?traffic_source=rss"
+    },
+    "checked": "2026-09-17",
+    "auto": true,
+    "limitations": "Analysis piece; final scope and enforcement of the tariffs are not yet confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260917-israel-uk-charities-ban",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israel threatens to ban UK charities after London's sanctions",
+    "note": "Israel is threatening to ban UK charities, campaign groups and Palestine Action after the UK imposed sanctions on Israeli officials, deepening a diplomatic rift between the two governments.",
+    "mechanisms": [],
+    "countries": [
+      "Israel",
+      "United Kingdom"
+    ],
+    "lon": 35.21,
+    "lat": 31.77,
+    "place": "Jerusalem",
+    "arc": [
+      [
+        35.21,
+        31.77
+      ],
+      [
+        -0.1276,
+        51.5074
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/17/uk-charities-protest-groups-condemn-israeli-ban-threat-after-sanctions?traffic_source=rss"
+    },
+    "checked": "2026-09-17",
+    "auto": true,
+    "limitations": "Report relies on statements from affected charities and campaign groups, not an official Israeli order text. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260917-us-germany-defense-coop",
+    "date": "2026-09-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US and Germany agree to deepen defense industrial cooperation",
+    "note": "The US and German defense chiefs met at the Pentagon and agreed to expand defense industrial cooperation, part of a broader push to raise European defense spending under NATO's newest capability targets.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Germany"
+    ],
+    "lon": -77.0563,
+    "lat": 38.8719,
+    "place": "Washington, DC",
+    "arc": [
+      [
+        -77.0563,
+        38.8719
+      ],
+      [
+        13.405,
+        52.52
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of Defense",
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4602094/hegseth-german-counterpart-agree-to-advance-defense-industrial-cooperation/"
+    },
+    "checked": "2026-09-17",
+    "auto": true,
+    "limitations": "Readout comes from the US side only, with no independent confirmation of specific commitments. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260917-india-pakistan-collision",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "India-Pakistan navy ship collision raises escalation fears",
+    "note": "An Indian and a Pakistani warship collided at sea, with Pakistan saying the Indian vessel entered its exclusive economic zone and India saying the incident happened in international waters, raising fears of unintended escalation between the nuclear-armed rivals.",
+    "mechanisms": [
+      "misperception",
+      "security-dilemma"
+    ],
+    "countries": [
+      "India",
+      "Pakistan"
+    ],
+    "lon": 65,
+    "lat": 24,
+    "place": "Arabian Sea",
+    "arc": [
+      [
+        72.8,
+        18.9
+      ],
+      [
+        67,
+        24.8
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/17/india-pakistan-navy-ship-collision-sparks-alarm-over-unintended-escalation?traffic_source=rss"
+    },
+    "checked": "2026-09-17",
+    "auto": true,
+    "limitations": "India and Pakistan give conflicting accounts of where the collision occurred, and no independent verification exists. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260917-trump-iran-talks",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US president says direct talks with Iran may end the war",
+    "note": "The US president says Washington is in direct talks with Iran and is hopefully near the end of the war, even as global energy prices remain elevated from the conflict.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": -77.03,
+    "lat": 38.9,
+    "place": "Washington, DC",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        51.4,
+        35.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/17/trump-claims-direct-talks-with-iran-is-diplomacy-picking-up-again?traffic_source=rss"
+    },
+    "checked": "2026-09-17",
+    "auto": true,
+    "limitations": "Claim of direct talks is unconfirmed by Iranian officials and details of any agenda are undisclosed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "d-20260918-ukraine-drone-barrage-russia-election",
+    "date": "2026-09-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine fires drone barrage as Russia holds parliamentary election",
+    "note": "Al Jazeera reports Ukraine launched a drone barrage as Russia opened its first parliamentary election since invading Ukraine, with no antiwar party on the ballot, underscoring the war's persistence alongside managed domestic politics.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 37.6,
+    "lat": 55.75,
+    "place": "Russia",
+    "arc": [
+      [
+        31.16,
+        49.99
+      ],
+      [
+        37.6,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/18/ukraine-fires-drone-barrage-as-russia-launches-elections?traffic_source=rss"
+    },
+    "checked": "2026-09-18",
+    "auto": true,
+    "limitations": "Report does not specify drone barrage targets, casualties, or independently verify election fairness claims. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260918-leaked-photos-us-gulf-bases-damage",
+    "date": "2026-09-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Leaked photos show Iranian strike damage at US Gulf bases",
+    "note": "BBC reports leaked photos from active military personnel show severe damage at US bases in the Gulf from Iranian strikes, including a destroyed radar jet and flattened structures, new evidence of the war's toll on US forces.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 51.5,
+    "lat": 25.3,
+    "place": "US military bases, Gulf region",
+    "arc": [
+      [
+        53,
+        32
+      ],
+      [
+        51.5,
+        25.3
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c9dr7e1lr265o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-18",
+    "auto": true,
+    "limitations": "Photos are provided by anonymous active military personnel and have not been independently verified by BBC or confirmed by the Pentagon. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260918-un-security-council-iran-sanctions-panel-fails",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN Security Council fails to renew Iran sanctions monitoring panel",
+    "note": "UN Press reports the Security Council could not agree to extend the Panel of Experts monitoring Iran sanctions, with members divided over whether the sanctions remain in force under the snapback dispute, weakening oversight amid the war.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran",
+      "Multiple countries"
+    ],
+    "lon": -73.9679,
+    "lat": 40.7489,
+    "place": "United Nations, New York",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16455.doc.htm"
+    },
+    "checked": "2026-09-18",
+    "auto": true,
+    "limitations": "Report does not specify which Council members blocked renewal or the legal basis each side cites in the snapback dispute. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260918-un-experts-us-war-crimes-iran-strikes",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UN experts find grounds US committed war crimes in Iran strikes",
+    "note": "BBC reports a UN fact-finding mission found reasonable grounds to believe the US committed war crimes in strikes on a primary school and sports complex in Iran; the US has not acknowledged the attacks.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 55,
+    "lat": 27.2,
+    "place": "Minab and Lamerd, Iran",
+    "arc": [
+      [
+        -77.0369,
+        38.9072
+      ],
+      [
+        55,
+        27.2
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-18",
+    "auto": true,
+    "limitations": "Findings rely on UN fact-finding methodology; the US government rejects the conclusions and has not confirmed the strikes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260918-us-allows-iran-delegation-un-meetings",
+    "date": "2026-09-17",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US to allow Iranian delegation into New York for UN meetings",
+    "note": "BBC reports the US will permit an Iranian government delegation to enter the country for UN meetings in New York as the US-Iran war passes its six-month mark, a modest diplomatic opening amid ongoing hostilities.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": -73.9679,
+    "lat": 40.7489,
+    "place": "New York, United States",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-18",
+    "auto": true,
+    "limitations": "Report does not confirm whether substantive talks beyond UN meeting attendance are planned. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260918-yemen-displacement-surges-renewed-fighting",
+    "date": "2026-09-18",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemen displacement surges as renewed fighting spreads, UN says",
+    "note": "UN News reports people displaced by renewed fighting in Yemen describe fleeing shelling and gunfire, with humanitarian needs rising sharply in Yemen and among thousands sheltering in neighboring Djibouti.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.5,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "thousands of people",
+    "metricName": "people displaced",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168364"
+    },
+    "checked": "2026-09-18",
+    "auto": true,
+    "limitations": "Report does not give precise displacement totals and relies on accounts from aid agencies and displaced people themselves. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

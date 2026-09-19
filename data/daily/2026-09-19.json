@@ -1,0 +1,287 @@
+[
+  {
+    "id": "d-20260919-russia-sanctions-bill",
+    "date": "2026-09-18",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US president signs sweeping Russia sanctions bill",
+    "note": "The US president signed a broad new package of sanctions on Russia into law, expanding economic pressure tied to the Ukraine war. The move signals continued US leverage even as separate diplomatic channels with Russia remain open.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "lon": -77.03,
+    "lat": 38.9,
+    "place": "Washington, DC",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        37.62,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgy34ndj4eo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Report does not detail the bill's full sanctions scope or enforcement timeline. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-russia-ukraine-blacksea-strikes",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia kills eight in Ukraine, strikes two Black Sea vessels",
+    "note": "Ukraine's air force says Russia launched dozens of drones and two antiship missiles overnight, killing eight people and hitting two vessels in the Black Sea. Poland raised its alert level in response.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Poland"
+    ],
+    "lon": 30.7,
+    "lat": 46.5,
+    "place": "Black Sea / Ukraine",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        30.7,
+        46.5
+      ]
+    ],
+    "global": false,
+    "metric": "eight people",
+    "metricName": "people killed",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/poland-on-high-alert-as-russia-claims-black-sea-vessel-strikes?traffic_source=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Casualty and vessel-strike figures come from Ukraine's air force and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-iran-tehran-mobilisation-rally",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iran stages mass mobilisation show of force in Tehran",
+    "note": "Hundreds of thousands marched in Tehran alongside armed civilians, anti-aircraft guns and attack drones in a state-backed mobilisation campaign. The display signals continued military readiness following the war with the United States.",
+    "mechanisms": [
+      "domestic-incentives",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "metric": "hundreds of thousands of people",
+    "metricName": "rally participants",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/09-19-progovrally-tehran-sv-mp4?traffic_source=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Crowd size and turnout motive are reported by a single broadcast source without independent verification. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-taiwan-live-fire-drills",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Taiwan stages live-fire drills ahead of US-China talks",
+    "note": "Taiwan conducted live-fire drills with missiles and attack drones as the US and Chinese leaders prepare to meet. The timing underscores persistent cross-strait tension even amid high-level diplomacy.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "Taiwan",
+      "China",
+      "United States"
+    ],
+    "lon": 121,
+    "lat": 23.7,
+    "place": "Taiwan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/19/09-19-taiwan-drills-minisv?traffic_source=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Report does not specify the scale of the drills or independently confirm the military assets used. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-turkiye-bank-mellat-license",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Turkiye revokes license of Iran's Bank Mellat in Istanbul",
+    "note": "Turkiye withdrew the operating license of Iran's Bank Mellat, a lender long under Western sanctions over alleged ties to Iran's nuclear program. The move tightens Iran's access to regional banking channels.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Turkey",
+      "Iran"
+    ],
+    "lon": 28.98,
+    "lat": 41.01,
+    "place": "Istanbul",
+    "arc": [
+      [
+        28.98,
+        41.01
+      ],
+      [
+        51.39,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/19/turkiye-revokes-operating-licence-of-irans-bank-mellat?traffic_source=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Report does not state Turkiye's specific stated justification beyond referencing existing Western sanctions. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-us-lifts-eritrea-sanctions",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US lifts sanctions on Eritrea to court Red Sea influence",
+    "note": "The US removed sanctions on Eritrea's governing party and military that were imposed during the Tigray conflict, citing regional interests in the Red Sea. The corridor is already strained by Houthi attacks on shipping.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Eritrea",
+      "United States"
+    ],
+    "lon": 38.93,
+    "lat": 15.33,
+    "place": "Asmara",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/19/us-lifts-sanctions-on-eritrea-imposed-during-conflict-in-ethiopias-tigray?traffic_source=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Report does not detail what conditions, if any, Eritrea met to obtain the sanctions relief. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-cuba-blackout-blockade",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Millions without power as US blockade deepens Cuba blackout",
+    "note": "A major blackout has left millions of Cubans without power as fuel shortages worsened by the US blockade strain the island's energy grid. Blackouts of this scale have become increasingly frequent.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Cuba",
+      "United States"
+    ],
+    "lon": -82.37,
+    "lat": 23.13,
+    "place": "Havana",
+    "arc": null,
+    "global": false,
+    "metric": "millions of people",
+    "metricName": "people without power",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9x4387lzxo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Extent of the blackout and the blockade's precise contribution to fuel shortages are not independently quantified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260919-ukraine-sexual-violence-report",
+    "date": "2026-09-18",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN documents over 1,000 cases of sexual violence in Ukraine war",
+    "note": "UN monitors have documented more than 1,000 cases of conflict-related sexual violence against civilians and prisoners of war in Ukraine since the start of Russia's invasion. Monitors called the pattern widespread and abhorrent.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 31,
+    "lat": 49,
+    "place": "Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "over 1,000 cases",
+    "metricName": "documented cases of sexual violence",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168374"
+    },
+    "checked": "2026-09-19",
+    "auto": true,
+    "limitations": "Figures reflect documented cases only; actual prevalence is likely undercounted due to underreporting. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

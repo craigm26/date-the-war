@@ -1,0 +1,181 @@
+[
+  {
+    "id": "d-20260920-houthi-riyadh-missile",
+    "date": "2026-09-19",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Houthis fire ballistic missiles at Saudi capital",
+    "note": "Houthi forces say they targeted Riyadh with ballistic missiles, hitting a fuel depot near the airport, while Saudi Arabia says it intercepted a missile aimed at the capital. It marks a significant expansion of the Yemen war into Saudi territory.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 46.7386,
+    "lat": 24.7136,
+    "place": "Riyadh",
+    "arc": [
+      [
+        44.2075,
+        15.3547
+      ],
+      [
+        46.7386,
+        24.7136
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-20",
+    "auto": true,
+    "limitations": "The Houthi claim about the strike's target and success is not independently verified, and Saudi Arabia disputes the extent of any damage. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260920-moscow-drone-barrage",
+    "date": "2026-09-20",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine launches largest drone barrage yet on Moscow",
+    "note": "Moscow's mayor says the city shot down 450 drones overnight in the largest such attack of the war, with two people killed. The scale signals deepening long-range strikes despite ongoing ceasefire diplomacy.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 37.6173,
+    "lat": 55.7558,
+    "place": "Moscow",
+    "arc": [
+      [
+        30.5234,
+        50.4501
+      ],
+      [
+        37.6173,
+        55.7558
+      ]
+    ],
+    "global": false,
+    "metric": "450 drones",
+    "metricName": "drones intercepted",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-20",
+    "auto": true,
+    "limitations": "Casualty and interception figures come solely from Russian officials and cannot be independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260920-iran-conditions-oil-100",
+    "date": "2026-09-20",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Iran sets new conditions to end war with US as oil tops $100",
+    "note": "Iran's government details fresh conditions for ending its war with the United States as regional escalation pushes oil prices above $100 a barrel for the first time in the conflict. The price surge reflects fears of wider disruption to Gulf energy supply.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.389,
+    "lat": 35.6892,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "metric": "about 100 US dollars per barrel",
+    "metricName": "oil price",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/20/what-are-irans-new-conditions-to-end-its-war-with-the-us?traffic_source=rss"
+    },
+    "checked": "2026-09-20",
+    "auto": true,
+    "limitations": "Iran's stated conditions are reported without independent confirmation of the US response or negotiating status. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260920-un-peacekeeping-warning",
+    "date": "2026-09-18",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN chief warns peacekeeping missions face growing threats",
+    "note": "The UN secretary-general told the Security Council that peacekeeping missions increasingly operate amid active conflict, shrinking budgets and evolving threats, urging that peacemaking be prioritized. The statement highlights strain on the UN's capacity to manage ongoing wars.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": -73.968,
+    "lat": 40.7489,
+    "place": "UN Headquarters, New York",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16457.doc.htm"
+    },
+    "checked": "2026-09-20",
+    "auto": true,
+    "limitations": "The briefing offers a general characterization of risk without naming specific missions or providing quantified figures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260920-iran-inflation-marriage",
+    "date": "2026-09-20",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "War and inflation delay marriage plans for young Iranians",
+    "note": "Reporting from Iran describes how the war with the US and a deepening cost-of-living crisis are pushing young Iranians to delay marriage and major life decisions. It illustrates the domestic economic toll of the conflict beyond the battlefield.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 51.389,
+    "lat": 35.6892,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/20/postponing-the-future-war-and-inflation-redraw-marriage-terms-in-iran?traffic_source=rss"
+    },
+    "checked": "2026-09-20",
+    "auto": true,
+    "limitations": "The account relies on individual anecdotes rather than nationwide economic statistics. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

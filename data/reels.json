@@ -1,12 +1,24 @@
 [
  {
+  "date": "2026-09-20",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-09-20@reel",
+  "titles": [
+   "Ukraine launches largest drone barrage yet on Moscow",
+   "Iran sets new conditions to end war with US as oil tops $100",
+   "War and inflation delay marriage plans for young Iranians"
+  ]
+ },
+ {
   "date": "2026-09-19",
-  "count": 6,
-  "auto": 6,
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-19@reel",
   "titles": [
    "Iran stages mass mobilisation show of force in Tehran",
    "Russia kills eight in Ukraine, strikes two Black Sea vessels",
+   "Houthis fire ballistic missiles at Saudi capital",
    "Millions without power as US blockade deepens Cuba blackout",
    "Taiwan stages live-fire drills ahead of US-China talks",
    "Turkiye revokes license of Iran's Bank Mellat in Istanbul",
@@ -15,14 +27,15 @@
  },
  {
   "date": "2026-09-18",
-  "count": 4,
-  "auto": 4,
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-18@reel",
   "titles": [
    "Ukraine fires drone barrage as Russia holds parliamentary election",
    "Yemen displacement surges as renewed fighting spreads, UN says",
    "US president signs sweeping Russia sanctions bill",
-   "UN documents over 1,000 cases of sexual violence in Ukraine war"
+   "UN documents over 1,000 cases of sexual violence in Ukraine war",
+   "UN chief warns peacekeeping missions face growing threats"
   ]
  },
  {

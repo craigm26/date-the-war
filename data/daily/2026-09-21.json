@@ -1,0 +1,238 @@
+[
+  {
+    "id": "d-20260921-sudan-truce-failure",
+    "date": "2026-09-21",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Sudan's humanitarian truces keep collapsing as fighting persists",
+    "note": "Al Jazeera reports repeated attempts at humanitarian truces in Sudan's civil war have failed as warring factions prioritize battlefield gains over civilian access, deepening the crisis.",
+    "mechanisms": [
+      "commitment-problem",
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30,
+    "lat": 15,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/21/why-do-sudans-humanitarian-truces-keep-failing-and-who-is-to-blame?traffic_source=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "Single-source account that does not establish which faction bears primary responsibility for the failures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260921-iran-oil-gdp-shrink",
+    "date": "2026-09-21",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Iran's GDP shrinks 10 percent as war saps oil and gas sector",
+    "note": "Al Jazeera cites new official data showing Iran's oil and gas sector contracted 26 percent amid the US-Israel war, dragging overall GDP down about 10 percent.",
+    "mechanisms": [],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 53,
+    "lat": 32,
+    "place": "Iran",
+    "arc": null,
+    "global": false,
+    "metric": "10 percent",
+    "metricName": "Iran GDP decline",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/21/how-oil-gas-losses-have-shrunk-irans-gdp-by-10-percent-during-war?traffic_source=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "Relies on official Iranian data, which may be subject to political framing or incomplete disclosure. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260921-yemen-displacement-djibouti",
+    "date": "2026-09-21",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemenis flee by boat as Houthi coastal advance drives displacement",
+    "note": "The BBC reports thousands of people are fleeing Yemen's west coast across the Bab al-Mandab Strait to a refugee camp in Djibouti as Houthi forces advance.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen",
+      "Djibouti"
+    ],
+    "lon": 43.3,
+    "lat": 12.6,
+    "place": "Bab al-Mandab Strait",
+    "arc": [
+      [
+        43.3,
+        13.9
+      ],
+      [
+        43.1,
+        11.6
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "Numbers displaced are approximate, based on camp observations rather than official counts. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260921-gaza-ceasefire-violation",
+    "date": "2026-09-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli strikes kill three in Gaza despite October ceasefire",
+    "note": "Al Jazeera reports Israeli attacks in Gaza killed three Palestinians, including a child, continuing despite a ceasefire signed in October.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.3,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": [
+      [
+        34.75,
+        31.5
+      ],
+      [
+        34.3,
+        31.4
+      ]
+    ],
+    "global": false,
+    "metric": "three people",
+    "metricName": "people killed",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child?traffic_source=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "Death toll and circumstances are reported by a single source and not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260921-srilanka-mass-grave",
+    "date": "2026-09-20",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Mass grave of 572 found in Sri Lanka from civil war era",
+    "note": "The BBC reports workers uncovered Sri Lanka's largest known mass grave, with 572 sets of remains, reopening scrutiny of wartime atrocities from the country's civil war.",
+    "mechanisms": [],
+    "countries": [
+      "Sri Lanka"
+    ],
+    "lon": 80,
+    "lat": 9,
+    "place": "northern Sri Lanka",
+    "arc": null,
+    "global": false,
+    "metric": "572 people",
+    "metricName": "remains found in mass grave",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm1j4kl80z56o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "Attribution of responsibility for the deaths has not been established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260921-skorea-dmz-explosion",
+    "date": "2026-09-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Explosion near Korean DMZ wounds three South Korean officers",
+    "note": "Al Jazeera reports three South Korean military officers were wounded in an explosion near the border with North Korea, possibly caused by a landmine, according to local media.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "South Korea",
+      "North Korea"
+    ],
+    "lon": 127,
+    "lat": 38,
+    "place": "Korean DMZ",
+    "arc": null,
+    "global": false,
+    "metric": "three people",
+    "metricName": "military officers wounded",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/21/three-south-korean-officers-wounded-in-border-explosion?traffic_source=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "Cause of the explosion, including whether it was a landmine, is unconfirmed and based on local media reports. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260921-pakistan-arrest-protest",
+    "date": "2026-09-20",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Pakistan arrests ex-prime minister's sister ahead of protests",
+    "note": "The BBC reports Pakistani authorities arrested the sister of a jailed former prime minister, accusing her of mobilising his supporters ahead of planned nationwide protests.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Pakistan"
+    ],
+    "lon": 69.3,
+    "lat": 30.4,
+    "place": "Pakistan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm36l2pye2kwo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-21",
+    "auto": true,
+    "limitations": "The underlying charges are contested and not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

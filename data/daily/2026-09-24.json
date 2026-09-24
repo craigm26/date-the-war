@@ -1,0 +1,212 @@
+[
+  {
+    "id": "d-20260924-ethiopia-tigray-war-fears",
+    "date": "2026-09-24",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Ethiopia and Tigray trade blame as war fears resurface",
+    "note": "Ethiopian federal and Tigrayan authorities accuse each other of launching new offensives, with reports of drone strikes and the seizure of Tigray's airports. The exchange raises fears that the war that devastated the region from 2020 to 2022 could restart.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "lon": 39.47,
+    "lat": 13.5,
+    "place": "Tigray region, Ethiopia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-24",
+    "auto": true,
+    "limitations": "Single BBC report citing local authorities; drone strike and offensive claims from both sides are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260924-us-china-summit-taiwan-iran",
+    "date": "2026-09-24",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US and China's presidents meet as Taiwan, Iran tensions rise",
+    "note": "The US and Chinese presidents hold a summit covering trade, AI, Iran and Taiwan, the Chinese leader's first White House visit in over a decade. The talks come amid unresolved disputes over Taiwan and the ongoing US-Iran war.",
+    "mechanisms": [
+      "power-transition",
+      "misperception",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Taiwan",
+      "Iran"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington, DC",
+    "arc": [
+      [
+        116.4,
+        39.9
+      ],
+      [
+        -77.04,
+        38.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/24/trump-xi-summit-live-trade-ai-iran-and-taiwan-top-us-china-talks?traffic_source=rss"
+    },
+    "checked": "2026-09-24",
+    "auto": true,
+    "limitations": "Live blog coverage; summit outcomes and any joint statement were not yet finalized at time of reporting. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260924-poland-starlink-sabotage",
+    "date": "2026-09-24",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Poland calls Starlink station fire sabotage, cites Russia risk",
+    "note": "Poland's government says a fire at a Starlink satellite station that helps serve Ukraine was sabotage, as Denmark separately warns of a rising Russian hybrid threat. The incident adds to a pattern of attacks on infrastructure supporting Ukraine.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Poland",
+      "Denmark",
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 19.15,
+    "lat": 51.92,
+    "place": "Poland",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        19.15,
+        51.92
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-24",
+    "auto": true,
+    "limitations": "Sabotage attribution comes from the Polish government; no independent forensic confirmation of Russian involvement is cited. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260924-iran-threatens-regional-airports",
+    "date": "2026-09-24",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran threatens regional airports as US sanctions widen",
+    "note": "Iran signals possible retaliation against regional airports after Georgia and Azerbaijan suspended Iranian flights under mounting US sanctions on airlines. The dispute risks disrupting regional air links tied to the wider Iran conflict.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran",
+      "Georgia",
+      "Azerbaijan",
+      "United States"
+    ],
+    "lon": 51.42,
+    "lat": 35.69,
+    "place": "Tehran, Iran",
+    "arc": [
+      [
+        51.42,
+        35.69
+      ],
+      [
+        43.36,
+        42.32
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/24/why-is-iran-threatening-regional-airports-and-what-could-be-the-impact?traffic_source=rss"
+    },
+    "checked": "2026-09-24",
+    "auto": true,
+    "limitations": "Analysis piece; the scale and timing of any Iranian retaliatory action against airports remains unconfirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260924-belgium-rwanda-restore-ties-drc",
+    "date": "2026-09-24",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Belgium and Rwanda restore ties amid DR Congo war",
+    "note": "Belgium and Rwanda have restored diplomatic relations after an 18-month rupture linked to the war in eastern DR Congo. The thaw offers a possible opening for renewed diplomacy, though the underlying conflict continues.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Belgium",
+      "Rwanda",
+      "Democratic Republic of the Congo"
+    ],
+    "lon": 29.23,
+    "lat": -1.68,
+    "place": "Eastern Democratic Republic of the Congo",
+    "arc": [
+      [
+        4.35,
+        50.85
+      ],
+      [
+        29.92,
+        -1.94
+      ]
+    ],
+    "global": false,
+    "metric": "18 months",
+    "metricName": "duration of Belgium-Rwanda diplomatic rupture",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/belgium-and-rwanda-are-talking-again-is-dr-congo-any-closer-to-peace?traffic_source=rss"
+    },
+    "checked": "2026-09-24",
+    "auto": true,
+    "limitations": "Restoring diplomatic ties does not itself indicate progress on the ground war in eastern DR Congo. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

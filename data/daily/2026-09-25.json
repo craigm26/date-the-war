@@ -1,0 +1,232 @@
+[
+  {
+    "id": "d-20260925-iran-hormuz-plan",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Iran offers seven-day plan to reopen Strait of Hormuz",
+    "note": "Iran's foreign ministry proposes a seven-day roadmap to implement a stalled ceasefire with the US, offering to reopen the Strait of Hormuz if regional fighting halts, as high fuel prices pressure Washington ahead of midterms.",
+    "mechanisms": [
+      "commitment-problem",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.25,
+    "lat": 26.57,
+    "place": "Strait of Hormuz",
+    "arc": [
+      [
+        53.688,
+        32.4279
+      ],
+      [
+        -77.0369,
+        38.9072
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz?traffic_source=rss"
+    },
+    "checked": "2026-09-25",
+    "auto": true,
+    "limitations": "Single-source account of a diplomatic proposal that Washington has not confirmed accepting. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260925-trump-xi-tariff-truce",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US president offers China two-month tariff truce",
+    "note": "During the Chinese president's first Washington visit in a decade, the US president offered a two-month truce in the tariff war, though the two sides made little progress on trade, technology or Taiwan.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": -77.0369,
+    "lat": 38.9072,
+    "place": "Washington, DC",
+    "arc": [
+      [
+        -77.0369,
+        38.9072
+      ],
+      [
+        116.4074,
+        39.9042
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/c9lykxx5zp70o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-25",
+    "auto": true,
+    "limitations": "Truce terms are informal and could unwind quickly; details of enforcement were not disclosed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260925-ukraine-ceasefire-push",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "US pushes to revive Russia-Ukraine ceasefire as strikes widen",
+    "note": "Washington is seeking to restart stalled ceasefire talks as Ukraine's president says eight regions came under Russian attack in a single day, underscoring the gap between diplomacy and the battlefield.",
+    "mechanisms": [
+      "commitment-problem",
+      "misperception"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 31.1656,
+    "lat": 48.3794,
+    "place": "Ukraine",
+    "arc": [
+      [
+        37.6173,
+        55.7558
+      ],
+      [
+        31.1656,
+        48.3794
+      ]
+    ],
+    "global": false,
+    "metric": "8 regions",
+    "metricName": "regions attacked in one day",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/25/us-seeking-to-revive-russia-ukraine-ceasefire-talks?traffic_source=rss"
+    },
+    "checked": "2026-09-25",
+    "auto": true,
+    "limitations": "Attack and regional-scope figures come from Ukraine's government and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260925-nigeria-malnutrition",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Nigeria malnutrition rises as Iran war lifts food costs",
+    "note": "Aid workers report rising malnutrition in Nigeria as the war between the US and Iran pushes up global food and fuel costs, illustrating how a distant conflict worsens hunger far from the front line.",
+    "mechanisms": [],
+    "countries": [
+      "Nigeria",
+      "Iran",
+      "United States"
+    ],
+    "lon": 8.6753,
+    "lat": 9.082,
+    "place": "Nigeria",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss"
+    },
+    "checked": "2026-09-25",
+    "auto": true,
+    "limitations": "Video report with no independently verified malnutrition statistics cited. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260925-nepal-flood-warning",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Nepal's prime minister calls deadly flood a global warning",
+    "note": "Nepal's prime minister says a devastating flood is a warning to the world on climate change, as extreme rainfall disasters increasingly strain state capacity and drive displacement across South Asia.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Nepal"
+    ],
+    "lon": 84.124,
+    "lat": 28.3949,
+    "place": "Nepal",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/25/nepals-leader-labels-devastating-flood-a-warning-to-the-world?traffic_source=rss"
+    },
+    "checked": "2026-09-25",
+    "auto": true,
+    "limitations": "Death toll and damage figures are not given in this report. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260925-uk-ukraine-drone-data",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UK firms gain access to Ukraine battlefield data for drone AI",
+    "note": "The UK will give British companies access to Ukrainian battlefield data to train AI models for drone swarms, deepening allied military-technology cooperation built on the Russia-Ukraine war.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Ukraine"
+    ],
+    "lon": 31.1656,
+    "lat": 48.3794,
+    "place": "Ukraine",
+    "arc": [
+      [
+        -0.1278,
+        51.5074
+      ],
+      [
+        31.1656,
+        48.3794
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UK Ministry of Defence",
+      "url": "https://www.gov.uk/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms"
+    },
+    "checked": "2026-09-25",
+    "auto": true,
+    "limitations": "Government announcement; scope and scale of data access are not independently detailed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

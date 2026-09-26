@@ -1,0 +1,295 @@
+[
+  {
+    "id": "d-20260926-indus-water-act-of-war",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Water and land",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Pakistan's prime minister warns Indus water move means war",
+    "note": "Pakistan's prime minister told the UN General Assembly that any Indian move to stop, impede or divert Pakistan's share of the Indus River would be treated as an act of war. The warning sharpens a nuclear-armed water dispute between the two countries.",
+    "mechanisms": [
+      "indivisible-issues",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Pakistan",
+      "India"
+    ],
+    "lon": 70,
+    "lat": 30,
+    "place": "Indus River basin",
+    "arc": [
+      [
+        78,
+        21
+      ],
+      [
+        70,
+        30
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168452"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Based on a single speech; does not establish that India plans any diversion. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-trump-rejects-iran-ceasefire",
+    "date": "2026-09-26",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US rejects Iran's seven-day Hormuz ceasefire plan",
+    "note": "The US president reportedly rejected Iran's seven-day proposal to reopen the Strait of Hormuz, with analysts expecting strikes on Iran to resume after November's midterm elections.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 56.25,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        56.25,
+        26.5
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next?traffic_source=rss"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Based on unnamed officials and analyst commentary, not a formal US statement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-yemen-general-mobilization",
+    "date": "2026-09-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemen's government orders general mobilization against Houthis",
+    "note": "Yemen's internationally recognized government called for general mobilization and offered amnesty to Houthi defectors as the rebel group's coastal offensive continues.",
+    "mechanisms": [
+      "steps-to-war",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.35,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/26/why-has-the-yemen-government-called-for-a-general-mobilisation?traffic_source=rss"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Scope and enforcement of the mobilization order are unclear. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-russia-strikes-ukraine-data-centers",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia strikes Ukraine's data centres, president says",
+    "note": "Ukraine's president said Russian attacks are increasingly targeting data centres and civilian infrastructure to disrupt ordinary life, not just military targets.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 31.2,
+    "lat": 49,
+    "place": "Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        31.2,
+        49
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Claim comes from the Ukrainian government; independent damage assessment not given. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-iraq-economy-iran-war",
+    "date": "2026-09-26",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Iran war disrupts oil exports, squeezes Iraq's economy",
+    "note": "Disrupted oil exports, costlier imports and a weaker dinar show how tightly Iraq's economy remains tied to the wider Iran war and regional oil trade.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Iraq",
+      "Iran"
+    ],
+    "lon": 44.36,
+    "lat": 33.3,
+    "place": "Iraq",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/26/iran-war-squeezes-iraqs-economy-as-oil-revenues-fall-and-prices-rise?traffic_source=rss"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Does not quantify total economic loss with a single verified figure. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-yemen-child-hunger",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemen fighting deepens child malnutrition crisis, aid groups say",
+    "note": "Aid agencies reported hundreds of displaced children suffering severe acute malnutrition as renewed fighting between Houthi and government forces spreads in Yemen.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.35,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168436"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Figures come from aid agency field reports, not a comprehensive survey. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-unhcr-117-million-displaced",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "UN reports 117 million people forcibly displaced worldwide",
+    "note": "The UN refugee chief told the Security Council that displacement is outpacing solutions, urging the Council to address the wars driving 117 million people from their homes.",
+    "mechanisms": [],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "metric": "117 million people",
+    "metricName": "people forcibly displaced worldwide",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16463.doc.htm"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Global aggregate figure; does not break down by conflict or verify sourcing methodology. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-houthi-intelligence-war",
+    "date": "2026-09-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Houthi intelligence network built with Russia, Iran under attack",
+    "note": "Analysis reports that Russian and Iranian intelligence support enabled the Houthi advance on Yemen's Red Sea coast, but that support system is now being targeted, potentially reversing recent gains.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "private-information"
+    ],
+    "countries": [
+      "Yemen",
+      "Russia",
+      "Iran",
+      "Saudi Arabia"
+    ],
+    "lon": 43.3,
+    "lat": 15,
+    "place": "Red Sea coast, Yemen",
+    "arc": [
+      [
+        51.4,
+        35.7
+      ],
+      [
+        43.3,
+        15
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/opinions/2026/9/26/the-intelligence-war-is-turning-against-the-houthis?traffic_source=rss"
+    },
+    "checked": "2026-09-26",
+    "auto": true,
+    "limitations": "Based on an opinion analysis piece citing unnamed intelligence sources, not officially confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

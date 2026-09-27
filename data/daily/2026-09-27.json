@@ -1,0 +1,262 @@
+[
+  {
+    "id": "d-20260927-israel-westbank-war-call",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli minister calls for war in occupied West Bank",
+    "note": "Israel's finance minister said the West Bank should see war as Israeli authorities imposed a broad military closure over the Sukkot holiday, sharpening tensions in the occupied territory.",
+    "mechanisms": [
+      "domestic-incentives",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 35.3,
+    "lat": 31.9,
+    "place": "West Bank",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/27/israeli-minister-bezalel-smotrich-calls-for-war-in-occupied-west-bank?traffic_source=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Single outlet report of a minister's remarks; the scope of the announced military closure is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-djibouti-yemen-refugees",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Djibouti calls for help as Yemen war drives refugee influx",
+    "note": "Djibouti's government appealed for international support as fighting in Yemen pushes more people across the Bab al-Mandab strait, straining a small country already hosting displaced people.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Djibouti",
+      "Yemen"
+    ],
+    "lon": 43.15,
+    "lat": 11.6,
+    "place": "Djibouti",
+    "arc": [
+      [
+        44.2,
+        15.5
+      ],
+      [
+        43.15,
+        11.6
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/djibouti-urges-world-to-help-as-yemen-war-drives-refugee-influx?traffic_source=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Video report gives no refugee count or timeframe, so the scale of the reported influx cannot be verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-iran-caspian-trade",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Iran reroutes oil trade north as Hormuz war blocks south",
+    "note": "Iran is seeking to shift oil exports toward Caspian Sea routes as US pressure impairs shipping through the Strait of Hormuz, a sign the conflict is reshaping regional energy flows.",
+    "mechanisms": [],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 56.25,
+    "lat": 26.57,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Analytical report on Iran's options; does not confirm actual export volumes rerouted. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-iran-fm-negotiation",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Iran's foreign minister says only talks can end war",
+    "note": "Iran's foreign minister said negotiation is the only way to end the conflict after the US president rejected Tehran's plan to reopen the Strait of Hormuz, leaving a diplomatic channel open despite the setback.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.389,
+    "lat": 35.6892,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Relies on one official's statement; Tehran's actual negotiating position and US intentions are not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-board-of-peace-unrwa",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Gaza peace board excludes UN refugee agency from role",
+    "note": "A newly formed Board of Peace overseeing Gaza has excluded UNRWA from any role, aligning with repeated Israeli calls to sideline the agency and raising questions over aid coordination and reconstruction.",
+    "mechanisms": [
+      "indivisible-issues",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.4668,
+    "lat": 31.5017,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/27/no-role-for-unrwa-in-gaza-does-the-board-of-peace-toe-israeli-lines?traffic_source=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Based on one outlet's characterization of the board's composition; its formal mandate is not detailed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-lebanon-state-weapons",
+    "date": "2026-09-25",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Lebanon's prime minister says only the state can hold arms",
+    "note": "Lebanon's prime minister told the UN General Assembly that decisions over war, peace and weapons must rest solely with state institutions, a pointed message about non-state armed groups such as Hezbollah.",
+    "mechanisms": [
+      "commitment-problem",
+      "state-weakness"
+    ],
+    "countries": [
+      "Lebanon"
+    ],
+    "lon": 35.5,
+    "lat": 33.8938,
+    "place": "Beirut",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168444"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Speech reflects stated government position, not an enforcement action, and does not by itself signal a change in armed groups' status. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-bangkok-flood",
+    "date": "2026-09-26",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Bangkok declared flood disaster zone as rain overwhelms city",
+    "note": "Heavy rain over two days overwhelmed Bangkok's drainage systems, prompting authorities to declare a flood disaster zone with more rain forecast, adding to a run of severe flooding across South and Southeast Asia.",
+    "mechanisms": [],
+    "countries": [
+      "Thailand"
+    ],
+    "lon": 100.5018,
+    "lat": 13.7563,
+    "place": "Bangkok",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cwp933mr9v1xo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Video report gives no casualty or economic damage figures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260927-india-nepal-floods",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Floods and landslides kill dozens in India and Nepal",
+    "note": "Authorities reported at least 56 deaths in India and 12 in Nepal from three days of flooding and landslides, as rivers rose above danger levels across the region.",
+    "mechanisms": [],
+    "countries": [
+      "India",
+      "Nepal"
+    ],
+    "lon": 84,
+    "lat": 27.7,
+    "place": "Northern India and Nepal",
+    "arc": null,
+    "global": false,
+    "metric": "about 68 people killed",
+    "metricName": "flood and landslide deaths",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/27/floods-and-landslides-kill-at-least-56-people-in-india-12-in-nepal?traffic_source=rss"
+    },
+    "checked": "2026-09-27",
+    "auto": true,
+    "limitations": "Death tolls are preliminary and likely to rise as authorities continue assessing damage. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

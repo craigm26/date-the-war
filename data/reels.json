@@ -1,20 +1,35 @@
 [
  {
+  "date": "2026-09-27",
+  "count": 6,
+  "auto": 6,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-09-27@reel",
+  "titles": [
+   "Israeli minister calls for war in occupied West Bank",
+   "Gaza peace board excludes UN refugee agency from role",
+   "Iran's foreign minister says only talks can end war",
+   "Djibouti calls for help as Yemen war drives refugee influx",
+   "Floods and landslides kill dozens in India and Nepal",
+   "Iran reroutes oil trade north as Hormuz war blocks south"
+  ]
+ },
+ {
   "date": "2026-09-26",
-  "count": 4,
-  "auto": 4,
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-26@reel",
   "titles": [
    "US rejects Iran's seven-day Hormuz ceasefire plan",
    "Yemen's government orders general mobilization against Houthis",
    "Houthi intelligence network built with Russia, Iran under attack",
-   "Iran war disrupts oil exports, squeezes Iraq's economy"
+   "Iran war disrupts oil exports, squeezes Iraq's economy",
+   "Bangkok declared flood disaster zone as rain overwhelms city"
   ]
  },
  {
   "date": "2026-09-25",
-  "count": 10,
-  "auto": 10,
+  "count": 11,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-09-25@reel",
   "titles": [
    "Russia strikes Ukraine's data centres, president says",
@@ -24,6 +39,7 @@
    "Yemen fighting deepens child malnutrition crisis, aid groups say",
    "Iran offers seven-day plan to reopen Strait of Hormuz",
    "US president offers China two-month tariff truce",
+   "Lebanon's prime minister says only the state can hold arms",
    "Nepal's prime minister calls deadly flood a global warning",
    "Nigeria malnutrition rises as Iran war lifts food costs",
    "UK firms gain access to Ukraine battlefield data for drone AI"

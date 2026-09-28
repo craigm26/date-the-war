@@ -1,0 +1,256 @@
+[
+  {
+    "id": "d-20260928-oil-hormuz-rejection",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Oil surges past $107 a barrel as US rejects Iran's Hormuz plan",
+    "note": "Brent crude rose more than 3 percent after Washington dismissed Tehran's proposal to reopen the Strait of Hormuz, a sign markets expect the war to keep disrupting oil flows.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.25,
+    "lat": 26.57,
+    "place": "Strait of Hormuz",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        56.25,
+        26.57
+      ]
+    ],
+    "global": false,
+    "metric": "about 107 USD per barrel",
+    "metricName": "Brent crude oil price",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/28/oil-prices-surge-after-trump-rejects-irans-plan-to-reopen-strait-of-hormuz?traffic_source=rss"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "The price move is a market reaction; the article does not quantify actual supply disruption. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260928-raf-fairford-incident",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UK police probe 'terror' incident near Iran war airbase",
+    "note": "British police arrested five men on suspicion of preparing a terrorist act near RAF Fairford, a base used by the US in the war with Iran, raising concern the conflict is spilling into hybrid threats at home.",
+    "mechanisms": [],
+    "countries": [
+      "United Kingdom",
+      "Iran",
+      "United States"
+    ],
+    "lon": -1.79,
+    "lat": 51.68,
+    "place": "RAF Fairford, England",
+    "arc": null,
+    "global": false,
+    "metric": "5 people",
+    "metricName": "people arrested",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/28/terror-incident-near-raf-base-used-for-iran-war-what-we-know?traffic_source=rss"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "Attribution and motive are unconfirmed; police have not disclosed any link to a state actor. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260928-skorea-ukraine-pow-row",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "South Korea demands apology from Ukraine over PoW leak",
+    "note": "Seoul says Kyiv broke a nondisclosure agreement covering North Korean soldiers captured fighting for Russia, straining South Korea-Ukraine ties built around the wider war.",
+    "mechanisms": [
+      "private-information",
+      "misperception"
+    ],
+    "countries": [
+      "South Korea",
+      "Ukraine",
+      "North Korea"
+    ],
+    "lon": 126.98,
+    "lat": 37.57,
+    "place": "Seoul",
+    "arc": [
+      [
+        126.98,
+        37.57
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/28/why-south-korea-is-demanding-an-apology-from-ukraine-over-north-korean-pows?traffic_source=rss"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "Single-source account of a diplomatic dispute; terms of the alleged agreement are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260928-serbia-president-resigns",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Serbia's president resigns amid corruption protests",
+    "note": "Serbia's president stepped down after prolonged protests over corruption allegations, opening the way for early elections and a period of political uncertainty in the Balkans.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Serbia"
+    ],
+    "lon": 20.46,
+    "lat": 44.79,
+    "place": "Belgrade",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "Political transition is ongoing; effects on regional stability are not established by a single article. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260928-swiss-neutrality-vote",
+    "date": "2026-09-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Swiss voters reject stricter limits on neutrality law",
+    "note": "Swiss voters rejected a ballot initiative that would have barred the country from imposing sanctions without UN approval, keeping Switzerland free to align sanctions with the EU on issues like Russia's war in Ukraine.",
+    "mechanisms": [],
+    "countries": [
+      "Switzerland"
+    ],
+    "lon": 8.55,
+    "lat": 46.9,
+    "place": "Switzerland",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm750plvwy9vo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "Referendum result reflects domestic politics; its effect on future sanctions decisions is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260928-us-china-tariff-list",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade integration and diplomacy",
+    "dir": "De-escalatory",
+    "mag": 3,
+    "title": "US and China list $60bn in goods for tariff cuts",
+    "note": "Washington and Beijing published lists of goods recommended for tariff reductions covering about $60 billion in trade, a follow-up to the presidents' summit and a temporary tariff truce.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": -77.03,
+    "lat": 38.9,
+    "place": "Washington and Beijing",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        116.4,
+        39.9
+      ]
+    ],
+    "global": false,
+    "metric": "60 USD billion",
+    "metricName": "value of goods recommended for tariff cuts",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "The lists are recommendations, not finalized tariff changes; an implementation timeline is not given. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260926-cuba-un-us-pressure",
+    "date": "2026-09-26",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Cuba warns UN of intensifying US economic pressure",
+    "note": "Cuba's foreign minister told the UN General Assembly that escalating US military and economic pressure in Latin America and the Caribbean threatens international law and extends a decades-long campaign to isolate the country.",
+    "mechanisms": [],
+    "countries": [
+      "Cuba",
+      "United States"
+    ],
+    "lon": -73.97,
+    "lat": 40.75,
+    "place": "United Nations, New York",
+    "arc": [
+      [
+        -77.03,
+        38.9
+      ],
+      [
+        -82.37,
+        23.13
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168458"
+    },
+    "checked": "2026-09-28",
+    "auto": true,
+    "limitations": "Statement is a UN speech; it is not independently corroborated with evidence of specific new sanctions actions. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

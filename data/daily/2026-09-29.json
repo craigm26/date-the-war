@@ -1,0 +1,295 @@
+[
+  {
+    "id": "d-20260929-ethiopia-offensive",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Ethiopia fighting intensifies as key town capture opens road to Mekelle",
+    "note": "Al Jazeera reports that the capture of a key town could let federal forces push toward Tigray's capital. This follows armed opposition groups in Tigray, Amhara and Afar opening a multi-pronged offensive, and a return to large-scale war would hit civilians and destabilise the Horn of Africa.",
+    "mechanisms": [
+      "state-weakness",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "lon": 39.47,
+    "lat": 13.5,
+    "place": "Tigray, Ethiopia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "A short explainer summary that cannot independently verify territorial control or casualty figures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-kyiv-academy-strike",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drone hits Ukraine's National Academy of Sciences in Kyiv",
+    "note": "The BBC reports from the scene of a drone strike on a historic Kyiv building housing Ukraine's National Academy of Sciences, from which people escaped. Strikes on civilian and cultural sites in the capital show the air war continuing to widen despite ceasefire efforts.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "A video report with a one-line summary; casualties and the launching party are not detailed in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-estonia-arson",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Estonia blames Russia for arson at defence firm supplying Ukraine",
+    "note": "The BBC reports that Estonia accuses Russia of arson at a defence company that supplies Ukraine, part of alleged sabotage across several European NATO states helping Kyiv. Hybrid attacks on allied supply chains raise the risk of misperception and alliance entanglement.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "misperception"
+    ],
+    "countries": [
+      "Estonia",
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 24.75,
+    "lat": 59.44,
+    "place": "Estonia",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        24.75,
+        59.44
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "The attribution to Russia is Estonia's claim as summarised; the item gives no evidence or damage details. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-us-canada-alcohol-dairy",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
+    "note": "The BBC reports the ban is the latest escalation in the Canada-US trade war, after negotiations collapsed in late August with no date set for talks to resume. Trade coercion between close allies strains the wider alliance framework.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "lon": -95.7,
+    "lat": 49,
+    "place": "United States and Canada",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        -75.7,
+        45.42
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "The summary gives no trade values or the legal basis for the ban. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-dprk-nuclear-irreversible",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "North Korea tells UN its nuclear status is irreversible",
+    "note": "UN News reports North Korea told the General Assembly its status as a nuclear-armed state is irreversible and that it rejects outside pressure. The stance closes off denuclearisation as a negotiating goal.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem"
+    ],
+    "countries": [
+      "North Korea"
+    ],
+    "lon": -73.97,
+    "lat": 40.75,
+    "place": "New York, United Nations",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168476"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "A rhetorical statement at the UN that does not itself show any change in weapons capability. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-iran-shortages",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Iranians stock up on food and medicine as fears of new US fighting grow",
+    "note": "Al Jazeera reports Iran is struggling with shortages as sanctions and a blockade strain food and medicine supply chains. Household hoarding signals expectations of renewed fighting and adds domestic pressure on the government.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Iran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/9/29/iranians-stock-up-on-food-and-medicine-as-fears-of-new-us-fighting-grow?traffic_source=rss"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "The summary gives no price or shortage figures, so the scale of the shortages is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-honduras-drought-appeal",
+    "date": "2026-09-28",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "UN and Honduras launch $60 million drought appeal",
+    "note": "The UN reports more than 700,000 people in Honduras need help as crops fail and food and water shortages grow. The appeal aims to reach over half a million people with food, water and other essential services.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Honduras"
+    ],
+    "lon": -87.2,
+    "lat": 14.07,
+    "place": "Honduras",
+    "arc": null,
+    "global": false,
+    "metric": "more than 700,000 people",
+    "metricName": "people in need of assistance due to drought",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db260928.doc.htm"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "A daily briefing summary that reports the UN's own needs estimate and does not link the drought to conflict. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260929-malaysia-rohingya-returns",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Malaysia begins sending Rohingya refugees back to Myanmar",
+    "note": "Al Jazeera reports about 1,500 refugees are to be returned in the first phase despite rights groups' safety warnings. The BBC cites rights groups saying some 5,000 returnees could face violence, persecution and forced conscription in Myanmar's civil conflict.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Malaysia",
+      "Myanmar"
+    ],
+    "lon": 101.69,
+    "lat": 3.14,
+    "place": "Malaysia",
+    "arc": [
+      [
+        101.69,
+        3.14
+      ],
+      [
+        96.08,
+        19.76
+      ]
+    ],
+    "global": false,
+    "metric": "about 1,500 people",
+    "metricName": "refugees to be returned in the first phase",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/29/malaysia-begins-returning-myanmar-nationals-despite-safety-warnings?traffic_source=rss"
+    },
+    "checked": "2026-09-29",
+    "auto": true,
+    "limitations": "Figures differ between outlets (1,500 in the first phase versus 5,000 at risk) and the risks come from rights groups' claims. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

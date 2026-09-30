@@ -1,0 +1,242 @@
+[
+  {
+    "id": "d-20260930-gaza-ceasefire-strikes",
+    "date": "2026-09-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli strikes kill seven in Gaza as ceasefire violations continue",
+    "note": "Al Jazeera reports at least six people killed in a drone attack on a passenger van and one in a strike on a residential apartment. Continued lethal strikes under the ceasefire erode its credibility and raise the chance it collapses.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": [
+      [
+        34.85,
+        31.8
+      ],
+      [
+        34.45,
+        31.5
+      ]
+    ],
+    "global": false,
+    "metric": "7 people",
+    "metricName": "reported killed in Israeli strikes",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/30/israeli-attacks-on-gaza-kill-several-as-ceasefire-violations-continue?traffic_source=rss"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "Casualty figures come from a single outlet and Israel's account of each strike is not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260930-myanmar-rakhine-market-strike",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Airstrike reportedly kills at least 50 at Rakhine market in Myanmar",
+    "note": "The UN Secretary-General condemned an airstrike that reportedly killed at least 50 people at a market in Rakhine state and called for accountability. Air attacks on civilian sites deepen the civil war and add pressure on neighbours already receiving returned refugees.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
+    "lon": 93.6,
+    "lat": 20.1,
+    "place": "Rakhine state, Myanmar",
+    "arc": null,
+    "global": false,
+    "metric": "at least 50 people",
+    "metricName": "reportedly killed in the airstrike",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168488"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "The death toll is described as reported and the party responsible is not identified in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260930-drc-m23-peace-deals-stall",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "DRC peace deals fail to halt M23 fighting as Rwanda tensions rise",
+    "note": "The UN Security Council heard that clashes between Congolese forces and M23 rebels continue in the east despite a series of peace agreements, with rising tension between the DRC and Rwanda. The country's worst recorded Ebola outbreak, above 3,900 deaths, compounds the crisis.",
+    "mechanisms": [
+      "commitment-problem",
+      "state-weakness"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Rwanda"
+    ],
+    "lon": 29.2,
+    "lat": -1.7,
+    "place": "Eastern DRC",
+    "arc": null,
+    "global": false,
+    "metric": "more than 3,900 people",
+    "metricName": "killed by the Ebola outbreak",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168482"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "The summary of a live Security Council session does not give casualty figures for the fighting or attribute responsibility for violations. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260930-ukraine-steel-industry-halted",
+    "date": "2026-09-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian missile campaign leaves Ukraine's steelworks all but halted",
+    "note": "The BBC reports that Ukraine's remaining steelworks, a vital part of its economy, have nearly ground to a halt under relentless attacks. Damage to heavy industry cuts export earnings and domestic arms and reconstruction capacity, lengthening the war's economic toll.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 34.99,
+    "lat": 48.46,
+    "place": "Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        34.99,
+        48.46
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "The summary gives no output figures or count of damaged plants, and the assessment rests on a single outlet. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260930-un-most-dangerous-nuclear-moment",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN chief calls this the most dangerous nuclear moment since Cold War",
+    "note": "At the observance of the International Day for the Total Elimination of Nuclear Weapons, the UN Secretary-General urged replacing threats with dialogue. Speakers cited expanding arsenals, eroding arms control and strikes on nuclear infrastructure in Iran and Ukraine.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "New York, United States",
+    "arc": null,
+    "global": true,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sgsm23310.doc.htm"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "This is a rhetorical assessment in a speech and does not measure any change in actual nuclear risk. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260930-hormuz-flows-recover-insurance-high",
+    "date": "2026-09-30",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Hormuz crude flows recover but tanker insurance and risk keep costs high",
+    "note": "Al Jazeera reports crude flows through the Strait of Hormuz have recovered, though tanker insurance costs and geopolitical risk still block a return to normal. The analysis asks whether Iran is losing its leverage over the chokepoint.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 56.3,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/9/30/economic-war-is-iran-losing-its-leverage-over-the-strait-of-hormuz?traffic_source=rss"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "The summary gives no flow volumes or insurance rates, and the leverage question is analysis rather than reported fact. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20260930-unhcr-funding-cuts-refugees",
+    "date": "2026-09-29",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Funding cuts put 8.3 million refugees at risk of losing UN aid",
+    "note": "The UN refugee agency is scaling back core programmes as its available funding fell from 5.2 billion to 3.9 billion US dollars between 2024 and 2025. Nearly 8.3 million displaced and stateless people face losing vital assistance, which raises the risk of onward movement and instability.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global",
+    "arc": null,
+    "global": true,
+    "metric": "about 8.3 million people",
+    "metricName": "refugees and displaced people at risk of losing assistance",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db260929.doc.htm"
+    },
+    "checked": "2026-09-30",
+    "auto": true,
+    "limitations": "The figures come from the UN agency's own briefing and do not show which countries or programmes lose most. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

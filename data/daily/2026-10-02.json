@@ -1,0 +1,218 @@
+[
+  {
+    "id": "d-20261002-un-iran-panel-veto",
+    "date": "2026-10-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN Assembly debates China and Russia veto of Iran sanctions panel renewal",
+    "note": "The General Assembly met to review the Security Council veto by China and Russia of a US-backed resolution to extend the panel of experts monitoring UN sanctions on Iran. Speakers split over the dispute on snapback, and the veto leaves the sanctions regime without its main independent monitor.",
+    "mechanisms": [
+      "private-information",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Iran",
+      "China",
+      "Russia",
+      "United States"
+    ],
+    "lon": -73.97,
+    "lat": 40.75,
+    "place": "UN General Assembly, New York",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/ga12792.doc.htm"
+    },
+    "checked": "2026-10-02",
+    "auto": true,
+    "limitations": "The summary reports the debate and the veto, not how sanctions enforcement will change in practice. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261002-us-iran-carrier-buildup",
+    "date": "2026-10-02",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "US plans three carriers and 10,000 more troops near Iran by end of November",
+    "note": "Al Jazeera reports that by the end of November three US aircraft carriers and two amphibious landing groups will be positioned near Iran, with about 10,000 additional US troops. The buildup raises the question of whether the Iran war is about to widen.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 54,
+    "lat": 26.5,
+    "place": "Persian Gulf region",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        54,
+        26.5
+      ]
+    ],
+    "global": false,
+    "metric": "about 10,000 troops",
+    "metricName": "additional US troops reported for the Iran theatre",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate?traffic_source=rss"
+    },
+    "checked": "2026-10-02",
+    "auto": true,
+    "limitations": "The deployment plan is reported in a news analysis piece and intent to attack is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261002-russia-kaliningrad-warning",
+    "date": "2026-10-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russia's president says Russia will use every weapon to protect Kaliningrad",
+    "note": "BBC reports that Russia's president warned the West that Moscow is ready to use every weapon to protect Kaliningrad, while insisting Russia is not threatening anyone and is responding to Western leaders' statements. The language raises the risk of misreading intent around the Baltic exclave.",
+    "mechanisms": [
+      "misperception",
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Russia",
+      "European NATO member countries",
+      "Lithuania",
+      "Poland"
+    ],
+    "lon": 20.5,
+    "lat": 54.71,
+    "place": "Kaliningrad",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7k7v499jjo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-02",
+    "auto": true,
+    "limitations": "The summary gives the warning but not the specific Western statements it responds to or any change in force posture. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261002-addis-ababa-explosions",
+    "date": "2026-10-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Explosions heard in Ethiopia's capital after drone flights banned",
+    "note": "BBC reports explosions in Addis Ababa after a drone flight ban, a week after fighting broke out north of the capital between the army and a new alliance of armed groups. Fighting near the capital would mark a sharp widening of the northern conflict.",
+    "mechanisms": [
+      "state-weakness",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "lon": 38.75,
+    "lat": 9.03,
+    "place": "Addis Ababa, Ethiopia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgygpqky9zo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-02",
+    "auto": true,
+    "limitations": "The cause of the explosions is not established in the summary and no casualty figures are given. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261002-kyiv-bridges-drone-strikes",
+    "date": "2026-10-02",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drones hit Kyiv bridges as Ukraine presses for tighter sanctions",
+    "note": "Al Jazeera reports that bridges struck by drones in Kyiv were closed, causing traffic chaos, while Ukraine called for tighter sanctions on Russia. Strikes on transport links in the capital add to pressure on civilian infrastructure.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/2/ukraine-calls-for-tighter-sanctions-as-russian-attacks-spark-kyiv-gridlock?traffic_source=rss"
+    },
+    "checked": "2026-10-02",
+    "auto": true,
+    "limitations": "The summary does not give casualty figures or the number of drones involved. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261002-gaza-who-winter-aid",
+    "date": "2026-10-02",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "WHO appeals for massive aid influx into Gaza ahead of winter",
+    "note": "The World Health Organization says repeated delays in bringing medicines, prosthetics and other supplies from Israel into Gaza risk devastating consequences for Palestinians. The appeal shows how access limits are straining the ceasefire period.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168508"
+    },
+    "checked": "2026-10-02",
+    "auto": true,
+    "limitations": "The summary gives no volumes of aid delayed and Israel's account of the delays is not included. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

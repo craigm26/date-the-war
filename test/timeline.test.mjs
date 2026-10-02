@@ -97,8 +97,13 @@ test('window bounds snap to the unit and clamp to the range end', () => {
   assert.equal(unitStart('2026-09-08', 'month'), '2026-09-01');
   assert.equal(unitStart('2026-09-08', 'year'), '2026-01-01');
   assert.equal(addUnit('2026-01-31', 'month', 1), '2026-03-03'.slice(0, 0) + addUnit('2026-01-31', 'month', 1));
-  const w = windowBounds({ from: '2026-09-01', scale: 'month', cumulative: false });
-  assert.deepEqual(w, { start: '2026-09-01', end: RANGE_END, unit: '2026-09-01' });
+  // A finished month ends on its own last day; the month holding RANGE_END stops at RANGE_END.
+  // Both are derived from RANGE_END (the data's asOf), which moves every day.
+  const w = windowBounds({ from: '2026-08-12', scale: 'month', cumulative: false });
+  assert.deepEqual(w, { start: '2026-08-01', end: '2026-08-31', unit: '2026-08-01' });
+  const nowUnit = unitStart(RANGE_END, 'month');
+  const live = windowBounds({ from: nowUnit, scale: 'month', cumulative: false });
+  assert.deepEqual(live, { start: nowUnit, end: RANGE_END, unit: nowUnit });
   const c = windowBounds({ from: '1939-09-01', scale: 'year', cumulative: true });
   assert.equal(c.start, RANGE_START);
   assert.equal(c.end, '1939-12-31');

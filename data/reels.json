@@ -1,12 +1,25 @@
 [
  {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "count": 3,
   "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-03@reel",
+  "titles": [
+   "Pakistan summons Indian diplomat over border killing of two civilians",
+   "Houthis capture Yemen's Red Sea coast, forcing families to flee again",
+   "G7 to release 100 million barrels of oil and diesel to curb prices"
+  ]
+ },
+ {
+  "date": "2026-10-02",
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-02@reel",
   "titles": [
    "Russian drones hit Kyiv bridges as Ukraine presses for tighter sanctions",
    "US plans three carriers and 10,000 more troops near Iran by end of November",
+   "UN rights chief calls Ukraine war a catastrophe growing by the week",
+   "WFP warns renewed Yemen fighting is driving a surge in hunger",
    "WHO appeals for massive aid influx into Gaza ahead of winter"
   ]
  },

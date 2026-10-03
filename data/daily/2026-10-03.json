@@ -1,0 +1,167 @@
+[
+  {
+    "id": "d-20261003-yemen-houthi-red-sea-coast",
+    "date": "2026-10-03",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthis capture Yemen's Red Sea coast, forcing families to flee again",
+    "note": "Al Jazeera reports that displaced Yemenis are fleeing a renewed Houthi offensive as the group takes the Red Sea coast. Control of the coast toward Bab al-Mandab raises the risk of a wider war involving Saudi Arabia and shipping.",
+    "mechanisms": [
+      "steps-to-war",
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 43.3,
+    "lat": 13.3,
+    "place": "Red Sea coast, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/10/3/a-yemeni-family-spend-a-week-on-the-road-fleeing-another-houthi-offensive?traffic_source=rss"
+    },
+    "checked": "2026-10-03",
+    "auto": true,
+    "limitations": "A single family's account in a feature piece; it gives no figures on total displacement or territory held. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261003-yemen-wfp-hunger-surge",
+    "date": "2026-10-02",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "WFP warns renewed Yemen fighting is driving a surge in hunger",
+    "note": "The World Food Programme says escalating conflict in Yemen has triggered a surge in hunger that could have consequences in the wider region and beyond. Food insecurity tied to renewed fighting adds pressure for displacement and further instability.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.4,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168509"
+    },
+    "checked": "2026-10-03",
+    "auto": true,
+    "limitations": "The summary available gives no hunger figures, so the scale of the surge cannot be assessed from this item alone. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261003-g7-oil-stock-release",
+    "date": "2026-10-03",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "G7 to release 100 million barrels of oil and diesel to curb prices",
+    "note": "Al Jazeera reports the G7 plans to release 100 million barrels of oil and diesel as energy prices stay high because of the wars involving Iran and Ukraine. A stock release eases supply pressure but signals that the shortage is expected to last.",
+    "mechanisms": [],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "G7 countries",
+    "arc": null,
+    "global": true,
+    "metric": "100 million barrels",
+    "metricName": "planned G7 oil and diesel release",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/g7-to-release-100-million-barrels-of-oil-and-diesel-will-it-curb-prices?traffic_source=rss"
+    },
+    "checked": "2026-10-03",
+    "auto": true,
+    "limitations": "The item is an explainer on a plan; the timing, split between members and price effect are not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261003-pakistan-summons-india-border-killing",
+    "date": "2026-10-03",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Pakistan summons Indian diplomat over border killing of two civilians",
+    "note": "Pakistan's foreign ministry says it summoned India's charge d'affaires to lodge a strong protest over the killing of two Pakistani civilians at the border. Cross-border deaths between the two nuclear-armed states can feed retaliation cycles.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Pakistan",
+      "India"
+    ],
+    "lon": 74.5,
+    "lat": 32.8,
+    "place": "India-Pakistan border",
+    "arc": [
+      [
+        74.5,
+        32.8
+      ],
+      [
+        77.2,
+        28.6
+      ]
+    ],
+    "global": false,
+    "metric": "2 civilians",
+    "metricName": "reported killed at the border",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/3/pakistan-summons-indian-diplomat-over-border-killing-of-two-pakistanis?traffic_source=rss"
+    },
+    "checked": "2026-10-03",
+    "auto": true,
+    "limitations": "Reports Pakistan's account of the killings; the circumstances and any Indian response are not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261003-un-rights-chief-ukraine-catastrophe",
+    "date": "2026-10-02",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN rights chief calls Ukraine war a catastrophe growing by the week",
+    "note": "The UN High Commissioner for Human Rights says the war in Ukraine is a human rights catastrophe that is growing and intensifying by the week and threatens a greater disaster across the region. It adds an official UN assessment of worsening civilian harm.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.5,
+    "lat": 50.4,
+    "place": "Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168513"
+    },
+    "checked": "2026-10-03",
+    "auto": true,
+    "limitations": "The summary reports a statement without casualty data, so the claim of intensification cannot be checked here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "d-20261004-iran-hormuz-closed",
+    "date": "2026-10-04",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran says Hormuz stays closed until the US meets its conditions",
+    "note": "Al Jazeera reports Tehran says reopening the Strait of Hormuz is its main goal, while the US keeps its focus on nuclear talks. The two sides are prioritizing different issues, which prolongs the disruption to a key oil route.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.3,
+    "lat": 26.6,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/iran-says-strait-of-hormuz-to-remain-closed-until-us-meets-conditions?traffic_source=rss"
+    },
+    "checked": "2026-10-04",
+    "auto": true,
+    "limitations": "The report relays Iranian statements and does not detail the conditions or current shipping volumes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261004-kyiv-bridge-german-visit",
+    "date": "2026-10-04",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian strike hits Kyiv bridge as Germany's chancellor visits the capital",
+    "note": "Al Jazeera reports air raid sirens and Russian strikes disrupting Kyiv during a visit by Germany's chancellor, who pledged strong support for Ukraine. The strike on civilian infrastructure continues a pattern of attacks on the capital's bridges.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Germany"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/russian-strike-hits-kyiv-bridge-as-german-chancellor-visits-ukraine?traffic_source=rss"
+    },
+    "checked": "2026-10-04",
+    "auto": true,
+    "limitations": "The summary gives no casualty or damage figures, and the strike details rest on one outlet's report. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261004-canada-us-invasion-scenarios",
+    "date": "2026-10-04",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Canada's military plans for an unlikely US invasion scenario",
+    "note": "BBC News reports that Canada's prime minister has said the military is running scenarios for the unlikely case of a US invasion. The planning reflects how far the trade war and US pressure have strained a close alliance.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "Canada",
+      "United States"
+    ],
+    "lon": -75.7,
+    "lat": 45.42,
+    "place": "Ottawa, Canada",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-04",
+    "auto": true,
+    "limitations": "The item describes contingency planning described as a long shot and does not show any intent to invade. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

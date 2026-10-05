@@ -1,0 +1,127 @@
+[
+  {
+    "id": "d-20261005-yemen-all-out-war",
+    "date": "2026-10-04",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemen's government announces all-out war to reclaim Houthi-held land",
+    "note": "Yemen's president announced a full offensive against the Houthis while the group and the Saudi-led coalition exchange strikes. It matters because the fighting now directly involves Saudi Arabia and could widen into a regional war.",
+    "mechanisms": [
+      "steps-to-war",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.2,
+    "lat": 15.4,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-05",
+    "auto": true,
+    "limitations": "The announcement states intent; the BBC summary does not independently verify strike claims or territorial control. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261005-yemen-government-advance",
+    "date": "2026-10-05",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Yemeni government forces say they have taken a key district from the Houthis",
+    "note": "After launching a major offensive, the Yemeni government says it has taken a key district in Houthi-held areas. Front lines that were moving toward the Red Sea coast days ago are now contested in both directions.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 43.5,
+    "lat": 14.5,
+    "place": "Yemen front lines",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/5/yemen-war-escalates-whats-the-latest-on-the-battlefield?traffic_source=rss"
+    },
+    "checked": "2026-10-05",
+    "auto": true,
+    "limitations": "The territorial gain is a government claim and has not been independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261005-sudan-aid-trucks-strike",
+    "date": "2026-10-04",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Airstrike kills driver and hits clearly marked aid trucks in South Kordofan",
+    "note": "The World Food Programme condemned an airstrike on two clearly marked aid trucks in South Kordofan, Sudan, over the weekend that killed a driver. Attacks on aid convoys restrict food deliveries in a region already facing hunger.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 29.7,
+    "lat": 11,
+    "place": "South Kordofan, Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168519"
+    },
+    "checked": "2026-10-05",
+    "auto": true,
+    "limitations": "The summary does not say which party carried out the strike, and the event date is inferred from the word weekend. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261005-oleshky-hunger",
+    "date": "2026-10-05",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Residents of Russian-occupied Oleshky face hunger, drones and landmines",
+    "note": "Al Jazeera reports that Ukrainians in the occupied town of Oleshky are eating weeds and facing drone attacks and landmines, with reports of bodies being eaten by feral dogs. It documents civilian conditions in occupied territory that bear on the human cost of the war.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 33,
+    "lat": 46.6,
+    "place": "Oleshky, Kherson region",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/5/in-russia-occupied-oleshky-ukrainians-face-hunger-drones-and-landmines?traffic_source=rss"
+    },
+    "checked": "2026-10-05",
+    "auto": true,
+    "limitations": "Conditions in occupied areas are hard to verify independently, and some details are described as reportedly occurring. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

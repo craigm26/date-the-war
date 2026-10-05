@@ -1,12 +1,24 @@
 [
  {
+  "date": "2026-10-05",
+  "count": 2,
+  "auto": 2,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-05@reel",
+  "titles": [
+   "Yemeni government forces say they have taken a key district from the Houthis",
+   "Residents of Russian-occupied Oleshky face hunger, drones and landmines"
+  ]
+ },
+ {
   "date": "2026-10-04",
-  "count": 3,
-  "auto": 3,
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-04@reel",
   "titles": [
    "Russian strike hits Kyiv bridge as Germany's chancellor visits the capital",
    "Iran says Hormuz stays closed until the US meets its conditions",
+   "Airstrike kills driver and hits clearly marked aid trucks in South Kordofan",
+   "Yemen's government announces all-out war to reclaim Houthi-held land",
    "Canada's military plans for an unlikely US invasion scenario"
   ]
  },

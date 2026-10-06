@@ -1,0 +1,212 @@
+[
+  {
+    "id": "d-20261006-black-sea-ship-sinks",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ship sinks and crew missing after Black Sea drone attack",
+    "note": "The BBC reports a ship sank after a drone attack in the Black Sea and its crew are missing. It is unclear who carried out the attack, which comes as Russia intensifies strikes in the Black Sea during its war against Ukraine.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 31,
+    "lat": 44,
+    "place": "Black Sea",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-06",
+    "auto": true,
+    "limitations": "The source says the attacker is not identified, and the vessel's ownership and the crew count are not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261006-moscow-drone-attack",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine launches major drone attack on Moscow region, killing two",
+    "note": "Al Jazeera reports Russia says 290 drones targeted Moscow and nearby regions overnight, and two people were killed. The scale of the strike on the Russian capital region shows deep-strike reach widening as both sides escalate drone warfare.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 37.6,
+    "lat": 55.75,
+    "place": "Moscow region, Russia",
+    "arc": [
+      [
+        30.5,
+        50.45
+      ],
+      [
+        37.6,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "290 drones",
+    "metricName": "drones Russia says targeted Moscow and nearby regions",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/6/ukraine-launches-major-drone-attack-on-russias-moscow-region-killing-two?traffic_source=rss"
+    },
+    "checked": "2026-10-06",
+    "auto": true,
+    "limitations": "The drone count and casualties come from Russian statements and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261006-houthi-saudi-airports",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi Arabia says three wounded in attacks on airports near Yemen border",
+    "note": "Al Jazeera reports Saudi aviation authorities describe severe injuries and damage after Houthi strikes on Jazan and Najran airports. The strikes pull Saudi territory directly into the widening fighting in Yemen.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 42.55,
+    "lat": 16.9,
+    "place": "Jazan and Najran, Saudi Arabia",
+    "arc": [
+      [
+        44.2,
+        15.4
+      ],
+      [
+        42.55,
+        16.9
+      ]
+    ],
+    "global": false,
+    "metric": "3 people",
+    "metricName": "people reported wounded",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/6/saudi-arabia-says-three-wounded-in-attacks-on-airports-near-yemen-border?traffic_source=rss"
+    },
+    "checked": "2026-10-06",
+    "auto": true,
+    "limitations": "The account relies on the Saudi aviation authority, and responsibility and the extent of damage are not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261006-pakistan-turkiye-saudi-deterrence",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Pakistan and Turkiye join Saudi deterrence against Houthis",
+    "note": "Al Jazeera reports Pakistan says its role is defensive, while Saudi Arabia's offensive in Yemen tests how long Islamabad can stay out of the fight. Added partners strengthen deterrence but raise the risk of entanglement in the Yemen war.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Pakistan",
+      "Turkey",
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 46.7,
+    "lat": 24.7,
+    "place": "Riyadh, Saudi Arabia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/6/pakistan-turkiye-join-saudi-deterrence-against-houthis-what-that-means?traffic_source=rss"
+    },
+    "checked": "2026-10-06",
+    "auto": true,
+    "limitations": "This is an analysis piece, and the exact terms and scale of the Pakistani and Turkish commitments are not stated in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261006-tigray-aid-warehouse-looted",
+    "date": "2026-10-04",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN aid warehouse and NGO facilities looted in Ethiopia's Tigray",
+    "note": "The UN spokesperson's briefing reports a UN agency warehouse with aid supplies, plus local and international NGO facilities, were looted on Sunday amid ongoing insecurity in northern Ethiopia. Plans are under way to resume food and health deliveries.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Ethiopia"
+    ],
+    "lon": 39.5,
+    "lat": 13.5,
+    "place": "Tigray, Ethiopia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db261005.doc.htm"
+    },
+    "checked": "2026-10-06",
+    "auto": true,
+    "limitations": "The briefing does not say who carried out the looting or how much aid was lost. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261006-icc-taliban-warrants",
+    "date": "2026-10-05",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "ICC unseals four arrest warrants over Taliban persecution of women and girls",
+    "note": "UN News reports the International Criminal Court made public four arrest warrants against senior Taliban figures for persecution of women and girls in Afghanistan, which it says amounts to a crime against humanity. The warrants add legal pressure on the authorities in Kabul and complicate any recognition or engagement.",
+    "mechanisms": [],
+    "countries": [
+      "Afghanistan"
+    ],
+    "lon": 4.3,
+    "lat": 52.08,
+    "place": "The Hague, Netherlands",
+    "arc": null,
+    "global": false,
+    "metric": "4 arrest warrants",
+    "metricName": "warrants unsealed",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168521"
+    },
+    "checked": "2026-10-06",
+    "auto": true,
+    "limitations": "The warrants are allegations with no practical enforcement mechanism, and arrests depend on state cooperation. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

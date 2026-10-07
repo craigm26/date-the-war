@@ -1,0 +1,237 @@
+[
+  {
+    "id": "d-20261007-un-chief-islamabad-iran",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "UN secretary-general urges end to US-Iran war from Islamabad",
+    "note": "The UN secretary-general appealed on arrival in Pakistan for an end to the United States-Iran war and the damage it has done to global trade. The call adds diplomatic pressure but the source reports no commitment from either belligerent.",
+    "mechanisms": [],
+    "countries": [
+      "Pakistan",
+      "Iran",
+      "United States"
+    ],
+    "lon": 73.05,
+    "lat": 33.69,
+    "place": "Islamabad, Pakistan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168532"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "The summary reports an appeal only and does not show any response from Washington or Tehran. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-us-new-iran-deal-demands",
+    "date": "2026-10-07",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US sets new demands for an Iran deal, including less enrichment",
+    "note": "Al Jazeera reports the US vice president called for reduced nuclear enrichment, which suggests room for compromise, while major obstacles remain. New conditions can narrow or stall a settlement.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Washington and Tehran",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        51.39,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/7/us-sets-new-demands-for-iran-deal-what-are-they?traffic_source=rss"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "Only a short summary was available, and the demands are described from one outlet's analysis rather than a published text. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-yemen-184000-displaced",
+    "date": "2026-10-05",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "More than 184,000 displaced in Yemen since August as fighting intensifies",
+    "note": "The UN migration agency says intense fighting has forced more than 184,000 people from their homes since the start of August, most since early September. The scale of displacement shows how fast the renewed war is widening.",
+    "mechanisms": [],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.35,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "more than 184,000 people",
+    "metricName": "people displaced in Yemen since the start of August",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168528"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "The figure is an agency tally of tracked movements and may undercount or overlap with earlier displacement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-super-el-nino-png",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Pacific warming passes 1997 and 2015 El Niño levels as crops fail",
+    "note": "UN News reports Pacific temperatures have already exceeded the 1997 and 2015 El Niño events, with water sources drying and food prices rising in Papua New Guinea before the worst farm impacts. Climate-driven food stress raises the risk of unrest and displacement.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Papua New Guinea",
+      "Multiple countries"
+    ],
+    "lon": 147.2,
+    "lat": -6.3,
+    "place": "Papua New Guinea and the Pacific",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168537"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "The 'Super El Niño' label is used by some climate watchers and the source does not quantify harvest losses. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-first-committee-nuclear-spending",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN disarmament committee hears of rising nuclear spending and drone proliferation",
+    "note": "At the opening of the UN General Assembly First Committee debate, speakers cited rising nuclear spending, spreading drones and missiles, and arms-control arrangements under pressure after a decade of eroding trust. The President of the General Assembly said new technologies are changing the speed of conflict.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "United Nations, New York",
+    "arc": null,
+    "global": true,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/gadis3763.doc.htm"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "General debate statements are rhetoric and the summary gives no spending figures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-gaza-ceasefire-nine-in-ten",
+    "date": "2026-10-07",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Israel struck Gaza nine days in ten during the so-called ceasefire",
+    "note": "An Al Jazeera data segment says Israel attacked Gaza on nine days out of ten during the year-long ceasefire. If accurate, the truce has lowered but not ended violence, which weakens confidence in ceasefires as a path to settlement.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.47,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": [
+      [
+        34.8,
+        31.8
+      ],
+      [
+        34.47,
+        31.5
+      ]
+    ],
+    "global": false,
+    "metric": "nine days out of ten",
+    "metricName": "share of days with Israeli attacks during the ceasefire",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/10/7/what-does-a-year-long-ceasefire-in-gaza-look-like?traffic_source=rss"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "The method behind the count is not stated in the summary, and Israel may dispute how strikes are classified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-us-arsenal-2-shipyard",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US announces new Maryland shipyard called Arsenal-2",
+    "note": "The US president and the secretary of war announced a new shipyard, Arsenal-2, at Sparrows Point, Maryland. It points to a push to expand naval production capacity while the US is at war with Iran.",
+    "mechanisms": [],
+    "countries": [
+      "United States"
+    ],
+    "lon": -76.45,
+    "lat": 39.22,
+    "place": "Sparrows Point, Maryland",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of Defense",
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4620633/trump-hegseth-announce-new-maryland-shipyard/"
+    },
+    "checked": "2026-10-07",
+    "auto": true,
+    "limitations": "The summary gives no cost, capacity or timeline, and it is an official announcement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

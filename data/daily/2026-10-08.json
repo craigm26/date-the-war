@@ -1,0 +1,275 @@
+[
+  {
+    "id": "d-20261008-kramatorsk-bus-strike",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian strike on buses in Kramatorsk kills at least 30 people",
+    "note": "Officials say a Russian strike hit crowded buses in the front-line city of Kramatorsk in Donetsk region, killing at least 30 and wounding 18. Ukraine accuses Russia of aiming to kill as many civilians as possible, and the attack comes as deadly strikes on Ukraine surge.",
+    "mechanisms": [],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 37.55,
+    "lat": 48.72,
+    "place": "Kramatorsk, Donetsk region",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        37.55,
+        48.72
+      ]
+    ],
+    "global": false,
+    "metric": "at least 30 people killed",
+    "metricName": "civilians killed in the strike",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "Casualty figures and the claim of deliberate targeting come from Ukrainian officials and have not been independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261008-ukraine-truce-proposals",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "India, Turkiye, Egypt and the US float new Russia-Ukraine truce proposals",
+    "note": "Al Jazeera reports that four governments have put forward ceasefire proposals aimed at protecting global energy and shipping. Whether either side will accept any of them is the open question.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "India",
+      "Turkey",
+      "Egypt",
+      "United States",
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 32,
+    "lat": 49,
+    "place": "Russia-Ukraine front",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/8/india-to-turkiye-can-new-proposals-to-broker-russia-ukraine-truce-succeed?traffic_source=rss"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The item is a short analysis summary and does not show the terms of each proposal or either belligerent's response. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261008-skorea-recalls-envoy-kyiv",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "South Korea recalls its envoy to Ukraine over prisoner-of-war row",
+    "note": "Seoul is recalling its ambassador to Kyiv after Ukraine disclosed that two North Korean prisoners were transferred to South Korea. The dispute strains ties between two governments on opposite sides of the North Korea-Russia military link.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "South Korea",
+      "Ukraine",
+      "North Korea"
+    ],
+    "lon": 126.98,
+    "lat": 37.57,
+    "place": "Seoul and Kyiv",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The summary does not give either government's full account of the transfer or the terms of the dispute. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261008-uk-east-jerusalem-consulate",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says",
+    "note": "Israel says most British diplomats must leave the UK consulate in East Jerusalem, after it said in September that it would respond to UK sanctions on illegal settlements in the West Bank. The UK foreign secretary says vital services will remain.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Israel",
+      "United Kingdom",
+      "Palestine"
+    ],
+    "lon": 35.23,
+    "lat": 31.78,
+    "place": "East Jerusalem",
+    "arc": [
+      [
+        35.23,
+        31.78
+      ],
+      [
+        -0.13,
+        51.5
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The scope of the restrictions and the number of staff affected come from the Israeli statement and are not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261008-unsc-sudan-sanctions-vote",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Security Council votes on renewing Sudan sanctions and arms embargo",
+    "note": "The UN Security Council is scheduled to vote on a draft resolution renewing the Sudan sanctions regime, which includes an arms embargo and targeted travel bans and asset freezes focused on Darfur. The current regime expires on 9 October 2026.",
+    "mechanisms": [],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": -73.97,
+    "lat": 40.75,
+    "place": "UN Security Council, New York",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/blog/sc16470"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The source is a meeting notice published before the vote, so the outcome is not reported. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261008-hormuz-transit-pay",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Tanker crews earn large bonuses to transit the Strait of Hormuz",
+    "note": "Al Jazeera reports that tanker captains are earning about 100,000 USD plus a 50,000 USD per-trip bonus to transit the strait during the Iran war. Pay at this level signals how risky commercial shipping through the chokepoint has become.",
+    "mechanisms": [],
+    "countries": [
+      "Iran",
+      "United States",
+      "Multiple countries"
+    ],
+    "lon": 56.5,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "100,000 USD plus a 50,000 USD per-trip bonus",
+    "metricName": "reported tanker captain pay for Hormuz transits",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/8/the-hormuz-bonus-sailor-salaries-soar-for-transits-amid-iran-war?traffic_source=rss"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The pay figures are described as reports and are not tied to named employers or verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261007-developing-country-debt-interest",
+    "date": "2026-10-07",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Developing countries paid almost a trillion dollars in net debt interest",
+    "note": "UN Trade and Development warns that developing countries paid almost a trillion dollars in net interest on public debt last year, nearly three times the 2010 level. The burden leaves less for health, education and other priorities, which can add to state fragility.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "World-wide",
+    "arc": null,
+    "global": true,
+    "metric": "almost 1 trillion USD",
+    "metricName": "net interest paid on public debt by developing countries last year",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db261007.doc.htm"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The figure is relayed in a UN briefing summary and the direct link between debt service and conflict risk is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261006-east-jerusalem-demolition",
+    "date": "2026-10-06",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Israeli demolition in East Jerusalem displaces 69 Palestinians",
+    "note": "The UN aid coordination office reports that 69 Palestinians, more than half of them children, were displaced after Israeli authorities approved demolition of their residential building in the At Tur area. Such demolitions feed friction over contested land in occupied East Jerusalem.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 35.25,
+    "lat": 31.78,
+    "place": "At Tur, East Jerusalem",
+    "arc": null,
+    "global": false,
+    "metric": "69 people",
+    "metricName": "Palestinians displaced by the demolition",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168539"
+    },
+    "checked": "2026-10-08",
+    "auto": true,
+    "limitations": "The account relies on the UN aid coordination office and does not include the Israeli authorities' stated legal basis. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

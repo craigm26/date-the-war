@@ -1,0 +1,225 @@
+[
+  {
+    "id": "d-20261009-ethiopia-eritrea-border",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Eritrean troops reported crossing into Ethiopia; Ethiopia warns it will defend itself",
+    "note": "BBC reports truckloads of Eritrean soldiers seen driving into Ethiopia, which has reportedly responded with drone strikes and warned it will defend itself. A cross-border incursion between two states with a recent war history raises the risk of renewed interstate fighting.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Eritrea"
+    ],
+    "lon": 39.5,
+    "lat": 14,
+    "place": "Ethiopia-Eritrea border",
+    "arc": [
+      [
+        38.9,
+        15.3
+      ],
+      [
+        39.5,
+        14
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-09",
+    "auto": true,
+    "limitations": "The report relies on sightings and says the drone strikes were 'reportedly' carried out; neither government's account is independently confirmed here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261009-houthi-riyadh-airport",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Three Saudi nationals killed in Houthi missile attacks on Riyadh airport",
+    "note": "BBC reports that Houthi missile attacks on Riyadh airport killed three Saudi nationals, amid escalating fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government. Deaths in the Saudi capital mark a step up from earlier attacks on airports near the border.",
+    "mechanisms": [
+      "steps-to-war",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen",
+      "Iran"
+    ],
+    "lon": 46.7,
+    "lat": 24.7,
+    "place": "Riyadh, Saudi Arabia",
+    "arc": [
+      [
+        44.2,
+        15.4
+      ],
+      [
+        46.7,
+        24.7
+      ]
+    ],
+    "global": false,
+    "metric": "3 people killed",
+    "metricName": "Saudi nationals killed in the attacks",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-09",
+    "auto": true,
+    "limitations": "Casualty figures and responsibility come from the reporting and have not been independently verified here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261009-ukraine-yandex-strikes",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine drones target Yandex and Russian AI data infrastructure",
+    "note": "Al Jazeera reports Ukrainian drone attacks on the Russian digital company Yandex, alongside continuing strikes on missile plants and oil refineries. The widening target set reaches civilian-military digital infrastructure as well as energy and arms production.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 37.6,
+    "lat": 55.75,
+    "place": "Russia",
+    "arc": [
+      [
+        30.5,
+        50.4
+      ],
+      [
+        37.6,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/9/ukraine-takes-aim-at-russias-ai-data-infrastructure?traffic_source=rss"
+    },
+    "checked": "2026-10-09",
+    "auto": true,
+    "limitations": "The summary gives no damage assessment, and the specific facilities hit are not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261009-us-iran-strikes-midterms",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Reports say the US may weigh Iran strikes around the midterms; president denies it",
+    "note": "Al Jazeera reports that US media suggest the president may be weighing strikes on Iran before the midterm vote, which the president has ruled out. Speculation about election timing shows how domestic politics may shape the pace of the war.",
+    "mechanisms": [
+      "domestic-incentives",
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington, United States",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms?traffic_source=rss"
+    },
+    "checked": "2026-10-09",
+    "auto": true,
+    "limitations": "The item is analysis built on unnamed media reports and a denial; no decision or order is documented. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261009-tawila-darfur-displaced",
+    "date": "2026-10-08",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Over 700,000 displaced people in Tawila, Darfur face severe shortages",
+    "note": "The World Health Organization warned that more than 700,000 displaced people in Tawila lack adequate healthcare, food, water and protection, and called for more resources. The scale of need shows the continuing human cost of Sudan's war.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 25.3,
+    "lat": 13.5,
+    "place": "Tawila, North Darfur",
+    "arc": null,
+    "global": false,
+    "metric": "more than 700,000 people",
+    "metricName": "displaced people in Tawila",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168556"
+    },
+    "checked": "2026-10-09",
+    "auto": true,
+    "limitations": "Displacement figures in active conflict zones are estimates and access for verification is limited. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261009-kyiv-winter-flight",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Russian strikes on power plants and approaching winter push some Kyiv residents to leave",
+    "note": "BBC reports that a renewed Russian campaign against power and energy infrastructure has some residents of Kyiv considering leaving the capital. Pressure on civilian energy supply ahead of winter bears on displacement and on Ukraine's wartime resilience.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-09",
+    "auto": true,
+    "limitations": "The report draws on individual residents' accounts and gives no figures on how many are actually leaving. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,13 +1,26 @@
 [
  {
+  "date": "2026-10-10",
+  "count": 2,
+  "auto": 2,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-10@reel",
+  "titles": [
+   "US announces deal to buy Russian diesel; Ukraine says it funds the war",
+   "Ukrainian man set to stand trial in Hamburg over Nord Stream sabotage"
+  ]
+ },
+ {
   "date": "2026-10-09",
-  "count": 5,
-  "auto": 5,
+  "count": 8,
+  "auto": 8,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-09@reel",
   "titles": [
    "Eritrean troops reported crossing into Ethiopia; Ethiopia warns it will defend itself",
    "Ukraine drones target Yandex and Russian AI data infrastructure",
+   "UN says Russian strikes killed over 100 civilians in Ukraine this week",
    "Three Saudi nationals killed in Houthi missile attacks on Riyadh airport",
+   "Suspected drone strike in Sudan's Blue Nile State kills at least 40",
+   "UN envoy tells Security Council Yemen has returned to full-scale war",
    "Russian strikes on power plants and approaching winter push some Kyiv residents to leave",
    "Reports say the US may weigh Iran strikes around the midterms; president denies it"
   ]

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "d-20261010-ukraine-100-civilians-un",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "UN says Russian strikes killed over 100 civilians in Ukraine this week",
+    "note": "UN officials told the Security Council that attacks on cities and critical infrastructure have reached a new level and threaten to leave millions without electricity, heating and water as winter nears. The briefing came with calls for an immediate ceasefire.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.5,
+    "lat": 50.45,
+    "place": "Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        30.5,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "over 100 civilians",
+    "metricName": "civilians reported killed in one week",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16472.doc.htm"
+    },
+    "checked": "2026-10-10",
+    "auto": true,
+    "limitations": "Casualty figures are UN statements to the Council and are not independently verified here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261010-sudan-blue-nile-drone",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Suspected drone strike in Sudan's Blue Nile State kills at least 40",
+    "note": "Initial reports relayed by the UN say most of the dead were women and girls. The state borders Ethiopia, so fighting there bears on spillover risk in the region.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan",
+      "Ethiopia"
+    ],
+    "lon": 34.1,
+    "lat": 11.8,
+    "place": "Blue Nile State, Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "at least 40 people",
+    "metricName": "reported dead",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168567"
+    },
+    "checked": "2026-10-10",
+    "auto": true,
+    "limitations": "Initial figures come from reports on the ground, and the attacker has not been confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261010-yemen-full-scale-war-unsc",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN envoy tells Security Council Yemen has returned to full-scale war",
+    "note": "Senior UN officials say a Houthi offensive launched in September and attacks on civilian infrastructure threaten regional stability and Red Sea shipping. They urged an end to hostilities, humanitarian access and a return to talks.",
+    "mechanisms": [
+      "steps-to-war",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.2,
+    "lat": 15.4,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16471.doc.htm"
+    },
+    "checked": "2026-10-10",
+    "auto": true,
+    "limitations": "The assessment is a UN briefing and does not settle which side is responsible for each attack. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261010-us-russian-diesel-deal",
+    "date": "2026-10-10",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US announces deal to buy Russian diesel; Ukraine says it funds the war",
+    "note": "The US president announced the arrangement amid surging fuel prices and looming midterm elections. Ukraine's president called it an investment in war that prolongs it, and analysts note it cuts against existing sanctions on Russia.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 37.6,
+    "lat": 55.75,
+    "place": "Washington / Moscow",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        37.6,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-10",
+    "auto": true,
+    "limitations": "The summary gives no volumes, prices or sanctions terms, so the size of the deal is unclear. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261010-nord-stream-trial-hamburg",
+    "date": "2026-10-10",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Ukrainian man set to stand trial in Hamburg over Nord Stream sabotage",
+    "note": "German police traced the evidence to Ukraine over four years, and a Ukrainian suspect is accused of sabotaging the pipelines. The case bears on attribution of attacks on energy infrastructure and on relations among Germany, Ukraine and Russia.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "Germany",
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 9.99,
+    "lat": 53.55,
+    "place": "Hamburg, Germany",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-10",
+    "auto": true,
+    "limitations": "The trial has not yet started and the accusation is not proven; who directed the operation is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

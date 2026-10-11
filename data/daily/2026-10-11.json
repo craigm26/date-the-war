@@ -1,0 +1,190 @@
+[
+  {
+    "id": "d-20261011-riyadh-airport-houthi",
+    "date": "2026-10-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi Arabia vows response after Houthi attack on Riyadh airport kills 12",
+    "note": "Al Jazeera reports the Houthi attack on Riyadh's main airport killed at least 12 people and injured more than 300, and Saudi Arabia calls it a war crime and promises a response. The toll is higher than earlier reports and raises the chance of direct Saudi retaliation inside Yemen.",
+    "mechanisms": [
+      "steps-to-war",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 46.7,
+    "lat": 24.96,
+    "place": "Riyadh, Saudi Arabia",
+    "arc": [
+      [
+        44.2,
+        15.4
+      ],
+      [
+        46.7,
+        24.96
+      ]
+    ],
+    "global": false,
+    "metric": "at least 12 killed, more than 300 injured",
+    "metricName": "casualties of the airport attack",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/saudi-arabia-vows-response-over-houthi-war-crime-attack-on-riyadh-airport?traffic_source=rss"
+    },
+    "checked": "2026-10-11",
+    "auto": true,
+    "limitations": "Casualty figures and the response Saudi Arabia intends are not independently confirmed in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261011-us-bombs-cargo-ship-oman",
+    "date": "2026-10-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "US fighter jet bombs cargo ship in Gulf of Oman over Iran blockade",
+    "note": "Al Jazeera cites US Central Command saying a US fighter jet bombed a commercial cargo ship that was trying to run the blockade of Iran. Striking merchant vessels widens the maritime front of the US-Iran war and raises risks for third-country shipping.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Iran",
+      "Oman"
+    ],
+    "lon": 58.5,
+    "lat": 24.5,
+    "place": "Gulf of Oman",
+    "arc": [
+      [
+        58.5,
+        24.5
+      ],
+      [
+        56,
+        27
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/us-bombs-cargo-vessel-in-gulf-of-oman-trying-to-run-iran-blockade?traffic_source=rss"
+    },
+    "checked": "2026-10-11",
+    "auto": true,
+    "limitations": "The account rests on a US military statement; the ship's cargo, flag and any casualties are not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261011-us-calls-ukraine-election",
+    "date": "2026-10-11",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US president calls for Ukraine to hold elections, faults Kyiv on ending war",
+    "note": "Al Jazeera reports the US president called for elections in Ukraine and implied Ukraine's president missed chances to end the war. The pressure bears on Ukrainian political legitimacy and on the terms of any settlement.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Washington and Kyiv",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/trump-calls-for-ukraine-election-says-zelenskyy-failed-to-end-war?traffic_source=rss"
+    },
+    "checked": "2026-10-11",
+    "auto": true,
+    "limitations": "A short video summary; the exact remarks and any formal US demand are not detailed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261010-myanmar-forced-conscription",
+    "date": "2026-10-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Young men in Myanmar fear being seized and sold to the army",
+    "note": "BBC News reports that young men live in fear of being snatched off the streets for the army, as the junta fights a war of attrition against ethnic militias and civilian resistance. It points to manpower shortages and coercive recruitment prolonging the conflict.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
+    "lon": 96.1,
+    "lat": 19.75,
+    "place": "Myanmar",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-11",
+    "auto": true,
+    "limitations": "Based on reporting and testimony; the scale of forced recruitment is not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261009-gaza-shelter-needs",
+    "date": "2026-10-09",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Nearly all of Gaza's population still needs shelter a year after ceasefire",
+    "note": "The International Organization for Migration says almost 2 million people in Gaza still need shelter assistance one year after a ceasefire was announced. Over half of tents and makeshift shelters in use are in poor condition and need replacing.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "almost 2 million people",
+    "metricName": "people needing shelter assistance",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db261009.doc.htm"
+    },
+    "checked": "2026-10-11",
+    "auto": true,
+    "limitations": "A figure relayed in a UN spokesperson briefing; the methodology is not described. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

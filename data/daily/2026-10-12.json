@@ -1,0 +1,180 @@
+[
+  {
+    "id": "d-20261012-energy-ceasefire-violation",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Ukraine accuses Russia of violating the US-announced 'energy ceasefire'",
+    "note": "Ukraine's president says Russia has broken an energy truce that the US president announced in a social media post, which BBC reports was an apparent surprise to Kyiv, with Russia yet to comment. The dispute shows how a ceasefire announced without agreed terms or monitoring can fail within a day.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 31.2,
+    "lat": 49,
+    "place": "Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        30.5,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss"
+    },
+    "checked": "2026-10-12",
+    "auto": true,
+    "limitations": "The violation claim comes from one party, and the terms of the truce have not been published or confirmed by Russia. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261012-eu-sanctions-1600",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "EU adds almost 1,600 new sanctions on Russia's military industrial complex",
+    "note": "The EU announced it has officially added almost 1,600 new listings targeting Russia's military industrial complex. The step tightens economic pressure on Russia's war production even as the US moves on energy.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "European NATO member countries",
+      "Russia"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels",
+    "arc": [
+      [
+        4.35,
+        50.85
+      ],
+      [
+        37.6,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "almost 1,600 new sanctions",
+    "metricName": "new EU sanctions listings on Russia",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss"
+    },
+    "checked": "2026-10-12",
+    "auto": true,
+    "limitations": "The summary gives only the headline count, not the breakdown of entities or measures, and the effect on Russian output is not shown. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261012-gaza-yellow-line",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "A year into the ceasefire, Israel restricts access to 65 percent of Gaza",
+    "note": "Al Jazeera's maps report that Israel's 'Yellow Line' restricts Palestinian access to 65 percent of Gaza and leaves 2.1 million people in the remainder. The confinement shapes shelter, food and the durability of the ceasefire.",
+    "mechanisms": [
+      "commitment-problem",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.4,
+    "lat": 31.45,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "2.1 million people",
+    "metricName": "people confined to the area outside the restricted zone",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/12/maps-show-how-israels-yellow-line-keeps-squeezing-palestinians-in-gaza?traffic_source=rss"
+    },
+    "checked": "2026-10-12",
+    "auto": true,
+    "limitations": "The percentages come from the outlet's own mapping and the line's position is contested and has shifted over time. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261012-gaza-food-shortage",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Over 1.4 million people in Gaza are acutely short of food",
+    "note": "Al Jazeera reports hunger gripping Gaza, with more than 1.4 million people acutely short of food and aid insufficient to meet basic needs. Persistent food insecurity keeps pressure on the ceasefire and on aid access negotiations.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.4,
+    "lat": 31.45,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "over 1.4 million people",
+    "metricName": "people acutely short of food",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/10/12/photos-gaza-mothers-endure-endless-lines-as-famine-fears-persist?traffic_source=rss"
+    },
+    "checked": "2026-10-12",
+    "auto": true,
+    "limitations": "This is a photo essay with a summary figure, and the underlying assessment method and date are not stated in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261012-india-election-chief-protest",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Indian opposition marches to top court demanding election chief resign",
+    "note": "BBC reports opposition leaders marched to India's Supreme Court after a weekend in Delhi in which police detained thousands of protesters. The confrontation over the credibility of the election authority is a domestic legitimacy test in a nuclear-armed state.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "India"
+    ],
+    "lon": 77.21,
+    "lat": 28.61,
+    "place": "New Delhi",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cwr5y2lgr4gdo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-12",
+    "auto": true,
+    "limitations": "The item reports the protest and detentions but not the substance of the allegations against the election authority or any ruling. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,14 +1,26 @@
 [
  {
+  "date": "2026-10-13",
+  "count": 2,
+  "auto": 2,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-13@reel",
+  "titles": [
+   "Iran warns Gulf cables and data centres could be attacked",
+   "African Union holds Kigali talks as fighting continues in eastern DRC"
+  ]
+ },
+ {
   "date": "2026-10-12",
-  "count": 5,
-  "auto": 5,
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-12@reel",
   "titles": [
    "EU adds almost 1,600 new sanctions on Russia's military industrial complex",
    "Over 1.4 million people in Gaza are acutely short of food",
    "A year into the ceasefire, Israel restricts access to 65 percent of Gaza",
+   "El Niño drought and war push Darfur and Kordofan towards famine",
    "Ukraine accuses Russia of violating the US-announced 'energy ceasefire'",
+   "Security Council hears Syria's transition faces economic strain and Israeli incursions",
    "Indian opposition marches to top court demanding election chief resign"
   ]
  },

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "d-20261013-sudan-famine-risk-elnino",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "El Niño drought and war push Darfur and Kordofan towards famine",
+    "note": "The UN-backed global hunger monitor warned that famine risk is growing in Greater Darfur and Greater Kordofan as a severe El Niño drought compounds the war. Hunger in areas cut off by fighting raises the cost of any pause and deepens grievances that feed the conflict.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 25.3,
+    "lat": 13.6,
+    "place": "Darfur and Kordofan, Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168577"
+    },
+    "checked": "2026-10-13",
+    "auto": true,
+    "limitations": "The summary gives no population figures, and access constraints limit data collection in contested areas. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261013-iran-gulf-data-centres-threat",
+    "date": "2026-10-13",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran warns Gulf cables and data centres could be attacked",
+    "note": "Al Jazeera reports that Iran has warned cables and data centres in the Gulf region could be targeted, while allied Houthi forces hold an internet chokepoint. Threats to digital infrastructure widen the range of targets in the regional confrontation.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Iran",
+      "Yemen",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Qatar"
+    ],
+    "lon": 50.5,
+    "lat": 26,
+    "place": "Persian Gulf and Red Sea",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/13/iran-threatens-gulf-data-centres-how-exposed-is-the-regions-internet?traffic_source=rss"
+    },
+    "checked": "2026-10-13",
+    "auto": true,
+    "limitations": "The summary reports a warning, not an attack, and how exposed the region is rests on the outlet's own analysis. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261013-au-kigali-drc-talks",
+    "date": "2026-10-13",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "African Union holds Kigali talks as fighting continues in eastern DRC",
+    "note": "Three former African presidents discussed security commitments, refugee protection and regional cooperation in Kigali while fighting goes on in eastern Congo. The talks keep a regional channel open between Kinshasa and Kigali, but no ceasefire outcome is reported.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Rwanda"
+    ],
+    "lon": 30.06,
+    "lat": -1.95,
+    "place": "Kigali, Rwanda",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/13/african-union-holds-kigali-talks-as-fighting-continues-in-eastern-drc?traffic_source=rss"
+    },
+    "checked": "2026-10-13",
+    "auto": true,
+    "limitations": "The summary does not state any agreements reached or the positions of the parties. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261013-syria-council-fragile-transition",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Security Council hears Syria's transition faces economic strain and Israeli incursions",
+    "note": "UN Security Council members met on Syria amid economic hardship fuelling unrest, continued Israeli incursions in the south and sectarian tensions in Sweida. Damascus reports progress on its chemical weapons programme and talks about future elections, and millions remain displaced.",
+    "mechanisms": [
+      "state-weakness",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Syria",
+      "Israel"
+    ],
+    "lon": 36.3,
+    "lat": 33.5,
+    "place": "Syria",
+    "arc": [
+      [
+        35.2,
+        31.8
+      ],
+      [
+        36,
+        32.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168578"
+    },
+    "checked": "2026-10-13",
+    "auto": true,
+    "limitations": "The item is a live-coverage preview of the meeting and does not record statements or outcomes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

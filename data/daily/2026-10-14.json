@@ -1,0 +1,216 @@
+[
+  {
+    "id": "d-20261014-hormuz-attacks-oil-flows",
+    "date": "2026-10-14",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Attacks on ships in the Strait of Hormuz hit a wartime high as oil flows fall",
+    "note": "Al Jazeera reports the worst spate of attacks on shipping in the strait since the war began, alongside tighter Iranian surveillance and another drop in oil flows. The strait carries a large share of world oil, so sustained disruption raises prices and the risk of wider naval confrontation.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Iran",
+      "United States",
+      "Oman",
+      "United Arab Emirates"
+    ],
+    "lon": 56.3,
+    "lat": 26.6,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again?traffic_source=rss"
+    },
+    "checked": "2026-10-14",
+    "auto": true,
+    "limitations": "The summary gives no attack counts or flow figures, and attribution of individual attacks is not established here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261014-houthi-aramco-dhahran",
+    "date": "2026-10-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Houthi missile hits Aramco headquarters complex after strike on Yemen fuel depot",
+    "note": "Saudi Arabia's energy ministry says a Houthi missile caused a limited fire at Aramco's headquarters complex in Dhahran, following a Saudi-led coalition strike on a fuel depot in Yemen. Strikes on energy sites by both sides raise the risk of supply disruption and a wider Saudi-Houthi war.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 50.1,
+    "lat": 26.3,
+    "place": "Dhahran, Saudi Arabia",
+    "arc": [
+      [
+        44.2,
+        15.4
+      ],
+      [
+        50.1,
+        26.3
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-14",
+    "auto": true,
+    "limitations": "The damage account comes from the Saudi energy ministry and has not been independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261014-iraq-saudi-territory-pledge",
+    "date": "2026-10-14",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Iraq's prime minister tells Saudi crown prince Iraqi soil will not be used for attacks",
+    "note": "Al Jazeera reports the pledge follows drone strikes last month on Saudi Arabia's East-West oil pipeline that originated in Iraq. The assurance aims to contain spillover from the regional war, though it does not show Baghdad can restrain armed groups.",
+    "mechanisms": [
+      "state-weakness",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iraq",
+      "Saudi Arabia"
+    ],
+    "lon": 44.4,
+    "lat": 33.3,
+    "place": "Baghdad and Riyadh",
+    "arc": [
+      [
+        44.4,
+        33.3
+      ],
+      [
+        46.7,
+        24.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/14/iraq-pm-tells-saudi-crown-prince-iraqi-territory-wont-be-used-for-attacks?traffic_source=rss"
+    },
+    "checked": "2026-10-14",
+    "auto": true,
+    "limitations": "The pledge is a statement of intent, and the summary does not say who launched the pipeline attack. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261014-yemen-taiz-aid-cut-off",
+    "date": "2026-10-14",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Fighting in Yemen cuts aid to 800,000 people as WFP warns of catastrophe",
+    "note": "The UN World Food Programme says shifting frontlines, blocked roads and insecurity restrict access to Taiz and other conflict zones. Separate UN reporting links the siege of Taiz to food shortages and a cholera outbreak.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44,
+    "lat": 13.6,
+    "place": "Taiz, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "800,000 people",
+    "metricName": "people cut off from assistance",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591"
+    },
+    "checked": "2026-10-14",
+    "auto": true,
+    "limitations": "The figure is a UN agency estimate and access constraints are hard to verify independently. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261014-starlink-ukraine-restrictions",
+    "date": "2026-10-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Kyiv says Starlink restrictions are affecting front line operations",
+    "note": "The BBC reports Ukraine says limits on the satellite system, which it uses to protect its airspace and guide drones to Russian targets, are hurting operations. It shows how dependence on a private foreign provider can constrain military capacity.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 35,
+    "lat": 48,
+    "place": "Ukraine front line",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-14",
+    "auto": true,
+    "limitations": "The summary reflects Kyiv's account, and the nature and scale of the restrictions are not detailed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261014-unhcr-funding-gap",
+    "date": "2026-10-12",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "UN refugee agency has $3 billion of the $8.5 billion it needs for 117 million displaced",
+    "note": "The head of UNHCR warns that the global system for protecting refugees and asylum-seekers risks buckling under funding cuts while the number of forcibly displaced people keeps growing. Shortfalls can push displaced people toward onward migration and add strain on host states.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "World-wide",
+    "arc": null,
+    "global": true,
+    "metric": "117 million people",
+    "metricName": "people forced from their homes",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168575"
+    },
+    "checked": "2026-10-14",
+    "auto": true,
+    "limitations": "Figures come from the agency itself, which has an interest in highlighting funding needs. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

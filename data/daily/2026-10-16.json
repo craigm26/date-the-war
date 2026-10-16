@@ -1,0 +1,183 @@
+[
+  {
+    "id": "d-20261016-poland-jets-western-ukraine",
+    "date": "2026-10-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Poland scrambles fighter jets as Russia strikes western Ukraine",
+    "note": "Al Jazeera reports Poland launched fighter aircraft while Russia struck targets in western Ukraine. Countries along NATO's eastern flank are increasingly worried that the war could spill across the border.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "misperception",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Poland",
+      "Russia",
+      "Ukraine",
+      "European NATO member countries"
+    ],
+    "lon": 23.5,
+    "lat": 50,
+    "place": "Western Ukraine and eastern Poland",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        24.03,
+        49.84
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/16/poland-scrambles-fighter-jets-as-russia-strikes-western-ukraine?traffic_source=rss"
+    },
+    "checked": "2026-10-16",
+    "auto": true,
+    "limitations": "The summary does not give the scale of the strikes or confirm any airspace violation. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261016-us-denuclearisation-talks",
+    "date": "2026-10-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US president says Washington is in denuclearisation talks with Russia and China",
+    "note": "Al Jazeera reports the US president said talks are under way with Russia and China on denuclearisation. The US and Russia each hold more than 4,000 warheads, and the president said China will catch up within five years.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "China"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "global": false,
+    "metric": "more than 4,000 warheads each (US and Russia)",
+    "metricName": "nuclear warheads held",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/16/us-in-denuclearisation-talks-with-russia-and-china-trump?traffic_source=rss"
+    },
+    "checked": "2026-10-16",
+    "auto": true,
+    "limitations": "The claim comes from one official's statement, and neither Russia nor China is quoted confirming talks. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261015-houthi-missiles-yemen-palace",
+    "date": "2026-10-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthi missiles hit Yemeni presidential palace, killing five",
+    "note": "Yemen's information minister says ballistic missiles struck al-Maashiq Palace and killed five people, while the prime minister and other ministers were unhurt. The attack on the seat of government raises the stakes of the widening Yemen fighting.",
+    "mechanisms": [
+      "state-weakness",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 45.03,
+    "lat": 12.8,
+    "place": "Aden, Yemen",
+    "arc": [
+      [
+        44.2,
+        15.35
+      ],
+      [
+        45.03,
+        12.8
+      ]
+    ],
+    "global": false,
+    "metric": "5 people killed",
+    "metricName": "deaths reported by Yemen's information minister",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-16",
+    "auto": true,
+    "limitations": "The casualty figure and attribution come from a government minister and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261015-afghanistan-record-hunger",
+    "date": "2026-10-15",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Afghanistan hunger hits record high with 15.9 million facing acute food insecurity",
+    "note": "A global hunger monitor report says acute malnutrition and hunger in Afghanistan are the highest ever recorded, and conditions are set to worsen in the coming months. Food stress adds to the pressure on a fragile state and raises displacement risk.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Afghanistan"
+    ],
+    "lon": 69.2,
+    "lat": 34.5,
+    "place": "Afghanistan",
+    "arc": null,
+    "global": false,
+    "metric": "15.9 million people",
+    "metricName": "people facing acute food insecurity",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168605"
+    },
+    "checked": "2026-10-16",
+    "auto": true,
+    "limitations": "The figure is a monitor projection, and the summary does not break down the causes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261016-gaza-flood-risk-winter",
+    "date": "2026-10-16",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "UN warns nearly 1 million displaced in Gaza face flood risks as winter nears",
+    "note": "The UN says nearly one million displaced Palestinians in Gaza face flooding as winter approaches. Weather exposure compounds existing shortages of food and shelter under the ceasefire.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "nearly 1 million people",
+    "metricName": "displaced people at risk of flooding",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/un-warns-nearly-1-million-in-gaza-face-flood-risks-as-winter-approaches?traffic_source=rss"
+    },
+    "checked": "2026-10-16",
+    "auto": true,
+    "limitations": "The source is a brief video item that gives no detail on how the figure was estimated. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

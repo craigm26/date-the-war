@@ -1,0 +1,149 @@
+[
+  {
+    "id": "d-20261018-stpetersburg-drone-strike",
+    "date": "2026-10-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukrainian drones hit St Petersburg oil and energy sites, killing one",
+    "note": "Russian and Ukrainian accounts reported by Al Jazeera and the BBC say an overnight drone attack killed at least one person and hit oil facilities and a data centre in Russia's second city. Ukraine's president says Moscow continues to break the energy ceasefire, which suggests long-range strikes on energy infrastructure are widening.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.3,
+    "lat": 59.93,
+    "place": "St Petersburg, Russia",
+    "arc": [
+      [
+        30.5,
+        50.45
+      ],
+      [
+        30.3,
+        59.93
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-18",
+    "auto": true,
+    "limitations": "Damage and casualty details come from early reports, and each side blames the other for breaking the energy ceasefire. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261018-sudan-security-council",
+    "date": "2026-10-16",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN warns Sudan's war is worsening with drone strikes and spreading famine risk",
+    "note": "The UN political affairs chief told the Security Council the conflict and humanitarian crisis keep deteriorating with no visible breakthrough. Drone strikes are killing civilians from El Obeid to Blue Nile, and famine risk is spreading across Darfur and Kordofan.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 28,
+    "lat": 13,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16481.doc.htm"
+    },
+    "checked": "2026-10-18",
+    "auto": true,
+    "limitations": "A briefing summary that gives no new casualty or displacement figures, and conditions on the ground are hard to verify independently. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261018-gaza-children-killed-ceasefire",
+    "date": "2026-10-16",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UNICEF says over 340 children killed in Gaza since the ceasefire",
+    "note": "UNICEF reports that a little over a year after the ceasefire was announced between Hamas fighters and Israel, more than 340 children have been reported killed and hundreds more injured. The figure shows the truce is holding only in part.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.4,
+    "lat": 31.45,
+    "place": "Gaza Strip",
+    "arc": null,
+    "global": false,
+    "metric": "more than 340 children",
+    "metricName": "children reported killed since the ceasefire",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168611"
+    },
+    "checked": "2026-10-18",
+    "auto": true,
+    "limitations": "The count is of reported deaths only and does not say who was responsible for each one. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261018-egypt-saudi-houthi-support",
+    "date": "2026-10-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Analysts weigh what help Egypt could give Saudi Arabia against the Houthis",
+    "note": "Al Jazeera reports analysts expect any Egyptian move to stay strictly defensive as the conflict in Yemen intensifies. It matters because outside military support for Riyadh would widen the war.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Egypt",
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 38,
+    "lat": 22,
+    "place": "Red Sea region",
+    "arc": [
+      [
+        31.2,
+        30
+      ],
+      [
+        46.7,
+        24.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis?traffic_source=rss"
+    },
+    "checked": "2026-10-18",
+    "auto": true,
+    "limitations": "The item rests on analyst opinion and does not report any confirmed Egyptian commitment. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

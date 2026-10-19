@@ -1,0 +1,137 @@
+[
+  {
+    "id": "d-20261019-russia-iran-talks",
+    "date": "2026-10-19",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Russia's foreign minister to visit Tehran as Gulf states press Moscow on Hormuz",
+    "note": "Al Jazeera reports Russia's foreign minister will discuss the US war and regional security in Tehran. Gulf Cooperation Council states have asked Moscow to help halt Iranian attacks and reopen the Strait of Hormuz, so the visit tests whether Russia will restrain or back Iran.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Russia",
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran, Iran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/russias-lavrov-to-discuss-us-war-and-regional-security-during-tehran-visit?traffic_source=rss"
+    },
+    "checked": "2026-10-19",
+    "auto": true,
+    "limitations": "The report is a preview of the visit, and what will be agreed or said is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261019-qatar-energy-shock",
+    "date": "2026-10-19",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Qatar warns energy shockwaves from the Iran war have yet to peak",
+    "note": "Qatar's deputy prime minister calls for dialogue with Tehran, stresses defence ties with the US and rejects transit fees for the Strait of Hormuz. The warning points to further strain on global oil and gas supply if the war and shipping disruption continue.",
+    "mechanisms": [],
+    "countries": [
+      "Qatar",
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.53,
+    "lat": 25.29,
+    "place": "Doha, Qatar",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak?traffic_source=rss"
+    },
+    "checked": "2026-10-19",
+    "auto": true,
+    "limitations": "The warning is an official assessment and the summary gives no figures on supply or prices. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261019-shabwa-camp-strike",
+    "date": "2026-10-19",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthi missiles hit a military camp in Shabwa, killing at least 18",
+    "note": "Al Jazeera reports Houthi ballistic missiles struck a government forces camp in southern Yemen during a training exercise, with a spokesman for those forces giving the toll. A separate Al Jazeera video report says dozens are feared dead, so the toll may rise as the war widens in the south.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 47,
+    "lat": 15.4,
+    "place": "Shabwa, Yemen",
+    "arc": [
+      [
+        44.2,
+        15.35
+      ],
+      [
+        47,
+        15.4
+      ]
+    ],
+    "global": false,
+    "metric": "at least 18 people killed",
+    "metricName": "reported deaths in the camp strike",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/at-least-18-killed-in-houthi-attack-on-military-camp-in-yemens-shabwa?traffic_source=rss"
+    },
+    "checked": "2026-10-19",
+    "auto": true,
+    "limitations": "The toll comes from a government forces spokesman and has not been independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261019-wfp-gaza-cuts",
+    "date": "2026-10-19",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "WFP cuts food aid to 500,000 Palestinians in Gaza over funding shortages",
+    "note": "The UN food agency says funding shortages threaten to reverse modest and fragile progress on food security in Gaza. Reduced rations during a fragile ceasefire raise the risk of renewed hunger and instability.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Palestine"
+    ],
+    "lon": 34.45,
+    "lat": 31.45,
+    "place": "Gaza Strip",
+    "arc": null,
+    "global": false,
+    "metric": "500,000 people",
+    "metricName": "Palestinians losing WFP assistance",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/19/wfp-cuts-aid-to-500000-palestinians-in-gaza-amid-funding-shortages?traffic_source=rss"
+    },
+    "checked": "2026-10-19",
+    "auto": true,
+    "limitations": "The summary does not say how deep the cuts are or how long they will last. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

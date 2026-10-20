@@ -1,5 +1,18 @@
 [
  {
+  "date": "2026-10-20",
+  "count": 5,
+  "auto": 5,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-20@reel",
+  "titles": [
+   "Russian craft makes close pass by commercial radar satellite that helps Ukraine",
+   "Ukraine's president to hold talks in Oslo with US envoys and European leaders",
+   "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
+   "More than 250,000 displaced in Yemen since fighting escalated, UNHCR says",
+   "South Korea to pull more embassy staff from Ukraine after prisoner-of-war row"
+  ]
+ },
+ {
   "date": "2026-10-19",
   "count": 4,
   "auto": 4,
@@ -1019,15 +1032,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-01-15@reel",
   "titles": [
    "Ethiopia accuses Eritrea of supplying rebels"
-  ]
- },
- {
-  "date": "2026-01-08",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-01-08@reel",
-  "titles": [
-   "UN expert challenges legitimacy of Myanmar election"
   ]
  }
 ]

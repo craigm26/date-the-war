@@ -1,0 +1,170 @@
+[
+  {
+    "id": "d-20261020-yemen-displacement-unhcr",
+    "date": "2026-10-20",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "More than 250,000 displaced in Yemen since fighting escalated, UNHCR says",
+    "note": "Al Jazeera reports the UN refugee agency's displacement count, and UNICEF warns that fighting in Taiz threatens water systems serving about three million people. Mass displacement and damage to water supply raise the humanitarian cost of the renewed war.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.02,
+    "lat": 13.58,
+    "place": "Taiz, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "more than 250,000 people",
+    "metricName": "displaced since fighting escalated",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/20/more-than-250000-displaced-in-yemen-since-fighting-escalated-unhcr?traffic_source=rss"
+    },
+    "checked": "2026-10-20",
+    "auto": true,
+    "limitations": "Displacement totals come from the agency's own counts and the summary does not say how they were verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261020-uk-typhoons-saudi",
+    "date": "2026-10-20",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
+    "note": "Britain's Ministry of Defence says the warplanes will operate in a defensive role and will not be used to attack the Yemeni group. The deployment adds another outside power to the defence of Saudi Arabia as Houthi strikes continue.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 45,
+    "lat": 24,
+    "place": "Saudi Arabia",
+    "arc": [
+      [
+        -1.5,
+        52.5
+      ],
+      [
+        45,
+        24
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks?traffic_source=rss"
+    },
+    "checked": "2026-10-20",
+    "auto": true,
+    "limitations": "The summary gives no number of aircraft, no timeline, and no rules of engagement beyond the ministry's description. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261020-russia-satellite-shadowing",
+    "date": "2026-10-20",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russian craft makes close pass by commercial radar satellite that helps Ukraine",
+    "note": "Analysts told Al Jazeera the close approach is a first and a warning to Ukraine's backers. It points to space assets that support Ukraine becoming possible targets.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Low Earth orbit",
+    "arc": null,
+    "global": true,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/20/is-russia-stalking-satellites-which-help-ukraine-from-space?traffic_source=rss"
+    },
+    "checked": "2026-10-20",
+    "auto": true,
+    "limitations": "The intent behind the maneuver is the view of analysts and is not confirmed by Russia. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261020-oslo-ukraine-talks",
+    "date": "2026-10-20",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Ukraine's president to hold talks in Oslo with US envoys and European leaders",
+    "note": "Al Jazeera reports the prime ministers of Norway and Finland will also attend the discussions on the Russia-Ukraine war. The meeting is a new channel for peace diplomacy while fighting and strikes continue.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "United States",
+      "Norway",
+      "Finland"
+    ],
+    "lon": 10.75,
+    "lat": 59.91,
+    "place": "Oslo, Norway",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/20/zelenskyy-to-hold-peace-talks-in-oslo-with-witkoff-kushner-attending?traffic_source=rss"
+    },
+    "checked": "2026-10-20",
+    "auto": true,
+    "limitations": "Russia does not appear to be at the table and the summary does not describe the agenda or expected outcomes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261020-south-korea-ukraine-embassy",
+    "date": "2026-10-20",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "South Korea to pull more embassy staff from Ukraine after prisoner-of-war row",
+    "note": "Al Jazeera reports Seoul recalled its ambassador from Kyiv earlier this month after Ukraine's president disclosed a prisoner transfer, and is now withdrawing more embassy staff. The dispute strains ties between Ukraine and a key Asian partner.",
+    "mechanisms": [],
+    "countries": [
+      "South Korea",
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/20/south-korea-to-pull-more-embassy-staff-from-ukraine-after-pow-row?traffic_source=rss"
+    },
+    "checked": "2026-10-20",
+    "auto": true,
+    "limitations": "The summary does not give the number of staff withdrawn or the terms of the prisoner transfer. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -53,6 +53,26 @@ test/                node --test
 
 No build step and no dependencies. Fonts load from Google Fonts. craigmerry.com serves a copy of `index.html`, `style.css`, `src/`, `data/` from `public/date-the-war/`.
 
+## The situation briefing
+
+The band above the globe is computed from the record on load (`src/briefing.js`, `src/theaters.js`): what the latest day added, the last 7 days against the 7 before, a 45-day pulse of escalatory against de-escalatory impact, and one card per theater. Theaters are matched from each event's actors and place; a tapped card filters the globe (`@t=<id>` in the hash). Counts are what the sources reported and the daily job picked up, not casualties.
+
+## Humanitarian assessment and how to help
+
+Refresh monthly, after ACAPS publishes a new INFORM Severity release:
+
+```
+python3 scripts/build-humanitarian.py   # data/humanitarian.json (needs openpyxl, pycountry)
+node scripts/build-help.mjs             # data/help.json: checked country pages per group, then data/help.md
+node scripts/build-trust.mjs            # data/trust.json: public trust checks (needs unzip)
+node scripts/build-help-md.mjs          # data/help.md + the schema.org block in index.html
+```
+
+- **Severity** is ACAPS's INFORM Severity Index (CC BY), one row per country, shown as a map layer (`@sev`), a ranked list, and a line on each theater card.
+- **Groups** (`scripts/build-help-orgs.mjs`): WFP, UNICEF, UNFPA, UNHCR, World Central Kitchen, ICRC, MSF, IRC, Save the Children, CARE, International Medical Corps. A country page is kept only if it answers 200, still names the country after redirects, and its title names the country. WCK has no country pages; a country counts when WCK's Relief page names it.
+- **Trust checks** are public signals, not a corruption rating: the US entity is on IRS Publication 78; a recent Form 990 is public; officer pay at most 2% of spending; outside fundraising fees at most 5% of revenue; no OFAC SDN match; no Charity Navigator advisory. Each check links to the tool that repeats it. Groups that fail a check are flagged and ranked lower.
+- **Agents**: `data/help.md` is a plain-text copy with a short section for AI assistants (present options; never give or pledge without the person's explicit instruction). The page links it with `rel="alternate"`, and carries schema.org `NGO` entries with `taxID`. No referral codes anywhere; the site takes no money.
+
 ## The daily job
 
 `scripts/daily.sh` runs from the systemd user timer `date-the-war-daily.timer` on the Pi every morning (06:40 local, plus up to ten minutes of jitter):

@@ -1,8 +1,11 @@
-import { Globe, buildTexture, greatCircle } from './globe.js';
+import { Globe, buildTexture, greatCircle, countryPoints } from './globe.js';
 import {
   RANGE_START, RANGE_END, GROUPS, setRangeEnd, eras, addDays, daysBetween, clampDate, unitStart, addUnit,
   windowBounds, passes, windowEvents, jumpTarget, yearStrip, related, fmt, parseHash, toHash, reelPlan, REEL,
 } from './timeline.js';
+import { THEATERS, OTHER, theater } from './theaters.js';
+import { summarize, headline, dailyPulse } from './briefing.js';
+import { SEV_COLOURS, SEV_WORDS, indexAssessment, eventCountries, theaterSeverity, people } from './humanitarian.js';
 
 const INK = '#201e1d';
 const GROUND = '#f3f2f2';
@@ -33,6 +36,13 @@ const [events, topo, mechanisms, meta] = await Promise.all([
   load('./data/mechanisms.json'),
   load('./data/meta.json'),
 ]);
+// The assessment layer is optional: the page still works if either file is missing.
+const [hum, helpDoc, trust] = await Promise.all([
+  load('./data/humanitarian.json').catch(() => null),
+  load('./data/help.json').catch(() => null),
+  load('./data/trust.json').catch(() => null),
+]);
+const H = hum ? indexAssessment(hum) : null;
 setRangeEnd(meta.asOf);
 const ERAS = eras();
 const END = meta.asOf;
@@ -40,8 +50,8 @@ $('loading').remove();
 
 // ---------- state ----------
 const state = {
-  scale: 'month', from: unitStart(END, 'month'), cumulative: false, playing: false, view: 'globe', rotate: true, reel: false,
-  groupsOff: {}, subsOff: {}, selected: null, hover: null, hoverPos: null,
+  scale: 'month', from: unitStart(END, 'month'), cumulative: false, playing: false, view: 'globe', layer: 'events', rotate: true, reel: false,
+  groupsOff: {}, subsOff: {}, theater: null, selected: null, hover: null, hoverPos: null,
   ...(parseHash(location.hash) || {}),
 };
 const wantReel = state.reel;
@@ -51,14 +61,28 @@ state.from = unitStart(state.from, state.scale);
 // ---------- globe ----------
 const canvas = $('globe');
 const globe = new Globe(canvas, 720);
-const tex = buildTexture(topo, { ocean: INK, land: GROUND, border: '#7d7979', grid: '#444141' });
-globe.setTexture(tex);
-// The same texture as a drawable image, for the flat view.
+// One texture per map layer, built when first shown; each also kept as a
+// drawable image for the flat view.
 const TW = 2048;
 const TH = 1024;
-const texCanvas = document.createElement('canvas');
-texCanvas.width = TW; texCanvas.height = TH;
-texCanvas.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(tex.buffer), TW, TH), 0, 0);
+const layerCache = {};
+let texCanvas = null;
+function layerTexture(name) {
+  if (layerCache[name]) return layerCache[name];
+  const fills = name === 'sev' && H ? Object.fromEntries(H.rows.filter((c) => c.isoNum).map((c) => [c.isoNum, SEV_COLOURS[c.category]])) : null;
+  const tex = buildTexture(topo, { ocean: INK, land: GROUND, border: '#7d7979', grid: '#444141', fills });
+  const cv = document.createElement('canvas');
+  cv.width = TW; cv.height = TH;
+  cv.getContext('2d').putImageData(new ImageData(new Uint8ClampedArray(tex.buffer), TW, TH), 0, 0);
+  return (layerCache[name] = { tex, canvas: cv });
+}
+function applyLayer() {
+  if (!H) state.layer = 'events';
+  const L = layerTexture(state.layer);
+  globe.setTexture(L.tex);
+  texCanvas = L.canvas;
+}
+const PTS = countryPoints(topo);
 const FLAT_W = 1440;
 const FLAT_H = 720;
 
@@ -125,7 +149,7 @@ function onMove(e) {
     return;
   }
   const m = hitTest(x, y);
-  const id = m ? m.ev.id : null;
+  const id = m ? (m.ev ? m.ev.id : `h:${m.hum.iso3}`) : null;
   state.hoverPos = m ? [sx, sy] : null;
   if (id !== state.hover) { state.hover = id; markHover(); }
   renderTooltip();
@@ -142,7 +166,8 @@ canvas.addEventListener('click', (e) => {
   if (drag && drag.moved) return;
   const [x, y] = canvasPt(e);
   const m = hitTest(x, y);
-  if (m) { select(m.ev.id); revealRow(m.ev.id); }
+  if (m && m.hum) openHelp(m.hum);
+  else if (m) { select(m.ev.id); revealRow(m.ev.id); }
 });
 function revealRow(id) {
   const li = [...$('list').children].find((el) => el.dataset.id === id);
@@ -234,6 +259,7 @@ function draw(t) {
     ctx.lineWidth = 2; ctx.strokeStyle = INK;
     ctx.beginPath(); ctx.arc(globe.cx, globe.cy, globe.R + 1, 0, Math.PI * 2); ctx.stroke();
   }
+  if (state.layer === 'sev' && H) { drawSeverity(ctx, k, S); return; }
   const evs = windowEvents(events, state);
   const sel = state.selected;
   const hov = state.hover;
@@ -305,6 +331,34 @@ function draw(t) {
   }
 }
 
+// The severity layer: one square per assessed country, its category inside.
+function drawSeverity(ctx, k, S) {
+  markers = [];
+  for (const c of H.rows) {
+    const pt = PTS[c.isoNum];
+    if (!pt) continue;
+    const [x, y, vis] = proj(pt[0], pt[1]);
+    if (!vis) continue;
+    const r = (6 + c.category * 1.2) * k;
+    const emph = state.hover === `h:${c.iso3}`;
+    markers.push({ hum: c, x, y, r });
+    ctx.fillStyle = SEV_COLOURS[c.category];
+    ctx.fillRect(x - r, y - r, r * 2, r * 2);
+    ctx.lineWidth = (emph ? 3 : 1.5) * k; ctx.strokeStyle = emph ? ACCENT : INK; ctx.strokeRect(x - r, y - r, r * 2, r * 2);
+    ctx.fillStyle = c.category >= 3 ? GROUND : INK;
+    ctx.font = `800 ${(9 + c.category) * k}px Archivo, system-ui, sans-serif`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(String(c.category), x, y + 0.5 * k);
+    ctx.textAlign = 'start';
+    if (emph) {
+      ctx.font = `600 ${14 * k}px Archivo, system-ui, sans-serif`;
+      const w = ctx.measureText(c.country).width;
+      const lx = x + r + 10 * k + w > S - 8 ? x - r - 10 * k - w : x + r + 10 * k;
+      ctx.fillStyle = INK; ctx.fillRect(lx - 5 * k, y - 11 * k, w + 10 * k, 22 * k);
+      ctx.fillStyle = GROUND; ctx.fillText(c.country, lx, y);
+    }
+  }
+}
+
 // ---------- state changes ----------
 function setFrom(iso, extra = {}) {
   const scale = extra.scale || state.scale;
@@ -328,7 +382,7 @@ function stopPlay() {
 function togglePlay() {
   if (state.playing) { stopPlay(); render(); return; }
   stopReel();
-  const ms = { day: 90, month: 220, year: 700 }[state.scale];
+  const ms = { day: 90, week: 160, month: 220, year: 700 }[state.scale];
   timer = setInterval(() => {
     const next = addUnit(unitStart(state.from, state.scale), state.scale, 1);
     if (next > END) { stopPlay(); render(); return; }
@@ -374,13 +428,16 @@ $('total-count').textContent = `${events.length} sourced events`;
 $('range-caption').textContent = `1900 → ${fmt(END, 'day')} · `;
 $('year-last').textContent = END.slice(0, 4);
 const scaleBar = $('scales');
-for (const [id, label] of [['day', 'Days'], ['month', 'Months'], ['year', 'Years']]) {
+for (const [id, label] of [['day', 'Days'], ['week', 'Weeks'], ['month', 'Months'], ['year', 'Years']]) {
   scaleBar.append(h('button', { type: 'button', class: 'seg', 'data-scale': id, onclick: () => setScale(id) }, label));
 }
 $('play').addEventListener('click', () => { stopReel(); togglePlay(); });
 $('reel').addEventListener('click', () => (reel ? stopReel() : startReel()));
 $('view-globe').addEventListener('click', () => { state.view = 'globe'; applyView(); render(); });
 $('view-flat').addEventListener('click', () => { state.view = 'flat'; applyView(); render(); });
+function setLayer(layer) { stopReel(); state.layer = layer; state.hover = null; applyLayer(); render(); }
+$('layer-events').addEventListener('click', () => setLayer('events'));
+$('layer-sev').addEventListener('click', () => setLayer('sev'));
 $('rotate').addEventListener('click', () => { state.rotate = !state.rotate; lastMove = performance.now(); render(); });
 $('prev').addEventListener('click', () => jump(-1));
 $('next').addEventListener('click', () => jump(1));
@@ -414,6 +471,241 @@ for (const m of mechanisms) {
   mechList.append(h('li', {}, h('p', { class: 'mtitle' }, m.name, ' ', h('span', { class: 'image' }, images[m.image])), h('p', { class: 'mnote' }, m.short)));
 }
 
+// ---------- the situation briefing ----------
+// Built once from the record; render() only marks the chosen theater.
+const brief = summarize(events, END);
+$('brief-date').textContent = `As of ${new Date(`${END}T00:00:00Z`).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}`;
+$('brief-line').textContent = headline(brief);
+
+function showLatest(scale) {
+  stopPlay(); stopReel();
+  state.cumulative = false;
+  state.selected = null;
+  setFrom(END, { scale });
+}
+$('brief-day').addEventListener('click', () => showLatest('day'));
+$('brief-week').addEventListener('click', () => showLatest('week'));
+$('brief-reel').addEventListener('click', () => { showLatest('day'); setTimeout(startReel, 300); });
+
+function setTheater(id) {
+  state.theater = id && state.theater !== id ? id : null;
+  state.selected = null;
+  const t = state.theater && theater(state.theater);
+  if (t) flyTo(t.centre[0], t.centre[1]);
+  render();
+}
+$('theater-clear').addEventListener('click', () => setTheater(null));
+const thSel = $('theater-select');
+thSel.append(h('option', { value: '' }, 'All theaters'), ...[...THEATERS, OTHER].map((t) => h('option', { value: t.id }, t.label)));
+thSel.addEventListener('change', () => setTheater(thSel.value || null));
+
+const SVGNS = 'http://www.w3.org/2000/svg';
+function svg(tag, attrs = {}, ...children) {
+  const el = document.createElementNS(SVGNS, tag);
+  for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+  for (const c of children) el.append(c);
+  return el;
+}
+// Bars above the line are escalatory impact, below are de-escalatory.
+function bars(target, days, w, h, zero, { hit = false, mark = null } = {}) {
+  const max = Math.max(4, ...days.map((d) => Math.max(d.up, d.down)));
+  const bw = w / days.length;
+  target.replaceChildren();
+  days.forEach((d, i) => {
+    const x = i * bw;
+    if (hit && i % 7 === (days.length - 1) % 7 && i < days.length - 1) target.append(svg('line', { class: 'wk', x1: x + bw, x2: x + bw, y1: 0, y2: h }));
+    if (d.up) target.append(svg('rect', { class: 'up', x: x + 1, y: zero - (d.up / max) * (zero - 2), width: Math.max(1, bw - 2), height: (d.up / max) * (zero - 2) }));
+    if (d.down) target.append(svg('rect', { class: 'down', x: x + 1, y: zero, width: Math.max(1, bw - 2), height: (d.down / max) * (h - zero - 2) }));
+    if (mark === d.date) target.append(svg('rect', { class: 'cur', x: x + 0.5, y: 0.5, width: bw - 1, height: h - 1 }));
+    if (hit) {
+      const r = svg('rect', { class: 'hit', x, y: 0, width: bw, height: h, 'data-date': d.date },
+        svg('title', {}, `${fmt(d.date, 'day')}: ${d.n} ${d.n === 1 ? 'event' : 'events'}, escalatory impact ${d.up}, de-escalatory ${d.down}`));
+      target.append(r);
+    }
+  });
+  target.append(svg('line', { class: 'zero', x1: 0, x2: w, y1: zero, y2: zero }));
+}
+const pulseDays = dailyPulse(events, END, 45);
+const pulseSvg = $('pulse');
+pulseSvg.addEventListener('click', (e) => {
+  const d = e.target.closest('[data-date]');
+  if (d) { stopPlay(); stopReel(); state.cumulative = false; state.selected = null; setFrom(d.dataset.date, { scale: 'day' }); }
+});
+$('pulse-axis').replaceChildren(...[0, 15, 30, 44].map((i) => h('span', {}, fmt(pulseDays[i].date, 'day').replace(/ \d{4}$/, ''))));
+
+const TREND = { hotter: '▲ hotter', cooler: '▼ calmer', steady: '= steady', quiet: 'quiet' };
+const thCards = {};
+$('theaters').replaceChildren(...brief.theaters.map((t) => {
+  const spark = svg('svg', { class: 'th-spark', viewBox: '0 0 120 26', preserveAspectRatio: 'none', 'aria-hidden': 'true' });
+  bars(spark, t.spark, 120, 26, 16);
+  const latest = t.latest;
+  const card = h('div', { class: 'th' },
+    h('button', { type: 'button', class: 'th-pick', title: `Show only ${t.label}`, onclick: () => setTheater(t.id) },
+      h('div', { class: 'th-top' }, h('span', { class: 'th-name' }, t.label), h('span', { class: `th-trend ${t.trend}` }, TREND[t.trend])),
+      spark,
+      h('div', { class: 'th-nums' }, h('b', {}, String(t.week.n)), ` this week · ${t.prevWeek.n} the week before`, t.today ? ` · ${t.today} today` : ''),
+    ),
+    thSevLine(t.id),
+    latest
+      ? h('button', { type: 'button', class: 'th-latest', title: latest.title, onclick: () => { state.cumulative = false; if (state.theater && state.theater !== t.id) state.theater = null; select(latest.id); revealRow(latest.id); } },
+        h('span', { class: 'd' }, fmt(latest.date, 'day').replace(/ \d{4}$/, '')), latest.title)
+      : h('span', { class: 'th-latest none' }, 'Nothing recorded yet.'),
+  );
+  thCards[t.id] = card;
+  return card;
+}));
+
+$('theaters-more').addEventListener('click', () => {
+  const box = $('theaters');
+  box.classList.toggle('collapsed');
+  $('theaters-more').textContent = box.classList.contains('collapsed') ? `Show all ${brief.theaters.length} theaters` : 'Show fewer';
+});
+$('theaters-more').textContent = `Show all ${brief.theaters.length} theaters`;
+
+function thSevLine(id) {
+  const ts = H && id !== 'other' && theaterSeverity(H, id);
+  if (!ts) return null;
+  const names = ts.countries.slice(0, 3).map((c) => c.country).join(', ') + (ts.countries.length > 3 ? ` +${ts.countries.length - 3}` : '');
+  return h('div', { class: 'th-sev', title: 'Highest INFORM Severity category among this theater\'s countries' }, h('i', { class: `sv s${ts.category}` }), `Crisis severity ${ts.category}: ${names}`);
+}
+
+function renderBrief() {
+  const sel = state.scale === 'day' && !state.cumulative ? state.from : null;
+  bars(pulseSvg, pulseDays, 450, 132, 84, { hit: true, mark: sel });
+  for (const [id, el] of Object.entries(thCards)) {
+    el.classList.toggle('on', state.theater === id);
+    el.classList.toggle('dim', !!state.theater && state.theater !== id);
+  }
+  $('theater-clear').hidden = !state.theater;
+  thSel.value = state.theater || '';
+}
+
+// ---------- humanitarian assessment ----------
+const assess = { region: '', all: false };
+function sevSentence(c) {
+  const bits = [`Crisis severity ${c.category} of 5, ${SEV_WORDS[c.category]} (index ${c.index} of 10), ${c.trend.toLowerCase()} over the last three months.`];
+  if (c.pin) bits.push(`${people(c.pin)} people in need${c.displaced ? `, ${people(c.displaced)} displaced` : ''}.`);
+  bits.push(`Drivers: ${c.drivers.join(', ').toLowerCase()}.`);
+  return bits.join(' ');
+}
+function renderAssessment() {
+  if (!H) { $('assess').hidden = true; return; }
+  const src = hum.source;
+  $('assess-src').replaceChildren('Each crisis rated 1 to 5 by ', h('a', { href: src.url, rel: 'noopener', target: '_blank' }, `${src.publisher}'s ${src.name}`),
+    `, ${src.edition} edition (${src.license}). It combines the scale of the crisis, the conditions of the people in it, and how hard it is to reach them. ACAPS also rates how reliable its own data is for each country.`);
+  $('sev-edition').textContent = src.edition;
+  const rows = H.rows.filter((c) => !assess.region || c.region === assess.region);
+  const shown = assess.all ? rows : rows.slice(0, 12);
+  $('assess-count').textContent = `${rows.length} countries`;
+  $('assess-more').hidden = rows.length <= 12;
+  $('assess-more').textContent = assess.all ? 'Show fewer' : `Show all ${rows.length}`;
+  $('assess-list').replaceChildren(...shown.map((c) => h('li', { class: 'arow' },
+    h('div', { class: `cat c${c.category}`, title: `Category ${c.category} of 5` }, String(c.category)),
+    h('div', {},
+      h('div', { class: 'nm' }, c.country),
+      h('div', { class: 'sub' }, `${c.label} · index ${c.index}`, c.pin ? h('span', {}, ' · ', h('b', {}, people(c.pin)), ' in need') : '', c.displaced ? ` · ${people(c.displaced)} displaced` : ''),
+      h('div', { class: 'sub' }, c.drivers.join(', '), ` · data reliability ${c.reliability.toLowerCase()}`),
+    ),
+    h('span', { class: `tr ${c.trend}` }, { Increasing: '▲ worsening', Decreasing: '▼ easing', Stable: '= stable' }[c.trend] || c.trend),
+    h('div', { class: 'acts' },
+      h('button', { type: 'button', class: 'play', onclick: () => openHelp(c) }, 'How to help'),
+      h('button', { type: 'button', class: 'ghost', onclick: () => { const pt = PTS[c.isoNum]; setLayer('sev'); if (pt) flyTo(pt[0], pt[1]); $('globe').scrollIntoView({ behavior: 'smooth', block: 'center' }); } }, 'On the map'),
+      h('a', { class: 'ghost', href: c.url, target: '_blank', rel: 'noopener' }, 'ACAPS ↗'),
+    ),
+  )));
+}
+if (H) {
+  const regions = [...new Set(H.rows.map((c) => c.region))].sort();
+  $('assess-region').append(h('option', { value: '' }, 'All regions'), ...regions.map((r) => h('option', { value: r }, r)));
+  $('assess-region').addEventListener('change', (e) => { assess.region = e.target.value; renderAssessment(); });
+  $('assess-more').addEventListener('click', () => { assess.all = !assess.all; renderAssessment(); });
+}
+renderAssessment();
+
+// ---------- how to help ----------
+const helpdlg = $('helpdlg');
+// Rank by public trust checks passed, then country-specific pages first.
+function trustOf(id) { return trust && trust.orgs[id]; }
+function rankEntries(list) {
+  const score = (e) => { const t = trustOf(e.org); return t && t.total ? t.passed / t.total : 0; };
+  return [...list].sort((a, b) => score(b) - score(a) || (!!a.general - !!b.general) || helpDoc.orgs[a.org].name.localeCompare(helpDoc.orgs[b.org].name));
+}
+function trustLine(id) {
+  const t = trustOf(id);
+  if (!t) return null;
+  const deductible = t.checks.find((c) => c.id === 'deductible')?.pass;
+  return h('details', { class: 'trust' },
+    h('summary', {},
+      deductible ? h('span', { class: 'ded' }, 'US tax-deductible') : h('span', { class: 'flag' }, 'Not on the IRS deductible list'),
+      ` · EIN ${t.ein} · `,
+      h('span', { class: t.flags.length ? 'flag' : 'ok' }, `${t.passed} of ${t.total} public checks`),
+      t.flags.length ? h('span', { class: 'flag' }, ` · look closer: ${t.flags.join('; ').toLowerCase()}`) : ''),
+    h('ul', { class: 'checks' }, ...t.checks.map((c) => h('li', { class: c.pass === false ? 'fail' : c.pass ? 'pass' : 'na' },
+      h('b', {}, c.pass === false ? '✕ ' : c.pass ? '✓ ' : '? '), `${c.label}. ${c.detail} `, h('a', { href: c.link, target: '_blank', rel: 'noopener' }, 'Check it ↗')))),
+    h('p', { class: 'checks-who' }, t.usSite ? `The Donate button goes to ${t.usName}, the US entity with this EIN. Also see ` : `The Donate button is the international page. For a US tax deduction, give to ${t.usName} directly; its site blocks automated checks, so find it by name or EIN. Also see `, h('a', { href: t.links.charityNavigator, target: '_blank', rel: 'noopener' }, 'Charity Navigator'), ', ',
+      h('a', { href: t.links.bbb, target: '_blank', rel: 'noopener' }, 'BBB Wise Giving Alliance'), ' and ', h('a', { href: t.links.propublica, target: '_blank', rel: 'noopener' }, 'its filings on ProPublica'), '.'),
+  );
+}
+function orgItem(id, entry, country) {
+  const o = helpDoc.orgs[id];
+  if (!o || (entry && entry.general && entry.org !== 'wck' && !o.donate)) return null;
+  const links = [];
+  if (entry && !entry.general) links.push(h('a', { href: entry.url, target: '_blank', rel: 'noopener' }, `Their work in ${country} ↗`));
+  if (entry && entry.org === 'wck') links.push(h('a', { href: entry.url, target: '_blank', rel: 'noopener' }, 'Where WCK is cooking ↗'));
+  // A US entity's own page when it loads; otherwise the group's international page.
+  const t = trustOf(id);
+  const giveUrl = (t && t.usSite) || o.donate;
+  if (giveUrl) links.push(h('a', { class: 'give', href: giveUrl, target: '_blank', rel: 'noopener', title: t && t.usSite ? `US tax-deductible gift to ${t.usName}` : 'International donation page' }, entry && entry.general && id === 'unhcr' && !(t && t.usSite) ? 'Global appeal ↗' : 'Donate ↗'));
+  return h('li', {},
+    h('span', { class: 'on' }, o.name, o.kind === 'un' ? h('span', { class: 'un' }, 'UN agency') : ''),
+    h('span', { class: 'ow' }, o.what),
+    h('span', { class: 'ol' }, ...links),
+    trustLine(id),
+  );
+}
+function openHelp(c) {
+  if (!helpDoc) { $('how-to-help').scrollIntoView(); return; }
+  stopReel();
+  $('helpdlg-title').textContent = `How to help: ${c.country}`;
+  $('helpdlg-sev').replaceChildren(h('i', { class: `sv s${c.category}` }), ' ', sevSentence(c), ' ', h('a', { href: c.url, target: '_blank', rel: 'noopener' }, 'ACAPS crisis page ↗'));
+  $('helpdlg-checked').textContent = helpDoc.checked;
+  const entries = rankEntries(helpDoc.countries[c.iso3] || []);
+  const body = [];
+  if (entries.length) {
+    body.push(h('p', { class: 'rankline' }, `Ranked by public trust checks, then by whether the group has a page about ${c.country}. Open a line to see each check and repeat it yourself.`),
+      h('ol', { class: 'orglist' }, ...entries.map((e) => orgItem(e.org, e, c.country))));
+  } else {
+    body.push(h('p', {}, `None of the groups this page checks has a page about ${c.country} right now. These work across many crises and accept general donations:`),
+      h('ol', { class: 'orglist' }, ...rankEntries(Object.keys(helpDoc.orgs).map((org) => ({ org, general: true }))).map((e) => orgItem(e.org, null, c.country))));
+  }
+  $('helpdlg-body').replaceChildren(...body);
+  helpdlg.hidden = false;
+  helpdlg.querySelector('[data-close]').focus();
+}
+function closeHelp() { helpdlg.hidden = true; }
+helpdlg.addEventListener('click', (e) => {
+  if (e.target === helpdlg) { closeHelp(); return; }
+  const b = e.target.closest('[data-close]');
+  if (!b) return;
+  e.preventDefault();
+  closeHelp();
+  if (b.getAttribute('href') === '#how-to-help') $('how-to-help').scrollIntoView({ behavior: 'smooth' });
+});
+// "#help" links scroll without touching the hash, which holds the page state.
+for (const a of document.querySelectorAll('a.tohelp')) a.addEventListener('click', (e) => { e.preventDefault(); $('how-to-help').scrollIntoView({ behavior: 'smooth' }); });
+
+function renderGuideLinks() {
+  if (!helpDoc) return;
+  const li = (x) => h('li', {}, h('a', { href: x.url, target: '_blank', rel: 'noopener' }, x.name), h('span', {}, ` · ${x.what}`));
+  $('help-check').replaceChildren(...helpDoc.general.check.map(li));
+  $('help-civic').replaceChildren(...helpDoc.general.civic.map(li));
+  $('help-act').replaceChildren(...helpDoc.general.act.map(li));
+  $('help-orgs').replaceChildren(...rankEntries(Object.keys(helpDoc.orgs).filter((id) => helpDoc.orgs[id].donate).map((org) => ({ org, general: true })))
+    .map(({ org }) => { const o = helpDoc.orgs[org]; return h('li', {}, h('a', { href: o.donate, target: '_blank', rel: 'noopener' }, o.name), h('span', {}, ` · ${o.kind === 'un' ? 'UN agency · ' : ''}${o.what}`), trustLine(org)); }));
+  $('help-checked').textContent = `Every link in this section was checked on ${helpDoc.checked}; ones that failed were left out.`;
+}
+renderGuideLinks();
+
 // ---------- the guide ----------
 const guide = $('guide');
 function openGuide() { guide.hidden = false; guide.querySelector('button').focus(); }
@@ -435,7 +727,7 @@ if (!seen && !wantReel && !location.hash) setTimeout(openGuide, 500);
 
 document.addEventListener('keydown', (e) => {
   if (e.target.matches('input, textarea, select')) return;
-  if (e.key === 'Escape') { if (!guide.hidden) closeGuide(); else if (reel) stopReel(); else if (state.playing) { stopPlay(); render(); } return; }
+  if (e.key === 'Escape') { if (!helpdlg.hidden) closeHelp(); else if (!guide.hidden) closeGuide(); else if (reel) stopReel(); else if (state.playing) { stopPlay(); render(); } return; }
   if (!guide.hidden) return;
   if (e.key === ' ') { e.preventDefault(); if (reel) stopReel(); else togglePlay(); }
   else if (e.key === 'ArrowRight') jump(1);
@@ -451,9 +743,16 @@ function render() {
   const win = windowEvents(events, state);
 
   for (const b of scaleBar.children) b.setAttribute('aria-pressed', b.dataset.scale === state.scale);
-  $('mode-label').textContent = state.cumulative ? `Cumulative since ${Y0}` : `${state.scale} window`;
+  const thLabel = state.theater ? ` · ${theater(state.theater).label}` : '';
+  $('mode-label').textContent = (state.cumulative ? `Cumulative since ${Y0}` : `${state.scale} window`) + thLabel;
   $('window-label').textContent = state.cumulative ? `→ ${fmt(end, 'day')}` : fmt(unit, state.scale);
-  $('window-count').textContent = `${win.length} events · ${win.filter((e) => e.arc).length} links`;
+  const sev = state.layer === 'sev' && H;
+  $('window-count').textContent = sev ? `${H.rows.length} assessed countries` : `${win.length} events · ${win.filter((e) => e.arc).length} links`;
+  $('layer-events').setAttribute('aria-pressed', !sev);
+  $('layer-sev').setAttribute('aria-pressed', !!sev);
+  $('layer-sev').hidden = !H;
+  $('sev-legend').hidden = !sev;
+  $('ev-legend').hidden = !!sev;
   $('play').textContent = state.playing ? '❚❚ Pause' : '▶ Play';
   $('reel').textContent = reel ? '■ Stop reel' : '▶ Reel';
   $('reel').setAttribute('aria-pressed', !!reel);
@@ -473,6 +772,7 @@ function render() {
   slider.value = daysBetween(RANGE_START, unit);
 
   renderFilters();
+  renderBrief();
   renderList(win);
   renderTooltip();
 }
@@ -541,6 +841,9 @@ function renderList(win) {
           ev.limitations && h('p', { class: 'limits' }, h('b', {}, 'Limits. '), ev.limitations),
           ev.mechanisms.length > 0 && h('div', { class: 'mechs' }, ...ev.mechanisms.map((m) => h('span', {}, m))),
           h('div', { class: 'actors' }, `Actors: ${ev.countries.join(', ') || ev.place}`),
+          H && eventCountries(H, ev).length > 0 && h('div', { class: 'sevchips' },
+            ...eventCountries(H, ev).map((c) => h('button', { type: 'button', class: 'sevchip', title: `INFORM Severity ${hum.source.edition}`, onclick: () => openHelp(c) },
+              h('i', { class: `sv s${c.category}` }), `${c.country}: crisis severity ${c.category} of 5 · how to help`))),
           h('div', { class: 'srcline' },
             h('a', { href: ev.source.url, target: '_blank', rel: 'noopener' }, `Source: ${ev.source.label} ↗`),
             h('span', { class: ev.checked ? 'checked' : 'unchecked', title: ev.checked ? `Source opened and read on ${ev.checked}` : 'Source link not yet re-opened for this page' }, ev.checked ? `checked ${ev.checked}` : 'unchecked'),
@@ -561,6 +864,15 @@ function markHover() {
 
 function renderTooltip() {
   const tip = $('tooltip');
+  if (state.hover && state.hover.startsWith('h:') && state.hoverPos && H) {
+    const c = H.byIso3[state.hover.slice(2)];
+    tip.hidden = false;
+    tip.style.left = `${state.hoverPos[0] + 20}px`;
+    tip.style.top = `${state.hoverPos[1] + 8}px`;
+    $('tip-title').textContent = `${c.country}: severity ${c.category} of 5, ${SEV_WORDS[c.category]}`;
+    $('tip-meta').textContent = `${c.pin ? `${people(c.pin)} people in need · ` : ''}trend ${c.trend.toLowerCase()} · tap for how to help`;
+    return;
+  }
   const ev = state.hover && state.hoverPos ? events.find((e) => e.id === state.hover) : null;
   tip.hidden = !ev;
   if (!ev) return;
@@ -570,8 +882,10 @@ function renderTooltip() {
   $('tip-meta').textContent = `${fmt(ev.date, 'day')} · ${ev.dir} · impact ${ev.mag}`;
 }
 
+applyLayer();
 applyView();
-flyTo(48, 30, 0);
+const startAt = state.theater ? theater(state.theater).centre : [48, 30];
+flyTo(startAt[0], startAt[1], 0);
 render();
 requestAnimationFrame(frame);
 if (wantReel) setTimeout(startReel, 600);

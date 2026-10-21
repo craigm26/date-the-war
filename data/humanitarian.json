@@ -1,0 +1,1383 @@
+{
+ "source": {
+  "name": "INFORM Severity Index",
+  "publisher": "ACAPS",
+  "edition": "September 2026",
+  "released": "2026-09-30",
+  "url": "https://data.humdata.org/dataset/inform-global-crisis-severity-index",
+  "license": "CC BY 4.0",
+  "file": "202609 INFORM Severity - September 2026.xlsx",
+  "built": "2026-10-21"
+ },
+ "countries": [
+  {
+   "iso3": "MMR",
+   "isoNum": "104",
+   "country": "Myanmar",
+   "region": "Asia",
+   "crisis": "Complex crisis in Myanmar",
+   "crisisId": "MMR008",
+   "index": 9.5,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Earthquake",
+    "International Displacement",
+    "Cyclone",
+    "Floods"
+   ],
+   "pin": 16229000,
+   "displaced": 5662000,
+   "url": "https://www.acaps.org/country/Myanmar/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "SSD",
+   "isoNum": "728",
+   "country": "South Sudan",
+   "region": "Africa",
+   "crisis": "Complex crisis in South Sudan",
+   "crisisId": "SSD001",
+   "index": 9.5,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Floods",
+    "Political/economic crisis",
+    "International Displacement"
+   ],
+   "pin": 9928000,
+   "displaced": 5725000,
+   "url": "https://www.acaps.org/country/South%20Sudan/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "SDN",
+   "isoNum": "729",
+   "country": "Sudan",
+   "region": "Africa",
+   "crisis": "Complex crisis in Sudan",
+   "crisisId": "SDN001",
+   "index": 9.5,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Conflict/ Violence",
+    "Political/economic crisis"
+   ],
+   "pin": 33701000,
+   "displaced": 13216000,
+   "url": "https://www.acaps.org/country/Sudan/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "YEM",
+   "isoNum": "887",
+   "country": "Yemen",
+   "region": "Middle east",
+   "crisis": "Complex crisis in Yemen",
+   "crisisId": "YEM001",
+   "index": 9.3,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Drought/drier conditions",
+    "Political/economic crisis",
+    "Floods"
+   ],
+   "pin": 22326000,
+   "displaced": 5789000,
+   "url": "https://www.acaps.org/country/Yemen/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "AFG",
+   "isoNum": "004",
+   "country": "Afghanistan",
+   "region": "Asia",
+   "crisis": "Complex crisis in Afghanistan",
+   "crisisId": "AFG001",
+   "index": 9.2,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Political/economic crisis",
+    "Floods",
+    "Drought/drier conditions",
+    "Earthquake"
+   ],
+   "pin": 21889000,
+   "displaced": 8053000,
+   "url": "https://www.acaps.org/country/Afghanistan/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "COD",
+   "isoNum": "180",
+   "country": "Democratic Republic of the Congo",
+   "region": "Africa",
+   "crisis": "Complex crisis in DRC",
+   "crisisId": "COD001",
+   "index": 9.2,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Floods"
+   ],
+   "pin": 18489000,
+   "displaced": 10429000,
+   "url": "https://www.acaps.org/country/Democratic%20Republic%20of%20the%20Congo/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "UKR",
+   "isoNum": "804",
+   "country": "Ukraine",
+   "region": "Europe",
+   "crisis": "Conflict in Ukraine",
+   "crisisId": "UKR002",
+   "index": 9.1,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Decreasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence"
+   ],
+   "pin": 10900000,
+   "displaced": 11408000,
+   "url": "https://www.acaps.org/country/Ukraine/crisis/Conflict-in-Ukraine"
+  },
+  {
+   "iso3": "HTI",
+   "isoNum": "332",
+   "country": "Haiti",
+   "region": "Americas",
+   "crisis": "Complex crisis in Haiti",
+   "crisisId": "HTI001",
+   "index": 8.9,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Political/economic crisis",
+    "Floods",
+    "Drought/drier conditions",
+    "Cyclone"
+   ],
+   "pin": 6414000,
+   "displaced": 2192000,
+   "url": "https://www.acaps.org/country/Haiti/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "SYR",
+   "isoNum": "760",
+   "country": "Syria",
+   "region": "Middle east",
+   "crisis": "Complex crisis in Syria",
+   "crisisId": "SYR003",
+   "index": 8.9,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Decreasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Political/economic crisis",
+    "Drought/drier conditions"
+   ],
+   "pin": 15598000,
+   "displaced": 13243000,
+   "url": "https://www.acaps.org/country/Syria/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "SOM",
+   "isoNum": "706",
+   "country": "Somalia",
+   "region": "Africa",
+   "crisis": "Complex crisis in Somalia",
+   "crisisId": "SOM001",
+   "index": 8.7,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "International Displacement",
+    "Floods",
+    "Drought/drier conditions"
+   ],
+   "pin": 5096000,
+   "displaced": 4288000,
+   "url": "https://www.acaps.org/country/Somalia/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "ETH",
+   "isoNum": "231",
+   "country": "Ethiopia",
+   "region": "Africa",
+   "crisis": "Multiple crises in Ethiopia",
+   "crisisId": "ETH001",
+   "index": 8.6,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Conflict/ Violence",
+    "Drought/drier conditions",
+    "Floods",
+    "Political/economic crisis"
+   ],
+   "pin": 16579000,
+   "displaced": 7078000,
+   "url": "https://www.acaps.org/country/Ethiopia/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "IRN",
+   "isoNum": "364",
+   "country": "Iran",
+   "region": "Middle east",
+   "crisis": "Multiple crises in Iran",
+   "crisisId": "IRN001",
+   "index": 8.6,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "International Displacement",
+    "Political/economic crisis"
+   ],
+   "pin": 10000000,
+   "displaced": 3200000,
+   "url": "https://www.acaps.org/country/Iran/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "MLI",
+   "isoNum": "466",
+   "country": "Mali",
+   "region": "Africa",
+   "crisis": "Complex crisis in Mali",
+   "crisisId": "MLI001",
+   "index": 8.6,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Drought/drier conditions",
+    "Political/economic crisis"
+   ],
+   "pin": 5337000,
+   "displaced": 1213000,
+   "url": "https://www.acaps.org/country/Mali/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "COL",
+   "isoNum": "170",
+   "country": "Colombia",
+   "region": "Americas",
+   "crisis": "Multiple Crises in Colombia",
+   "crisisId": "COL004",
+   "index": 8.5,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Drought/drier conditions",
+    "International Displacement",
+    "Floods",
+    "Earthquake"
+   ],
+   "pin": 10469000,
+   "displaced": 3521000,
+   "url": "https://www.acaps.org/country/Colombia/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "NGA",
+   "isoNum": "566",
+   "country": "Nigeria",
+   "region": "Africa",
+   "crisis": "Multiple Crises in Nigeria",
+   "crisisId": "NGA009",
+   "index": 8.5,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "International Displacement"
+   ],
+   "pin": 22465000,
+   "displaced": 6565000,
+   "url": "https://www.acaps.org/country/Nigeria/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "VEN",
+   "isoNum": "862",
+   "country": "Venezuela",
+   "region": "Americas",
+   "crisis": "Multiple Crises in Venezuela",
+   "crisisId": "VEN003",
+   "index": 8.5,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "Earthquake",
+    "Political/economic crisis",
+    "Conflict/ Violence"
+   ],
+   "pin": 8604000,
+   "displaced": 7181000,
+   "url": "https://www.acaps.org/country/Venezuela/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "BFA",
+   "isoNum": "854",
+   "country": "Burkina Faso",
+   "region": "Africa",
+   "crisis": "Conflict and Climatic Shocks in Burkina Faso",
+   "crisisId": "BFA002",
+   "index": 8.4,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Drought/drier conditions",
+    "Floods"
+   ],
+   "pin": 4433000,
+   "displaced": 2063000,
+   "url": "https://www.acaps.org/country/Burkina%20Faso/crisis/Conflict-and-Climatic-Shocks"
+  },
+  {
+   "iso3": "TCD",
+   "isoNum": "148",
+   "country": "Chad",
+   "region": "Africa",
+   "crisis": "Complex crisis in Chad",
+   "crisisId": "TCD001",
+   "index": 8.4,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Floods"
+   ],
+   "pin": 4835000,
+   "displaced": 2379000,
+   "url": "https://www.acaps.org/country/Chad/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "PSE",
+   "isoNum": "275",
+   "country": "Palestine",
+   "region": "Middle east",
+   "crisis": "Multiple crises in Palestine",
+   "crisisId": "PSE002",
+   "index": 8.4,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence"
+   ],
+   "pin": 3620000,
+   "displaced": 6469000,
+   "url": "https://www.acaps.org/country/Palestine/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "PAK",
+   "isoNum": "586",
+   "country": "Pakistan",
+   "region": "Asia",
+   "crisis": "Multiple crises in Pakistan",
+   "crisisId": "PAK008",
+   "index": 8.3,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Floods",
+    "International Displacement",
+    "Political/economic crisis",
+    "Conflict/ Violence"
+   ],
+   "pin": 9989000,
+   "displaced": 1589000,
+   "url": "https://www.acaps.org/country/Pakistan/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "CMR",
+   "isoNum": "120",
+   "country": "Cameroon",
+   "region": "Africa",
+   "crisis": "Complex crisis in Cameroon",
+   "crisisId": "CMR005",
+   "index": 8.2,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Conflict/ Violence",
+    "Floods"
+   ],
+   "pin": 2877000,
+   "displaced": 2230000,
+   "url": "https://www.acaps.org/country/Cameroon/crisis/Complex-Crisis"
+  },
+  {
+   "iso3": "LBN",
+   "isoNum": "422",
+   "country": "Lebanon",
+   "region": "Middle east",
+   "crisis": "Complex crisis in Lebanon",
+   "crisisId": "LBN006",
+   "index": 8.1,
+   "category": 5,
+   "label": "Very High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Political/economic crisis"
+   ],
+   "pin": 3761000,
+   "displaced": 1535000,
+   "url": "https://www.acaps.org/country/Lebanon/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "CAF",
+   "isoNum": "140",
+   "country": "Central African Republic",
+   "region": "Africa",
+   "crisis": "Conflict and Climatic Shocks in CAR",
+   "crisisId": "CAF001",
+   "index": 8.0,
+   "category": 4,
+   "label": "High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Floods"
+   ],
+   "pin": 2214000,
+   "displaced": 988000,
+   "url": "https://www.acaps.org/country/Central%20African%20Republic/crisis/Conflict-and-Climatic-Shocks"
+  },
+  {
+   "iso3": "NER",
+   "isoNum": "562",
+   "country": "Niger",
+   "region": "Africa",
+   "crisis": "Complex crisis in Niger",
+   "crisisId": "NER006",
+   "index": 7.8,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Drought/drier conditions",
+    "Floods"
+   ],
+   "pin": 3081000,
+   "displaced": 596000,
+   "url": "https://www.acaps.org/country/Niger/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "ECU",
+   "isoNum": "218",
+   "country": "Ecuador",
+   "region": "Americas",
+   "crisis": "Multiple crises in Ecuador",
+   "crisisId": "ECU001",
+   "index": 7.4,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Conflict/ Violence",
+    "Floods"
+   ],
+   "pin": 3070000,
+   "displaced": 1171000,
+   "url": "https://www.acaps.org/country/Ecuador/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "GTM",
+   "isoNum": "320",
+   "country": "Guatemala",
+   "region": "Americas",
+   "crisis": "Climatic Shocks and Violence in Guatemala",
+   "crisisId": "GTM001",
+   "index": 7.4,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Drought/drier conditions"
+   ],
+   "pin": 3178000,
+   "displaced": 1826000,
+   "url": "https://www.acaps.org/country/Guatemala/crisis/Climatic-Shocks-and-Violence"
+  },
+  {
+   "iso3": "LBY",
+   "isoNum": "434",
+   "country": "Libya",
+   "region": "Africa",
+   "crisis": "Multiple crises in Libya",
+   "crisisId": "LBY005",
+   "index": 7.2,
+   "category": 4,
+   "label": "High",
+   "trend": "Decreasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 1274000,
+   "displaced": 1204000,
+   "url": "https://www.acaps.org/country/Libya/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "TUR",
+   "isoNum": "792",
+   "country": "Turkey",
+   "region": "Middle east",
+   "crisis": "Multiple Crises in Türkiye",
+   "crisisId": "TUR001",
+   "index": 7.0,
+   "category": 4,
+   "label": "High",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement",
+    "Earthquake"
+   ],
+   "pin": 7151000,
+   "displaced": 3543000,
+   "url": "https://www.acaps.org/country/Turkey/crisis/Multiple-crisis"
+  },
+  {
+   "iso3": "BGD",
+   "isoNum": "050",
+   "country": "Bangladesh",
+   "region": "Asia",
+   "crisis": "Multiple crises in Bangladesh",
+   "crisisId": "BGD001",
+   "index": 6.9,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement",
+    "Floods",
+    "Cyclone",
+    "Political/economic crisis"
+   ],
+   "pin": 16352000,
+   "displaced": 1204000,
+   "url": "https://www.acaps.org/country/Bangladesh/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "CUB",
+   "isoNum": "192",
+   "country": "Cuba",
+   "region": "Americas",
+   "crisis": "Complex Crisis in Cuba",
+   "crisisId": "CUB004",
+   "index": 6.9,
+   "category": 4,
+   "label": "High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "Cyclone",
+    "Political/economic crisis"
+   ],
+   "pin": 4200000,
+   "displaced": 2615000,
+   "url": "https://www.acaps.org/country/Cuba/crisis/Complex-Crisis"
+  },
+  {
+   "iso3": "HND",
+   "isoNum": "340",
+   "country": "Honduras",
+   "region": "Americas",
+   "crisis": "Climatic Shocks and Conflict and Violence in Honduras",
+   "crisisId": "HND001",
+   "index": 6.9,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions",
+    "Conflict/ Violence"
+   ],
+   "pin": 1881000,
+   "displaced": 772000,
+   "url": "https://www.acaps.org/country/Honduras/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "IRQ",
+   "isoNum": "368",
+   "country": "Iraq",
+   "region": "Middle east",
+   "crisis": "Internal displacement in Iraq",
+   "crisisId": "IRQ002",
+   "index": 6.9,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Political/economic crisis"
+   ],
+   "pin": 2813000,
+   "displaced": 5952000,
+   "url": "https://www.acaps.org/country/Iraq/crisis/Internal-displacement"
+  },
+  {
+   "iso3": "KEN",
+   "isoNum": "404",
+   "country": "Kenya",
+   "region": "Africa",
+   "crisis": "Multiple crises in Kenya",
+   "crisisId": "KEN001",
+   "index": 6.8,
+   "category": 4,
+   "label": "High",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions",
+    "International Displacement"
+   ],
+   "pin": 3087000,
+   "displaced": 872000,
+   "url": "https://www.acaps.org/country/Kenya/crisis/Multiple-crisis"
+  },
+  {
+   "iso3": "MWI",
+   "isoNum": "454",
+   "country": "Malawi",
+   "region": "Africa",
+   "crisis": "Climatic shocks in Malawi",
+   "crisisId": "MWI002",
+   "index": 6.6,
+   "category": 4,
+   "label": "High",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions",
+    "Cyclone",
+    "Floods",
+    "Political/economic crisis"
+   ],
+   "pin": 1935000,
+   "displaced": 166000,
+   "url": "https://www.acaps.org/country/Malawi/crisis/Climatic-shocks"
+  },
+  {
+   "iso3": "ERI",
+   "isoNum": "232",
+   "country": "Eritrea",
+   "region": "Africa",
+   "crisis": "Complex crisis in Eritrea",
+   "crisisId": "ERI001",
+   "index": 6.5,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Political/economic crisis"
+   ],
+   "pin": 1100000,
+   "displaced": 677000,
+   "url": "https://www.acaps.org/country/Eritrea/crisis/Complex-crisis"
+  },
+  {
+   "iso3": "ZMB",
+   "isoNum": "894",
+   "country": "Zambia",
+   "region": "Africa",
+   "crisis": "Drought in Zambia",
+   "crisisId": "ZMB002",
+   "index": 6.2,
+   "category": 4,
+   "label": "High",
+   "trend": "-",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions"
+   ],
+   "pin": 698000,
+   "displaced": null,
+   "url": "https://www.acaps.org/country/Zambia/crisis/Drought"
+  },
+  {
+   "iso3": "DJI",
+   "isoNum": "262",
+   "country": "Djibouti",
+   "region": "Africa",
+   "crisis": "Multiple crises in Djibouti",
+   "crisisId": "DJI001",
+   "index": 6.1,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Drought/drier conditions"
+   ],
+   "pin": 270000,
+   "displaced": 37000,
+   "url": "https://www.acaps.org/country/Djibouti/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "MRT",
+   "isoNum": "478",
+   "country": "Mauritania",
+   "region": "Africa",
+   "crisis": "Multiple crises in Mauritania",
+   "crisisId": "MRT004",
+   "index": 6.1,
+   "category": 4,
+   "label": "High",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions",
+    "Floods",
+    "International Displacement"
+   ],
+   "pin": 1008000,
+   "displaced": 290000,
+   "url": "https://www.acaps.org/country/Mauritania/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "PER",
+   "isoNum": "604",
+   "country": "Peru",
+   "region": "Americas",
+   "crisis": "Displacement from Venezuela to Peru",
+   "crisisId": "PER002",
+   "index": 6.0,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 2054000,
+   "displaced": 1784000,
+   "url": "https://www.acaps.org/country/Peru/crisis/Displacement-from-Venezuela"
+  },
+  {
+   "iso3": "EGY",
+   "isoNum": "818",
+   "country": "Egypt",
+   "region": "Africa",
+   "crisis": "International displacement to Egypt",
+   "crisisId": "EGY004",
+   "index": 5.8,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 1470000,
+   "displaced": 1096000,
+   "url": "https://www.acaps.org/country/Egypt/crisis/International-displacement"
+  },
+  {
+   "iso3": "SLV",
+   "isoNum": "222",
+   "country": "El Salvador",
+   "region": "Americas",
+   "crisis": "Political and Economic crisis in El Salvador",
+   "crisisId": "SLV001",
+   "index": 5.8,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Political/economic crisis"
+   ],
+   "pin": 819000,
+   "displaced": 304000,
+   "url": "https://www.acaps.org/country/El%20Salvador/crisis/Political-and-Economic-crisis"
+  },
+  {
+   "iso3": "MEX",
+   "isoNum": "484",
+   "country": "Mexico",
+   "region": "Americas",
+   "crisis": "International Displacement to Mexico",
+   "crisisId": "MEX003",
+   "index": 5.8,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 1452000,
+   "displaced": 1452000,
+   "url": "https://www.acaps.org/country/Mexico/crisis/International-Displacement"
+  },
+  {
+   "iso3": "PHL",
+   "isoNum": "608",
+   "country": "Philippines",
+   "region": "Asia",
+   "crisis": "Multiple crises in the Philippines",
+   "crisisId": "PHL001",
+   "index": 5.8,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Cyclone",
+    "Floods"
+   ],
+   "pin": 1713000,
+   "displaced": 309000,
+   "url": "https://www.acaps.org/country/Philippines/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "JOR",
+   "isoNum": "400",
+   "country": "Jordan",
+   "region": "Middle east",
+   "crisis": "International displacement from Syria to Jordan",
+   "crisisId": "JOR002",
+   "index": 5.7,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 1640000,
+   "displaced": 1098000,
+   "url": "https://www.acaps.org/country/Jordan/crisis/Displacement-from-Syria"
+  },
+  {
+   "iso3": "DZA",
+   "isoNum": "012",
+   "country": "Algeria",
+   "region": "Africa",
+   "crisis": "Multiple crises in Algeria",
+   "crisisId": "DZA004",
+   "index": 5.6,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 446000,
+   "displaced": 446000,
+   "url": "https://www.acaps.org/country/Algeria/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "IDN",
+   "isoNum": "360",
+   "country": "Indonesia",
+   "region": "Asia",
+   "crisis": "Multiple crises in Indonesia",
+   "crisisId": "IDN007",
+   "index": 5.5,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence",
+    "Floods",
+    "Cyclone"
+   ],
+   "pin": 188000,
+   "displaced": 188000,
+   "url": "https://www.acaps.org/country/Indonesia/crisis/Multiple-crises"
+  },
+  {
+   "iso3": "TZA",
+   "isoNum": "834",
+   "country": "Tanzania",
+   "region": "Africa",
+   "crisis": "Multiple Crises in Tanzania",
+   "crisisId": "TZA001",
+   "index": 5.5,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement",
+    "Drought/drier conditions",
+    "Floods"
+   ],
+   "pin": 639000,
+   "displaced": 141000,
+   "url": "https://www.acaps.org/country/Tanzania/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "IDN",
+   "isoNum": "360",
+   "country": "Indonesia",
+   "region": "Asia",
+   "crisis": "Conflict in Papua",
+   "crisisId": "IDN002",
+   "index": 5.4,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "Conflict/ Violence"
+   ],
+   "pin": 127000,
+   "displaced": 127000,
+   "url": "https://www.acaps.org/country/Indonesia/crisis/Conflict-in-Papua"
+  },
+  {
+   "iso3": "NAM",
+   "isoNum": "516",
+   "country": "Namibia",
+   "region": "Africa",
+   "crisis": "Drought in Namibia",
+   "crisisId": "NAM002",
+   "index": 5.3,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Stable",
+   "reliability": "Medium",
+   "drivers": [
+    "Drought/drier conditions"
+   ],
+   "pin": 408000,
+   "displaced": 3000,
+   "url": "https://www.acaps.org/country/Namibia/crisis/Drought"
+  },
+  {
+   "iso3": "BRA",
+   "isoNum": "076",
+   "country": "Brazil",
+   "region": "Americas",
+   "crisis": "Displacement from Venezuela to Brazil",
+   "crisisId": "BRA002",
+   "index": 5.2,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 560000,
+   "displaced": 932000,
+   "url": "https://www.acaps.org/country/Brazil/crisis/Displacement-from-Venezuela"
+  },
+  {
+   "iso3": "SWZ",
+   "isoNum": "748",
+   "country": "Eswatini",
+   "region": "Africa",
+   "crisis": "Drought in Eswatini",
+   "crisisId": "SWZ001",
+   "index": 5.2,
+   "category": 3,
+   "label": "Medium",
+   "trend": "-",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions"
+   ],
+   "pin": 222000,
+   "displaced": null,
+   "url": "https://www.acaps.org/country/Eswatini/crisis/Drought"
+  },
+  {
+   "iso3": "BDI",
+   "isoNum": "108",
+   "country": "Burundi",
+   "region": "Africa",
+   "crisis": "Displacement from Eastern DRC",
+   "crisisId": "BDI004",
+   "index": 5.1,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 134000,
+   "displaced": 134000,
+   "url": "https://www.acaps.org/country/Burundi/crisis/Displacement-from-Eastern-DRC"
+  },
+  {
+   "iso3": "CHL",
+   "isoNum": "152",
+   "country": "Chile",
+   "region": "Americas",
+   "crisis": "Displacement from Venezuela to Chile",
+   "crisisId": "CHL002",
+   "index": 5.0,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 578000,
+   "displaced": 752000,
+   "url": "https://www.acaps.org/country/Chile/crisis/Displacement-from-Venezuela"
+  },
+  {
+   "iso3": "BEN",
+   "isoNum": "204",
+   "country": "Benin",
+   "region": "Africa",
+   "crisis": "Conflict in northern region of Benin",
+   "crisisId": "BEN002",
+   "index": 4.7,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence"
+   ],
+   "pin": 105000,
+   "displaced": 42000,
+   "url": "https://www.acaps.org/country/Benin/crisis/Conflict-in-the-Northern-region"
+  },
+  {
+   "iso3": "LSO",
+   "isoNum": "426",
+   "country": "Lesotho",
+   "region": "Africa",
+   "crisis": "Drought in Lesotho",
+   "crisisId": "LSO004",
+   "index": 4.7,
+   "category": 3,
+   "label": "Medium",
+   "trend": "-",
+   "reliability": "High",
+   "drivers": [
+    "Drought/drier conditions"
+   ],
+   "pin": 234000,
+   "displaced": null,
+   "url": "https://www.acaps.org/country/Lesotho/crisis/Drought"
+  },
+  {
+   "iso3": "CRI",
+   "isoNum": "188",
+   "country": "Costa Rica",
+   "region": "Americas",
+   "crisis": "Multiple Crises in Costa Rica",
+   "crisisId": "CRI001",
+   "index": 4.6,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Decreasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 244000,
+   "displaced": 261000,
+   "url": "https://www.acaps.org/country/Costa%20Rica/crisis/Multiple-Crises"
+  },
+  {
+   "iso3": "TGO",
+   "isoNum": "768",
+   "country": "Togo",
+   "region": "Africa",
+   "crisis": "Conflict in Savanes region",
+   "crisisId": "TGO002",
+   "index": 4.6,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "Conflict/ Violence"
+   ],
+   "pin": 142000,
+   "displaced": 13000,
+   "url": "https://www.acaps.org/country/Togo/crisis/Conflict-in-Savanes-region"
+  },
+  {
+   "iso3": "CIV",
+   "isoNum": "384",
+   "country": "Ivory Coast",
+   "region": "Africa",
+   "crisis": "Displacement from Burkina Faso to northern Côte d’Ivoire",
+   "crisisId": "CIV002",
+   "index": 4.5,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Medium",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 96000,
+   "displaced": 96000,
+   "url": "https://www.acaps.org/country/Ivory%20Coast/crisis/Displacement-from-Burkina-Faso"
+  },
+  {
+   "iso3": "THA",
+   "isoNum": "764",
+   "country": "Thailand",
+   "region": "Asia",
+   "crisis": "Displacement from Myanmar to Thailand",
+   "crisisId": "THA003",
+   "index": 4.4,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 137000,
+   "displaced": 137000,
+   "url": "https://www.acaps.org/country/Thailand/crisis/Displacement-from-Myanmar"
+  },
+  {
+   "iso3": "GRC",
+   "isoNum": "300",
+   "country": "Greece",
+   "region": "Europe",
+   "crisis": "International Displacement to Greece",
+   "crisisId": "GRC002",
+   "index": 4.3,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 87000,
+   "displaced": 87000,
+   "url": "https://www.acaps.org/country/Greece/crisis/International-Displacement"
+  },
+  {
+   "iso3": "DOM",
+   "isoNum": "214",
+   "country": "Dominican Republic",
+   "region": "Americas",
+   "crisis": "Displacement from Venezuela to Dominican Republic",
+   "crisisId": "DOM002",
+   "index": 4.2,
+   "category": 3,
+   "label": "Medium",
+   "trend": "Increasing",
+   "reliability": "Medium",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 70000,
+   "displaced": 104000,
+   "url": "https://www.acaps.org/country/Dominican%20Republic/crisis/Displacement-from-Venezuela"
+  },
+  {
+   "iso3": "TUN",
+   "isoNum": "788",
+   "country": "Tunisia",
+   "region": "Africa",
+   "crisis": "International displacement to Tunisia",
+   "crisisId": "TUN002",
+   "index": 4.0,
+   "category": 2,
+   "label": "Low",
+   "trend": "Stable",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 64000,
+   "displaced": 64000,
+   "url": "https://www.acaps.org/country/Tunisia/crisis/International-displacement"
+  },
+  {
+   "iso3": "ITA",
+   "isoNum": "380",
+   "country": "Italy",
+   "region": "Europe",
+   "crisis": "International Displacement to Italy",
+   "crisisId": "ITA002",
+   "index": 3.8,
+   "category": 2,
+   "label": "Low",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 110000,
+   "displaced": 110000,
+   "url": "https://www.acaps.org/country/Italy/crisis/International-displacement"
+  },
+  {
+   "iso3": "MYS",
+   "isoNum": "458",
+   "country": "Malaysia",
+   "region": "Asia",
+   "crisis": "International Displacement to Malaysia",
+   "crisisId": "MYS001",
+   "index": 3.8,
+   "category": 2,
+   "label": "Low",
+   "trend": "Stable",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 216000,
+   "displaced": 216000,
+   "url": "https://www.acaps.org/country/Malaysia/crisis/International-Displacement"
+  },
+  {
+   "iso3": "PAN",
+   "isoNum": "591",
+   "country": "Panama",
+   "region": "Americas",
+   "crisis": "Displacement from Venezuela to Panama",
+   "crisisId": "PAN002",
+   "index": 3.8,
+   "category": 2,
+   "label": "Low",
+   "trend": "Decreasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 49000,
+   "displaced": 75000,
+   "url": "https://www.acaps.org/country/Panama/crisis/Displacement-from-Venezuela"
+  },
+  {
+   "iso3": "MAR",
+   "isoNum": "504",
+   "country": "Morocco",
+   "region": "Africa",
+   "crisis": "International displacement to Morocco",
+   "crisisId": "MAR002",
+   "index": 3.6,
+   "category": 2,
+   "label": "Low",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 30000,
+   "displaced": 30000,
+   "url": "https://www.acaps.org/country/Morocco/crisis/International-displacement"
+  },
+  {
+   "iso3": "ESP",
+   "isoNum": "724",
+   "country": "Spain",
+   "region": "Europe",
+   "crisis": "International displacement to Spain",
+   "crisisId": "ESP002",
+   "index": 3.5,
+   "category": 2,
+   "label": "Low",
+   "trend": "Increasing",
+   "reliability": "Very High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 80000,
+   "displaced": 80000,
+   "url": "https://www.acaps.org/country/Spain/crisis/International-displacement"
+  },
+  {
+   "iso3": "TTO",
+   "isoNum": "780",
+   "country": "Trinidad and Tobago",
+   "region": "Americas",
+   "crisis": "Displacement from Venezuela to Trinidad and Tobago",
+   "crisisId": "TTO002",
+   "index": 3.4,
+   "category": 2,
+   "label": "Low",
+   "trend": "Increasing",
+   "reliability": "High",
+   "drivers": [
+    "International Displacement"
+   ],
+   "pin": 24000,
+   "displaced": 27000,
+   "url": "https://www.acaps.org/country/Trinidad%20and%20Tobago/crisis/Displacement-from-Venezuela"
+  }
+ ]
+}

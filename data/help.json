@@ -1,0 +1,2454 @@
+{
+ "checked": "2026-10-21",
+ "basedOn": "September 2026",
+ "orgs": {
+  "wfp": {
+   "name": "World Food Programme (WFP)",
+   "kind": "un",
+   "what": "Food and cash for families facing hunger.",
+   "donate": "https://www.wfp.org/support-us"
+  },
+  "unicef": {
+   "name": "UNICEF",
+   "kind": "un",
+   "what": "Children: nutrition, clean water, vaccines, schooling, protection.",
+   "donate": "https://www.unicef.org/take-action"
+  },
+  "unfpa": {
+   "name": "UN Population Fund (UNFPA)",
+   "kind": "un",
+   "what": "Safe childbirth and care for women and girls in crises.",
+   "donate": "https://www.unfpa.org/donate"
+  },
+  "unhcr": {
+   "name": "UNHCR, the UN Refugee Agency",
+   "kind": "un",
+   "what": "Shelter and protection for refugees and displaced families. Its country pages block automated checks, so this links its global appeal.",
+   "donate": null
+  },
+  "wck": {
+   "name": "World Central Kitchen",
+   "kind": "ngo",
+   "what": "Hot meals cooked near the crisis, often within days.",
+   "donate": "https://wck.org/donate/"
+  },
+  "icrc": {
+   "name": "International Committee of the Red Cross (ICRC)",
+   "kind": "ngo",
+   "what": "Neutral aid inside conflict zones: medical care, detainee visits, reuniting families.",
+   "donate": "https://www.icrc.org/en/donate"
+  },
+  "msf": {
+   "name": "Doctors Without Borders (MSF)",
+   "kind": "ngo",
+   "what": "Emergency medical care where health systems have failed.",
+   "donate": "https://www.msf.org/donate"
+  },
+  "irc": {
+   "name": "International Rescue Committee (IRC)",
+   "kind": "ngo",
+   "what": "Health, cash, safety and education for people uprooted by conflict.",
+   "donate": "https://help.rescue.org/donate"
+  },
+  "save": {
+   "name": "Save the Children",
+   "kind": "ngo",
+   "what": "Food, health and protection for children.",
+   "donate": null
+  },
+  "care": {
+   "name": "CARE",
+   "kind": "ngo",
+   "what": "Emergency aid and recovery with a focus on women and girls.",
+   "donate": "https://www.care.org/donate/"
+  },
+  "imc": {
+   "name": "International Medical Corps",
+   "kind": "ngo",
+   "what": "Emergency health care, nutrition and clean water.",
+   "donate": "https://internationalmedicalcorps.org/donate/"
+  }
+ },
+ "countries": {
+  "SSD": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/south-sudan",
+    "title": "South Sudan | World Food Programme"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/south-sudan",
+    "title": "South Sudan | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/south-sudan",
+    "title": "South Sudan | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/south-sudan",
+    "title": "Donate to help South Sudan | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/south-sudan/",
+    "title": "CARE's humanitarian work in South Sudan - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/south-sudan/",
+    "title": "South Sudan | International Medical Corps"
+   }
+  ],
+  "MMR": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/myanmar",
+    "title": "Myanmar | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/myanmar/",
+    "title": "UNICEF Myanmar"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/myanmar",
+    "title": "Myanmar | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/myanmar",
+    "title": "Myanmar | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/myanmar",
+    "title": "Myanmar | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/myanmar",
+    "title": "Myanmar (Burma) | International Rescue Committee"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/myanmar/",
+    "title": "CARE's humanitarian work in Myanmar - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/emergency-response/myanmar-earthquake/",
+    "title": "Responding to the Earthquake in Myanmar | International Medical Corps"
+   }
+  ],
+  "SDN": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/sudan",
+    "title": "Sudan | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/sudan/",
+    "title": "UNICEF Sudan"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/sudan",
+    "title": "Sudan | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/sudan",
+    "title": "Sudan | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/sudan",
+    "title": "Sudan | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/sudan",
+    "title": "Donate now | Sudan | International Rescue Committee (IRC)"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/sudan/",
+    "title": "CARE's humanitarian work in Sudan - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/sudan/",
+    "title": "Sudan: Medical Care, Nutrition and Clean Water Programs"
+   }
+  ],
+  "YEM": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/yemen",
+    "title": "Yemen | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/yemen/",
+    "title": "UNICEF Yemen"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/yemen",
+    "title": "Yemen | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/yemen",
+    "title": "Yemen | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/yemen",
+    "title": "Yemen | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/yemen",
+    "title": "Donate to help Yemen | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/yemen/",
+    "title": "CARE's Humanitarian Work in Yemen - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/yemen/",
+    "title": "Yemen | International Medical Corps"
+   }
+  ],
+  "AFG": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/afghanistan",
+    "title": "Afghanistan | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/afghanistan/",
+    "title": "UNICEF Afghanistan"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/afghanistan",
+    "title": "Afghanistan | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/afghanistan",
+    "title": "Our work in Afghanistan | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/afghanistan",
+    "title": "Afghanistan | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/afghanistan",
+    "title": "Donate to help Afghanistan | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/afghanistan/",
+    "title": "CARE's Humanitarian Work in Afghanistan - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/afghanistan/",
+    "title": "Afghanistan: Humanitarian Aid, Healthcare and Emergency Relief"
+   }
+  ],
+  "UKR": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/ukraine",
+    "title": "Ukraine | World Food Programme"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/ukraine",
+    "title": "Ukraine | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/ukraine",
+    "title": "Ukraine | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/ukraine",
+    "title": "Ukraine | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/ukraine",
+    "title": "Donate to help Ukraine | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/ukraine/",
+    "title": "CARE's Humanitarian Work in Ukraine - Donate to Ukraine - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/ukraine/",
+    "title": "Ukraine | International Medical Corps"
+   }
+  ],
+  "HTI": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/haiti",
+    "title": "Haiti | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/haiti/",
+    "title": "UNICEF Haiti | UNICEF"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/haiti",
+    "title": "Haiti | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/haiti",
+    "title": "Haiti | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/haiti",
+    "title": "Haiti | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/haiti/",
+    "title": "CARE's Humanitarian Work in Haiti - Haiti Relief - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/haiti/",
+    "title": "Haiti | International Medical Corps"
+   }
+  ],
+  "COD": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/democratic-republic-congo",
+    "title": "Democratic Republic of the Congo | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/drcongo/",
+    "title": "UNICEF Republique Democratique du Congo"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/democratic-republic-congo",
+    "title": "Democratic Republic of the Congo | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/democratic-republic-congo",
+    "title": "Our work in Democratic Republic of the Congo | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/democratic-republic-congo-drc",
+    "title": "Democratic Republic of Congo (DRC) | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/democratic-republic-congo",
+    "title": "Donate to help Democratic Republic of Congo | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/democratic-republic-of-the-congo/",
+    "title": "CARE's Humanitarian Work in Democratic Republic of the Congo - CARE"
+   }
+  ],
+  "SYR": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/syrian-arab-republic",
+    "title": "Syria | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/syria/",
+    "title": "UNICEF Syrian Arab Republic"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/syrian-arab-republic",
+    "title": "Syrian Arab Republic | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/syria",
+    "title": "Syria | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/syria",
+    "title": "Syria | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/syria",
+    "title": "Donate to help Syria | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/syria/",
+    "title": "CARE's Humanitarian Work in Syria - Donate to Syria - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/syria/",
+    "title": "Syria | International Medical Corps"
+   }
+  ],
+  "SOM": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/somalia",
+    "title": "Somalia | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/somalia/",
+    "title": "UNICEF Somalia | UNICEF Somalia"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/somalia",
+    "title": "Somalia | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/somalia",
+    "title": "Somalia | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/somalia",
+    "title": "Somalia | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/somalia",
+    "title": "Donate to help Somalia | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/somalia/",
+    "title": "CARE's humanitarian work in Somalia - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/somalia/",
+    "title": "Somalia: Healthcare, Training and Local Partnerships"
+   }
+  ],
+  "ETH": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/ethiopia",
+    "title": "Ethiopia | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/ethiopia/",
+    "title": "UNICEF Ethiopia"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/ethiopia",
+    "title": "Ethiopia | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/ethiopia",
+    "title": "Ethiopia | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/ethiopia",
+    "title": "Ethiopia | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/ethiopia/",
+    "title": "CARE's Humanitarian Work in Ethiopia - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/ethiopia/",
+    "title": "Ethiopia: Drought, Displaced People and Humanitarian Aid"
+   }
+  ],
+  "MLI": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/mali",
+    "title": "Mali | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/mali/",
+    "title": "UNICEF Mali"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/mali",
+    "title": "Mali | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/mali",
+    "title": "Mali | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/mali",
+    "title": "Donate to help Mali | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/mali/",
+    "title": "CARE's humanitarian work in Mali - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/mali/",
+    "title": "Mali | International Medical Corps"
+   }
+  ],
+  "IRN": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/iran-islamic-republic",
+    "title": "Iran | World Food Programme"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/iran",
+    "title": "Iran | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/iran",
+    "title": "Iran | MSF medical and humanitarian aid"
+   }
+  ],
+  "COL": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/colombia",
+    "title": "Colombia | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/colombia/",
+    "title": "UNICEF Colombia"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/colombia",
+    "title": "Colombia | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/colombia",
+    "title": "Our work in Colombia | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/colombia",
+    "title": "Colombia | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/colombia",
+    "title": "Donate to help Colombia | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/colombia/",
+    "title": "CARE's Humanitarian Work in Colombia - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/colombia/",
+    "title": "Colombia | International Medical Corps"
+   }
+  ],
+  "NGA": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/nigeria",
+    "title": "Nigeria | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/nigeria/",
+    "title": "UNICEF Nigeria | UNICEF Nigeria"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/nigeria",
+    "title": "Nigeria | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/nigeria",
+    "title": "Nigeria | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/nigeria",
+    "title": "Nigeria | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/nigeria",
+    "title": "Donate to help Nigeria | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/nigeria/",
+    "title": "CARE's humanitarian work in Nigeria - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/nigeria/",
+    "title": "Nigeria | International Medical Corps"
+   }
+  ],
+  "VEN": [
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/venezuela/",
+    "title": "UNICEF Venezuela"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/venezuela-bolivarian-republic",
+    "title": "Venezuela (Bolivarian Republic of) | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/venezuela",
+    "title": "Venezuela | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/venezuela",
+    "title": "Venezuela | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/venezuela",
+    "title": "Donate now to help people in Venezuela"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/venezuela/",
+    "title": "CARE's humanitarian work in Venezuela - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/venezuela/",
+    "title": "Venezuela | International Medical Corps"
+   }
+  ],
+  "BFA": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/burkina-faso",
+    "title": "Burkina Faso | World Food Programme"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/burkina-faso",
+    "title": "Burkina Faso | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/burkina-faso",
+    "title": "Our work in Burkina Faso | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/burkina-faso",
+    "title": "Burkina Faso | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/burkina-faso",
+    "title": "Donate to help Burkina Faso | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/burkina-faso/",
+    "title": "CARE's Humanitarian Work in Burkina Faso - CARE"
+   }
+  ],
+  "TCD": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/chad",
+    "title": "Chad | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/chad/",
+    "title": "UNICEF Chad | UNICEF Chad"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/chad",
+    "title": "Chad | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/chad",
+    "title": "Chad | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/chad",
+    "title": "Chad | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/chad",
+    "title": "Donate to help Chad | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/chad/",
+    "title": "CARE's Humanitarian Work in Chad - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/chad/",
+    "title": "Chad | International Medical Corps"
+   }
+  ],
+  "PAK": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/pakistan",
+    "title": "Pakistan | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/pakistan/",
+    "title": "UNICEF Pakistan"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/pakistan",
+    "title": "Pakistan | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/pakistan",
+    "title": "Pakistan | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/pakistan",
+    "title": "Donate to help Pakistan | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/pakistan/",
+    "title": "CARE's humanitarian work in PakistanPakistan - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/pakistan/",
+    "title": "Pakistan: Health, Mental Health and Flood Response"
+   }
+  ],
+  "CMR": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/cameroon",
+    "title": "Cameroon | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/cameroon/",
+    "title": "UNICEF in Cameroon | UNICEF Cameroon"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/cameroon",
+    "title": "Cameroon | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/cameroon",
+    "title": "Our work in Cameroon | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/cameroon",
+    "title": "Cameroon | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/cameroon",
+    "title": "Donate to help Cameroon | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/cameroon/",
+    "title": "CARE's Humanitarian Work in Cameroon - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/cameroon/",
+    "title": "Cameroon | International Medical Corps"
+   }
+  ],
+  "LBN": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/lebanon",
+    "title": "Lebanon | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/lebanon/",
+    "title": "UNICEF Lebanon"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/lebanon",
+    "title": "Lebanon | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/lebanon",
+    "title": "Lebanon | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/lebanon",
+    "title": "Lebanon | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/lebanon",
+    "title": "Donate to help people in Lebanon | The IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/lebanon/",
+    "title": "CARE's humanitarian work in Lebanon - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/lebanon/",
+    "title": "Lebanon | International Medical Corps"
+   }
+  ],
+  "CAF": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/central-african-republic",
+    "title": "Central African Republic | World Food Programme"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/central-african-republic",
+    "title": "Our work in Central African Republic | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/central-african-republic",
+    "title": "Central African Republic | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/central-african-republic",
+    "title": "Central African Republic | International Rescue Committee"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/central-african-republic/",
+    "title": "Central African Republic | International Medical Corps"
+   }
+  ],
+  "PSE": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/palestine",
+    "title": "Palestine | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/sop/",
+    "title": "UNICEF State of Palestine"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/occupied-palestinian-territory",
+    "title": "Occupied Palestinian Territory | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/israel-and-occupied-territories",
+    "title": "Israel and the occupied territories | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/palestine",
+    "title": "Palestine | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/palestine/",
+    "title": "CARE's Humanitarian Work in Palestine (West Bank/Gaza) - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/gaza/",
+    "title": "Gaza: Providing Lifesaving Care amid War | International Medical Corps"
+   }
+  ],
+  "NER": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/niger",
+    "title": "Niger | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/niger/",
+    "title": "UNICEF Niger"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/niger",
+    "title": "Niger | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/niger",
+    "title": "Donate to help Niger | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/niger/",
+    "title": "CARE's humanitarian work in Niger - CARE"
+   }
+  ],
+  "ECU": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/ecuador",
+    "title": "Ecuador | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/ecuador/",
+    "title": "UNICEF Ecuador"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/ecuador",
+    "title": "Ecuador | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/ecuador",
+    "title": "Ecuador | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/ecuador",
+    "title": "Ecuador | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/ecuador",
+    "title": "Donate to help Ecuador | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/ecuador/",
+    "title": "CARE's Humanitarian Work in Ecuador - CARE"
+   }
+  ],
+  "LBY": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/libya",
+    "title": "Libya | World Food Programme"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/libya",
+    "title": "Libya | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/libya",
+    "title": "Libya | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/libya",
+    "title": "Donate to help Libya | IRC"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/libya/",
+    "title": "Libya: Mobile Teams, Mental Health Services and Clean Water"
+   }
+  ],
+  "GTM": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/guatemala",
+    "title": "Guatemala | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/guatemala/",
+    "title": "UNICEF Guatemala"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/guatemala",
+    "title": "Guatemala | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/guatemala",
+    "title": "Guatemala | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/guatemala/",
+    "title": "CARE's Humanitarian Work in Guatemala - CARE"
+   }
+  ],
+  "BGD": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/bangladesh",
+    "title": "Bangladesh | World Food Programme"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/bangladesh",
+    "title": "Bangladesh | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/bangladesh",
+    "title": "Our work in Bangladesh | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/bangladesh",
+    "title": "Bangladesh | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/bangladesh",
+    "title": "Donate to help Bangladesh | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/bangladesh/",
+    "title": "CARE's Humanitarian Work in Bangladesh - CARE"
+   }
+  ],
+  "CUB": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/cuba",
+    "title": "Cuba | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/cuba/",
+    "title": "UNICEF Cuba | UNICEF"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/cuba",
+    "title": "Cuba | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/cuba",
+    "title": "Cuba | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/cuba/",
+    "title": "CARE's Humanitarian Work in Cuba - CARE"
+   }
+  ],
+  "TUR": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/turkiye",
+    "title": "Türkiye | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/turkiye/",
+    "title": "UNICEF Turkiye"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/t%C3%BCrkiye",
+    "title": "Türkiye | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/turkiye",
+    "title": "Turkey | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/turkiye/",
+    "title": "CARE's humanitarian work in Türkiye - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/turkey/",
+    "title": "Turkey | International Medical Corps"
+   }
+  ],
+  "HND": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/honduras",
+    "title": "Honduras | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/honduras/",
+    "title": "UNICEF Honduras | UNICEF"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/honduras",
+    "title": "Honduras | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/honduras",
+    "title": "Honduras | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/honduras",
+    "title": "Donate to help Honduras | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/honduras/",
+    "title": "CARE's Humanitarian Work in Honduras - CARE"
+   }
+  ],
+  "IRQ": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/iraq",
+    "title": "Iraq | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/iraq/",
+    "title": "UNICEF Iraq"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/iraq",
+    "title": "Iraq | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/iraq",
+    "title": "Iraq | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/iraq",
+    "title": "Donate to help Iraq | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/iraq/",
+    "title": "CARE's Humanitarian Work in Iraq - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/iraq/",
+    "title": "Iraq | International Medical Corps"
+   }
+  ],
+  "KEN": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/kenya",
+    "title": "Kenya | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/kenya/",
+    "title": "UNICEF Kenya | UNICEF Kenya"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/kenya",
+    "title": "Kenya | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/kenya",
+    "title": "Kenya | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/kenya",
+    "title": "Kenya | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/kenya",
+    "title": "Donate to help Kenya | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/kenya/",
+    "title": "CARE's humanitarian work in Kenya - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/kenya/",
+    "title": "Kenya | International Medical Corps"
+   }
+  ],
+  "MWI": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/malawi",
+    "title": "Malawi | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/malawi/",
+    "title": "UNICEF Malawi"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/malawi",
+    "title": "Malawi | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/malawi/",
+    "title": "CARE's humanitarian work in Malawi - CARE"
+   }
+  ],
+  "ERI": [
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/eritrea",
+    "title": "Eritrea | MSF medical and humanitarian aid"
+   }
+  ],
+  "ZMB": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/zambia",
+    "title": "Zambia | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/zambia/",
+    "title": "UNICEF Zambia"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/zambia",
+    "title": "Zambia | United Nations Population Fund"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/zambia",
+    "title": "Zambia | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/zambia/",
+    "title": "CARE's humanitarian work in Zambia - CARE"
+   }
+  ],
+  "DJI": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/djibouti",
+    "title": "Djibouti | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/djibouti/",
+    "title": "UNICEF Djibouti | UNICEF"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/djibouti",
+    "title": "Djibouti | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/djibouti",
+    "title": "Djibouti | MSF medical and humanitarian aid"
+   }
+  ],
+  "PER": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/peru",
+    "title": "Peru | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/peru/",
+    "title": "UNICEF Peru"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/peru",
+    "title": "Peru | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/peru",
+    "title": "Peru | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/peru",
+    "title": "Peru | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/peru",
+    "title": "Donate to help Peru | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/peru/",
+    "title": "CARE's humanitarian work in Peru - CARE"
+   }
+  ],
+  "MRT": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/mauritania",
+    "title": "Mauritania | World Food Programme"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/mauritania",
+    "title": "Mauritania | MSF medical and humanitarian aid"
+   }
+  ],
+  "EGY": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/egypt",
+    "title": "Egypt | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/egypt/",
+    "title": "UNICEF Egypt"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/egypt",
+    "title": "Egypt | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/egypt",
+    "title": "Egypt | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/egypt",
+    "title": "Egypt | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/egypt/",
+    "title": "CARE's Humanitarian Work in Egypt - CARE"
+   }
+  ],
+  "SLV": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/el-salvador",
+    "title": "El Salvador | World Food Programme"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/el-salvador",
+    "title": "El Salvador | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/el-salvador",
+    "title": "El Salvador | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/el-salvador",
+    "title": "Donate to help El Salvador | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/el-salvador/",
+    "title": "CARE's Humanitarian Work in El Salvador - CARE"
+   }
+  ],
+  "MEX": [
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/mexico/",
+    "title": "UNICEF Mexico | Para cada infancia"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/mexico",
+    "title": "Mexico | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/mexico",
+    "title": "Mexico | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/mexico",
+    "title": "Donate to help Mexico | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/mexico/",
+    "title": "CARE's humanitarian work Mexico - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/mexico/",
+    "title": "Mexico | International Medical Corps"
+   }
+  ],
+  "PHL": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/philippines",
+    "title": "Philippines | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/philippines/",
+    "title": "UNICEF Philippines"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/philippines",
+    "title": "Philippines | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/philippines",
+    "title": "Philippines | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/philippines/",
+    "title": "CARE's humanitarian work in the Philippines - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/philippines/",
+    "title": "Philippines: Typhoons, Earthquakes and Healthcare"
+   }
+  ],
+  "JOR": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/jordan",
+    "title": "Jordan | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/jordan/",
+    "title": "UNICEF Jordan"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/jordan",
+    "title": "Jordan | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/jordan",
+    "title": "Jordan | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/jordan",
+    "title": "Donate to help Jordan | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/jordan/",
+    "title": "CARE's Humanitarian Work in Jordan - How to Help Jordan - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/jordan/",
+    "title": "Jordan | International Medical Corps"
+   }
+  ],
+  "DZA": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/algeria",
+    "title": "Algeria | World Food Programme"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/algeria",
+    "title": "Algeria | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/algeria",
+    "title": "Algeria | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/algeria",
+    "title": "Algeria | MSF medical and humanitarian aid"
+   }
+  ],
+  "IDN": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/indonesia",
+    "title": "Indonesia | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/indonesia/",
+    "title": "UNICEF Indonesia"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/indonesia",
+    "title": "Indonesia | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/indonesia/",
+    "title": "CARE's Humanitarian Work in Indonesia - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/indonesia/",
+    "title": "Indonesia | International Medical Corps"
+   }
+  ],
+  "TZA": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/tanzania",
+    "title": "Tanzania | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/tanzania/",
+    "title": "UNICEF United Republic of Tanzania"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/tanzania",
+    "title": "Tanzania | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/tanzania",
+    "title": "Donate to help Tanzania | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/tanzania/",
+    "title": "CARE's humanitarian work in Tanzania - CARE"
+   }
+  ],
+  "NAM": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/namibia",
+    "title": "Namibia | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/namibia/",
+    "title": "Home | UNICEF Namibia"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   }
+  ],
+  "BRA": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/brazil",
+    "title": "Brazil | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/brazil",
+    "title": "Brazil | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/brazil",
+    "title": "Brazil | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/brazil/",
+    "title": "CARE's Humanitarian Work in Brazil - CARE"
+   }
+  ],
+  "BDI": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/burundi",
+    "title": "Burundi | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/burundi/",
+    "title": "UNICEF in Burundi | UNICEF Burundi"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/burundi",
+    "title": "Our work in Burundi | ICRC"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/burundi",
+    "title": "Burundi | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/burundi",
+    "title": "Donate to help Burundi | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/burundi/",
+    "title": "CARE's Humanitarian Work in Burundi - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/country/burundi/",
+    "title": "Burundi | International Medical Corps"
+   }
+  ],
+  "SWZ": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/eswatini",
+    "title": "Eswatini | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/eswatini/",
+    "title": "UNICEF in Eswatini | UNICEF Eswatini"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/eswatini",
+    "title": "Eswatini | MSF medical and humanitarian aid"
+   }
+  ],
+  "CHL": [
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/chile",
+    "title": "Chile | MSF medical and humanitarian aid"
+   }
+  ],
+  "BEN": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/benin",
+    "title": "Benin | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/benin/",
+    "title": "UNICEF Benin | UNICEF"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/benin",
+    "title": "Benin | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/benin/",
+    "title": "CARE's Humanitarian Work in Benin - CARE"
+   }
+  ],
+  "LSO": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/lesotho",
+    "title": "Lesotho | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/lesotho/",
+    "title": "UNICEF Lesotho | UNICEF Lesotho"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/lesotho",
+    "title": "Lesotho | United Nations Population Fund"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/lesotho",
+    "title": "Lesotho | MSF medical and humanitarian aid"
+   }
+  ],
+  "TGO": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/togo",
+    "title": "Togo | World Food Programme"
+   },
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/togo/",
+    "title": "L'UNICEF au TOGO | UNICEF"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/togo",
+    "title": "Togo | International Committee of the Red Cross"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/togo/",
+    "title": "CARE's humanitarian work in Togo - CARE"
+   }
+  ],
+  "CRI": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/costa-rica",
+    "title": "Costa Rica | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/costa-rica",
+    "title": "Costa Rica | MSF"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/costa-rica/",
+    "title": "CARE's Humanitarian Work in Costa Rica - CARE"
+   }
+  ],
+  "THA": [
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/thailand/",
+    "title": "UNICEF Thailand"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/thailand",
+    "title": "Thailand | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/thailand",
+    "title": "Thailand | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/thailand",
+    "title": "Thailand | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/thailand",
+    "title": "Donate to help Thailand | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/thailand/",
+    "title": "CARE's humanitarian work in Thailand - CARE"
+   }
+  ],
+  "CIV": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/cote-divoire",
+    "title": "Côte d'Ivoire | World Food Programme"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/cote-divoire",
+    "title": "Côte d'Ivoire | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/cote-divoire",
+    "title": "Côte d'Ivoire | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/ivory-coast",
+    "title": "Donate to help Côte d’Ivoire | IRC"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/cote-divoire/",
+    "title": "CARE's Humanitarian Work in Côte-d'Ivoire - CARE"
+   }
+  ],
+  "GRC": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/greece",
+    "title": "Greece | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/greece",
+    "title": "Greece | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/greece",
+    "title": "Greece | International Rescue Committee"
+   }
+  ],
+  "DOM": [
+   {
+    "org": "wfp",
+    "url": "https://www.wfp.org/countries/dominican-republic",
+    "title": "Dominican Republic | World Food Programme"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/dominican-republic",
+    "title": "Dominican Republic | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/dominican-republic/",
+    "title": "CARE's Humanitarian Work in Dominican Republic - CARE"
+   }
+  ],
+  "TUN": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/tunisia",
+    "title": "Tunisia | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/tunisia",
+    "title": "Tunisia | MSF medical and humanitarian aid"
+   }
+  ],
+  "MYS": [
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/malaysia/",
+    "title": "UNICEF Malaysia"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/malaysia",
+    "title": "Malaysia | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/malaysia",
+    "title": "Malaysia | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/malaysia",
+    "title": "Malaysia | International Rescue Committee"
+   }
+  ],
+  "ITA": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/donor/italy",
+    "title": "Italy | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/italy",
+    "title": "Italy | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "irc",
+    "url": "https://www.rescue.org/country/italy",
+    "title": "Italy | International Rescue Committee"
+   }
+  ],
+  "PAN": [
+   {
+    "org": "unicef",
+    "url": "https://www.unicef.org/panama/",
+    "title": "UNICEF Panama"
+   },
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/panama",
+    "title": "Panama | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "icrc",
+    "url": "https://www.icrc.org/en/where-we-work/panama",
+    "title": "Panama | International Committee of the Red Cross"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/panama",
+    "title": "Panama | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/panama/",
+    "title": "CARE's Humanitarian Work in Panama - CARE"
+   }
+  ],
+  "MAR": [
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/morocco",
+    "title": "Morocco | MSF medical and humanitarian aid"
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/morocco/",
+    "title": "CARE's Humanitarian Work in Morocco - Focus on Rural Youth - CARE"
+   },
+   {
+    "org": "imc",
+    "url": "https://internationalmedicalcorps.org/emergency-response/morocco/",
+    "title": "Responding to the Earthquake in Morocco | International Medical Corps"
+   }
+  ],
+  "ESP": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/donor/spain",
+    "title": "Spain | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "wck",
+    "url": "https://wck.org/relief/",
+    "general": true,
+    "note": "Named on WCK's Relief page"
+   },
+   {
+    "org": "msf",
+    "url": "https://www.msf.org/spain",
+    "title": "Spain | MSF medical and humanitarian aid"
+   }
+  ],
+  "TTO": [
+   {
+    "org": "unfpa",
+    "url": "https://www.unfpa.org/trinidad-and-tobago",
+    "title": "Trinidad and Tobago | United Nations Population Fund"
+   },
+   {
+    "org": "unhcr",
+    "url": "https://donate.unhcr.org/int/en/general",
+    "general": true
+   },
+   {
+    "org": "care",
+    "url": "https://www.care.org/our-work/where-we-work/trinidad-and-tobago/",
+    "title": "CARE's Humanitarian Work in Trinidad and Tobago - CARE"
+   }
+  ]
+ },
+ "general": {
+  "check": [
+   {
+    "name": "Charity Navigator",
+    "url": "https://www.charitynavigator.org/",
+    "what": "Ratings and finances for US charities."
+   },
+   {
+    "name": "BBB Wise Giving Alliance",
+    "url": "https://give.org/",
+    "what": "Checks charities against 20 accountability standards."
+   }
+  ],
+  "civic": [
+   {
+    "name": "Register or check your registration (USAGov)",
+    "url": "https://www.usa.gov/register-to-vote",
+    "what": "Official US government guide, by state."
+   },
+   {
+    "name": "VOTE411",
+    "url": "https://www.vote411.org/",
+    "what": "Nonpartisan voter guide from the League of Women Voters Education Fund."
+   },
+   {
+    "name": "Ballotpedia",
+    "url": "https://ballotpedia.org/Main_Page",
+    "what": "Nonpartisan encyclopedia of candidates and ballot measures."
+   },
+   {
+    "name": "Find your US Representative",
+    "url": "https://www.house.gov/representatives/find-your-representative",
+    "what": "Look up by ZIP code."
+   },
+   {
+    "name": "Contact your US Senators",
+    "url": "https://www.senate.gov/senators/senators-contact.htm",
+    "what": "Phone, mail and web forms."
+   },
+   {
+    "name": "Find and contact elected officials (USAGov)",
+    "url": "https://www.usa.gov/elected-officials",
+    "what": "Federal, state and local."
+   }
+  ],
+  "act": [
+   {
+    "name": "Map for responders (HOT Tasking Manager)",
+    "url": "https://tasks.hotosm.org/",
+    "what": "Trace roads and buildings from satellite imagery so aid teams can find people. Remote, free training."
+   },
+   {
+    "name": "Missing Maps",
+    "url": "https://missingmaps.org/",
+    "what": "Mapping events and beginner guides for the same work."
+   },
+   {
+    "name": "Translators without Borders",
+    "url": "https://translatorswithoutborders.org/meet-the-twb-community/",
+    "what": "Volunteer translation for aid groups."
+   },
+   {
+    "name": "Volunteer with refugees near you (IRC)",
+    "url": "https://www.rescue.org/volunteer",
+    "what": "Help families who have already arrived."
+   },
+   {
+    "name": "Volunteer with the American Red Cross",
+    "url": "https://www.redcross.org/volunteer/become-a-volunteer.html",
+    "what": "Local disaster response and blood drives."
+   }
+  ]
+ }
+}

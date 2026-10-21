@@ -1,0 +1,703 @@
+{
+ "checked": "2026-10-21",
+ "limits": {
+  "officerPay": 0.02,
+  "fundraisingFees": 0.05,
+  "filingAgeYears": 3
+ },
+ "sources": {
+  "pub78": "https://apps.irs.gov/pub/epostcard/data-download-pub78.zip",
+  "teos": "https://apps.irs.gov/app/eos/",
+  "ofac": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
+  "ofacSearch": "https://sanctionssearch.ofac.treas.gov/",
+  "propublica": "https://projects.propublica.org/nonprofits/",
+  "pub78Date": "2026-10-13"
+ },
+ "method": "Public signals only. Nobody can measure corruption from outside an organization; these checks look for the traces trouble tends to leave. A failed check is a reason to look closer, not a finding of wrongdoing.",
+ "orgs": {
+  "wfp": {
+   "usName": "World Food Program USA (Friends of the World Food Program Inc.)",
+   "ein": "13-3843435",
+   "pub78Code": "PC",
+   "usSite": "https://www.wfpusa.org/donate/",
+   "year": 2023,
+   "revenue": 137489045,
+   "expenses": 140087871,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "Friends of the World Food Program Inc., EIN 13-3843435, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F133843435_202309_990_2024120622936518.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.9% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/133843435"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 1.3% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/133843435"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/133843435"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/133843435",
+    "charityNavigator": "https://www.charitynavigator.org/ein/133843435",
+    "bbb": "https://give.org/search?term=World%20Food%20Program%20USA"
+   }
+  },
+  "unicef": {
+   "usName": "UNICEF USA (United States Fund for UNICEF)",
+   "ein": "13-1760110",
+   "pub78Code": "PC",
+   "usSite": null,
+   "year": 2023,
+   "revenue": 829050932,
+   "expenses": 857921084,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "United States Fund for Unicef, EIN 13-1760110, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_06-16%2F131760110_202306_990_2024050722385081.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.4% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/131760110"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 2.5% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/131760110"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/131760110"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/131760110",
+    "charityNavigator": "https://www.charitynavigator.org/ein/131760110",
+    "bbb": "https://give.org/search?term=UNICEF%20USA"
+   }
+  },
+  "unfpa": {
+   "usName": "USA for UNFPA",
+   "ein": "13-3996346",
+   "pub78Code": "PC",
+   "usSite": "https://www.usaforunfpa.org/",
+   "year": 2023,
+   "revenue": 5721084,
+   "expenses": 5515460,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "USA for Unfpa Inc., EIN 13-3996346, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F133996346_202312_990_2025013123062379.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": false,
+     "detail": "Officers were paid 7.5% of total spending in 2023. It spent $5.5 million that year; small charities usually show a higher share.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/133996346"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.0% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/133996346"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/133996346"
+    }
+   ],
+   "passed": 5,
+   "total": 6,
+   "flags": [
+    "Officer pay at most 2.0% of spending"
+   ],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/133996346",
+    "charityNavigator": "https://www.charitynavigator.org/ein/133996346",
+    "bbb": "https://give.org/search?term=USA%20for%20UNFPA"
+   }
+  },
+  "unhcr": {
+   "usName": "USA for UNHCR (United States Association for UNHCR)",
+   "ein": "52-1662800",
+   "pub78Code": "PC",
+   "usSite": null,
+   "year": 2023,
+   "revenue": 147651730,
+   "expenses": 146362750,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "United States Association for Unhcr, EIN 52-1662800, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F521662800_202312_990_2025011723013867.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 1.0% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/521662800"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.8% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/521662800"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/521662800"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/521662800",
+    "charityNavigator": "https://www.charitynavigator.org/ein/521662800",
+    "bbb": "https://give.org/search?term=USA%20for%20UNHCR"
+   }
+  },
+  "wck": {
+   "usName": "World Central Kitchen Incorporated",
+   "ein": "27-3521132",
+   "pub78Code": "PC",
+   "usSite": "https://wck.org/donate/",
+   "year": 2023,
+   "revenue": 241549612,
+   "expenses": 277007098,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "World Central Kitchen Incorporated, EIN 27-3521132, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F273521132_202312_990_2025030323142799.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.6% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/273521132"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.0% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/273521132"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/273521132"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/273521132",
+    "charityNavigator": "https://www.charitynavigator.org/ein/273521132",
+    "bbb": "https://give.org/search?term=World%20Central%20Kitchen%20Incorporated"
+   }
+  },
+  "icrc": {
+   "usName": "International Committee of the Red Cross",
+   "ein": "98-6001029",
+   "pub78Code": "FORGN",
+   "usSite": "https://www.icrc.org/en/donate",
+   "year": 2023,
+   "revenue": 2869016586,
+   "expenses": 2534057529,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "International Committee of the Red Cross, EIN 98-6001029, is on the IRS Publication 78 list (as a foreign-addressed organization).",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F986001029_202312_990_2025021923111668.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.3% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/986001029"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.0% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/986001029"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/986001029"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/986001029",
+    "charityNavigator": "https://www.charitynavigator.org/ein/986001029",
+    "bbb": "https://give.org/search?term=International%20Committee%20of%20the%20Red%20Cross"
+   }
+  },
+  "msf": {
+   "usName": "Doctors Without Borders USA (Medecins Sans Frontieres USA Inc.)",
+   "ein": "13-3433452",
+   "pub78Code": "PC",
+   "usSite": null,
+   "year": 2023,
+   "revenue": 767362916,
+   "expenses": 856531073,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "Medecins Sans Frontieres USA Inc., EIN 13-3433452, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F133433452_202312_990_2025021123091453.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.4% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/133433452"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 3.4% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/133433452"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/133433452"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/133433452",
+    "charityNavigator": "https://www.charitynavigator.org/ein/133433452",
+    "bbb": "https://give.org/search?term=Doctors%20Without%20Borders%20USA"
+   }
+  },
+  "irc": {
+   "usName": "International Rescue Committee Inc.",
+   "ein": "13-5660870",
+   "pub78Code": "PC",
+   "usSite": "https://help.rescue.org/donate",
+   "year": 2023,
+   "revenue": 1341268864,
+   "expenses": 1428761701,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "International Rescue Committee Inc., EIN 13-5660870, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/135660870"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.3% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/135660870"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.8% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/135660870"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/135660870"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/135660870",
+    "charityNavigator": "https://www.charitynavigator.org/ein/135660870",
+    "bbb": "https://give.org/search?term=International%20Rescue%20Committee%20Inc."
+   }
+  },
+  "save": {
+   "usName": "Save the Children Federation Inc.",
+   "ein": "06-0726487",
+   "pub78Code": "PC",
+   "usSite": null,
+   "year": 2023,
+   "revenue": 919334410,
+   "expenses": 956686118,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "Save the Children Federation Inc., EIN 06-0726487, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F060726487_202312_990_2025021023082706.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.8% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/60726487"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 1.0% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/60726487"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/060726487"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/60726487",
+    "charityNavigator": "https://www.charitynavigator.org/ein/060726487",
+    "bbb": "https://give.org/search?term=Save%20the%20Children%20Federation%20Inc."
+   }
+  },
+  "care": {
+   "usName": "CARE USA (Cooperative for Assistance and Relief Everywhere Inc.)",
+   "ein": "13-1685039",
+   "pub78Code": "PC",
+   "usSite": "https://www.care.org/donate/",
+   "year": 2024,
+   "revenue": 909098267,
+   "expenses": 929368410,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "C A R E, Inc., EIN 13-1685039, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2024 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=IRS%2F131685039_202406_990_2025041123351237.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.4% of total spending in 2024.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/131685039"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.6% of revenue in 2024.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/131685039"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/131685039"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/131685039",
+    "charityNavigator": "https://www.charitynavigator.org/ein/131685039",
+    "bbb": "https://give.org/search?term=CARE%20USA"
+   }
+  },
+  "imc": {
+   "usName": "International Medical Corps",
+   "ein": "95-3949646",
+   "pub78Code": "PC",
+   "usSite": "https://internationalmedicalcorps.org/donate/",
+   "year": 2023,
+   "revenue": 220271304,
+   "expenses": 227023999,
+   "checks": [
+    {
+     "id": "deductible",
+     "label": "Tax-deductible in the US",
+     "pass": true,
+     "detail": "International Medical Corps, EIN 95-3949646, is on the IRS Publication 78 list.",
+     "link": "https://apps.irs.gov/app/eos/"
+    },
+    {
+     "id": "files",
+     "label": "Files its tax return in public",
+     "pass": true,
+     "detail": "Form 990 for 2023 is public.",
+     "link": "https://projects.propublica.org/nonprofits/download-filing?path=download990pdf_05_2024_prefixes_94-99%2F953949646_202306_990_2024050722385577.pdf"
+    },
+    {
+     "id": "officerPay",
+     "label": "Officer pay at most 2.0% of spending",
+     "pass": true,
+     "detail": "Officers were paid 0.7% of total spending in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/953949646"
+    },
+    {
+     "id": "fundraisers",
+     "label": "Paid outside fundraisers at most 5.0% of revenue",
+     "pass": true,
+     "detail": "Professional fundraising fees were 0.2% of revenue in 2023.",
+     "link": "https://projects.propublica.org/nonprofits/organizations/953949646"
+    },
+    {
+     "id": "sanctions",
+     "label": "Not on the US sanctions list",
+     "pass": true,
+     "detail": "No match on the Treasury OFAC SDN list.",
+     "link": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    {
+     "id": "advisory",
+     "label": "No watchdog advisory",
+     "pass": true,
+     "detail": "No CN Advisory on its Charity Navigator profile.",
+     "link": "https://www.charitynavigator.org/ein/953949646"
+    }
+   ],
+   "passed": 6,
+   "total": 6,
+   "flags": [],
+   "links": {
+    "irs": "https://apps.irs.gov/app/eos/",
+    "propublica": "https://projects.propublica.org/nonprofits/organizations/953949646",
+    "charityNavigator": "https://www.charitynavigator.org/ein/953949646",
+    "bbb": "https://give.org/search?term=International%20Medical%20Corps"
+   }
+  }
+ }
+}

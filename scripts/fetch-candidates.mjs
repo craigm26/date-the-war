@@ -19,7 +19,25 @@ export const FEEDS = [
   { label: 'UN Press', url: 'https://press.un.org/en/rss.xml' },
   { label: 'UK Ministry of Defence', url: 'https://www.gov.uk/government/organisations/ministry-of-defence.atom' },
   { label: 'International Crisis Group', url: 'https://www.crisisgroup.org/rss' },
+  // Added 2026-10-21 for wider daily coverage: regional desks (Ukraine, Korea,
+  // Japan), Europe-based world desks, humanitarian bodies. ISW, NATO, UNHCR,
+  // OCHA and ReliefWeb refused or returned nothing that day; Times of Israel,
+  // IAEA and Breaking Defense serve their feeds but 403 every article link to
+  // scripts, so the drafter's HTTP 200 check would drop all of their items.
+  { label: 'The Guardian', url: 'https://www.theguardian.com/world/rss' },
+  { label: 'NPR', url: 'https://feeds.npr.org/1004/rss.xml' },
+  { label: 'DW', url: 'https://rss.dw.com/rdf/rss-en-world' },
+  { label: 'France 24', url: 'https://www.france24.com/en/rss' },
+  { label: 'ICRC', url: 'https://www.icrc.org/en/rss/news' },
+  { label: 'WHO', url: 'https://www.who.int/rss-feeds/news-english.xml' },
+  { label: 'Kyiv Independent', url: 'https://kyivindependent.com/news-archive/rss/' },
+  { label: 'FDD\'s Long War Journal', url: 'https://www.longwarjournal.org/feed' },
+  { label: 'The Japan Times', url: 'https://www.japantimes.co.jp/feed/' },
+  { label: 'Yonhap', url: 'https://en.yna.co.kr/RSS/news.xml' },
 ];
+// No single feed may fill the inbox: the busiest desks would crowd out the rest.
+const PER_SOURCE = 6;
+const INBOX_MAX = 60;
 
 // Words that mark an item as a possible indicator. Weight is rough on purpose.
 const TERMS = [
@@ -37,6 +55,7 @@ const TERMS = [
 
 function decode(s = '') {
   return s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
 }
 function tag(xml, name) {
@@ -70,6 +89,7 @@ for (const f of FEEDS) {
     const xml = await r.text();
     if (!xml.trim()) { console.error(`${f.label}: empty body`); continue; }
     let kept = 0;
+    const mine = [];
     for (const it of parseFeed(xml)) {
       if (!it.link || seen.has(it.link)) continue;
       const t = Date.parse(it.published);
@@ -77,16 +97,17 @@ for (const f of FEEDS) {
       const sc = score(`${it.title} ${it.summary}`);
       if (sc < 3) continue;
       seen.add(it.link);
-      out.push({ source: f.label, title: it.title, link: it.link, published: Number.isNaN(t) ? null : new Date(t).toISOString(), summary: it.summary.slice(0, 600), score: sc });
-      kept++;
+      mine.push({ source: f.label, title: it.title, link: it.link, published: Number.isNaN(t) ? null : new Date(t).toISOString(), summary: it.summary.slice(0, 600), score: sc });
     }
+    mine.sort((a, b) => b.score - a.score);
+    for (const it of mine.slice(0, PER_SOURCE)) { out.push(it); kept++; }
     console.error(`${f.label}: kept ${kept}`);
   } catch (e) {
     console.error(`${f.label}: ${e.message}`);
   }
 }
 out.sort((a, b) => b.score - a.score);
-const top = out.slice(0, 40);
+const top = out.slice(0, INBOX_MAX);
 mkdirSync(join(root, 'data', 'inbox'), { recursive: true });
 writeFileSync(join(root, 'data', 'inbox', `${today}.json`), JSON.stringify({ date: today, fetched: new Date().toISOString(), items: top }, null, 2));
 console.log(`inbox ${today}: ${top.length} candidates from ${out.length} scored items`);

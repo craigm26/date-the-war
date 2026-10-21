@@ -6,9 +6,10 @@ function decodeArcs(topo) {
   const [sx, sy] = topo.transform.scale, [tx, ty] = topo.transform.translate;
   return topo.arcs.map(arc => { let x = 0, y = 0; return arc.map(([dx, dy]) => { x += dx; y += dy; return [x * sx + tx, y * sy + ty]; }); });
 }
-function rings(topo, arcs, obj) {
+function rings(topo, arcs, obj, only = null) {
   const out = [];
   for (const g of topo.objects[obj].geometries) {
+    if (only && !only(g)) continue;
     const polys = g.type === 'Polygon' ? [g.arcs] : g.type === 'MultiPolygon' ? g.arcs : [];
     for (const poly of polys) for (const ring of poly) {
       const pts = [];
@@ -19,7 +20,9 @@ function rings(topo, arcs, obj) {
   return out;
 }
 
-export function buildTexture(topo, { ocean, land, border, grid }) {
+// `fills` optionally maps a country id (ISO 3166 numeric, as in world-atlas)
+// to a colour drawn over the land.
+export function buildTexture(topo, { ocean, land, border, grid, fills = null }) {
   const arcs = decodeArcs(topo);
   const c = document.createElement('canvas'); c.width = TW; c.height = TH;
   const ctx = c.getContext('2d');
@@ -57,6 +60,7 @@ export function buildTexture(topo, { ocean, land, border, grid }) {
     if (stroke) { ctx.strokeStyle = stroke; ctx.lineWidth = 1.4; ctx.stroke(); }
   };
   draw(rings(topo, arcs, 'land'), land, null);
+  if (fills) for (const [id, colour] of Object.entries(fills)) draw(rings(topo, arcs, 'countries', (g) => g.id === id), colour, null);
   draw(rings(topo, arcs, 'countries'), null, border);
   const img = ctx.getImageData(0, 0, TW, TH);
   return new Uint32Array(img.data.buffer);
@@ -132,4 +136,25 @@ export function greatCircle(a, b, n = 48) {
     pts.push([Math.atan2(z, x) / D2R, Math.asin(Math.max(-1, Math.min(1, y))) / D2R, lift]);
   }
   return pts;
+}
+
+// One label point per country: the mean of its largest ring. Good enough to
+// hang a marker on; not a true centroid.
+export function countryPoints(topo) {
+  const arcs = decodeArcs(topo);
+  const out = {};
+  for (const g of topo.objects.countries.geometries) {
+    let best = null;
+    for (const r of rings(topo, arcs, 'countries', (x) => x === g)) if (!best || r.length > best.length) best = r;
+    if (!best) continue;
+    let off = 0, prev = null, sx = 0, sy = 0;
+    for (const [lon, lat] of best) {
+      if (prev !== null) { const d = lon - prev; if (d > 180) off -= 360; else if (d < -180) off += 360; }
+      sx += lon + off; sy += lat; prev = lon;
+    }
+    let lon = sx / best.length;
+    lon = ((lon + 540) % 360) - 180;
+    out[g.id] = [lon, sy / best.length, g.properties && g.properties.name];
+  }
+  return out;
 }

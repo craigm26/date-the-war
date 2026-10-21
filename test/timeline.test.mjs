@@ -38,7 +38,8 @@ test('meta.asOf is the latest event date and This week ends there', () => {
   assert.equal(meta.asOf, all.reduce((m, e) => (e.date > m ? e.date : m), '1900-01-01'));
   assert.equal(meta.count, all.length);
   const week = eras().find((e) => e.label === 'This week');
-  assert.equal(addDays(week.from, 6), meta.asOf);
+  assert.equal(week.scale, 'week');
+  assert.equal(week.from, meta.asOf);
 });
 
 test('daily ledgers are marked auto with a checked date and an inbox-shaped source', () => {
@@ -145,14 +146,17 @@ test('related events stay within 400 days and cap at three', () => {
 });
 
 test('hash round-trips', () => {
-  const st = { scale: 'day', from: '2026-09-01', cumulative: true, view: 'flat', reel: true };
+  const st = { scale: 'day', from: '2026-09-01', cumulative: true, view: 'flat', layer: 'sev', reel: true, theater: null };
   assert.deepEqual(parseHash(toHash(st)), st);
-  assert.deepEqual(parseHash('#month@1939-09-01'), { scale: 'month', from: '1939-09-01', cumulative: false, view: 'globe', reel: false });
+  const wk = { scale: 'week', from: '2026-09-07', cumulative: false, view: 'globe', layer: 'events', reel: false, theater: 'gulf' };
+  assert.deepEqual(parseHash(toHash(wk)), wk);
+  assert.equal(parseHash('#day@2026-09-01@t=atlantis').theater, null);
+  assert.deepEqual(parseHash('#month@1939-09-01'), { scale: 'month', from: '1939-09-01', cumulative: false, view: 'globe', layer: 'events', reel: false, theater: null });
   assert.equal(parseHash('#garbage'), null);
 });
 
 test('no em-dashes in anything that ships', () => {
-  const files = ['index.html', 'README.md', ...readdirSync(new URL('data/', root)).filter((f) => f.endsWith('.json') || f.endsWith('.csv')).map((f) => `data/${f}`)];
+  const files = ['index.html', 'README.md', ...readdirSync(new URL('data/', root)).filter((f) => f.endsWith('.json') || f.endsWith('.csv') || f.endsWith('.md')).map((f) => `data/${f}`)];
   try { for (const f of readdirSync(new URL('data/daily/', root))) files.push(`data/daily/${f}`); } catch { /* no daily yet */ }
   for (const f of files) {
     const text = readFileSync(new URL(f, root), 'utf8');

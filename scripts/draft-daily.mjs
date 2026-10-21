@@ -1,7 +1,7 @@
 // Turn the day's inbox into ledger entries with the Claude Code CLI, then
 // validate them hard before anything is written. Run after fetch-candidates.
 //   node scripts/draft-daily.mjs [YYYY-MM-DD]
-// Writes data/daily/YYYY-MM-DD.json (up to 8 entries) or nothing.
+// Writes data/daily/YYYY-MM-DD.json (up to 10 entries) or nothing.
 // Every entry is marked auto: true and checked: <today>; the page shows
 // "auto" on those rows so a reader knows they have not been reviewed.
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
@@ -23,7 +23,7 @@ const recentTitles = all.filter((e) => e.date >= new Date(Date.parse(today) - 5 
 const mechanisms = JSON.parse(readFileSync(join(root, 'data', 'mechanisms.json'), 'utf8')).map((m) => m.id);
 const SUBS = Object.keys(SUB_TO_GROUP);
 
-const prompt = `You curate a public ledger of sourced events that bear on how wars start, widen, or end (a page called "Date the war"). Below are today's candidate news items. Select up to 8 that are genuine indicators: direct combat, ceasefires, sanctions and tariffs, mobilization and defense budgets, nuclear and arms control, famine and food prices, drought, floods and heat, water disputes, oil and gas supply, critical minerals, displacement, coups and legitimacy crises, major diplomacy. Skip celebrity, sport, crime, and anything already covered by the recent entries listed.
+const prompt = `You curate a public ledger of sourced events that bear on how wars start, widen, or end (a page called "Date the war"). Below are today's candidate news items. Select up to 10 that are genuine indicators, spread across regions (no more than 3 about the same war or region when others qualify): direct combat, ceasefires, sanctions and tariffs, mobilization and defense budgets, nuclear and arms control, famine and food prices, drought, floods and heat, water disputes, oil and gas supply, critical minerals, displacement, coups and legitimacy crises, major diplomacy. Skip celebrity, sport, crime, and anything already covered by the recent entries listed.
 
 House rule, no exceptions: no individual person's name anywhere in a title or note. Refer to people by role ("Canada's prime minister", "a Bosnian Serb wartime commander convicted of genocide", "Ukraine's president"). Company, agency and country names are fine.
 
@@ -88,7 +88,7 @@ for (const d of drafts) {
   if (d.arc && !(Array.isArray(d.arc) && d.arc.length === 2 && d.arc.every((p) => Array.isArray(p) && p.length === 2))) why.push('arc');
   if (why.length) { console.error(`dropped ${d.id || '?'}: ${why.join(', ')}`); continue; }
   let status = 0;
-  try { status = (await fetch(d.source.url, { method: 'GET', headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(20000), redirect: 'follow' })).status; } catch { status = 0; }
+  try { status = (await fetch(d.source.url, { method: 'GET', headers: { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36 date-the-war-daily' }, signal: AbortSignal.timeout(20000), redirect: 'follow' })).status; } catch { status = 0; }
   if (status !== 200) { console.error(`dropped ${d.id}: source HTTP ${status}`); continue; }
   seenIds.add(d.id);
   kept.push({
@@ -100,7 +100,7 @@ for (const d of drafts) {
     checked: today, auto: true,
     limitations: `${String(d.limitations || '').trim()} Drafted by an automated daily job from the linked report; not yet reviewed.`.trim(),
   });
-  if (kept.length >= 8) break;
+  if (kept.length >= 10) break;
 }
 if (!kept.length) { console.log('nothing kept'); process.exit(0); }
 mkdirSync(join(root, 'data', 'daily'), { recursive: true });

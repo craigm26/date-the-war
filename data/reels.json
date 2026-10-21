@@ -1,15 +1,30 @@
 [
  {
+  "date": "2026-10-21",
+  "count": 4,
+  "auto": 4,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-21@reel",
+  "titles": [
+   "Blast heard in Aden as Houthis claim ballistic missile attack on military camp",
+   "Drone attack on market in Sudan-South Sudan border area kills at least 153",
+   "Iran's enriched uranium re-emerges as sticking point in US talks",
+   "Nearly two dozen countries meet in Geneva on a Sudan ceasefire pathway"
+  ]
+ },
+ {
   "date": "2026-10-20",
-  "count": 5,
-  "auto": 5,
+  "count": 8,
+  "auto": 8,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-20@reel",
   "titles": [
    "Russian craft makes close pass by commercial radar satellite that helps Ukraine",
+   "Sudan war spills into Central African Republic, UN warns against peacekeeper exit",
    "Ukraine's president to hold talks in Oslo with US envoys and European leaders",
    "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
    "More than 250,000 displaced in Yemen since fighting escalated, UNHCR says",
-   "South Korea to pull more embassy staff from Ukraine after prisoner-of-war row"
+   "South Korea to pull more embassy staff from Ukraine after prisoner-of-war row",
+   "Afghanistan is one step away from famine as food stays out of reach for millions",
+   "US president sued over latest tariffs on Canada"
   ]
  },
  {
@@ -1023,15 +1038,6 @@
   "titles": [
    "U.S. threatens tariffs over Greenland",
    "EU and Mercosur sign partnership and trade agreements"
-  ]
- },
- {
-  "date": "2026-01-15",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-01-15@reel",
-  "titles": [
-   "Ethiopia accuses Eritrea of supplying rebels"
   ]
  }
 ]

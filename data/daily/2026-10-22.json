@@ -1,0 +1,347 @@
+[
+  {
+    "id": "d-20261022-kyiv-mass-strike",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia hits Kyiv and other cities with missiles and 210 drones overnight",
+    "note": "Ukraine's Air Force says Russia launched Iskander-M, S-400, Zircon and Onyx missiles plus 210 drones, and attacks killed at least 9 and injured 57 across the country. The strikes came hours after Moscow said it would resume US-mediated talks, and analysts quoted by the press link them to pressure on energy infrastructure before winter.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.7
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "210 drones",
+    "metricName": "drones launched in one overnight attack",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russian-attacks-kill-at-least-9-injure-57-across-ukraine-as-kyiv-hit-by-mass-missile-drone-attack/"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "Casualty and launch figures come from Ukrainian authorities and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-russia-ready-talks",
+    "date": "2026-10-21",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Moscow says it is ready in principle to resume US-mediated Ukraine talks",
+    "note": "Russia says it is ready in principle to resume peace talks, and the US president says the war is closer than ever to ending. The BBC's Russia editor and the Kremlin's own doubts about Ukrainian and European proposals suggest Moscow does not feel pressed to end the war.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "United States"
+    ],
+    "lon": 37.62,
+    "lat": 55.75,
+    "place": "Moscow, Russia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "Readiness 'in principle' is a statement, not a scheduled round of talks, and the terms are not described. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-us-diplomats-saudi",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US orders some diplomats and families out of Saudi Arabia amid Houthi attacks",
+    "note": "The US State Department cites Houthi attacks on civilian airports and critical infrastructure, with at least three people killed at an airport and an oilfield. Similar withdrawals are reported from the UAE, Jordan, Qatar and Bahrain, amid concern that war on Iran could restart after the US midterm elections.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "United States",
+      "Saudi Arabia",
+      "Yemen",
+      "Iran"
+    ],
+    "lon": 46.68,
+    "lat": 24.71,
+    "place": "Riyadh, Saudi Arabia",
+    "arc": null,
+    "global": false,
+    "metric": "at least 3 people",
+    "metricName": "killed in attacks at a Saudi airport and oilfield",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "Reports of withdrawals from other Gulf states are summarized secondhand and the full scale of the drawdown is not confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-oil-five-month-high",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Oil hits a five-month high as Iran's IRGC claims strikes on four Gulf vessels",
+    "note": "Iran's IRGC says it hit four vessels in the northern Gulf and that three more struck mines near the Strait of Hormuz, while attacks in Saudi Arabia add to supply fears. Prices rose to their highest in five months.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Iran",
+      "Saudi Arabia",
+      "Multiple countries"
+    ],
+    "lon": 56.3,
+    "lat": 26.6,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "7 vessels",
+    "metricName": "ships reported hit or mined (IRGC claim)",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/oct/22/oil-prices-jump-five-month-high-threats-supply"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "The vessel strikes are claims by Iran's IRGC and are not independently confirmed in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-us-israel-iran-plan",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US and Israel reportedly plan a possible attack on Iran in early November",
+    "note": "A person briefed on war planning tells NPR that the US and Israel are preparing options for an attack after the US midterm elections, and Iran says it is prepared. Other outlets report similar plans, which fits the diplomatic drawdowns across the Gulf.",
+    "mechanisms": [
+      "steps-to-war",
+      "domestic-incentives",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Israel",
+      "Iran"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran, Iran",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        51.39,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "Based on a single anonymous source describing planning, which does not mean a decision to strike has been made. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-nk-loudspeakers",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea says border loudspeaker broadcasts into the South will resume within days",
+    "note": "The North Korean leader's sister says anti-Seoul propaganda broadcasts will be ready within days and warns of new counter measures at the border. The move undercuts South Korea's president's efforts to ease inter-Korean hostility.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea"
+    ],
+    "lon": 126.9,
+    "lat": 37.9,
+    "place": "Inter-Korean border",
+    "arc": [
+      [
+        125.75,
+        39.02
+      ],
+      [
+        126.98,
+        37.57
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/10/22/g-s1-149306/north-korea-propaganda-broadcasts"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "The item reports a statement of intent and does not confirm that broadcasts have started. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-tsmc-rare-earths",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "TSMC seeks factory-equipment alternatives to avoid China's rare earth grip",
+    "note": "Sources say the chipmaker is looking for equipment that does not depend on rare-earth magnets, which power motors in automated factories. It shows how export controls on critical minerals push firms to rework supply chains.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "Taiwan",
+      "China"
+    ],
+    "lon": 121,
+    "lat": 24.8,
+    "place": "Taiwan",
+    "arc": [
+      [
+        104,
+        35
+      ],
+      [
+        121,
+        24.8
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/10/22/tsmc-rare-earths-supply/"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "Relies on unnamed sources, and the item does not quantify any supply shortfall. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-germany-spy-arrest",
+    "date": "2026-10-22",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Germany arrests Ukrainian national suspected of spying for Russia",
+    "note": "The suspect is alleged to have gathered information on armored vehicle, ammunition and explosives production and on military personnel and facilities on NATO's eastern flank. It is a further example of hybrid activity tied to the war in Ukraine.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Germany",
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 10.4,
+    "lat": 51.2,
+    "place": "Germany",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        10.4,
+        51.2
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/germany-arrests-ukrainian-national-suspected-of-spying-for-russia/"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "These are allegations against a suspect, with no court finding yet. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261022-guyana-us-defense",
+    "date": "2026-10-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US and Guyana sign an enhanced defense partnership at the Pentagon",
+    "note": "The US war secretary and Guyana's president signed an agreement creating an enhanced military partnership between the two countries. It adds to US security ties in the northern South America region.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Venezuela"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington, United States",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of Defense",
+      "url": "https://www.war.gov/News/News-Stories/Article/Article/4630733/hegseth-guyanese-president-establish-enhanced-military-partnership/"
+    },
+    "checked": "2026-10-22",
+    "auto": true,
+    "limitations": "The item is an official announcement and the summary does not give the agreement's terms or any link to a specific regional threat. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

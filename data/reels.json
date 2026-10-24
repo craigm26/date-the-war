@@ -1,5 +1,29 @@
 [
  {
+  "date": "2026-10-24",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-24@reel",
+  "titles": [
+   "Ukraine sanctions 51 Russians and 44 firms supplying long-range missile makers",
+   "White House eases US tariffs on some Canadian goods and adds them on others",
+   "Mass protests and riots in France test the government after student-led mobilisation"
+  ]
+ },
+ {
+  "date": "2026-10-23",
+  "count": 5,
+  "auto": 5,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-23@reel",
+  "titles": [
+   "US president says warships returning from Iran could intervene in Cuba",
+   "UN says drone strikes killed at least 306 people in Sudan in three weeks",
+   "Aid agencies warn of emergency in Taiz as Houthi forces encircle city and block aid",
+   "US president says US may launch another 'little Epic Fury' attack on Iran",
+   "Russia and Ukraine confirm a local truce in occupied Oleshky for aid access"
+  ]
+ },
+ {
   "date": "2026-10-22",
   "count": 7,
   "auto": 7,
@@ -1027,24 +1051,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-01-27@reel",
   "titles": [
    "EU and India conclude trade negotiations and sign security partnership"
-  ]
- },
- {
-  "date": "2026-01-22",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-01-22@reel",
-  "titles": [
-   "Colombia suspends electricity sales during tariff dispute"
-  ]
- },
- {
-  "date": "2026-01-21",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-01-21@reel",
-  "titles": [
-   "U.S. withdraws Greenland-linked tariff threat"
   ]
  }
 ]

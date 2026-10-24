@@ -1,0 +1,291 @@
+[
+  {
+    "id": "d-20261024-sudan-drone-306",
+    "date": "2026-10-23",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN says drone strikes killed at least 306 people in Sudan in three weeks",
+    "note": "The UN human rights chief condemned an escalation in drone strikes across Sudan in the first three weeks of October, with hundreds more injured. The trend shows the war is increasingly fought with long-range drones that hit civilians far from front lines.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30.2,
+    "lat": 15.6,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "at least 306 people killed",
+    "metricName": "deaths from drone strikes, 1 to 21 October",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168661"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "The figure is a UN count that is likely a minimum, and the summary does not attribute strikes to specific parties. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-oleshky-truce",
+    "date": "2026-10-23",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Russia and Ukraine confirm a local truce in occupied Oleshky for aid access",
+    "note": "Both sides confirmed a localized ceasefire in the Russian-occupied city, where residents have been short of food, after the White House said the US first lady brokered it. It is a narrow humanitarian pause, not a step toward a wider ceasefire.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 32.7,
+    "lat": 46.6,
+    "place": "Oleshky, Kherson region",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "Terms, duration and monitoring of the truce are not described in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-ukraine-sanctions-arms",
+    "date": "2026-10-24",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Ukraine sanctions 51 Russians and 44 firms supplying long-range missile makers",
+    "note": "Kyiv's first list targets suppliers of raw materials, equipment and tools used in Iskander, Kalibr, Kh-101 and Kinzhal missiles. It aims at the supply chain behind Russian strikes as attacks on Ukrainian cities intensify.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv",
+    "arc": [
+      [
+        30.52,
+        50.45
+      ],
+      [
+        37.62,
+        55.75
+      ]
+    ],
+    "global": false,
+    "metric": "95 targets (51 people, 44 businesses)",
+    "metricName": "sanctioned persons and entities",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-sanctions-russian-arms-suppliers-as-moscow-ramps-up-attacks/"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "Ukrainian sanctions have limited direct bite on Russian firms, and their effect on missile output is not shown. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-us-another-epic-fury",
+    "date": "2026-10-23",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US president says US may launch another 'little Epic Fury' attack on Iran",
+    "note": "The US president referred to the joint US-Israeli operation that began the war in late February and said a new strike could follow. Iranian officials say they will not back down, which raises the risk of renewed large-scale combat.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Iran",
+      "Israel"
+    ],
+    "lon": 53.7,
+    "lat": 32.4,
+    "place": "Iran",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        51.39,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "France 24",
+      "url": "https://www.france24.com/en/americas/20261023-trump-says-us-may-launch-another-little-epic-fury-attack-iran"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "A public remark is not an order, and the timing and scale of any strike are not stated. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-taiz-siege-aid",
+    "date": "2026-10-23",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Aid agencies warn of emergency in Taiz as Houthi forces encircle city and block aid",
+    "note": "UN agencies say aid is blocked from entering Taiz City, which Houthi forces have encircled while fighting government troops along the west coast. A separate report describes dwindling drinking water in the besieged city.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.02,
+    "lat": 13.58,
+    "place": "Taiz, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168654"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "The summary gives no casualty or population figures, and access claims come from aid agencies without a response from the Houthis. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-canada-tariff-changes",
+    "date": "2026-10-24",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "White House eases US tariffs on some Canadian goods and adds them on others",
+    "note": "From 30 October the US will ease tariffs on products such as certain machinery and place them on others such as carpets. The change comes weeks before US midterm elections and after a lawsuit over the earlier tariffs.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington and Ottawa",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        -75.7,
+        45.42
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "The summary does not give the trade value covered or how Canada will respond. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-cuba-warships",
+    "date": "2026-10-23",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US president says warships returning from Iran could intervene in Cuba",
+    "note": "At a rally the US president suggested ships heading home from the Iran war might act in Cuba. The US secretary of state then told Cubans seeking political change that 'now is the time' to act, which widens US pressure to a second theatre.",
+    "mechanisms": [
+      "domestic-incentives",
+      "steps-to-war"
+    ],
+    "countries": [
+      "United States",
+      "Cuba"
+    ],
+    "lon": -79.5,
+    "lat": 21.8,
+    "place": "Cuba",
+    "arc": [
+      [
+        -80.19,
+        25.76
+      ],
+      [
+        -82.37,
+        23.13
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "The remarks were made at a campaign rally and no military order or plan is reported. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261024-france-mass-protests",
+    "date": "2026-10-24",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Mass protests and riots in France test the government after student-led mobilisation",
+    "note": "Student protests over school conditions have grown into a broader movement with unions and civil society, and an academic cited in the coverage refers to 500,000 people on the streets. Riots and curfews earlier in the week raise questions about state capacity and legitimacy in a major NATO member.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "France"
+    ],
+    "lon": 2.35,
+    "lat": 48.86,
+    "place": "Paris, France",
+    "arc": null,
+    "global": false,
+    "metric": "about 500,000 people",
+    "metricName": "protesters cited by an academic",
+    "source": {
+      "label": "France 24",
+      "url": "https://www.france24.com/en/andrew-smith-warns-that-policing-political-blame-are-no-substitute-for-social-reform-public-trust"
+    },
+    "checked": "2026-10-24",
+    "auto": true,
+    "limitations": "The crowd figure comes from a single academic's remark in an interview and is not an official count. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

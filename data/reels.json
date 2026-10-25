@@ -1,26 +1,44 @@
 [
  {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "count": 3,
   "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-25@reel",
+  "titles": [
+   "Russia fires 153 drones at Ukraine; attacks kill 8 and injure 51 in a day",
+   "Iran's IRGC takes a 'self-sacrifice' mobilisation campaign nationwide",
+   "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria"
+  ]
+ },
+ {
+  "date": "2026-10-24",
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-24@reel",
   "titles": [
+   "Ukraine reportedly strikes Russian targets about 2,500 km from the border",
    "Ukraine sanctions 51 Russians and 44 firms supplying long-range missile makers",
+   "Houthis claim new attacks on Saudi oil facilities and airports",
    "White House eases US tariffs on some Canadian goods and adds them on others",
    "Mass protests and riots in France test the government after student-led mobilisation"
   ]
  },
  {
   "date": "2026-10-23",
-  "count": 5,
-  "auto": 5,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-23@reel",
   "titles": [
    "US president says warships returning from Iran could intervene in Cuba",
    "UN says drone strikes killed at least 306 people in Sudan in three weeks",
    "Aid agencies warn of emergency in Taiz as Houthi forces encircle city and block aid",
    "US president says US may launch another 'little Epic Fury' attack on Iran",
-   "Russia and Ukraine confirm a local truce in occupied Oleshky for aid access"
+   "Ukrainian intelligence details Russia's new low-cost Filin cruise missile",
+   "Russia and Ukraine confirm a local truce in occupied Oleshky for aid access",
+   "US Army activates an air defense battalion in Guam amid missile threats",
+   "IAEA chief calls for swift return of inspectors to Iran",
+   "Paraguay becomes the 26th signatory to the US-led Pax Silica Declaration",
+   "UK and France hold first joint air exercise within a French nuclear exercise"
   ]
  },
  {
@@ -1042,15 +1060,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-01-30@reel",
   "titles": [
    "Syrian government and Kurdish-led forces agree integration framework"
-  ]
- },
- {
-  "date": "2026-01-27",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-01-27@reel",
-  "titles": [
-   "EU and India conclude trade negotiations and sign security partnership"
   ]
  }
 ]

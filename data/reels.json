@@ -1,13 +1,28 @@
 [
  {
+  "date": "2026-10-26",
+  "count": 6,
+  "auto": 6,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-26@reel",
+  "titles": [
+   "Ukrainian drones reportedly damage a chemical plant in Russia's Voronezh region",
+   "North Korean self-propelled howitzer is spotted near the South Korean border",
+   "Research shows Russia significantly expanding glide-bomb production",
+   "Sudan's RSF hits five power stations with drones, cutting power across the east",
+   "US airstrikes reportedly pin Somali civilians beside the flooding Juba river",
+   "Brazil's president wins re-election as the losing candidate refuses to concede"
+  ]
+ },
+ {
   "date": "2026-10-25",
-  "count": 3,
-  "auto": 3,
+  "count": 4,
+  "auto": 4,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-25@reel",
   "titles": [
    "Russia fires 153 drones at Ukraine; attacks kill 8 and injure 51 in a day",
    "Iran's IRGC takes a 'self-sacrifice' mobilisation campaign nationwide",
-   "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria"
+   "Gunmen kill at least 10 villagers and loot shops in north-east Nigeria",
+   "Serbia's long-serving ruler concedes defeat to a student-led movement"
   ]
  },
  {
@@ -1051,15 +1066,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-02-05@reel",
   "titles": [
    "New START expires"
-  ]
- },
- {
-  "date": "2026-01-30",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-01-30@reel",
-  "titles": [
-   "Syrian government and Kurdish-led forces agree integration framework"
   ]
  }
 ]

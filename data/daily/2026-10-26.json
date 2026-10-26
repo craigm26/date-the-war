@@ -1,0 +1,245 @@
+[
+  {
+    "id": "d-20261026-somalia-strikes-floods",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US airstrikes reportedly pin Somali civilians beside the flooding Juba river",
+    "note": "The Guardian reports residents of Jilib say repeated airstrikes on al-Shabaab-held territory are keeping civilians near a rising river as El Niño floods hit. The report asks whether this is deliberate, which bears on civilian harm and the legitimacy of the campaign.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Somalia",
+      "United States"
+    ],
+    "lon": 42.77,
+    "lat": 0.49,
+    "place": "Jilib, southern Somalia",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        42.77,
+        0.49
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "Exclusive based on civilian testimony; intent behind the strikes is not established and US forces' account is not given in the excerpt. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261026-serbia-election-loss",
+    "date": "2026-10-25",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Serbia's long-serving ruler concedes defeat to a student-led movement",
+    "note": "BBC reports Serbia's populist leader of 12 years said it is clear his party lost a parliamentary vote billed as a referendum on the country's future. A change of power in a Balkan state bears on its alignment between the EU and Russia.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Serbia"
+    ],
+    "lon": 20.46,
+    "lat": 44.79,
+    "place": "Belgrade, Serbia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "Based on the leader's own concession; final seat counts and coalition outcomes are not given in the excerpt. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261026-brazil-election-lula",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Brazil's president wins re-election as the losing candidate refuses to concede",
+    "note": "The Kyiv Independent reports Brazil's incumbent won the presidential runoff while the losing candidate declined to concede. Brazil's leader has also sought a role as a possible mediator between Ukraine and Russia.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Brazil",
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": -47.88,
+    "lat": -15.79,
+    "place": "Brasilia, Brazil",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/bolsonaro-refuses-to-concede-as-would-be-ukraine-peace-mediator-lula-wins-brazil-election/"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "Mediator role is described as aspirational; the refusal to concede does not by itself show a challenge to the result. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261026-sudan-rsf-power-stations",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Sudan's RSF hits five power stations with drones, cutting power across the east",
+    "note": "The Guardian reports a government official saying the Rapid Support Forces struck two power stations each in Al-Jazira and Gedaref and one in White Nile state. The strikes on army-held states reduce state capacity and worsen civilian conditions.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 34.5,
+    "lat": 14,
+    "place": "Al-Jazira, Gedaref and White Nile states, Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "5 power stations",
+    "metricName": "power stations struck",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "Rests on an anonymous government official; the RSF account and the extent of outages are not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261026-nk-howitzer-border",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korean self-propelled howitzer is spotted near the South Korean border",
+    "note": "The Japan Times reports a 122-mm self-propelled howitzer was seen near the border, a rare visible deployment of such artillery. It adds to border tension after Pyongyang said loudspeaker broadcasts would resume.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea"
+    ],
+    "lon": 126.9,
+    "lat": 38,
+    "place": "Korean border area",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/26/asia-pacific/north-korea-seoul-letters-un/"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "A single sighting; it does not show intent or a lasting change in posture. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261026-voronezh-drone-strike",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukrainian drones reportedly damage a chemical plant in Russia's Voronezh region",
+    "note": "The Kyiv Independent reports Russia's regional governor said 113 Ukrainian drones were downed over Voronezh Oblast overnight, with over 70 heading for the regional capital, and a chemical plant was reportedly damaged. Deep strikes on industry extend the war inside Russia.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 39.2,
+    "lat": 51.67,
+    "place": "Voronezh, Russia",
+    "arc": [
+      [
+        30.5,
+        50.45
+      ],
+      [
+        39.2,
+        51.67
+      ]
+    ],
+    "global": false,
+    "metric": "113 drones",
+    "metricName": "drones Russia says it downed",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukrainian-strike-reportedly-damages-chemical-plant-in-russias-voronezh/"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "Drone counts come from a Russian official and the plant damage is described as reported, not confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261026-russia-glide-bomb-output",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Research shows Russia significantly expanding glide-bomb production",
+    "note": "The Kyiv Independent reports research showing a large expansion of Russian glide-bomb output, and a Ukrainian defense analyst says Russia is building capacity to keep fighting beyond the Ukraine war. It points to a long-term war economy rather than preparation for a settlement.",
+    "mechanisms": [
+      "commitment-problem",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 37.6,
+    "lat": 55.75,
+    "place": "Russia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/exclusive-russia-significantly-expands-glide-bomb-production-research-shows/"
+    },
+    "checked": "2026-10-26",
+    "auto": true,
+    "limitations": "Exclusive based on outside research with production figures not given in the excerpt; the interpretation of intent is an analyst's view. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

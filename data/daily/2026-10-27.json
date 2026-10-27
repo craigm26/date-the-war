@@ -1,0 +1,327 @@
+[
+  {
+    "id": "d-20261027-sudan-famine-statement",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Donor governments and the EU issue a joint statement on famine in Sudan",
+    "note": "The US State Department published a joint statement on famine in Sudan from the European Commission and more than 30 governments. Famine conditions in a war zone raise displacement and spillover pressure on neighbours and mark the cost of blocked aid.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan",
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "European NATO member countries"
+    ],
+    "lon": 30.2,
+    "lat": 15.6,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/joint-statement-on-famine-in-sudan/"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The excerpt is a diplomatic statement and the available text gives no new famine figures or access data. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-uk-sanctions-sudan-commanders",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "UK sanctions Sudanese commanders over sexual violence in El Fasher",
+    "note": "The UK imposed travel bans and asset freezes on senior Sudanese commanders implicated in a campaign of rape, on the first anniversary of the El Fasher mass atrocity. The report says tens of thousands of civilians were killed over several days; sanctions add pressure but rarely change battlefield behaviour on their own.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Sudan",
+      "United Kingdom"
+    ],
+    "lon": 25.35,
+    "lat": 13.63,
+    "place": "El Fasher, Sudan",
+    "arc": [
+      [
+        -0.13,
+        51.5
+      ],
+      [
+        25.35,
+        13.63
+      ]
+    ],
+    "global": false,
+    "metric": "tens of thousands of civilians killed",
+    "metricName": "civilian deaths in the El Fasher atrocity, per the report",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The death toll is a press characterisation of a past event, and the sanctions' practical effect is not assessed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-un-russia-energy-war-crime",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN investigators say Russia's attacks on civilians and energy grid are war crimes",
+    "note": "UN human rights investigators found that Russian authorities committed war crimes and crimes against humanity by attacking civilians and vital energy infrastructure in Ukraine. The finding adds to the legal record and to pressure for accountability ahead of winter.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 31.2,
+    "lat": 49,
+    "place": "Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168670"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The summary does not give casualty counts, and Russia disputes such findings. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-finland-norway-russia-call",
+    "date": "2026-10-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Finland's and Norway's leaders hold a rare call with Russia's president on Ukraine",
+    "note": "The two Nordic leaders called the talk substantive but said significant differences remain, and defended acting independently after criticism from Denmark's prime minister. The episode shows a split in European approaches to talking with Moscow.",
+    "mechanisms": [
+      "private-information",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Finland",
+      "Norway",
+      "Russia",
+      "Ukraine",
+      "Denmark"
+    ],
+    "lon": 15,
+    "lat": 62,
+    "place": "Helsinki and Oslo",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/oct/27/russia-ukraine-oleshky-serbia-france-europe-latest-news-updates"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The account comes from the two leaders and a live blog; the content of the call is not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-hebron-displacement",
+    "date": "2026-10-26",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN rights chief warns of ethnic cleansing as Hebron operation displaces thousands",
+    "note": "The UN human rights chief said Israel's operation in Hebron raises serious concerns of ethnic cleansing, with more than 3,000 Palestinians forced from their homes. Mass displacement in the West Bank hardens positions and narrows room for a settlement.",
+    "mechanisms": [
+      "indivisible-issues",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 35.1,
+    "lat": 31.53,
+    "place": "Hebron, West Bank",
+    "arc": [
+      [
+        34.8,
+        31.8
+      ],
+      [
+        35.1,
+        31.53
+      ]
+    ],
+    "global": false,
+    "metric": "more than 3,000 people",
+    "metricName": "Palestinians forced from their homes in Hebron",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168672"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The displacement figure and the ethnic cleansing characterisation are UN statements that Israel may contest. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-israel-election-iran-pressure",
+    "date": "2026-10-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israel votes as its prime minister reportedly pressed the military to hit Iran",
+    "note": "Israel's prime minister reportedly pressured the military to act against Iran before a close election, while escalating alarmist rhetoric. Electoral incentives can raise the chance of a strike, and Iran is bracing for attacks after the vote.",
+    "mechanisms": [
+      "domestic-incentives",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Israel",
+      "Iran"
+    ],
+    "lon": 34.85,
+    "lat": 31.5,
+    "place": "Israel",
+    "arc": [
+      [
+        34.85,
+        31.5
+      ],
+      [
+        51.4,
+        35.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The pressure on the military is reported rather than confirmed, and motives are inferred. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-iraq-cabinet-militia-figures",
+    "date": "2026-10-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Iraq's parliament approves cabinet posts including Iran-backed militia figures",
+    "note": "After five months of talks, Iraq's parliament approved most remaining cabinet appointments on October 15. One deputy prime minister was designated a terrorist by the US in 2020, which complicates US-Iraq ties as the US and Iran confront each other.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Iraq",
+      "Iran",
+      "United States"
+    ],
+    "lon": 44.37,
+    "lat": 33.31,
+    "place": "Baghdad, Iraq",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/10/iraqi-parliament-approves-most-remaining-cabinet-appointments-including-iran-backed-militia-figures.php"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The approval took place on October 15 and the source is an advocacy-oriented think tank. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-south-sudan-cattle-raids",
+    "date": "2026-10-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Coordinated cattle raids kill at least 72 people in South Sudan",
+    "note": "The BBC reports a cycle of revenge attacks continuing as South Sudan heads toward its first election since independence. Communal violence on this scale tests weak state capacity and the credibility of the vote.",
+    "mechanisms": [
+      "state-weakness",
+      "commitment-problem"
+    ],
+    "countries": [
+      "South Sudan"
+    ],
+    "lon": 31.3,
+    "lat": 7,
+    "place": "South Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "at least 72 people",
+    "metricName": "killed in coordinated cattle raids",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cr3wvl9qz3v2o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "The summary gives no location detail, and the toll is a minimum from a single report. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261027-japan-finland-nuclear-policy",
+    "date": "2026-10-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Japan's defense minister says Tokyo must not be naive on nuclear policy",
+    "note": "Japan's defense minister met Finland's defense chief, who discussed Finland's decision to allow nuclear weapons on its soil, as Japan weighs a similar policy shift. A move to host nuclear weapons would change regional deterrence calculations.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Japan",
+      "Finland"
+    ],
+    "lon": 139.69,
+    "lat": 35.68,
+    "place": "Tokyo, Japan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/27/japan/japan-koizumi-finland-nuclear-weapons/"
+    },
+    "checked": "2026-10-27",
+    "auto": true,
+    "limitations": "Japan has made no formal policy change, and the report describes talks and weighing rather than a decision. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

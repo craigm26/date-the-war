@@ -1,16 +1,33 @@
 [
  {
+  "date": "2026-10-27",
+  "count": 5,
+  "auto": 5,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-27@reel",
+  "titles": [
+   "Israel votes as its prime minister reportedly pressed the military to hit Iran",
+   "Japan's defense minister says Tokyo must not be naive on nuclear policy",
+   "Coordinated cattle raids kill at least 72 people in South Sudan",
+   "Finland's and Norway's leaders hold a rare call with Russia's president on Ukraine",
+   "Iraq's parliament approves cabinet posts including Iran-backed militia figures"
+  ]
+ },
+ {
   "date": "2026-10-26",
-  "count": 6,
-  "auto": 6,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-26@reel",
   "titles": [
    "Ukrainian drones reportedly damage a chemical plant in Russia's Voronezh region",
    "North Korean self-propelled howitzer is spotted near the South Korean border",
    "Research shows Russia significantly expanding glide-bomb production",
    "Sudan's RSF hits five power stations with drones, cutting power across the east",
+   "UN rights chief warns of ethnic cleansing as Hebron operation displaces thousands",
+   "UK sanctions Sudanese commanders over sexual violence in El Fasher",
    "US airstrikes reportedly pin Somali civilians beside the flooding Juba river",
-   "Brazil's president wins re-election as the losing candidate refuses to concede"
+   "Brazil's president wins re-election as the losing candidate refuses to concede",
+   "Donor governments and the EU issue a joint statement on famine in Sudan",
+   "UN investigators say Russia's attacks on civilians and energy grid are war crimes"
   ]
  },
  {
@@ -1057,15 +1074,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-02-20@reel",
   "titles": [
    "U.S. Supreme Court rejects emergency-law global tariffs"
-  ]
- },
- {
-  "date": "2026-02-05",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-02-05@reel",
-  "titles": [
-   "New START expires"
   ]
  }
 ]

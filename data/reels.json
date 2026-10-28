@@ -1,24 +1,41 @@
 [
  {
+  "date": "2026-10-28",
+  "count": 6,
+  "auto": 6,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-28@reel",
+  "titles": [
+   "Gulf states draft a multipart deal to reopen Hormuz and avert renewed US-Iran war",
+   "Cyclone hits India's east coast as more than 180,000 people are evacuated",
+   "Ukraine's parliament passes the 2027 budget in first reading with two-thirds for security",
+   "Japan and Germany voice grave concern over export curbs and critical minerals coercion",
+   "Ukraine says it gets about 12 US Patriot missiles a month against 150 ballistic missiles",
+   "US stresses conditions for wartime command transfer as South Korea seeks a target year"
+  ]
+ },
+ {
   "date": "2026-10-27",
-  "count": 5,
-  "auto": 5,
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-27@reel",
   "titles": [
+   "UN experts say Myanmar's conflict toll tops 100,000 and South Sudan polls risk war",
    "Israel votes as its prime minister reportedly pressed the military to hit Iran",
    "Japan's defense minister says Tokyo must not be naive on nuclear policy",
    "Coordinated cattle raids kill at least 72 people in South Sudan",
    "Finland's and Norway's leaders hold a rare call with Russia's president on Ukraine",
+   "Security Council splits over whether UN sanctions on Iran have snapped back",
    "Iraq's parliament approves cabinet posts including Iran-backed militia figures"
   ]
  },
  {
   "date": "2026-10-26",
-  "count": 10,
-  "auto": 10,
+  "count": 11,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-26@reel",
   "titles": [
    "Ukrainian drones reportedly damage a chemical plant in Russia's Voronezh region",
+   "Jordan's air force strikes Islamic State targets in southern Syria after church attack",
    "North Korean self-propelled howitzer is spotted near the South Korean border",
    "Research shows Russia significantly expanding glide-bomb production",
    "Sudan's RSF hits five power stations with drones, cutting power across the east",
@@ -1065,15 +1082,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-02-24@reel",
   "titles": [
    "Somalia hunger assessment warns of severe deterioration"
-  ]
- },
- {
-  "date": "2026-02-20",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-02-20@reel",
-  "titles": [
-   "U.S. Supreme Court rejects emergency-law global tariffs"
   ]
  }
 ]

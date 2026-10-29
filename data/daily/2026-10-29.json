@@ -1,0 +1,302 @@
+[
+  {
+    "id": "d-20261029-oleshky-ceasefire",
+    "date": "2026-10-28",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Temporary ceasefire around occupied Oleshky holds as evacuation is prepared",
+    "note": "A local ceasefire brokered through the US first lady's office is reported to be holding, and preparations are under way to evacuate civilians from Russian-occupied Oleshky. It is a narrow humanitarian pause, not a wider truce.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 32.72,
+    "lat": 46.62,
+    "place": "Oleshky, Kherson region",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-war-latest-oleshky-ceasefire-holds-as-zelensky-secures-new-aid-pledges/"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "Terms, duration and monitoring of the pause are not detailed in the summary, and the account of Russian motives comes from a single adviser. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-nk-ballistic-salvo",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea fires about a dozen short-range ballistic missiles after Seoul's offer",
+    "note": "South Korea's Joint Chiefs report a salvo of roughly a dozen short-range ballistic missiles toward the East Sea, coming right after Seoul's dialogue offer. South Korea's defense minister denounced the launches at an ASEAN defense forum.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea"
+    ],
+    "lon": 128.5,
+    "lat": 39.5,
+    "place": "East Sea, Korean Peninsula",
+    "arc": null,
+    "global": false,
+    "metric": "about 12 missiles",
+    "metricName": "ballistic missiles launched",
+    "source": {
+      "label": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261019003553315"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "Launch details come from South Korean military statements; North Korea's own account and intent are not given. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-us-sanctions-rwanda-mod",
+    "date": "2026-10-28",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US sanctions Rwanda's defense ministry over support for M23 in eastern Congo",
+    "note": "The US State Department sanctions Rwanda's Ministry of Defense and a financial institution serving its security services, saying thousands of Rwandan troops fight alongside M23 in North and South Kivu. The step aims to pressure Kigali but may harden positions in a war with a mineral trade dimension.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "private-information"
+    ],
+    "countries": [
+      "Rwanda",
+      "Democratic Republic of the Congo",
+      "United States"
+    ],
+    "lon": 30.06,
+    "lat": -1.94,
+    "place": "Eastern DR Congo and Kigali",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        30.06,
+        -1.94
+      ]
+    ],
+    "global": false,
+    "metric": "thousands of troops",
+    "metricName": "Rwandan troops reported fighting with M23",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/the-united-states-announces-sanctions-in-response-to-rwandas-destabilizing-activities-in-eastern-democratic-republic-of-the-congo/"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "The troop claim is a US government assertion; Rwanda has historically denied backing M23. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-ethiopia-russian-jets",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Ethiopia acquires Russian fighter jets and air defenses amid Tigray fighting",
+    "note": "The BBC reports Ethiopia has obtained Russian warplanes and air defense systems while fighting in northern Tigray, which began last month, continues. New air power raises the risk of wider escalation in the region.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Russia",
+      "Eritrea"
+    ],
+    "lon": 39.5,
+    "lat": 13.5,
+    "place": "Tigray, Ethiopia",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        38.75,
+        9.03
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "The summary gives no numbers or delivery dates for the aircraft and systems. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-hormuz-ship-fire",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Ship reported on fire in Strait of Hormuz as Iran says it downed another US drone",
+    "note": "A British maritime agency reports a vessel on fire in the Strait of Hormuz, while Iran says it shot down another US drone. The incidents add to fears of renewed US-Iran fighting around a key oil route.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Iran",
+      "United States",
+      "Oman"
+    ],
+    "lon": 56.3,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "DW",
+      "url": "https://www.dw.com/en/ship-reported-on-fire-off-oman-as-iran-escalation-fears-mount/a-79792733?maca=en-rss-en-world-4025-rdf"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "The cause of the fire is not established, and the drone claim is Iranian and unverified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-mecca-peace-push-tehran",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Saudi Arabia, Pakistan and Turkey take a peace push directly to Tehran",
+    "note": "After a meeting in Mecca, the three states carried their outreach to Iran, officially to avert a new military escalation. DW notes the effort can also be read as a warning to Tehran.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Pakistan",
+      "Turkey",
+      "Iran"
+    ],
+    "lon": 39.83,
+    "lat": 21.42,
+    "place": "Mecca and Tehran",
+    "arc": [
+      [
+        39.83,
+        21.42
+      ],
+      [
+        51.39,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "DW",
+      "url": "https://www.dw.com/en/is-iran-headed-to-war-or-peace-after-mecca-alliance-meeting/a-79788256?maca=en-rss-en-world-4025-rdf"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "This is an analysis piece, and the content of the proposals and Iran's response are not reported in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-ecb-president-resigns",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "European Central Bank president resigns as oil shock and bond yields bite",
+    "note": "The Japan Times reports the ECB's president has resigned while the bank faces inflation risks from an Iran-driven oil shock and a sharp rise in bond yields. A leadership gap at the central bank adds uncertainty to Europe's economic response to the Gulf conflict.",
+    "mechanisms": [],
+    "countries": [
+      "European NATO member countries",
+      "Germany",
+      "Iran"
+    ],
+    "lon": 8.68,
+    "lat": 50.11,
+    "place": "Frankfurt, Germany",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/10/29/ecb-lagarde-resignation/"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "The summary does not give the reasons for the resignation or any successor timeline. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261029-cuba-embargo-vote",
+    "date": "2026-10-28",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN support for ending the US embargo on Cuba falls to a 20-year low",
+    "note": "The General Assembly calls for the 34th time for an end to the US economic, commercial and financial embargo on Cuba, but with the weakest backing in two decades. The weaker vote suggests slipping international resistance to long-running US sanctions.",
+    "mechanisms": [],
+    "countries": [
+      "Cuba",
+      "United States"
+    ],
+    "lon": -73.97,
+    "lat": 40.75,
+    "place": "UN General Assembly, New York",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        -82.37,
+        23.13
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168694"
+    },
+    "checked": "2026-10-29",
+    "auto": true,
+    "limitations": "The summary gives no vote counts, so the size of the decline and the reasons for it are not stated. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

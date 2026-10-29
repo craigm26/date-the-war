@@ -1,16 +1,32 @@
 [
  {
+  "date": "2026-10-29",
+  "count": 5,
+  "auto": 5,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-29@reel",
+  "titles": [
+   "Ethiopia acquires Russian fighter jets and air defenses amid Tigray fighting",
+   "Ship reported on fire in Strait of Hormuz as Iran says it downed another US drone",
+   "North Korea fires about a dozen short-range ballistic missiles after Seoul's offer",
+   "Saudi Arabia, Pakistan and Turkey take a peace push directly to Tehran",
+   "European Central Bank president resigns as oil shock and bond yields bite"
+  ]
+ },
+ {
   "date": "2026-10-28",
-  "count": 6,
-  "auto": 6,
+  "count": 9,
+  "auto": 9,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-28@reel",
   "titles": [
    "Gulf states draft a multipart deal to reopen Hormuz and avert renewed US-Iran war",
    "Cyclone hits India's east coast as more than 180,000 people are evacuated",
    "Ukraine's parliament passes the 2027 budget in first reading with two-thirds for security",
+   "Temporary ceasefire around occupied Oleshky holds as evacuation is prepared",
+   "US sanctions Rwanda's defense ministry over support for M23 in eastern Congo",
    "Japan and Germany voice grave concern over export curbs and critical minerals coercion",
    "Ukraine says it gets about 12 US Patriot missiles a month against 150 ballistic missiles",
-   "US stresses conditions for wartime command transfer as South Korea seeks a target year"
+   "US stresses conditions for wartime command transfer as South Korea seeks a target year",
+   "UN support for ending the US embargo on Cuba falls to a 20-year low"
   ]
  },
  {
@@ -1073,15 +1089,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-02-27@reel",
   "titles": [
    "Pakistan strikes Afghanistan as cross-border conflict intensifies"
-  ]
- },
- {
-  "date": "2026-02-24",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-02-24@reel",
-  "titles": [
-   "Somalia hunger assessment warns of severe deterioration"
   ]
  }
 ]

@@ -1,23 +1,39 @@
 [
  {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "count": 5,
   "auto": 5,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-30@reel",
+  "titles": [
+   "Taliban and Pakistani forces clash at least three times since Oct. 19",
+   "Ukraine reportedly strikes a Russian oil refinery in Samara",
+   "El Nino drought leaves up to 8 million people in Papua New Guinea short of food and water",
+   "US vice-president sends Iran a letter offering to restart nuclear diplomacy",
+   "Yemen fighting has displaced more than 280,000 as aid access becomes too dangerous"
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-29@reel",
   "titles": [
    "Ethiopia acquires Russian fighter jets and air defenses amid Tigray fighting",
    "Ship reported on fire in Strait of Hormuz as Iran says it downed another US drone",
    "North Korea fires about a dozen short-range ballistic missiles after Seoul's offer",
+   "Binance reports a $6.3 billion hack that analysts link to North Korea",
+   "Haiti violence displaces nearly 14,000 as acute hunger heads for a record",
    "Saudi Arabia, Pakistan and Turkey take a peace push directly to Tehran",
    "European Central Bank president resigns as oil shock and bond yields bite"
   ]
  },
  {
   "date": "2026-10-28",
-  "count": 9,
-  "auto": 9,
+  "count": 11,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-28@reel",
   "titles": [
+   "Russian drone strike on Dnipro's main railway station kills at least 13",
    "Gulf states draft a multipart deal to reopen Hormuz and avert renewed US-Iran war",
    "Cyclone hits India's east coast as more than 180,000 people are evacuated",
    "Ukraine's parliament passes the 2027 budget in first reading with two-thirds for security",
@@ -26,7 +42,8 @@
    "Japan and Germany voice grave concern over export curbs and critical minerals coercion",
    "Ukraine says it gets about 12 US Patriot missiles a month against 150 ballistic missiles",
    "US stresses conditions for wartime command transfer as South Korea seeks a target year",
-   "UN support for ending the US embargo on Cuba falls to a 20-year low"
+   "UN support for ending the US embargo on Cuba falls to a 20-year low",
+   "Poland is chosen to host Europe's first PAC-3 missile maintenance facility"
   ]
  },
  {
@@ -1080,15 +1097,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-02-28@reel",
   "titles": [
    "U.S. launches Operation Epic Fury against Iran"
-  ]
- },
- {
-  "date": "2026-02-27",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-02-27@reel",
-  "titles": [
-   "Pakistan strikes Afghanistan as cross-border conflict intensifies"
   ]
  }
 ]

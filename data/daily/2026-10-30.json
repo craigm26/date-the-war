@@ -1,0 +1,317 @@
+[
+  {
+    "id": "d-20261030-vance-letter-iran",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US vice-president sends Iran a letter offering to restart nuclear diplomacy",
+    "note": "The Guardian reports the letter went to the head of Iran's supreme national security council after mostly Qatari mediation, and asks Tehran to commit on its nuclear programme at the start of a process. Separate reports say Washington is also weighing new strikes, so the offer sits beside a live threat of renewed war.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "Iran",
+      "Qatar"
+    ],
+    "lon": 51.4,
+    "lat": 35.7,
+    "place": "Washington and Tehran",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        51.4,
+        35.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The letter's full terms and Iran's response are not public, and the account relies on unnamed diplomatic sources. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-dnipro-station-strike",
+    "date": "2026-10-28",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drone strike on Dnipro's main railway station kills at least 13",
+    "note": "The UN's top humanitarian official in Ukraine condemned the attack, which killed at least 13 civilians and injured 10 more at the city's main station. Strikes on transport hubs and the power grid in Dnipropetrovsk region continued into the following days.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 35.05,
+    "lat": 48.46,
+    "place": "Dnipro, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        35.05,
+        48.46
+      ]
+    ],
+    "global": false,
+    "metric": "at least 13 people",
+    "metricName": "civilians killed",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168702"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "Casualty counts differ between sources (Ukrainian reports give 14) and the UN statement does not independently verify the attack. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-samara-refinery-strike",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine reportedly strikes a Russian oil refinery in Samara",
+    "note": "Kyiv Independent describes the reported attack as the first after an unofficial pause in Ukraine's refinery campaign that began in mid-October. It suggests deep strikes on Russian energy are resuming as Russian attacks on Ukrainian power continue.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 50.1,
+    "lat": 53.2,
+    "place": "Samara, Russia",
+    "arc": [
+      [
+        32,
+        49
+      ],
+      [
+        50.1,
+        53.2
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russian-oil-refinery-reportedly-attacked-amid-renewed-ukrainian-strikes-on-energy-infrastructure/"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The strike is described as reported and the damage and the existence of a formal pause are not confirmed by officials. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-afghan-pakistan-border",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Taliban and Pakistani forces clash at least three times since Oct. 19",
+    "note": "FDD's Long War Journal reports repeated border fighting, alongside claims that Pakistani military and intelligence officials have met anti-Taliban resistance groups about possible support. Backing for armed opponents would deepen a proxy dimension to the dispute.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Afghanistan",
+      "Pakistan"
+    ],
+    "lon": 70.5,
+    "lat": 33.5,
+    "place": "Afghanistan-Pakistan border",
+    "arc": null,
+    "global": false,
+    "metric": "3 clashes",
+    "metricName": "reported clashes since Oct. 19",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/10/afghanistan-pakistan-border-clashes-continue-amid-reported-pakistani-outreach-to-anti-taliban-groups.php"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The outreach to resistance groups is reported, not confirmed, and casualty figures are not given. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-binance-hack-north-korea",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Binance reports a $6.3 billion hack that analysts link to North Korea",
+    "note": "The exchange halted withdrawals and said it would cover the losses, and blockchain intelligence firms tie the theft to North Korean hackers. Theft at this scale could finance sanctioned weapons programmes.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "North Korea",
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Global crypto markets",
+    "arc": null,
+    "global": true,
+    "metric": "6.3 USD billion",
+    "metricName": "reported value stolen",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/30/binance-says-6-3bn-stolen-in-biggest-crypto-heist-in-history-what-we-know?traffic_source=rss"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "Attribution to North Korea comes from private analytics firms and is not confirmed by a government, and the final loss figure may change. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-png-el-nino-drought",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "El Nino drought leaves up to 8 million people in Papua New Guinea short of food and water",
+    "note": "A coalition of churches, unions and business groups calls the drought a national crisis, citing food and water shortages, blackouts and clinic closures. It reports no coordinated plan to protect vulnerable communities, a state-capacity strain.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Papua New Guinea"
+    ],
+    "lon": 145,
+    "lat": -6.3,
+    "place": "Papua New Guinea",
+    "arc": null,
+    "global": false,
+    "metric": "up to 8 million people",
+    "metricName": "people affected",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The affected-population figure is an upper estimate from civil society groups, not an official count. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-haiti-displacement-hunger",
+    "date": "2026-10-29",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Haiti violence displaces nearly 14,000 as acute hunger heads for a record",
+    "note": "The IOM says nearly 14,000 people fled Petite-Riviere-de-l'Artibonite after violence began on 19 October. The WFP warns acute hunger is on track to reach a record 6.35 million people from next March.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Haiti"
+    ],
+    "lon": -72.5,
+    "lat": 19.1,
+    "place": "Artibonite, Haiti",
+    "arc": null,
+    "global": false,
+    "metric": "6.35 million people",
+    "metricName": "projected to face acute hunger from March",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db261029.doc.htm"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The figures come from a UN briefing summary and the hunger number is a projection. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-yemen-displacement-access",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Yemen fighting has displaced more than 280,000 as aid access becomes too dangerous",
+    "note": "The UN refugee agency says many vulnerable people cannot be reached with relief because the fighting makes delivery too dangerous. It shows the renewed Yemen war is widening its humanitarian toll.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 47.5,
+    "lat": 15.5,
+    "place": "Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "more than 280,000 people",
+    "metricName": "displaced by fighting",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168706"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The figure is a UNHCR estimate and the summary does not break down who is responsible for the displacement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261030-poland-pac3-hub",
+    "date": "2026-10-28",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Poland is chosen to host Europe's first PAC-3 missile maintenance facility",
+    "note": "FDD's Long War Journal reports the site will shorten repair and servicing times for Patriot interceptors and strengthen regional air defence readiness. It comes amid growing shortages of critical munitions.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Poland",
+      "United States"
+    ],
+    "lon": 21,
+    "lat": 52.2,
+    "place": "Poland",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/10/poland-selected-to-host-patriot-advanced-capability-3-missile-maintenance-facility.php"
+    },
+    "checked": "2026-10-30",
+    "auto": true,
+    "limitations": "The summary gives no location, timeline or cost for the facility. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

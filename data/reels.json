@@ -1,15 +1,30 @@
 [
  {
+  "date": "2026-10-31",
+  "count": 2,
+  "auto": 2,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-10-31@reel",
+  "titles": [
+   "Iranian lawmakers call for withdrawal from the nuclear Non-Proliferation Treaty",
+   "Iran's supreme leader says retaliation if attacked will not be limited by geography"
+  ]
+ },
+ {
   "date": "2026-10-30",
-  "count": 5,
-  "auto": 5,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-30@reel",
   "titles": [
    "Taliban and Pakistani forces clash at least three times since Oct. 19",
    "Ukraine reportedly strikes a Russian oil refinery in Samara",
+   "Russia strikes Dnipro railway station again a day after attack killed 15",
    "El Nino drought leaves up to 8 million people in Papua New Guinea short of food and water",
+   "More than 28 million people in DR Congo lack enough food, IPC alert says",
    "US vice-president sends Iran a letter offering to restart nuclear diplomacy",
-   "Yemen fighting has displaced more than 280,000 as aid access becomes too dangerous"
+   "Yemen fighting has displaced more than 280,000 as aid access becomes too dangerous",
+   "More than 300,000 people displaced since March remain displaced in Lebanon",
+   "US approves $2.1 billion Patriot missile sale to Ukraine",
+   "US, Japan and South Korea reaffirm complete denuclearization goal as Pyongyang objects"
   ]
  },
  {
@@ -1088,15 +1103,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-03-02@reel",
   "titles": [
    "France announces expanded nuclear deterrence policy"
-  ]
- },
- {
-  "date": "2026-02-28",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-02-28@reel",
-  "titles": [
-   "U.S. launches Operation Epic Fury against Iran"
   ]
  }
 ]

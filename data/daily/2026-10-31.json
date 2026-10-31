@@ -1,0 +1,245 @@
+[
+  {
+    "id": "d-20261031-dnipro-station-second-strike",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia strikes Dnipro railway station again a day after attack killed 15",
+    "note": "Ukrainian war reporting says Russia hit the main railway station in Dnipro a second time within a day, after the earlier strike killed 15 people. Repeated attacks on rail hubs threaten civilian movement and military logistics.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 34.99,
+    "lat": 48.46,
+    "place": "Dnipro, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "15 people killed in the earlier strike",
+    "metricName": "civilian deaths in the first attack",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-dnipro-railway-station-again-day-after-attack-killed-15/"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "The toll comes from the outlet's summary of official statements and is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261031-patriot-sale-ukraine",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US approves $2.1 billion Patriot missile sale to Ukraine",
+    "note": "Washington has approved a sale of Patriot interceptors reported at 500 missiles and $2.1 billion, while Ukraine's president warns deliveries may take years. It eases a shortage of the only weapon that reliably stops Russian ballistic missiles, but the delivery lag leaves a gap.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "2.1 USD billion",
+    "metricName": "approved Patriot missile sale value",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "Approval of a potential sale is not a delivery schedule, and the timeline is disputed between Kyiv and NATO officials. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261031-iran-npt-withdrawal-call",
+    "date": "2026-10-31",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iranian lawmakers call for withdrawal from the nuclear Non-Proliferation Treaty",
+    "note": "Al Jazeera reports Iranian lawmakers are urging an exit from the NPT. Observers quoted say withdrawal would not itself mean building a weapon, but it would end treaty inspections and raise the risk of renewed war with the US.",
+    "mechanisms": [
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran, Iran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "A call by lawmakers is not government policy, and the source gives no sign of a formal decision. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261031-iran-unfettered-retaliation",
+    "date": "2026-10-31",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran's supreme leader says retaliation if attacked will not be limited by geography",
+    "note": "Al Jazeera reports Iran warns any response to an attack would be unrestricted while mediators work for a deal. The wider-theater threat raises the stakes for Gulf states and shipping if talks fail.",
+    "mechanisms": [
+      "misperception",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran, Iran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "A public warning may be signaling for deterrence and does not show intent or capability. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261031-lebanon-displaced-300k",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "More than 300,000 people displaced since March remain displaced in Lebanon",
+    "note": "The UN aid coordination office says the humanitarian crisis in Lebanon is far from over, with over 300,000 people still internally displaced since early March. Prolonged displacement shows how far conflict damage persists beyond active fighting.",
+    "mechanisms": [],
+    "countries": [
+      "Lebanon"
+    ],
+    "lon": 35.5,
+    "lat": 33.9,
+    "place": "Lebanon",
+    "arc": null,
+    "global": false,
+    "metric": "more than 300,000 people",
+    "metricName": "internally displaced since early March",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168713"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "The figure is a UN estimate from a news brief with no breakdown of causes or locations. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261031-trilateral-denuclearization",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US, Japan and South Korea reaffirm complete denuclearization goal as Pyongyang objects",
+    "note": "The three foreign ministers pledged complete denuclearization of North Korea and signed an Arctic-Pacific cooperation memorandum, while North Korea called a related multinational statement on sanctions a strategic failure. The hardened positions come as possible US-North Korea talks are discussed.",
+    "mechanisms": [
+      "security-dilemma",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Japan",
+      "South Korea",
+      "North Korea"
+    ],
+    "lon": -84.39,
+    "lat": 33.75,
+    "place": "Atlanta, United States",
+    "arc": [
+      [
+        -84.39,
+        33.75
+      ],
+      [
+        125.75,
+        39.02
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/10/31/asia-pacific/politics/north-korea-denuclearization-vow/"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "Joint statements show positions, not any change in North Korean capabilities or willingness to negotiate. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261031-drc-hunger-28m",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "More than 28 million people in DR Congo lack enough food, IPC alert says",
+    "note": "The IPC food security monitor says hunger in the Democratic Republic of the Congo is deepening amid conflict, Ebola and climate shocks, and is expected to rise in coming months. Food stress in the east compounds displacement and weakens state capacity.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "lon": 23.6,
+    "lat": -2.9,
+    "place": "Democratic Republic of the Congo",
+    "arc": null,
+    "global": false,
+    "metric": "more than 28 million people",
+    "metricName": "not getting enough to eat",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168708"
+    },
+    "checked": "2026-10-31",
+    "auto": true,
+    "limitations": "IPC figures are modeled estimates, and access limits in conflict areas reduce data quality. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

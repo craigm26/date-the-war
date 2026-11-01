@@ -1,0 +1,298 @@
+[
+  {
+    "id": "d-20261101-qatar-lng-carrier-struck",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Qatar LNG carrier is struck by unidentified objects in the Gulf",
+    "note": "Qatar's gas shipping company says one of its LNG carriers was hit by unidentified objects, with no injuries or environmental damage reported. Attacks on gas tankers matter for energy supply and for the stability of the fragile US-Iran ceasefire.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Qatar",
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.5,
+    "lat": 26.5,
+    "place": "Persian Gulf",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf?traffic_source=rss"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "The source does not identify what struck the ship or who is responsible. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-us-iran-talks-war-rhetoric",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Mediators keep US-Iran talks going as both sides trade war threats",
+    "note": "Al Jazeera reports that the US president calls the latest talks 'going fine' while saying targets remain, and Iran says it could reopen Hormuz faster if conditions are met. Diplomacy and threats of new strikes are running in parallel.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Iran",
+      "United States",
+      "Israel"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran and Washington",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        51.39,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "Negotiating positions come from public statements and the conditions for reopening Hormuz are not detailed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-gaza-displacement-ohchr",
+    "date": "2026-10-30",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN rights office warns Gaza's population is pushed into ever-smaller areas",
+    "note": "The UN human rights office says Israeli forces continue to compress Palestinians into smaller areas of Gaza while destroying civilian infrastructure and attacking displacement sites. It voices concern over possible ethnic cleansing.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza Strip",
+    "arc": [
+      [
+        35.2,
+        31.8
+      ],
+      [
+        34.45,
+        31.5
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168707"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "The claims are a UN office assessment that Israel disputes, and the summary gives no figures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-russia-record-october-losses",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Ukraine says Russia lost a record 54,400 troops in October",
+    "note": "Ukraine's General Staff estimates Russian losses at 54,400 soldiers in October, the worst month since the full-scale invasion. The figure signals very high intensity of fighting.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 36,
+    "lat": 48.5,
+    "place": "Ukraine front lines",
+    "arc": null,
+    "global": false,
+    "metric": "54,400 soldiers",
+    "metricName": "estimated Russian losses in October",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russia-suffers-record-troop-losses-in-october-its-worst-month-since-full-scale-invasion-ukraine-says/"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "The figure is a Ukrainian military estimate that cannot be independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-kstovo-refinery-strike",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian Kstovo refinery burns after drone strike as Kyiv denies a pause",
+    "note": "The Kstovo oil refinery is ablaze after a reported overnight drone strike, and Ukrainian officials say they never agreed to pause strikes on Russian refineries. The campaign keeps pressure on Russian fuel supply.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 44.17,
+    "lat": 56.15,
+    "place": "Kstovo, Russia",
+    "arc": [
+      [
+        30.5,
+        50.45
+      ],
+      [
+        44.17,
+        56.15
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "The strike is reported, not officially confirmed, and damage is not assessed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-nk-cluster-bomb-test",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea tests a cluster bomb warhead for tactical ballistic missiles",
+    "note": "Pyongyang says it tested a cluster warhead able to devastate a target area of 12 to 13 hectares, described as a major weapons test. It adds to missile activity after Seoul's recent outreach.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea"
+    ],
+    "lon": 127.5,
+    "lat": 39.5,
+    "place": "North Korea",
+    "arc": null,
+    "global": false,
+    "metric": "12 to 13 hectares",
+    "metricName": "claimed warhead target area",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "Performance claims come from North Korean state statements and are unverified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-taiwan-coast-guard-patrol",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Taiwan says China's coast guard harasses shipping off its east coast",
+    "note": "Taiwan says a China Coast Guard patrol is asserting a jurisdiction it does not hold on Taiwan's east coast, a route seen as critical in a blockade scenario. The move tests Taiwan's control of its waters.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Taiwan",
+      "China"
+    ],
+    "lon": 122,
+    "lat": 23.8,
+    "place": "East of Taiwan",
+    "arc": [
+      [
+        116.4,
+        39.9
+      ],
+      [
+        122,
+        23.8
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/taiwan-china-harassing-shipping/"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "The account is Taiwan's, and China's description of the patrol is not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261101-india-opposition-voter-list-protest",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Indian forces tighten Delhi security before opposition march on voter lists",
+    "note": "Security personnel surround the site of a planned opposition rally demanding the election chief resign over a revision of voter lists. It is a test of institutional legitimacy ahead of future polls.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "India"
+    ],
+    "lon": 77.21,
+    "lat": 28.61,
+    "place": "Delhi",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi"
+    },
+    "checked": "2026-11-01",
+    "auto": true,
+    "limitations": "Expected turnout is the opposition's own claim and the voter list dispute is contested. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

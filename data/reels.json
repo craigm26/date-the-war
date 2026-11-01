@@ -1,5 +1,20 @@
 [
  {
+  "date": "2026-11-01",
+  "count": 7,
+  "auto": 7,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-01@reel",
+  "titles": [
+   "Ukraine says Russia lost a record 54,400 troops in October",
+   "Russian Kstovo refinery burns after drone strike as Kyiv denies a pause",
+   "North Korea tests a cluster bomb warhead for tactical ballistic missiles",
+   "Qatar LNG carrier is struck by unidentified objects in the Gulf",
+   "Taiwan says China's coast guard harasses shipping off its east coast",
+   "Mediators keep US-Iran talks going as both sides trade war threats",
+   "Indian forces tighten Delhi security before opposition march on voter lists"
+  ]
+ },
+ {
   "date": "2026-10-31",
   "count": 2,
   "auto": 2,
@@ -11,8 +26,8 @@
  },
  {
   "date": "2026-10-30",
-  "count": 10,
-  "auto": 10,
+  "count": 11,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-10-30@reel",
   "titles": [
    "Taliban and Pakistani forces clash at least three times since Oct. 19",
@@ -20,6 +35,7 @@
    "Russia strikes Dnipro railway station again a day after attack killed 15",
    "El Nino drought leaves up to 8 million people in Papua New Guinea short of food and water",
    "More than 28 million people in DR Congo lack enough food, IPC alert says",
+   "UN rights office warns Gaza's population is pushed into ever-smaller areas",
    "US vice-president sends Iran a letter offering to restart nuclear diplomacy",
    "Yemen fighting has displaced more than 280,000 as aid access becomes too dangerous",
    "More than 300,000 people displaced since March remain displaced in Lebanon",
@@ -1094,15 +1110,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-03-08@reel",
   "titles": [
    "Iran closes the Strait of Hormuz"
-  ]
- },
- {
-  "date": "2026-03-02",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-03-02@reel",
-  "titles": [
-   "France announces expanded nuclear deterrence policy"
   ]
  }
 ]

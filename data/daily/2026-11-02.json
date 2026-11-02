@@ -1,0 +1,317 @@
+[
+  {
+    "id": "d-20261102-ukraine-russia-alert-app-hacks",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Fake nuclear alerts hit Ukrainian and Russian emergency apps in the same night",
+    "note": "Ukraine's air alert system sent false warnings of nuclear, chemical and street fighting threats to Kyiv residents, and Russia said its emergency ministry app was also compromised. Neither government has said who was responsible, and officials in Ukraine say the confusion was cleared up within an hour.",
+    "mechanisms": [
+      "misperception",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/02/hackers-fake-nuclear-chemical-threat-alert-kyiv-ukraine-emergency-app"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Attribution is unknown and the reach of the false alerts beyond Kyiv is not independently measured. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-kherson-hospital-strike",
+    "date": "2026-11-02",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drone hits a Kherson hospital hours after the Oleshky truce ends",
+    "note": "Kherson's military administration says a Russian drone struck a hospital at 7:40 am, with no injuries reported, shortly after the temporary ceasefire that let hundreds leave Oleshky expired. Ukraine's General Staff separately says Russia used the pause to rotate troops and resupply.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 32.62,
+    "lat": 46.64,
+    "place": "Kherson",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        32.62,
+        46.64
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Damage reports come from Ukrainian officials and a live blog, and the military claims about the truce are one side's account. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-us-russian-gas-plan-eu-split",
+    "date": "2026-11-02",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "EU is unlikely to accept a US plan to resume Russian gas flows via Ukraine",
+    "note": "EU officials say Brussels is unlikely to back a US proposal to restart Russian gas deliveries through Ukraine, which Washington thinks could help secure a ceasefire and bring Kyiv revenue. The split shows how energy supply is being tied to peace terms.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States",
+      "European NATO member countries"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-eu-split-over-us-backed-plan-to-bring-russian-gas-back-to-europe/"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Based on unnamed EU officials speaking to one outlet, and the US proposal's terms are not published. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-sudan-displaced-famine-warning",
+    "date": "2026-11-02",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Displaced Sudanese face a worsening aid situation and famine warnings",
+    "note": "Al Jazeera reports that displaced people in Sudan face a mounting food crisis as aid access worsens and famine warnings continue. Hunger of this kind tends to sustain displacement and the incentives of armed groups that control access.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30.2,
+    "lat": 15.6,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/11/2/as-aid-situation-worsens-displaced-sudanese-worry-about-warnings-of-famine?traffic_source=rss"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "The item gives no figures in its summary and rests on testimony from displaced people. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-yemen-al-jawf-fighting",
+    "date": "2026-11-02",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Fighting rages in Yemen's al-Jawf as the Saudi-led coalition intercepts a missile",
+    "note": "Al Jazeera reports the coalition intercepted a missile while government forces and the Houthis fight over al-Jawf, and Houthi-affiliated media say seven people were wounded in strikes on Hodeidah. Recent government advances make the governorate a new front with Saudi security stakes.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 45.3,
+    "lat": 16.2,
+    "place": "Al-Jawf, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "7 people wounded",
+    "metricName": "casualties in Hodeidah strikes, per Houthi-affiliated media",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/2/saudi-led-coalition-intercepts-a-missile-as-fighting-rages-in-yemens-al-jawf?traffic_source=rss"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Casualty figures come from a party to the conflict and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-doha-talks-iran-assets",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Doha talks weigh release of $6bn in Iranian assets to reopen Hormuz",
+    "note": "Indirect US-Iran talks ran into a third day in Qatar over releasing more than $6 billion in Iranian assets, which could reopen the strait and restart nuclear talks. Gulf officials say they are braced for the worst while they wait for a US reply before the midterm elections.",
+    "mechanisms": [
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Iran",
+      "United States",
+      "Qatar"
+    ],
+    "lon": 51.53,
+    "lat": 25.29,
+    "place": "Doha",
+    "arc": null,
+    "global": false,
+    "metric": "more than 6 USD billion",
+    "metricName": "Iranian assets under negotiation",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Talks are indirect and the terms of the Iranian proposal and any US response are not public. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-japan-defense-500bn-plan",
+    "date": "2026-11-02",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Japan weighs a $500 billion five-year defense buildup, nearly double the current plan",
+    "note": "Sources say Japan is considering defense spending of about $500 billion for the five years from April 2027, nearly twice the current five-year plan. It would be a major step in regional arms buildup if adopted.",
+    "mechanisms": [
+      "security-dilemma",
+      "power-transition"
+    ],
+    "countries": [
+      "Japan",
+      "China"
+    ],
+    "lon": 139.69,
+    "lat": 35.69,
+    "place": "Tokyo",
+    "arc": null,
+    "global": false,
+    "metric": "about 500 USD billion",
+    "metricName": "proposed five-year defense buildup spending",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/02/japan/politics/defense-spending-double-takaichi/"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Based on unnamed sources and the plan has not been adopted. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-us-china-truce-fragile",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US-China trade truce has cooled the conflict but nothing limits new hostilities",
+    "note": "The Guardian reports the tariff fight has dropped from the headlines under a truce, yet neither side has acted to prevent a fresh outbreak. Threats of new tariffs still flare periodically.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Washington and Beijing",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "An analysis piece that offers no new data on tariff levels. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261102-gaza-strikes-eight-killed",
+    "date": "2026-11-01",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli strikes in Gaza kill eight, including five Hamas-run police officers",
+    "note": "Hospitals say five officers of the Hamas-run police died in Khan Younis and three people, including a child, in Gaza City. Continued strikes strain the ceasefire framework.",
+    "mechanisms": [
+      "commitment-problem",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.3,
+    "lat": 31.4,
+    "place": "Khan Younis and Gaza City",
+    "arc": [
+      [
+        34.8,
+        31.8
+      ],
+      [
+        34.3,
+        31.4
+      ]
+    ],
+    "global": false,
+    "metric": "8 people",
+    "metricName": "killed in Israeli strikes, per hospitals",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-02",
+    "auto": true,
+    "limitations": "Casualty counts come from hospital officials and the Israeli account of the targets is not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,8 +1,21 @@
 [
  {
+  "date": "2026-11-02",
+  "count": 5,
+  "auto": 5,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-02@reel",
+  "titles": [
+   "Japan weighs a $500 billion five-year defense buildup, nearly double the current plan",
+   "Russian drone hits a Kherson hospital hours after the Oleshky truce ends",
+   "Fighting rages in Yemen's al-Jawf as the Saudi-led coalition intercepts a missile",
+   "EU is unlikely to accept a US plan to resume Russian gas flows via Ukraine",
+   "Displaced Sudanese face a worsening aid situation and famine warnings"
+  ]
+ },
+ {
   "date": "2026-11-01",
-  "count": 7,
-  "auto": 7,
+  "count": 11,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-01@reel",
   "titles": [
    "Ukraine says Russia lost a record 54,400 troops in October",
@@ -10,7 +23,11 @@
    "North Korea tests a cluster bomb warhead for tactical ballistic missiles",
    "Qatar LNG carrier is struck by unidentified objects in the Gulf",
    "Taiwan says China's coast guard harasses shipping off its east coast",
+   "Israeli strikes in Gaza kill eight, including five Hamas-run police officers",
+   "Fake nuclear alerts hit Ukrainian and Russian emergency apps in the same night",
    "Mediators keep US-Iran talks going as both sides trade war threats",
+   "Doha talks weigh release of $6bn in Iranian assets to reopen Hormuz",
+   "US-China trade truce has cooled the conflict but nothing limits new hostilities",
    "Indian forces tighten Delhi security before opposition march on voter lists"
   ]
  },
@@ -1101,15 +1118,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-03-10@reel",
   "titles": [
    "UNCTAD warns of Hormuz trade spillovers"
-  ]
- },
- {
-  "date": "2026-03-08",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-03-08@reel",
-  "titles": [
-   "Iran closes the Strait of Hormuz"
   ]
  }
 ]

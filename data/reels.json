@@ -1,13 +1,30 @@
 [
  {
+  "date": "2026-11-03",
+  "count": 8,
+  "auto": 8,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-03@reel",
+  "titles": [
+   "Russia launches its biggest attack of the year on Ukraine's energy grid",
+   "Russian strike on a Ukrainian aid hub kills at least 29, 48 missing",
+   "US conducts limited strikes on Iran's Qeshm Island near Hormuz",
+   "Black Sea shipping strikes threaten grain exports and lift food prices",
+   "Cyberattack hits supermarket cold stores across Europe with no clear culprit",
+   "North Korea tests a dispersal warhead for cruise missiles",
+   "Indian navy frees 20 crew of an Iranian fishing boat hijacked off Somalia",
+   "Poland deploys counterterrorism police near the Russian border"
+  ]
+ },
+ {
   "date": "2026-11-02",
-  "count": 5,
-  "auto": 5,
+  "count": 6,
+  "auto": 6,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-02@reel",
   "titles": [
    "Japan weighs a $500 billion five-year defense buildup, nearly double the current plan",
    "Russian drone hits a Kherson hospital hours after the Oleshky truce ends",
    "Fighting rages in Yemen's al-Jawf as the Saudi-led coalition intercepts a missile",
+   "WHO warns northern Ethiopia violence pushes health system to the brink",
    "EU is unlikely to accept a US plan to resume Russian gas flows via Ukraine",
    "Displaced Sudanese face a worsening aid situation and famine warnings"
   ]
@@ -1109,15 +1126,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-03-11@reel",
   "titles": [
    "IEA members agree record emergency oil-stock release"
-  ]
- },
- {
-  "date": "2026-03-10",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-03-10@reel",
-  "titles": [
-   "UNCTAD warns of Hormuz trade spillovers"
   ]
  }
 ]

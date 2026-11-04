@@ -1,0 +1,317 @@
+[
+  {
+    "id": "d-20261104-taiz-siege",
+    "date": "2026-11-04",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthi siege of Taiz enters a second month as supplies are cut off",
+    "note": "Al Jazeera reports a monthlong Houthi blockade is keeping food, water, fuel and medical supplies from reaching Taiz, with warnings of a catastrophe. Siege conditions raise civilian harm and make a local ceasefire harder to reach.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 44.02,
+    "lat": 13.58,
+    "place": "Taiz, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/4/houthis-one-month-siege-on-taiz-is-creating-hell-for-yemenis-stuck-there?traffic_source=rss"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The summary gives no casualty or population figures, and conditions inside the city are hard to verify independently. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-sudan-drone-infra",
+    "date": "2026-11-03",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN warns Sudan drone strikes on civilian infrastructure cut power, water and fuel",
+    "note": "The UN's top official in Sudan says intensifying drone attacks are disrupting electricity, water and fuel supplies and hampering aid delivery. Loss of basic services deepens the humanitarian crisis and raises the stakes of the war.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30.2,
+    "lat": 15.5,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168731"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The summary does not say which party carried out the strikes or give casualty totals. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-nk-missiles",
+    "date": "2026-11-04",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea fires multiple missiles toward the East Sea",
+    "note": "South Korea's Joint Chiefs of Staff report several North Korean missiles fired toward the East Sea. Japan issued no alert, suggesting no direct threat to its territory, but the launch continues a run of weapons tests.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea",
+      "Japan"
+    ],
+    "lon": 128.5,
+    "lat": 39.5,
+    "place": "East Sea, Korean Peninsula",
+    "arc": [
+      [
+        127,
+        39.5
+      ],
+      [
+        131,
+        39.5
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261104005551315"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "Missile types, number and range are not given in the available text and rest on South Korean military reporting. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-brent-falls",
+    "date": "2026-11-02",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Brent crude falls more than 6 percent on hopes of a breakthrough in the Iran war",
+    "note": "The Guardian reports Brent dropped to as low as 105.55 USD a barrel, the lowest since 16 October, as markets priced in diplomacy. Oil still trades at a high level, reflecting continued supply risk around the Gulf.",
+    "mechanisms": [],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.3,
+    "lat": 26.5,
+    "place": "Strait of Hormuz and global oil market",
+    "arc": null,
+    "global": false,
+    "metric": "105.55 USD per barrel",
+    "metricName": "Brent crude price low",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "Price moves reflect market sentiment and can reverse quickly; the report does not confirm any agreement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-france-blood-hack",
+    "date": "2026-11-04",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Hackers raise temperatures at French blood service cold stores",
+    "note": "France's national blood service says hackers accessed control systems and pushed temperature and defrosting thresholds to very high levels at three cold stores holding blood products. The Guardian describes it as an apparent escalation of recent attacks on refrigeration across Europe.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "France",
+      "Multiple countries"
+    ],
+    "lon": 2.35,
+    "lat": 48.86,
+    "place": "France",
+    "arc": null,
+    "global": false,
+    "metric": "3 cold stores",
+    "metricName": "sites affected",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The attacker is not identified and the link to the earlier cold store attacks is described as apparent. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-us-israel-aid",
+    "date": "2026-11-03",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US president says US military aid to Israel will end at the close of the year",
+    "note": "In an election day interview the US president said the US does not need to pay the roughly 4 billion USD annual sum. The Guardian says the remark appeared aimed at voters skeptical of support for Israel; no formal policy change is described.",
+    "mechanisms": [
+      "domestic-incentives",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Israel"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington and Israel",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        35.2,
+        31.8
+      ]
+    ],
+    "global": false,
+    "metric": "4 USD billion",
+    "metricName": "annual US military aid",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The claim is a verbal statement; no legal or budget action is reported and Congress controls appropriations. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-norway-sensors",
+    "date": "2026-11-03",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Norway deploys air defense sensors and troops near the Russian border",
+    "note": "Norway's defense minister says new sensors will improve drone detection in Finnmark, citing lessons from Ukraine. The move strengthens NATO's northern flank and may add to security-dilemma pressures with Russia.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Norway",
+      "Russia"
+    ],
+    "lon": 25,
+    "lat": 70,
+    "place": "Finnmark, Norway",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/norway-deploys-additional-air-defense-sensors-troops-near-russia-border/"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The size of the deployment is not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-myanmar-school",
+    "date": "2026-11-03",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Airstrike hits a Myanmar school, killing three children",
+    "note": "UNICEF reports an airstrike on a school in Myanmar killed three children and injured five others. Attacks on schools show continued civilian harm in the country's civil conflict.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Myanmar"
+    ],
+    "lon": 96,
+    "lat": 21,
+    "place": "Myanmar",
+    "arc": null,
+    "global": false,
+    "metric": "3 children killed",
+    "metricName": "reported deaths",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168729"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The summary does not name the location or the party responsible. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261104-china-gulf-diplomacy",
+    "date": "2026-11-03",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "China steps up meetings with Gulf leaders ahead of a US-China summit",
+    "note": "The Guardian reports Beijing has held a flurry of meetings with Gulf leaders as it seeks more influence in the Middle East. The push comes before a US-China leaders' meeting expected at the APEC conference in Shenzhen on 18 and 19 November.",
+    "mechanisms": [
+      "power-transition"
+    ],
+    "countries": [
+      "China",
+      "United States",
+      "Qatar",
+      "Saudi Arabia",
+      "United Arab Emirates"
+    ],
+    "lon": 51.5,
+    "lat": 25.3,
+    "place": "Gulf region",
+    "arc": [
+      [
+        116.4,
+        39.9
+      ],
+      [
+        51.5,
+        25.3
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping"
+    },
+    "checked": "2026-11-04",
+    "auto": true,
+    "limitations": "The summary does not list which leaders met or what was agreed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

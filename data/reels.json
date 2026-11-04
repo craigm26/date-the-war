@@ -1,8 +1,19 @@
 [
  {
+  "date": "2026-11-04",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-04@reel",
+  "titles": [
+   "Hackers raise temperatures at French blood service cold stores",
+   "North Korea fires multiple missiles toward the East Sea",
+   "Houthi siege of Taiz enters a second month as supplies are cut off"
+  ]
+ },
+ {
   "date": "2026-11-03",
-  "count": 8,
-  "auto": 8,
+  "count": 13,
+  "auto": 13,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-03@reel",
   "titles": [
    "Russia launches its biggest attack of the year on Ukraine's energy grid",
@@ -11,14 +22,19 @@
    "Black Sea shipping strikes threaten grain exports and lift food prices",
    "Cyberattack hits supermarket cold stores across Europe with no clear culprit",
    "North Korea tests a dispersal warhead for cruise missiles",
+   "Airstrike hits a Myanmar school, killing three children",
+   "UN warns Sudan drone strikes on civilian infrastructure cut power, water and fuel",
+   "Norway deploys air defense sensors and troops near the Russian border",
+   "US president says US military aid to Israel will end at the close of the year",
    "Indian navy frees 20 crew of an Iranian fishing boat hijacked off Somalia",
-   "Poland deploys counterterrorism police near the Russian border"
+   "Poland deploys counterterrorism police near the Russian border",
+   "China steps up meetings with Gulf leaders ahead of a US-China summit"
   ]
  },
  {
   "date": "2026-11-02",
-  "count": 6,
-  "auto": 6,
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-02@reel",
   "titles": [
    "Japan weighs a $500 billion five-year defense buildup, nearly double the current plan",
@@ -26,6 +42,7 @@
    "Fighting rages in Yemen's al-Jawf as the Saudi-led coalition intercepts a missile",
    "WHO warns northern Ethiopia violence pushes health system to the brink",
    "EU is unlikely to accept a US plan to resume Russian gas flows via Ukraine",
+   "Brent crude falls more than 6 percent on hopes of a breakthrough in the Iran war",
    "Displaced Sudanese face a worsening aid situation and famine warnings"
   ]
  },
@@ -1117,15 +1134,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-03-16@reel",
   "titles": [
    "EU strengthens coordinated response to hybrid threats"
-  ]
- },
- {
-  "date": "2026-03-11",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-03-11@reel",
-  "titles": [
-   "IEA members agree record emergency oil-stock release"
   ]
  }
 ]

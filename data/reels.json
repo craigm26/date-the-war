@@ -1,13 +1,28 @@
 [
  {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "count": 3,
   "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-05@reel",
+  "titles": [
+   "South Korea plans to move its anti-piracy unit closer to the Strait of Hormuz",
+   "UK MPs find the country dangerously reliant on China for critical minerals",
+   "US midterm results shift the politics of the Iran, Gaza and Ukraine wars"
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-04@reel",
   "titles": [
    "Hackers raise temperatures at French blood service cold stores",
    "North Korea fires multiple missiles toward the East Sea",
-   "Houthi siege of Taiz enters a second month as supplies are cut off"
+   "Houthi siege of Taiz enters a second month as supplies are cut off",
+   "Kyiv suffers its worst water outage of the war after a mass Russian assault",
+   "UN refugee chief says more than 117 million people are forcibly displaced",
+   "US sanctions Indian and Turkish firms accused of helping Iran's shadow fleet",
+   "Ukraine and partners coordinate in Brussels ahead of Abu Dhabi talks with Russia"
   ]
  },
  {
@@ -1125,15 +1140,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-03-17@reel",
   "titles": [
    "WFP models additional hunger from prolonged Middle East war"
-  ]
- },
- {
-  "date": "2026-03-16",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-03-16@reel",
-  "titles": [
-   "EU strengthens coordinated response to hybrid threats"
   ]
  }
 ]

@@ -1,0 +1,265 @@
+[
+  {
+    "id": "d-20261106-cuba-sanctions",
+    "date": "2026-11-05",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US sanctions Cuban oil shipping and military-support networks",
+    "note": "The US State Department designates eight entities and two individuals and identifies five vessels as blocked property, targeting Cuba's oil shipping, state import entities and China-based technical support. It tightens economic pressure on Havana and on the foreign suppliers of its military equipment.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Cuba",
+      "United States",
+      "China"
+    ],
+    "lon": -82.37,
+    "lat": 23.13,
+    "place": "Havana, Cuba",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        -82.37,
+        23.13
+      ]
+    ],
+    "global": false,
+    "metric": "8 entities, 2 individuals, 5 vessels",
+    "metricName": "targets designated or identified",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/further-sanctions-on-the-cuban-regimes-foreign-military-support-and-illicit-revenue-networks-fact-sheet/"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "The source is a US government fact sheet and its claims about the Cuban government's conduct are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-abyei-drones",
+    "date": "2026-11-05",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Drone strikes kill at least 30 in disputed Abyei, UN peacekeeping chief warns",
+    "note": "The UN peacekeeping chief told the Security Council the strikes last month add a new and concerning dimension to security in the area disputed by Sudan and South Sudan. The peacekeeping mission's mandate expires on 15 November.",
+    "mechanisms": [
+      "state-weakness",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Sudan",
+      "South Sudan"
+    ],
+    "lon": 28.4,
+    "lat": 9.6,
+    "place": "Abyei",
+    "arc": null,
+    "global": false,
+    "metric": "at least 30 people",
+    "metricName": "killed in drone strikes",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168749"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "The summary does not say who launched the strikes. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-local-ceasefire-talks",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US first lady hosts Russian and Ukrainian officials, urges a lasting truce",
+    "note": "Both sides credit the US first lady with a key but unspecified role in a local Russia-Ukraine ceasefire, and she calls for lasting peace. Local truces have repeatedly collapsed, so this matters mainly as a channel for wider talks.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "United States"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington, United States",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "Her role is described only as unspecified, and the terms and scope of the local ceasefire are not given. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-korea-dmz-tensions",
+    "date": "2026-11-05",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN chief voices concern over potential escalation along the Korean DMZ",
+    "note": "The UN Secretary-General's spokesperson says he is concerned about the Korean Peninsula, including possible escalation of tensions across the Demilitarized Zone. It follows a run of North Korean missile tests logged on the ledger this week.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "North Korea",
+      "South Korea"
+    ],
+    "lon": 127.2,
+    "lat": 38,
+    "place": "Korean Demilitarized Zone",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168750"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "The summary gives no detail on the specific incidents driving the concern. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-iran-missile-base-construction",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Satellite images suggest major construction near Iranian missile bases",
+    "note": "Imagery taken in November shows digging and new buildings near Iran's missile bases, pointing to rebuilding of military capacity while talks with the US stall and renewed war is under discussion.",
+    "mechanisms": [
+      "security-dilemma",
+      "private-information"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 53.7,
+    "lat": 32.4,
+    "place": "Iran missile bases",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "Satellite imagery shows activity but not its purpose, and the summary does not identify the sites. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-boe-rate-rise",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Bank of England raises rates for the first time since 2023 on energy inflation",
+    "note": "Policymakers say inflation pressure from months of high energy prices required a rise now, and warn more is likely. It shows how the Hormuz-linked energy shock is feeding into European monetary conditions.",
+    "mechanisms": [],
+    "countries": [
+      "United Kingdom"
+    ],
+    "lon": -0.09,
+    "lat": 51.51,
+    "place": "London, United Kingdom",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/11/06/economy/boe-raises-rates/"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "The summary does not give the size of the rate change or the inflation forecast. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-indonesia-mobilization",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Indonesia mobilizes thousands of troops amid a widening rift among top leaders",
+    "note": "The deployment of thousands of military personnel this week has fed speculation about a split between the current president and his predecessor, after a wiretap spilled the rivalry into public. It bears on the stability of Southeast Asia's largest state.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Indonesia"
+    ],
+    "lon": 106.85,
+    "lat": -6.21,
+    "place": "Jakarta, Indonesia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/06/asia-pacific/politics/indonesia-wiretap-rivalry/"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "The link between the mobilization and the rivalry is speculation reported in the source, not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261106-water-attacks-triple",
+    "date": "2026-11-05",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Attacks on water and sanitation in war zones more than triple since 2021",
+    "note": "UN reporting says attacks that damaged or destroyed water and sanitation systems in conflict zones tripled between 2021 and 2025. This raises children's risk of disease outbreaks, malnutrition and violence.",
+    "mechanisms": [],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Conflict zones worldwide",
+    "arc": null,
+    "global": true,
+    "metric": "more than 3 times",
+    "metricName": "increase in attacks on water and sanitation systems, 2021 to 2025",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168743"
+    },
+    "checked": "2026-11-06",
+    "auto": true,
+    "limitations": "The summary does not give absolute counts or the countries covered. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,13 +1,29 @@
 [
  {
+  "date": "2026-11-06",
+  "count": 4,
+  "auto": 4,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-06@reel",
+  "titles": [
+   "Satellite images suggest major construction near Iranian missile bases",
+   "Indonesia mobilizes thousands of troops amid a widening rift among top leaders",
+   "US first lady hosts Russian and Ukrainian officials, urges a lasting truce",
+   "Bank of England raises rates for the first time since 2023 on energy inflation"
+  ]
+ },
+ {
   "date": "2026-11-05",
-  "count": 3,
-  "auto": 3,
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-05@reel",
   "titles": [
+   "Drone strikes kill at least 30 in disputed Abyei, UN peacekeeping chief warns",
+   "US sanctions Cuban oil shipping and military-support networks",
+   "UN chief voices concern over potential escalation along the Korean DMZ",
    "South Korea plans to move its anti-piracy unit closer to the Strait of Hormuz",
    "UK MPs find the country dangerously reliant on China for critical minerals",
-   "US midterm results shift the politics of the Iran, Gaza and Ukraine wars"
+   "US midterm results shift the politics of the Iran, Gaza and Ukraine wars",
+   "Attacks on water and sanitation in war zones more than triple since 2021"
   ]
  },
  {
@@ -1131,15 +1147,6 @@
   "titles": [
    "Freedom House reports twentieth consecutive annual freedom decline",
    "WTO forecasts slower trade with downside from energy shocks"
-  ]
- },
- {
-  "date": "2026-03-17",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-03-17@reel",
-  "titles": [
-   "WFP models additional hunger from prolonged Middle East war"
   ]
  }
 ]

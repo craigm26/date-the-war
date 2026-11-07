@@ -1,0 +1,328 @@
+[
+  {
+    "id": "d-20261107-us-iran-qeshm-strikes",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "US says it carried out another round of limited strikes on Iran's Qeshm Island",
+    "note": "The Guardian reports the US president said the military struck an air defence system, calling the action minor, and Iranian state media reported two explosions on Qeshm Island in the Strait of Hormuz. The strikes come as mediators try to speed up diplomacy and as more ships in the strait were reported attacked.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 55.9,
+    "lat": 26.8,
+    "place": "Qeshm Island, Strait of Hormuz",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        55.9,
+        26.8
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "The scope of damage and the characterization of the strikes as minor come from US and Iranian state statements that are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-qatar-hormuz-inspections-plan",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Qatar seeks UN inspections of Iran's bombed nuclear sites to reopen Hormuz",
+    "note": "The Guardian reports Qatar, the lead mediator, is urging Iran to admit UN inspectors to bombed nuclear sites, including those holding highly enriched uranium, with no commitment to remove the stockpile. Down-blending is among the options, and the plan is tied to reopening the Strait of Hormuz.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Qatar",
+      "Iran",
+      "United States"
+    ],
+    "lon": 51.53,
+    "lat": 25.29,
+    "place": "Doha and Tehran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "The plan is described by sources and Iran has not accepted it, so its terms may change. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-kyiv-grid-bridge-strike",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia hits Kyiv's power grid and a Dnipro bridge ahead of Abu Dhabi talks",
+    "note": "The Guardian reports Russia used 172 drones and 36 ballistic missiles against electricity substations and a bridge over the Dnipro, causing blackouts and water shortages in Kyiv. The strike comes days before trilateral talks in Abu Dhabi, and Ukraine's president says substations linked to nuclear plants were also hit.",
+    "mechanisms": [
+      "steps-to-war",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "172 drones and 36 ballistic missiles",
+    "metricName": "weapons used in the overnight attack",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "Weapon counts and aims come from Ukrainian officials and cannot be independently checked. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-ukraine-saratov-refinery",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine reportedly strikes the Saratov refinery and sites in Oryol and Rostov",
+    "note": "The Kyiv Independent cites monitoring channels reporting overnight Ukrainian strikes on targets in Oryol, Saratov and Rostov regions, including an oil refinery and a factory hit by a Neptune missile. Such strikes aim at Russian fuel supply and war production.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 46.03,
+    "lat": 51.53,
+    "place": "Saratov, Russia",
+    "arc": [
+      [
+        30.52,
+        50.45
+      ],
+      [
+        46.03,
+        51.53
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-strikes-saratov-oil-refinery-in-mass-attack-on-several-regions-reports-say/"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "Reports rely on monitoring channels and the extent of damage is not confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-gaza-rain-floods-tents",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Heavy rain floods tents of about 70,000 displaced families in Gaza",
+    "note": "Al Jazeera reports floods endangered families and put war-damaged buildings at risk of collapse, with Gaza's Government Media Office estimating initial losses at about 3 million dollars. The weather adds to shelter and health pressures on a displaced population during a fragile ceasefire.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.4,
+    "lat": 31.45,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "about 70,000 families",
+    "metricName": "displaced families whose tents were flooded",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "Figures come from the Gaza government media office, which is a party to the conflict. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-gaza-ceasefire-violations-israel-vote",
+    "date": "2026-11-05",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "IDF reports 52 Gaza ceasefire violations as Arab parties gain in Israel's vote",
+    "note": "FDD's Long War Journal reports the Israel Defense Forces counted 52 violations by Hamas and other groups from Oct. 16 to Nov. 5, while Israeli forces kept striking militants in Gaza. Record Arab turnout in the Oct. 27 election nearly doubled Arab-led party representation, which could shape coalition talks.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.8,
+    "lat": 31.5,
+    "place": "Gaza and Israel",
+    "arc": null,
+    "global": false,
+    "metric": "52 violations",
+    "metricName": "ceasefire violations alleged by the IDF, Oct. 16 to Nov. 5",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/arab-parties-endorse-eisenkot-for-israeli-pm-idf-reports-52-ceasefire-violations-oct-16-nov-5.php"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "The violation count is an Israeli military claim from a think tank outlet and is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-us-drc-partnership-meeting",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US and DRC hold second steering committee meeting on their strategic partnership",
+    "note": "A joint statement says officials of both governments met in Paris for the second Joint Steering Committee of the US-DRC Strategic Partnership Agreement. The partnership links minerals access and security cooperation in a country with ongoing eastern conflict.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "Democratic Republic of the Congo"
+    ],
+    "lon": 2.35,
+    "lat": 48.86,
+    "place": "Paris",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-second-meeting-of-the-joint-steering-committee-of-the-u-s-drc-strategic-partnership-agreement/"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "This is an official joint statement and the excerpt does not show concrete outcomes or the full agenda. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-us-china-rare-earths-busan",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US presses China on rare earth and farm purchase commitments before summits",
+    "note": "The Japan Times reports Washington urged Beijing to meet commitments under the 2025 Busan accord on agricultural purchases and rare earths supply, while China voiced concern over US trade-restrictive measures. The US and Chinese presidents are expected to meet at two summits.",
+    "mechanisms": [
+      "commitment-problem",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Washington and Beijing",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        116.4,
+        39.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/11/07/economy/us-china-rare-earths-agriculture/"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "The report gives each side's stated position and does not show whether supply or purchases have actually fallen short. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261107-syria-hezbollah-homs-cell",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Syria detains an alleged Hezbollah-linked cell over a plot against a Homs refinery",
+    "note": "FDD's Long War Journal reports Syrian security forces arrested the cell on Nov. 3, part of a series of operations against Hezbollah networks and arms smuggling. The arrests come as Syrian-Lebanese talks on border security expand.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Syria",
+      "Lebanon"
+    ],
+    "lon": 36.72,
+    "lat": 34.73,
+    "place": "Homs, Syria",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/syria-detains-hezbollah-cell-accused-of-homs-plot.php"
+    },
+    "checked": "2026-11-07",
+    "auto": true,
+    "limitations": "The plot and the cell's Hezbollah links are allegations by Syrian authorities relayed by a think tank outlet. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

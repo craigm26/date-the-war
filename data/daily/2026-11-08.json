@@ -1,0 +1,336 @@
+[
+  {
+    "id": "d-20261108-yemen-saudi-strike-riyadh",
+    "date": "2026-11-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi strike near Sanaa kills 33 as Houthi missiles aim at Riyadh",
+    "note": "The Houthis say at least 33 people died in a Saudi air strike near Sanaa. A day later the Saudi-led coalition intercepted two ballistic missiles headed for Riyadh's financial district, and debris damaged a tower there. Saudi Arabia has not commented on the strike, and the exchange widens a month-old Yemeni government offensive.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.2,
+    "lat": 15.35,
+    "place": "Sanaa and Riyadh",
+    "arc": [
+      [
+        44.2,
+        15.35
+      ],
+      [
+        46.7,
+        24.7
+      ]
+    ],
+    "global": false,
+    "metric": "at least 33 people",
+    "metricName": "reported killed in the air strike",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "The death toll comes from the Houthis and Saudi Arabia has not confirmed it. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-sudan-shelter-shortfall",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Sudan shelter stocks near depletion as funding runs short",
+    "note": "UNHCR and IOM warn that millions of people displaced by the war risk losing even a roof as emergency shelter stocks run out. Aid teams describe empty warehouses and overwhelming needs.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30,
+    "lat": 15.5,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "millions of people",
+    "metricName": "displaced people at risk of losing shelter",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db261106.doc.htm"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "The briefing gives no exact count of people lacking shelter or of the funding gap. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-us-iran-land-blockade",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US task force looks to restrict Iranian land commerce on top of naval blockade",
+    "note": "The US military is setting up Task Force Iron Gate to coordinate with other agencies on restricting Iran's overland trade, extending the naval blockade. It signals tighter economic pressure while mediators work on a deal.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 53.7,
+    "lat": 32.4,
+    "place": "Tampa, Florida, and Iran",
+    "arc": [
+      [
+        -82.5,
+        27.95
+      ],
+      [
+        53.7,
+        32.4
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/us-military-blockade-iran-commerce/"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "The report describes the task force's remit, not how or when land routes would be closed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-us-sanctions-iran-crypto",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US sanctions eight digital asset providers over Iran sanctions evasion",
+    "note": "The US Treasury designates eight firms that exchange Iranian rials and other currencies for digital assets, which it says lets the Revolutionary Guard and other sanctioned actors move money. The move targets a channel for financing during the US-Iran conflict.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 53.7,
+    "lat": 32.4,
+    "place": "Washington and Iran",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        53.7,
+        32.4
+      ]
+    ],
+    "global": false,
+    "metric": "8 firms",
+    "metricName": "digital asset service providers designated",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/u-s-sanctions-cripple-financial-networks-sustaining-the-iranian-regime/"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "This is a US government statement and does not show how much money actually moved through the firms. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-ukraine-850k-power-loss",
+    "date": "2026-11-08",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 5,
+    "title": "Russian strikes cut power to about 850,000 people in Dnipropetrovsk and Kharkiv",
+    "note": "Al Jazeera reports that Russian attacks on energy infrastructure left about 850,000 people without electricity. The strikes come days before US-mediated talks in Abu Dhabi and continue the pressure on Ukraine's grid.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 35,
+    "lat": 48.46,
+    "place": "Dnipropetrovsk and Kharkiv",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        35,
+        48.46
+      ]
+    ],
+    "global": false,
+    "metric": "about 850,000 people",
+    "metricName": "left without power",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "The outage figure is as reported by Al Jazeera and the summary does not say how quickly power returns. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-armenia-azerbaijan-transit-route",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US, Armenia and Azerbaijan launch technical planning groups for a transit route",
+    "note": "The three governments launched trilateral technical planning groups to advance a US-backed transit route through southern Armenia. It ties the two former adversaries into a shared infrastructure project that could support a lasting peace.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Armenia",
+      "Azerbaijan",
+      "United States"
+    ],
+    "lon": 45.5,
+    "lat": 40,
+    "place": "Armenia and Azerbaijan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-the-launch-of-trilateral-technical-planning-groups-to-advance-the-trump-route-for-international-peace-and-prosperity-tripp/"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "This is a joint statement of intent and sets no construction schedule or funding. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-us-calls-action-nk-cyber",
+    "date": "2026-11-07",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US urges coordinated action on North Korean cyber threats after Binance hack",
+    "note": "Yonhap reports the US called for international coordination against North Korean cyber threats following a hack of the Binance exchange. State-linked crypto theft is a source of revenue for Pyongyang's weapons programs.",
+    "mechanisms": [
+      "private-information"
+    ],
+    "countries": [
+      "United States",
+      "North Korea"
+    ],
+    "lon": 125.75,
+    "lat": 39.02,
+    "place": "Washington and Pyongyang",
+    "arc": [
+      [
+        125.75,
+        39.02
+      ],
+      [
+        -77.04,
+        38.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261108000200315"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "The excerpt is truncated and attribution of the hack to North Korea is the US position, not independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-el-nino-banana-output",
+    "date": "2026-11-08",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Super El Niño cuts banana output in Colombia, Peru and Ecuador",
+    "note": "The Fairtrade Foundation says high winds in Colombia and heavy rain in Peru and Ecuador are already reducing banana production. Growers want better pay to cope with the climate shocks, which add to food price pressure.",
+    "mechanisms": [],
+    "countries": [
+      "Colombia",
+      "Peru",
+      "Ecuador"
+    ],
+    "lon": -74,
+    "lat": 4.6,
+    "place": "Colombia, Peru and Ecuador",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "The report gives no production totals and ties the losses to weather without a price estimate. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261108-refugees-climate-exposure",
+    "date": "2026-11-06",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Nearly 90 million refugees live in countries highly exposed to climate hazards",
+    "note": "UN News reports that three in four refugees, nearly 90 million people, live in countries facing high to severe exposure to drought, floods and extreme heat. Climate stress on displaced people can deepen competition over land, water and aid.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "World-wide",
+    "arc": null,
+    "global": true,
+    "metric": "nearly 90 million people",
+    "metricName": "refugees in high-exposure countries",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168752"
+    },
+    "checked": "2026-11-08",
+    "auto": true,
+    "limitations": "Exposure is a country-level measure and does not show conditions in the specific camps or areas where refugees live. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

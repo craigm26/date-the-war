@@ -1,12 +1,25 @@
 [
  {
+  "date": "2026-11-08",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-08@reel",
+  "titles": [
+   "Russian strikes cut power to about 850,000 people in Dnipropetrovsk and Kharkiv",
+   "Saudi strike near Sanaa kills 33 as Houthi missiles aim at Riyadh",
+   "Super El Niño cuts banana output in Colombia, Peru and Ecuador"
+  ]
+ },
+ {
   "date": "2026-11-07",
-  "count": 6,
-  "auto": 6,
+  "count": 8,
+  "auto": 8,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-07@reel",
   "titles": [
    "Russia hits Kyiv's power grid and a Dnipro bridge ahead of Abu Dhabi talks",
    "Ukraine reportedly strikes the Saratov refinery and sites in Oryol and Rostov",
+   "US urges coordinated action on North Korean cyber threats after Binance hack",
+   "US task force looks to restrict Iranian land commerce on top of naval blockade",
    "Heavy rain floods tents of about 70,000 displaced families in Gaza",
    "Qatar seeks UN inspections of Iran's bombed nuclear sites to reopen Hormuz",
    "Syria detains an alleged Hezbollah-linked cell over a plot against a Homs refinery",
@@ -15,14 +28,18 @@
  },
  {
   "date": "2026-11-06",
-  "count": 6,
-  "auto": 6,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-06@reel",
   "titles": [
    "US says it carried out another round of limited strikes on Iran's Qeshm Island",
    "Satellite images suggest major construction near Iranian missile bases",
+   "Nearly 90 million refugees live in countries highly exposed to climate hazards",
+   "Sudan shelter stocks near depletion as funding runs short",
+   "US sanctions eight digital asset providers over Iran sanctions evasion",
    "Indonesia mobilizes thousands of troops amid a widening rift among top leaders",
    "US first lady hosts Russian and Ukrainian officials, urges a lasting truce",
+   "US, Armenia and Azerbaijan launch technical planning groups for a transit route",
    "Bank of England raises rates for the first time since 2023 on energy inflation",
    "US and DRC hold second steering committee meeting on their strategic partnership"
   ]
@@ -1145,15 +1162,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-14@reel",
   "titles": [
    "IMF revises outlook under Middle East war shock"
-  ]
- },
- {
-  "date": "2026-04-07",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-07@reel",
-  "titles": [
-   "U.S. agencies warn of Iranian-affiliated attacks on industrial controllers"
   ]
  }
 ]

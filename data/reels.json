@@ -1,5 +1,21 @@
 [
  {
+  "date": "2026-11-09",
+  "count": 8,
+  "auto": 8,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-09@reel",
+  "titles": [
+   "Police identify 30 of 55 bodies recovered from the Komyshuvakha airstrike",
+   "Ukraine says it struck a St. Petersburg plant producing missile fuel",
+   "Canada adds 38 entities and 24 individuals to its Russia sanctions list",
+   "Iran puts a two-day proposal to Washington through Qatari mediators",
+   "At least 21 migrants and refugees die trying to reach Crete",
+   "Philippine economic slump worsens on the Iran war and bad weather",
+   "South Africa's ruling party posts a 'catastrophic' local election result",
+   "A protective barrier collapses at Pakistan's Tarbela T-5 dam project"
+  ]
+ },
+ {
   "date": "2026-11-08",
   "count": 3,
   "auto": 3,
@@ -12,14 +28,15 @@
  },
  {
   "date": "2026-11-07",
-  "count": 8,
-  "auto": 8,
+  "count": 9,
+  "auto": 9,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-07@reel",
   "titles": [
    "Russia hits Kyiv's power grid and a Dnipro bridge ahead of Abu Dhabi talks",
    "Ukraine reportedly strikes the Saratov refinery and sites in Oryol and Rostov",
    "US urges coordinated action on North Korean cyber threats after Binance hack",
    "US task force looks to restrict Iranian land commerce on top of naval blockade",
+   "US offers a $20 million reward for information on Iran's nuclear programme",
    "Heavy rain floods tents of about 70,000 displaced families in Gaza",
    "Qatar seeks UN inspections of Iran's bombed nuclear sites to reopen Hormuz",
    "Syria detains an alleged Hezbollah-linked cell over a plot against a Homs refinery",
@@ -1153,15 +1170,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-15@reel",
   "titles": [
    "IMF warns of rising public debt and spending pressures"
-  ]
- },
- {
-  "date": "2026-04-14",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-14@reel",
-  "titles": [
-   "IMF revises outlook under Middle East war shock"
   ]
  }
 ]

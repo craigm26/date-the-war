@@ -1,0 +1,239 @@
+[
+  {
+    "id": "d-20261110-abu-dhabi-trilateral-talks",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Russia, Ukraine and the US open two-day talks in Abu Dhabi",
+    "note": "The first substantive negotiations between Russia and Ukraine since February opened with US mediation and a US proposal for a long-term security architecture between Moscow and Europe. Security guarantees for Ukraine remain the main sticking point, so the talks matter as a test of whether a settlement is reachable.",
+    "mechanisms": [
+      "commitment-problem",
+      "private-information"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "United States",
+      "United Arab Emirates"
+    ],
+    "lon": 54.37,
+    "lat": 24.45,
+    "place": "Abu Dhabi",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "Reports the opening of talks only; outcomes and the positions of each delegation are not yet established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261110-iran-lifts-missile-range-limit",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Iran lifts its self-imposed 2,000 km limit on ballistic missile range",
+    "note": "Analysts are asking whether longer-range missiles are meant to reach targets beyond the Middle East. The step comes during the ongoing war with the US and Israel and could widen the set of states that see themselves as exposed.",
+    "mechanisms": [
+      "security-dilemma",
+      "misperception"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 51.39,
+    "lat": 35.69,
+    "place": "Tehran",
+    "arc": null,
+    "global": false,
+    "metric": "2,000 km",
+    "metricName": "former missile range limit",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/10/iran-lifts-2000km-limit-on-its-ballistic-missiles-what-that-means?traffic_source=rss"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "The summary gives expert speculation about intent; actual new missile capabilities and deployments are not confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261110-us-war-cost-repayment-claim",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US president says Israel and Gulf allies must repay the cost of the Iran war",
+    "note": "Analysts quoted by the outlet judge the remark to be political posturing rather than settled policy. It still signals strain over burden-sharing in the coalition fighting Iran.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "United States",
+      "Israel",
+      "Multiple countries"
+    ],
+    "lon": -77.04,
+    "lat": 38.9,
+    "place": "Washington",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/10/trump-says-israel-gulf-allies-must-repay-iran-war-cost-what-does-it-mean?traffic_source=rss"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "The summary does not give the amount or any mechanism for repayment, and no allied response is reported. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261110-zaporizhzhia-bridges-dams",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian forces strike bridges and dams to isolate Zaporizhzhia, Ukraine says",
+    "note": "A Ukrainian commander says Russia is targeting bridges and dams as pressure on Ukrainian defenses in Zaporizhzhia Oblast grows. Cutting logistics and water infrastructure could change the front and raise civilian risk.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 35.14,
+    "lat": 47.84,
+    "place": "Zaporizhzhia",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        35.14,
+        47.84
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russian-forces-seek-to-isolate-zaporizhzhia-by-striking-bridges-dams-ukrainian-commander-says/"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "Relies on a single Ukrainian military source describing Russian intent; the scale of damage is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261110-drc-66-soldiers-death-sentence",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "DR Congo sentences 66 soldiers to death for cowardice",
+    "note": "The ruling reflects a Congolese army long hampered by disarray in its fight against rebel groups. It points to weak command cohesion in the eastern conflict.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "lon": 15.31,
+    "lat": -4.32,
+    "place": "Democratic Republic of the Congo",
+    "arc": null,
+    "global": false,
+    "metric": "66 soldiers",
+    "metricName": "soldiers sentenced to death",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmreye1q3dnjo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "The summary gives few details on the trial, the battlefield events behind it, or whether sentences will be carried out. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261110-bangladesh-ex-pm-return-plan",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Bangladesh's ousted former prime minister plans a December return from exile",
+    "note": "Exiled party members say the former leader, sentenced to death in absentia over deaths in the 2024 uprising, is confident of returning and has applied for a new passport. A return could sharpen the legitimacy contest and political violence risk in Bangladesh.",
+    "mechanisms": [
+      "domestic-incentives",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Bangladesh",
+      "India"
+    ],
+    "lon": 90.41,
+    "lat": 23.81,
+    "place": "Dhaka",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/10/disgraced-former-leader-sheikh-hasina-plans-return-to-bangladesh-after-two-years-in-exile"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "The return plan comes from party allies in exile and may not happen; the host country and travel route are not stated in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261110-el-nino-11-trillion-cost",
+    "date": "2026-11-09",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "UN agency says El Niño could cost the global economy up to $11 trillion",
+    "note": "The UN rural development agency warns the weather pattern could also seriously hurt food security. The WMO separately expects a very strong El Niño to bring more heat and extreme weather into 2027, raising stress on food and water supplies.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "World-wide",
+    "arc": null,
+    "global": true,
+    "metric": "up to 11 USD trillion",
+    "metricName": "possible global economic cost of El Niño",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168768"
+    },
+    "checked": "2026-11-10",
+    "auto": true,
+    "limitations": "The cost is an upper-bound projection whose assumptions and time horizon are not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

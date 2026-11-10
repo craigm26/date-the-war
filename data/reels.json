@@ -1,13 +1,28 @@
 [
  {
+  "date": "2026-11-10",
+  "count": 6,
+  "auto": 6,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-10@reel",
+  "titles": [
+   "Russian forces strike bridges and dams to isolate Zaporizhzhia, Ukraine says",
+   "Bangladesh's ousted former prime minister plans a December return from exile",
+   "Iran lifts its self-imposed 2,000 km limit on ballistic missile range",
+   "Russia, Ukraine and the US open two-day talks in Abu Dhabi",
+   "DR Congo sentences 66 soldiers to death for cowardice",
+   "US president says Israel and Gulf allies must repay the cost of the Iran war"
+  ]
+ },
+ {
   "date": "2026-11-09",
-  "count": 8,
-  "auto": 8,
+  "count": 9,
+  "auto": 9,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-09@reel",
   "titles": [
    "Police identify 30 of 55 bodies recovered from the Komyshuvakha airstrike",
    "Ukraine says it struck a St. Petersburg plant producing missile fuel",
    "Canada adds 38 entities and 24 individuals to its Russia sanctions list",
+   "UN agency says El Niño could cost the global economy up to $11 trillion",
    "Iran puts a two-day proposal to Washington through Qatari mediators",
    "At least 21 migrants and refugees die trying to reach Crete",
    "Philippine economic slump worsens on the Iran war and bad weather",
@@ -1161,15 +1176,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-18@reel",
   "titles": [
    "Australia and Japan sign major frigate contracts"
-  ]
- },
- {
-  "date": "2026-04-15",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-15@reel",
-  "titles": [
-   "IMF warns of rising public debt and spending pressures"
   ]
  }
 ]

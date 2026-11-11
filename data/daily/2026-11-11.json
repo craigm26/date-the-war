@@ -1,0 +1,238 @@
+[
+  {
+    "id": "d-20261111-ru-ua-pow-swap",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Russia and Ukraine agree a large prisoner exchange at US-mediated Abu Dhabi talks",
+    "note": "Reports say the talks, the first between the two sides since February, ended with agreement on what is described as the biggest prisoner release since the war began in 2022. It is a humanitarian step, though no wider breakthrough toward a ceasefire is reported.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "United Arab Emirates",
+      "United States"
+    ],
+    "lon": 54.37,
+    "lat": 24.45,
+    "place": "Abu Dhabi",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "The number of prisoners and the timing of the exchange are not given in the summary, and implementation is not yet confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261111-moldova-airspace",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Two Russian cruise missiles violate Moldovan airspace during overnight Ukraine strikes",
+    "note": "Ukraine's Air Force reports Russia launched a guided missile, 163 long-range drones and cruise missiles overnight, and two cruise missiles entered Moldovan airspace. Nine people were killed and 39 injured across Ukraine in the past day, and spillover raises the risk of widening the war.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Moldova"
+    ],
+    "lon": 29.6,
+    "lat": 47,
+    "place": "Ukraine and Moldova border",
+    "arc": [
+      [
+        30.5,
+        46.5
+      ],
+      [
+        28.8,
+        47
+      ]
+    ],
+    "global": false,
+    "metric": "163 drones",
+    "metricName": "long-range attack drones launched overnight",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-39-across-ukraine-over-past-day-as-2-russian-cruise-missiles-violate-moldovan-airspace/"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "Figures come from Ukraine's Air Force and the intent behind the airspace violation is not established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261111-khor-mor-drone",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Suspected drone attack hits Khor Mor gas field in Iraqi Kurdistan",
+    "note": "A new suspected drone attack on the gas field comes as Iraq's government confronts Iranian-backed militias over weapons and influence, amid US pressure to restrict border crossings with Iran. Attacks on gas infrastructure threaten regional power supply and test Baghdad's control of armed factions.",
+    "mechanisms": [
+      "state-weakness",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Iraq",
+      "Iran",
+      "United States"
+    ],
+    "lon": 45.1,
+    "lat": 35,
+    "place": "Khor Mor, Iraqi Kurdistan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/attack-targets-khor-mor-gas-field-in-iraqi-kurdistan.php"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "The attack is described as suspected and no group is confirmed responsible. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261111-iran-50-missiles",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Report says Iran produces about 50 missiles per month despite a damaged industry",
+    "note": "The report challenges US claims that Iran's arsenal and its ability to rebuild it have been thoroughly degraded. A sustained production rate affects the balance in the ongoing Iran war and the prospects for a negotiated end.",
+    "mechanisms": [
+      "private-information",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 53.7,
+    "lat": 32.4,
+    "place": "Iran",
+    "arc": null,
+    "global": false,
+    "metric": "50 missiles per month",
+    "metricName": "reported Iranian missile production",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/11/world/iran-50-missiles-month-industry/"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "The summary does not name the underlying source of the estimate, and it cannot be independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261111-sudan-long-range-drones",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UNICEF says Sudan's war now features drone strikes travelling up to 1,500 km",
+    "note": "UNICEF describes unprecedented attacks on Sudan's infrastructure and says drones and drought are closing in on the country. Long-range strikes extend the reach of the war far beyond front lines and deepen civilian hardship.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30.2,
+    "lat": 15.6,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "1,500 km",
+    "metricName": "reported range of drones used in attacks",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168771"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "The summary does not say which party launched specific strikes or give casualty figures. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261111-nigeria-niger-flight",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Nearly 64,000 people flee northern Nigeria for Niger this year, UN refugee agency says",
+    "note": "UNHCR reports violence in northern Nigeria is driving a growing humanitarian crisis, with 64,000 people in Niger and several hundred in Benin since January. Host countries are struggling to cope, which adds strain to already fragile Sahel states.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Nigeria",
+      "Niger"
+    ],
+    "lon": 7,
+    "lat": 13,
+    "place": "Nigeria and Niger border",
+    "arc": null,
+    "global": false,
+    "metric": "about 64,000 people",
+    "metricName": "refugees arriving in Niger from Nigeria this year",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168779"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "The summary does not break down the causes of displacement or the groups responsible for the violence. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261111-kenya-elnino",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Kenya braces for floods as forecasters warn of one of the strongest El Niños on record",
+    "note": "Forecasters expect heavy rain and flooding in Kenya this season. Flooding can disrupt harvests, displace people and add pressure on food prices in a region with existing conflict and hunger.",
+    "mechanisms": [],
+    "countries": [
+      "Kenya"
+    ],
+    "lon": 37.9,
+    "lat": 0,
+    "place": "Kenya",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-11",
+    "auto": true,
+    "limitations": "This is a forecast, and local impacts depend on rainfall that has not yet occurred. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

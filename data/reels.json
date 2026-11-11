@@ -1,14 +1,29 @@
 [
  {
+  "date": "2026-11-11",
+  "count": 4,
+  "auto": 4,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-11@reel",
+  "titles": [
+   "Report says Iran produces about 50 missiles per month despite a damaged industry",
+   "Two Russian cruise missiles violate Moldovan airspace during overnight Ukraine strikes",
+   "Russia and Ukraine agree a large prisoner exchange at US-mediated Abu Dhabi talks",
+   "Kenya braces for floods as forecasters warn of one of the strongest El Niños on record"
+  ]
+ },
+ {
   "date": "2026-11-10",
-  "count": 6,
-  "auto": 6,
+  "count": 9,
+  "auto": 9,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-10@reel",
   "titles": [
    "Russian forces strike bridges and dams to isolate Zaporizhzhia, Ukraine says",
    "Bangladesh's ousted former prime minister plans a December return from exile",
    "Iran lifts its self-imposed 2,000 km limit on ballistic missile range",
+   "Suspected drone attack hits Khor Mor gas field in Iraqi Kurdistan",
+   "UNICEF says Sudan's war now features drone strikes travelling up to 1,500 km",
    "Russia, Ukraine and the US open two-day talks in Abu Dhabi",
+   "Nearly 64,000 people flee northern Nigeria for Niger this year, UN refugee agency says",
    "DR Congo sentences 66 soldiers to death for cowardice",
    "US president says Israel and Gulf allies must repay the cost of the Iran war"
   ]
@@ -1167,15 +1182,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-23@reel",
   "titles": [
    "EU adopts twentieth Russia sanctions package"
-  ]
- },
- {
-  "date": "2026-04-18",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-18@reel",
-  "titles": [
-   "Australia and Japan sign major frigate contracts"
   ]
  }
 ]

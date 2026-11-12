@@ -1,10 +1,25 @@
 [
  {
+  "date": "2026-11-12",
+  "count": 6,
+  "auto": 6,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-12@reel",
+  "titles": [
+   "Israeli strike on Nasser hospital in Gaza kills six, including a surgeon",
+   "North Korea rejects the G7 call to denuclearize and warns of action on US naval buildup",
+   "US envoys meet Russia's president in Moscow after Abu Dhabi talks yield no breakthrough",
+   "Tanker strikes and mines in Hormuz leave oil slicks visible from space",
+   "Moscow police detain hundreds of young people and hand some military summonses",
+   "Yen nears 160 per dollar after US inflation data, raising intervention risk"
+  ]
+ },
+ {
   "date": "2026-11-11",
-  "count": 4,
-  "auto": 4,
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-11@reel",
   "titles": [
+   "Ukraine hits Russia's largest oil refinery in Omsk in an 8-hour drone attack",
    "Report says Iran produces about 50 missiles per month despite a damaged industry",
    "Two Russian cruise missiles violate Moldovan airspace during overnight Ukraine strikes",
    "Russia and Ukraine agree a large prisoner exchange at US-mediated Abu Dhabi talks",
@@ -13,8 +28,8 @@
  },
  {
   "date": "2026-11-10",
-  "count": 9,
-  "auto": 9,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-10@reel",
   "titles": [
    "Russian forces strike bridges and dams to isolate Zaporizhzhia, Ukraine says",
@@ -24,6 +39,7 @@
    "UNICEF says Sudan's war now features drone strikes travelling up to 1,500 km",
    "Russia, Ukraine and the US open two-day talks in Abu Dhabi",
    "Nearly 64,000 people flee northern Nigeria for Niger this year, UN refugee agency says",
+   "South Sudan is six weeks from its first elections as violence rises",
    "DR Congo sentences 66 soldiers to death for cowardice",
    "US president says Israel and Gulf allies must repay the cost of the Iran war"
   ]
@@ -1173,15 +1189,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-25@reel",
   "titles": [
    "Coordinated insurgent attacks hit Malian army positions"
-  ]
- },
- {
-  "date": "2026-04-23",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-23@reel",
-  "titles": [
-   "EU adopts twentieth Russia sanctions package"
   ]
  }
 ]

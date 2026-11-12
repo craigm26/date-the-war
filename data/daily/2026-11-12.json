@@ -1,0 +1,276 @@
+[
+  {
+    "id": "d-20261112-moscow-us-envoys",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US envoys meet Russia's president in Moscow after Abu Dhabi talks yield no breakthrough",
+    "note": "Al Jazeera reports US envoys met Russia's president in Moscow a day after two days of trilateral talks in the UAE produced no breakthrough. The channel keeps a settlement track alive while fighting continues.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "United States"
+    ],
+    "lon": 37.62,
+    "lat": 55.75,
+    "place": "Moscow, Russia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "The summary does not give the content of the talks or any agreed terms. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-omsk-refinery-drones",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine hits Russia's largest oil refinery in Omsk in an 8-hour drone attack",
+    "note": "Kyiv Independent reports Ukraine confirmed an eight-hour drone attack on the Gazprom refinery in Omsk, about 2,500 km from Ukraine. The plant processes over 21 million metric tons of crude a year, so strikes this deep extend the energy war far from the front.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 73.37,
+    "lat": 54.99,
+    "place": "Omsk, Russia",
+    "arc": [
+      [
+        32,
+        49
+      ],
+      [
+        73.37,
+        54.99
+      ]
+    ],
+    "global": false,
+    "metric": "over 21 million metric tons per year",
+    "metricName": "refinery processing capacity",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "Damage and the extent of lost output are not stated in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-moscow-youth-raids",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Moscow police detain hundreds of young people and hand some military summonses",
+    "note": "Kyiv Independent reports police detained hundreds of young people in Moscow on Nov. 7 and gave some of them military summonses. It raises questions about whether Russia is turning to coercive recruitment as it struggles to fill its ranks.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Russia"
+    ],
+    "lon": 37.62,
+    "lat": 55.75,
+    "place": "Moscow, Russia",
+    "arc": null,
+    "global": false,
+    "metric": "hundreds of people",
+    "metricName": "young people detained",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/moscow-youth-raids-spark-mobilization-fears-as-russia-struggles-to-recruit-soldiers/"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "Whether the raids are a deliberate recruitment drive is unconfirmed; the outlet describes it as a question. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-nasser-hospital-strike",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli strike on Nasser hospital in Gaza kills six, including a surgeon",
+    "note": "BBC, NPR and DW report a strike on the largest hospital in southern Gaza killed six people, with dozens injured. Israel says it targeted a senior Hamas figure; the strike comes as the ceasefire is described as increasingly fragile.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.3,
+    "lat": 31.34,
+    "place": "Khan Younis, Gaza",
+    "arc": [
+      [
+        34.8,
+        31
+      ],
+      [
+        34.3,
+        31.34
+      ]
+    ],
+    "global": false,
+    "metric": "6 people",
+    "metricName": "killed",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "Casualty figures come from Palestinian health authorities and Israel's claim about the target is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-hormuz-oil-spills",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Tanker strikes and mines in Hormuz leave oil slicks visible from space",
+    "note": "The Guardian reports tankers hit by missiles or sea mines in the strait of Hormuz spilled crude throughout October, spreading pollution across the Gulf eight months into the US-Iran war. It shows the lasting cost of attacks on shipping lanes.",
+    "mechanisms": [],
+    "countries": [
+      "Iran",
+      "United States",
+      "Oman",
+      "United Arab Emirates"
+    ],
+    "lon": 56.3,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "The summary does not give spill volumes or attribute each strike. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-nk-rejects-denuclearization",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea rejects the G7 call to denuclearize and warns of action on US naval buildup",
+    "note": "Yonhap reports North Korea's foreign minister denounced the G7 call for denuclearization and said its nuclear pursuit remains steadfast. Separately, Pyongyang warned of action against what it calls a US-led naval buildup.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "North Korea",
+      "United States",
+      "South Korea"
+    ],
+    "lon": 125.75,
+    "lat": 39.03,
+    "place": "Pyongyang, North Korea",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261112012200315"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "Only headline-level summaries were available and the warned action is not specified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-south-sudan-elections",
+    "date": "2026-11-10",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "South Sudan is six weeks from its first elections as violence rises",
+    "note": "UN News reports the Security Council met on South Sudan's first national elections since independence, due in six weeks, amid worsening violence, hunger and displacement. Council members are expected to press for an inclusive process and credible polls.",
+    "mechanisms": [
+      "state-weakness",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "South Sudan"
+    ],
+    "lon": 31.58,
+    "lat": 4.85,
+    "place": "Juba, South Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168774"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "The summary gives expectations for the meeting, not its outcome or any casualty data. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261112-yen-160-intervention-risk",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Macroeconomic and financial conditions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Yen nears 160 per dollar after US inflation data, raising intervention risk",
+    "note": "The Japan Times reports the yen is approaching the 160 level after US inflation data, with possible Federal Reserve tightening widening the rate gap with Japan. Currency stress can constrain Japan's budget room, including for defense.",
+    "mechanisms": [],
+    "countries": [
+      "Japan",
+      "United States"
+    ],
+    "lon": 139.69,
+    "lat": 35.68,
+    "place": "Tokyo, Japan",
+    "arc": null,
+    "global": false,
+    "metric": "160 yen per dollar",
+    "metricName": "exchange rate level approached",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/11/12/markets/yen-near-160-renewed-intervention-risks/"
+    },
+    "checked": "2026-11-12",
+    "auto": true,
+    "limitations": "A currency move is a weak and indirect signal for conflict risk. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

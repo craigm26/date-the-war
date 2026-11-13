@@ -1,28 +1,45 @@
 [
  {
+  "date": "2026-11-13",
+  "count": 4,
+  "auto": 4,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-13@reel",
+  "titles": [
+   "Iran says it destroyed a US early-warning radar in Bahrain",
+   "Russian drone damages a Kyiv hospital as Ukraine questions Starshield limits",
+   "UN nuclear watchdog says it cannot verify Iran's Isfahan enrichment plant",
+   "Heavy rain floods thousands of Gaza tents as aid groups seek shelter access"
+  ]
+ },
+ {
   "date": "2026-11-12",
-  "count": 6,
-  "auto": 6,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-12@reel",
   "titles": [
+   "Ukrainian drone hits a Russian warship in the Gulf of Finland",
+   "Taliban and Pakistani forces keep clashing as an ambush kills 10 police",
+   "WFP says funding cuts deepen Sudan's hunger crisis",
    "Israeli strike on Nasser hospital in Gaza kills six, including a surgeon",
    "North Korea rejects the G7 call to denuclearize and warns of action on US naval buildup",
    "US envoys meet Russia's president in Moscow after Abu Dhabi talks yield no breakthrough",
    "Tanker strikes and mines in Hormuz leave oil slicks visible from space",
    "Moscow police detain hundreds of young people and hand some military summonses",
-   "Yen nears 160 per dollar after US inflation data, raising intervention risk"
+   "Yen nears 160 per dollar after US inflation data, raising intervention risk",
+   "US and Japan issue a joint statement on seabed mineral development"
   ]
  },
  {
   "date": "2026-11-11",
-  "count": 5,
-  "auto": 5,
+  "count": 6,
+  "auto": 6,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-11@reel",
   "titles": [
    "Ukraine hits Russia's largest oil refinery in Omsk in an 8-hour drone attack",
    "Report says Iran produces about 50 missiles per month despite a damaged industry",
    "Two Russian cruise missiles violate Moldovan airspace during overnight Ukraine strikes",
    "Russia and Ukraine agree a large prisoner exchange at US-mediated Abu Dhabi talks",
+   "US secretary of state and China's foreign minister discuss upcoming summits",
    "Kenya braces for floods as forecasters warn of one of the strongest El Niños on record"
   ]
  },
@@ -1180,15 +1197,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-27@reel",
   "titles": [
    "SIPRI reports another annual increase in world military spending"
-  ]
- },
- {
-  "date": "2026-04-25",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-25@reel",
-  "titles": [
-   "Coordinated insurgent attacks hit Malian army positions"
   ]
  }
 ]

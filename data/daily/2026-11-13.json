@@ -1,0 +1,318 @@
+[
+  {
+    "id": "d-20261113-iran-radar-bahrain",
+    "date": "2026-11-13",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iran says it destroyed a US early-warning radar in Bahrain",
+    "note": "Iran's Revolutionary Guard says it struck the radar in response to a US airstrike on a communications tower at Sirik overlooking the Strait of Hormuz. The Guardian describes it as Iran's first direct attack on US military installations for months, and the Guard warns of further responses to repeated US action.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Iran",
+      "United States",
+      "Bahrain"
+    ],
+    "lon": 50.55,
+    "lat": 26.07,
+    "place": "Bahrain and Strait of Hormuz",
+    "arc": [
+      [
+        57.1,
+        26.5
+      ],
+      [
+        50.55,
+        26.07
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "The attack and its damage are claimed by Iran's Revolutionary Guard and are not independently confirmed in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-iaea-isfahan-access",
+    "date": "2026-11-13",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN nuclear watchdog says it cannot verify Iran's Isfahan enrichment plant",
+    "note": "The IAEA says it has never been able to inspect the underground uranium enrichment plant at Isfahan that Iran announced over a year ago, and cannot verify whether it holds nuclear material. It calls on Iran to reopen its nuclear facilities to inspection.",
+    "mechanisms": [
+      "private-information",
+      "misperception"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 51.67,
+    "lat": 32.65,
+    "place": "Isfahan, Iran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "The report states what the agency cannot verify, not what the site actually contains. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-gaza-winter-flooding",
+    "date": "2026-11-13",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Heavy rain floods thousands of Gaza tents as aid groups seek shelter access",
+    "note": "Winter storms have flooded and damaged thousands of tents in Gaza, with several deaths and landslides reported, and rain is damaging solar power and threatening healthcare. Aid groups call on Israel to allow shelters while peace talks remain stalled.",
+    "mechanisms": [],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 34.45,
+    "lat": 31.45,
+    "place": "Gaza",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6035686/aid-groups-call-on-israel-to-allow-shelters-in-gaza-amid-a-humanitarian-emergency"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "The summary gives no casualty or displacement totals and relies on aid-group accounts. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-baltic-warship-drone",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukrainian drone hits a Russian warship in the Gulf of Finland",
+    "note": "Finland says Ukraine struck a Russian warship near its coast while Kyiv and Moscow held US-brokered talks in Abu Dhabi. The BBC says it is thought to be the first Ukrainian drone attack on a Russian ship in an open stretch of the Baltic Sea.",
+    "mechanisms": [
+      "steps-to-war",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "Finland"
+    ],
+    "lon": 26,
+    "lat": 59.9,
+    "place": "Gulf of Finland",
+    "arc": [
+      [
+        30.52,
+        50.45
+      ],
+      [
+        26,
+        59.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "Damage to the ship and who launched the drone rest on official statements and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-kyiv-hospital-starshield",
+    "date": "2026-11-13",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russian drone damages a Kyiv hospital as Ukraine questions Starshield limits",
+    "note": "Ukraine's air force reports 117 long-range drones overnight, and a downed drone set fire to a medical facility in central Kyiv, injuring three. Ukraine's president says speed restrictions on the Starshield satellite system over occupied territory and the front line make it impossible to use interceptors against Shahed-type drones, and Kyiv has asked the US for an explanation.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "117 drones",
+    "metricName": "long-range attack drones launched overnight",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "The link between the Starshield restrictions and the strike is asserted by Ukraine's president and not independently established. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-taliban-pakistan-border",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Taliban and Pakistani forces keep clashing as an ambush kills 10 police",
+    "note": "Taliban and Pakistani forces have fought repeatedly along their border since October 29, and a Pakistani Taliban ambush killed 10 Pakistani police on November 11. Washington has signaled willingness to help address Pakistan's concerns about militants operating from Afghanistan.",
+    "mechanisms": [
+      "state-weakness",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Pakistan",
+      "Afghanistan"
+    ],
+    "lon": 70.5,
+    "lat": 33,
+    "place": "Afghanistan-Pakistan border",
+    "arc": null,
+    "global": false,
+    "metric": "10 police",
+    "metricName": "Pakistani police killed in ambush on November 11",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/taliban-pakistan-border-clashes-continue-ttp-attack-kills-10-pakistani-police.php"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "The source is an advocacy-affiliated outlet and the clash details come from official or militant claims. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-wfp-sudan-funding",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "WFP says funding cuts deepen Sudan's hunger crisis",
+    "note": "After a first field mission, the WFP's executive director warns that aid is the only hope for many families displaced by conflict. WFP needs $520 million to provide lifesaving aid to 5.4 million people through April 2027.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 30,
+    "lat": 15,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "5.4 million people",
+    "metricName": "people WFP aims to assist through April 2027",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/db261112.doc.htm"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "The funding need is WFP's own estimate and the briefing does not detail current shortfalls. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-us-japan-seabed-minerals",
+    "date": "2026-11-12",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US and Japan issue a joint statement on seabed mineral development",
+    "note": "After a US interagency delegation visited Japan, both governments say economic security cooperation is indispensable to the alliance and that diversified critical mineral supply chains are essential. It points to allied efforts to reduce dependence on existing suppliers.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Japan"
+    ],
+    "lon": 139.69,
+    "lat": 35.69,
+    "place": "Tokyo, Japan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/joint-statement-on-u-s-japan-seabed-mineral-resource-development/"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "A joint statement of intent that reports no specific projects, volumes or funding. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261113-us-china-call-summits",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US secretary of state and China's foreign minister discuss upcoming summits",
+    "note": "At China's request, the two spoke about the US president's planned travel to the APEC Summit in China and China's leader visiting Florida for the G20 Summit. The planned visits signal continued high-level channels between the two powers.",
+    "mechanisms": [],
+    "countries": [
+      "United States",
+      "China"
+    ],
+    "lon": 116.4,
+    "lat": 39.9,
+    "place": "Washington and Beijing",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        116.4,
+        39.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/secretary-rubios-call-with-chinas-director-of-the-office-of-the-ccp-central-foreign-affairs-commissionand-foreign-minister-wang/"
+    },
+    "checked": "2026-11-13",
+    "auto": true,
+    "limitations": "A US readout only; it does not say what was agreed on trade or security issues. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

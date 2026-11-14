@@ -1,5 +1,20 @@
 [
  {
+  "date": "2026-11-14",
+  "count": 7,
+  "auto": 7,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-14@reel",
+  "titles": [
+   "Ukraine hits a Samara oil hub and a military airbase in long-range strikes",
+   "UN says 25 seafarers killed in and around Hormuz since February",
+   "Leaked Russian records put war casualties at about 450,000",
+   "Ukraine's president says US envoys floated Donbas withdrawal for NATO membership",
+   "Extreme weather deaths in 2026 already in the high tens of thousands",
+   "Qatar and Turkey sign a mutual defence pact amid the Iran war",
+   "A migrant caravan of over 1,000 people heads north from southern Mexico"
+  ]
+ },
+ {
   "date": "2026-11-13",
   "count": 4,
   "auto": 4,
@@ -31,13 +46,14 @@
  },
  {
   "date": "2026-11-11",
-  "count": 6,
-  "auto": 6,
+  "count": 7,
+  "auto": 7,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-11@reel",
   "titles": [
    "Ukraine hits Russia's largest oil refinery in Omsk in an 8-hour drone attack",
    "Report says Iran produces about 50 missiles per month despite a damaged industry",
    "Two Russian cruise missiles violate Moldovan airspace during overnight Ukraine strikes",
+   "A Sunni Baluch militant group joins a coalition fighting Iran's government",
    "Russia and Ukraine agree a large prisoner exchange at US-mediated Abu Dhabi talks",
    "US secretary of state and China's foreign minister discuss upcoming summits",
    "Kenya braces for floods as forecasters warn of one of the strongest El Niños on record"
@@ -1188,15 +1204,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-28@reel",
   "titles": [
    "World Bank forecasts sharp rise in energy prices"
-  ]
- },
- {
-  "date": "2026-04-27",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-27@reel",
-  "titles": [
-   "SIPRI reports another annual increase in world military spending"
   ]
  }
 ]

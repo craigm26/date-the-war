@@ -1,0 +1,268 @@
+[
+  {
+    "id": "d-20261114-donbas-for-nato-offer",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Ukraine's president says US envoys floated Donbas withdrawal for NATO membership",
+    "note": "Ukraine's president says US negotiators raised, for the first time after the Abu Dhabi talks, a swap of Donbas territory for NATO membership. He says Kyiv will not retreat from its territory and that a security deal could go to a referendum.",
+    "mechanisms": [
+      "commitment-problem",
+      "indivisible-issues"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "lon": 37.8,
+    "lat": 48,
+    "place": "Donbas, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The account comes from one party to the talks, and Washington has not publicly confirmed the proposal. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-qatar-turkiye-defence-pact",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Qatar and Turkey sign a mutual defence pact amid the Iran war",
+    "note": "Analysts quoted by the outlet say the pact is meant to deter attacks on Gulf states rather than build an offensive alliance. It adds a new security commitment in a region already hit by Iranian strikes.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Qatar",
+      "Turkey",
+      "Iran"
+    ],
+    "lon": 51.53,
+    "lat": 25.29,
+    "place": "Doha, Qatar",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The treaty text and its trigger conditions are not detailed in the summary, and the deterrent intent is analysts' interpretation. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-hormuz-seafarers-killed",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN says 25 seafarers killed in and around Hormuz since February",
+    "note": "A UN official says the situation cannot become the new normal, as Iran reports three more vessels hitting mines. The Security Council met at Bahrain's request on rising threats to shipping through a strait that carried a fifth of the world's oil before the war.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Iran",
+      "Bahrain",
+      "United States",
+      "Israel"
+    ],
+    "lon": 56.5,
+    "lat": 26.5,
+    "place": "Strait of Hormuz",
+    "arc": null,
+    "global": false,
+    "metric": "25 seafarers killed",
+    "metricName": "seafarer deaths in and around Hormuz since February",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/un-says-25-seafarers-killed-in-around-hormuz-since-february?traffic_source=rss"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The toll is a UN tally and the mine reports come from Iran, so neither is independently verified here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-samara-oil-hub-strike",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine hits a Samara oil hub and a military airbase in long-range strikes",
+    "note": "Ukraine's General Staff reports a fire at a pipeline control station in Samara Oblast, about 950 km from Ukrainian-held territory, with several oil storage tanks burning. The strikes extend Ukraine's campaign against Russian energy infrastructure.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 50.1,
+    "lat": 53.2,
+    "place": "Samara Oblast, Russia",
+    "arc": [
+      [
+        30.5,
+        50.45
+      ],
+      [
+        50.1,
+        53.2
+      ]
+    ],
+    "global": false,
+    "metric": "about 950 km",
+    "metricName": "distance of the strike from Ukraine-controlled territory",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-hits-key-russian-oil-hub-military-airbase-in-latest-long-range-strikes/"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The damage report comes from Ukraine's General Staff and has not been independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-russian-casualties-450000",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "Leaked Russian records put war casualties at about 450,000",
+    "note": "The analysis says the toll falls hardest on older men, poorer regions and foreign recruits. It bears on how long Russia can sustain recruitment without wider mobilization.",
+    "mechanisms": [
+      "domestic-incentives",
+      "private-information"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 37.6,
+    "lat": 55.75,
+    "place": "Russia",
+    "arc": null,
+    "global": false,
+    "metric": "about 450,000 people",
+    "metricName": "Russian casualties reported in leaked records",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The figure rests on leaked records of unverified origin and may combine killed and wounded. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-baluch-faction-merger",
+    "date": "2026-11-11",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A Sunni Baluch militant group joins a coalition fighting Iran's government",
+    "note": "Ansar al Furqan announced on November 11 that it had joined a coalition of Baluch armed factions. The source says the insurgency has shifted from sectarian attacks on civilians toward a nationalist campaign against regime security forces.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Iran"
+    ],
+    "lon": 60.9,
+    "lat": 27.5,
+    "place": "Sistan and Baluchestan, Iran",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/irans-baluch-insurgency-expands-with-new-faction-merger.php"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The merger is a group announcement, and the think tank's reading of the insurgency's direction is analysis, not confirmed fact. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-mexico-migrant-caravan",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "A migrant caravan of over 1,000 people heads north from southern Mexico",
+    "note": "The caravan is moving toward the US border after the US midterm elections. It tests Mexican and US border policy at a time of heavy US focus on security cooperation in the region.",
+    "mechanisms": [],
+    "countries": [
+      "Mexico",
+      "United States"
+    ],
+    "lon": -92.3,
+    "lat": 14.9,
+    "place": "Southern Mexico",
+    "arc": null,
+    "global": false,
+    "metric": "more than 1,000 people",
+    "metricName": "caravan participants",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/migrant-caravan-heads-to-us-from-mexico-after-democrats-midterm-win?traffic_source=rss"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The item is a short video summary with no detail on origin countries or on any Mexican or US response. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261114-extreme-weather-2026-toll",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Extreme weather deaths in 2026 already in the high tens of thousands",
+    "note": "The Guardian review follows the hottest summer since records began in 1850 and calls the toll a conservative estimate likely to rise. Heat, fires and floods of this scale strain food supply, water and displacement in fragile states.",
+    "mechanisms": [],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "World-wide",
+    "arc": null,
+    "global": true,
+    "metric": "high tens of thousands of deaths",
+    "metricName": "estimated extreme weather deaths in 2026",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026"
+    },
+    "checked": "2026-11-14",
+    "auto": true,
+    "limitations": "The toll is an unspecified conservative estimate with no stated method, and attributing deaths to climate change is contested case by case. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

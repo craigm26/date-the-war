@@ -1,0 +1,215 @@
+[
+  {
+    "id": "d-20261115-houthi-saudi-attacks",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Houthis sustain missile and drone attacks on oil sites and airports in Saudi Arabia",
+    "note": "A conflict-monitoring analysis reports continued Houthi strikes on Saudi oil infrastructure, airports and military sites, alongside Saudi-led airstrikes and fresh Houthi demands for billions of dollars in compensation. Attacks on Saudi energy assets link the Yemen war to Gulf oil supply risk.",
+    "mechanisms": [
+      "commitment-problem",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.2,
+    "lat": 15.4,
+    "place": "Saudi Arabia and Yemen",
+    "arc": [
+      [
+        44.2,
+        15.4
+      ],
+      [
+        46.7,
+        24.7
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/houthis-sustain-missile-and-drone-attacks-across-saudi-arabia.php"
+    },
+    "checked": "2026-11-15",
+    "auto": true,
+    "limitations": "The summary gives no casualty or damage figures, and the analysis relies on claims by the parties. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261115-three-way-summit-shenzhen",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US, Chinese and Russian presidents plan a joint meeting in Shenzhen next week",
+    "note": "The White House says the three presidents will meet at the APEC gathering in China, and the US side says it will discuss the reduction of nuclear weapons. European leaders warn against major concessions on Ukraine, while Australia endorses the dialogue.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "power-transition"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Russia",
+      "Australia",
+      "Ukraine"
+    ],
+    "lon": 114.06,
+    "lat": 22.54,
+    "place": "Shenzhen, China",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-15",
+    "auto": true,
+    "limitations": "The meeting is planned and not yet held, and the agenda comes from the White House alone. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261115-odesa-mass-attack",
+    "date": "2026-11-15",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia launches 132 long-range drones at Ukraine, a mass attack on Odesa region",
+    "note": "Ukraine's Air Force says 132 drones were launched overnight, 78 of them jet-powered, and strikes killed 4 and injured 69 across the country over the past day. Sustained drone waves keep pressure on Ukrainian cities and energy infrastructure during talks.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.72,
+    "lat": 46.48,
+    "place": "Odesa region, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        30.72,
+        46.48
+      ]
+    ],
+    "global": false,
+    "metric": "132 drones",
+    "metricName": "long-range attack drones launched overnight",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/russia-launches-mass-attack-on-odesa-oblast-as-strikes-kill-4-injure-69-across-ukraine-over-past-day/"
+    },
+    "checked": "2026-11-15",
+    "auto": true,
+    "limitations": "Figures come from Ukraine's Air Force and have not been independently confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261115-sudan-power-stations",
+    "date": "2026-11-15",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Drone attacks on power stations plunge Sudan's cities into darkness",
+    "note": "Al Jazeera reports waves of drone strikes on Sudan's power stations are causing outages in cities. Loss of electricity compounds the hunger and displacement crisis and hampers aid delivery.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 32.53,
+    "lat": 15.5,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss"
+    },
+    "checked": "2026-11-15",
+    "auto": true,
+    "limitations": "The summary does not say which party carried out each strike or how many people lost power. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261115-chile-fuel-protests",
+    "date": "2026-11-14",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Rising fuel prices trigger transport strikes and protests across Chile",
+    "note": "NPR reports public anger over rising fuel prices is producing transport strikes and protests that pressure Chile's far-right president. The unrest shows how the Gulf war's energy shock is reaching domestic politics far from the region.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Chile"
+    ],
+    "lon": -70.65,
+    "lat": -33.45,
+    "place": "Santiago, Chile",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students"
+    },
+    "checked": "2026-11-15",
+    "auto": true,
+    "limitations": "The summary does not quantify the protests or tie the price rise to a single cause. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261115-ethiopian-refugees-kenya",
+    "date": "2026-11-15",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "Aid agencies struggle to help more than 50,000 Ethiopian refugees in Kenya",
+    "note": "Al Jazeera reports agencies are struggling to supply food, medical care and shelter to over 50,000 Ethiopian refugees in Kenya. Strained reception capacity raises displacement and instability risks in the Horn of Africa.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Kenya",
+      "Ethiopia"
+    ],
+    "lon": 37.9,
+    "lat": 3.1,
+    "place": "Northern Kenya",
+    "arc": null,
+    "global": false,
+    "metric": "more than 50,000 people",
+    "metricName": "Ethiopian refugees in Kenya",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/aid-agencies-struggle-to-help-more-than-50000-ethiopian-refugees-in-kenya?traffic_source=rss"
+    },
+    "checked": "2026-11-15",
+    "auto": true,
+    "limitations": "The summary does not say what is driving the displacement or where in Kenya the refugees are. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

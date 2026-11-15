@@ -1,17 +1,31 @@
 [
  {
+  "date": "2026-11-15",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-15@reel",
+  "titles": [
+   "Russia launches 132 long-range drones at Ukraine, a mass attack on Odesa region",
+   "Drone attacks on power stations plunge Sudan's cities into darkness",
+   "Aid agencies struggle to help more than 50,000 Ethiopian refugees in Kenya"
+  ]
+ },
+ {
   "date": "2026-11-14",
-  "count": 7,
-  "auto": 7,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-14@reel",
   "titles": [
    "Ukraine hits a Samara oil hub and a military airbase in long-range strikes",
+   "Houthis sustain missile and drone attacks on oil sites and airports in Saudi Arabia",
    "UN says 25 seafarers killed in and around Hormuz since February",
    "Leaked Russian records put war casualties at about 450,000",
    "Ukraine's president says US envoys floated Donbas withdrawal for NATO membership",
    "Extreme weather deaths in 2026 already in the high tens of thousands",
    "Qatar and Turkey sign a mutual defence pact amid the Iran war",
-   "A migrant caravan of over 1,000 people heads north from southern Mexico"
+   "US, Chinese and Russian presidents plan a joint meeting in Shenzhen next week",
+   "A migrant caravan of over 1,000 people heads north from southern Mexico",
+   "Rising fuel prices trigger transport strikes and protests across Chile"
   ]
  },
  {
@@ -1195,15 +1209,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-04-30@reel",
   "titles": [
    "Fighting damages health infrastructure in Jonglei"
-  ]
- },
- {
-  "date": "2026-04-28",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-28@reel",
-  "titles": [
-   "World Bank forecasts sharp rise in energy prices"
   ]
  }
 ]

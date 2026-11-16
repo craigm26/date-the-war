@@ -1,13 +1,27 @@
 [
  {
+  "date": "2026-11-16",
+  "count": 4,
+  "auto": 4,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-16@reel",
+  "titles": [
+   "Estonia will close all Russia border crossings from December 1 after a sabotage bid",
+   "EU adds 50 banks, oil trade and shadow fleet to new Russia sanctions",
+   "Canada says it could turn to Chinese automakers if US trade talks fail",
+   "Myanmar's Kachin state holds rare earth deposits under tight armed control"
+  ]
+ },
+ {
   "date": "2026-11-15",
-  "count": 3,
-  "auto": 3,
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-15@reel",
   "titles": [
    "Russia launches 132 long-range drones at Ukraine, a mass attack on Odesa region",
+   "Iran strikes an airbase in Bahrain, drawing Gulf condemnation",
    "Drone attacks on power stations plunge Sudan's cities into darkness",
-   "Aid agencies struggle to help more than 50,000 Ethiopian refugees in Kenya"
+   "Aid agencies struggle to help more than 50,000 Ethiopian refugees in Kenya",
+   "Iraq's prime minister targets oil smuggling in a Kataib Hezbollah stronghold"
   ]
  },
  {
@@ -1200,15 +1214,6 @@
   "titles": [
    "Ecuador-Colombia tariff dispute escalates",
    "EU-Mercosur interim trade agreement begins provisional application"
-  ]
- },
- {
-  "date": "2026-04-30",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-04-30@reel",
-  "titles": [
-   "Fighting damages health infrastructure in Jonglei"
   ]
  }
 ]

@@ -1,12 +1,29 @@
 [
  {
+  "date": "2026-11-17",
+  "count": 7,
+  "auto": 7,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-17@reel",
+  "titles": [
+   "A Russian double-tap strike in southern Ukraine kills 72, officials say",
+   "Ukraine critically damages the Kerch bridge linking Crimea with Russia",
+   "Russian aircraft enter Japanese and South Korean air zones, jets scrambled",
+   "UK sanctions eight Israeli construction firms over West Bank settlements",
+   "Mozambique's opposition leader faces trial over deadly 2024 election unrest",
+   "Rio Tinto agrees to pay US$250 million toward cleaning up the Panguna mine",
+   "Five European states plan a migrant hub in Rwanda despite UN refugee agency warning"
+  ]
+ },
+ {
   "date": "2026-11-16",
-  "count": 4,
-  "auto": 4,
+  "count": 6,
+  "auto": 6,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-16@reel",
   "titles": [
    "Estonia will close all Russia border crossings from December 1 after a sabotage bid",
    "EU adds 50 banks, oil trade and shadow fleet to new Russia sanctions",
+   "Houthis retake Bab al Mandeb territory and advance toward Aden",
+   "A third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
    "Canada says it could turn to Chinese automakers if US trade talks fail",
    "Myanmar's Kachin state holds rare earth deposits under tight armed control"
   ]
@@ -1204,16 +1221,6 @@
   "titles": [
    "UN experts warn of humanitarian effects of Cuba fuel restrictions",
    "Thailand and Cambodia commit to trust-building measures"
-  ]
- },
- {
-  "date": "2026-05-01",
-  "count": 2,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-05-01@reel",
-  "titles": [
-   "Ecuador-Colombia tariff dispute escalates",
-   "EU-Mercosur interim trade agreement begins provisional application"
   ]
  }
 ]

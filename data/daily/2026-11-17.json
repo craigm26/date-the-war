@@ -1,0 +1,334 @@
+[
+  {
+    "id": "d-20261117-kerch-bridge-struck",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine critically damages the Kerch bridge linking Crimea with Russia",
+    "note": "Ukraine says a weeks-long missile and drone operation collapsed a section of the road span of the bridge to occupied Crimea. Russia says it will restore the bridge, but experts quoted by one outlet say repairs could take a year or more, which would strain supply routes to the peninsula.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 36.57,
+    "lat": 45.31,
+    "place": "Kerch Strait, Crimea",
+    "arc": [
+      [
+        32,
+        49
+      ],
+      [
+        36.57,
+        45.31
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "Damage and repair timelines come from the Ukrainian government, the Kremlin and outside experts, and are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261117-double-tap-72-killed",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "A Russian double-tap strike in southern Ukraine kills 72, officials say",
+    "note": "Ukraine accuses Russia of hitting a rescue operation with a second strike, and says continuing Russian attacks are slowing the recovery of bodies. Attacks on first responders raise the civilian toll and deepen the humanitarian cost of the war.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 31,
+    "lat": 47,
+    "place": "Southern Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "72 people killed",
+    "metricName": "reported deaths in one strike",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "The death toll and the claim that rescuers were targeted are Ukrainian official statements, and Russia's account is not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261117-russian-aircraft-asia-airspace",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Russian aircraft enter Japanese and South Korean air zones, jets scrambled",
+    "note": "Japan sent up jets after an alleged Russian incursion into its airspace. South Korea reports that several Russian warplanes briefly entered its air defense zone without notice, and Taiwan also responded to Russian aircraft near its airspace.",
+    "mechanisms": [
+      "misperception",
+      "security-dilemma"
+    ],
+    "countries": [
+      "Japan",
+      "South Korea",
+      "Taiwan",
+      "Russia"
+    ],
+    "lon": 135,
+    "lat": 38,
+    "place": "Sea of Japan and East Asia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "The incursion is described as alleged, and Russia's account and the exact flight paths are not given in the summary. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261116-houthis-bab-al-mandeb",
+    "date": "2026-11-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Houthis retake Bab al Mandeb territory and advance toward Aden",
+    "note": "A security analysis group reports the Houthis seized ground along the Bab al Mandeb Strait and in the Taiz-Lahj highlands, bringing them within about 40 miles of Aden. Government-aligned forces pulled back from the west coast to defend the interim capital, and the strait is a key shipping chokepoint.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Yemen"
+    ],
+    "lon": 43.3,
+    "lat": 12.6,
+    "place": "Bab al Mandeb, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "about 40 miles from Aden",
+    "metricName": "reported distance of Houthi forces from Aden",
+    "source": {
+      "label": "FDD's Long War Journal",
+      "url": "https://www.longwarjournal.org/archives/2026/11/houthis-retake-bab-al-mandeb-and-move-toward-aden.php"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "Territorial control claims come from a single analytic outlet and front lines in Yemen change quickly. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261116-third-us-carrier-gulf",
+    "date": "2026-11-16",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "A third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+    "note": "US Central Command says a third carrier has arrived, bringing thousands more troops, while the US president alternates between threatening new strikes on Iran and saying the war is effectively over. Iran says it carried out a drone attack on a US radar at a helicopter base in Bahrain.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Iran",
+      "Bahrain"
+    ],
+    "lon": 52,
+    "lat": 26,
+    "place": "Middle East",
+    "arc": [
+      [
+        -77,
+        38.9
+      ],
+      [
+        52,
+        26
+      ]
+    ],
+    "global": false,
+    "metric": "3 carriers",
+    "metricName": "US aircraft carriers now in the region",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "Troop numbers are not specified and the Iranian claim of a drone attack is not independently confirmed here. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261117-uk-sanctions-israeli-firms",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UK sanctions eight Israeli construction firms over West Bank settlements",
+    "note": "The UK sanctions eight construction companies tied to West Bank settlements, plus a settler group accused of blocking Gaza aid. Its foreign secretary says the aim is to protect the two-state solution.",
+    "mechanisms": [
+      "indivisible-issues"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 35.3,
+    "lat": 31.9,
+    "place": "West Bank",
+    "arc": [
+      [
+        -0.12,
+        51.5
+      ],
+      [
+        35.3,
+        31.9
+      ]
+    ],
+    "global": false,
+    "metric": "8 firms",
+    "metricName": "Israeli companies sanctioned",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/17/uk-sanctions-8-israeli-firms-over-occupied-west-bank-settlements-gaza-aid?traffic_source=rss"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "The summary does not list the firms or the legal measures, and the practical economic effect is unclear. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261117-rwanda-migrant-hub",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Population and migration",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Five European states plan a migrant hub in Rwanda despite UN refugee agency warning",
+    "note": "Germany, Denmark, Austria, Greece and the Netherlands plan a migrant hub in Rwanda, going ahead despite protests from human rights groups and a warning from the UN refugee agency. It shows migration control being moved outside Europe, with possible effects on displacement flows.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Germany",
+      "Denmark",
+      "Austria",
+      "Greece",
+      "Netherlands",
+      "Rwanda"
+    ],
+    "lon": 30.06,
+    "lat": -1.95,
+    "place": "Kigali, Rwanda",
+    "arc": [
+      [
+        10,
+        51
+      ],
+      [
+        30.06,
+        -1.95
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/17/world/politics/european-nations-rwanda-hub-migrants/"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "The summary gives no details on capacity, cost or timing of the hub. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261117-mozambique-opposition-trial",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Mozambique's opposition leader faces trial over deadly 2024 election unrest",
+    "note": "The opposition leader faces several charges over the post-election protests of 2024, which left hundreds of people dead. The trial bears on the legitimacy of the electoral process and the risk of renewed unrest.",
+    "mechanisms": [
+      "domestic-incentives",
+      "state-weakness"
+    ],
+    "countries": [
+      "Mozambique"
+    ],
+    "lon": 32.57,
+    "lat": -25.97,
+    "place": "Maputo, Mozambique",
+    "arc": null,
+    "global": false,
+    "metric": "hundreds of people",
+    "metricName": "reported deaths in 2024 post-election unrest",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "The summary does not list the specific charges or the court schedule, and the death toll is given only as hundreds. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261117-rio-tinto-panguna-fund",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Rio Tinto agrees to pay US$250 million toward cleaning up the Panguna mine",
+    "note": "The miner will fund the first stage of repairing the abandoned Panguna copper and gold site on Bougainville. The mine's closure in 1989 followed protests over environmental damage and profit sharing that set off a decade-long civil war.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Papua New Guinea",
+      "Australia",
+      "United Kingdom"
+    ],
+    "lon": 155.5,
+    "lat": -6.3,
+    "place": "Panguna, Bougainville",
+    "arc": null,
+    "global": false,
+    "metric": "250 USD million",
+    "metricName": "initial clean-up payment",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/17/rio-tinto-250m-panguna-mine-clean-up-bougainville-png"
+    },
+    "checked": "2026-11-17",
+    "auto": true,
+    "limitations": "The fund covers only a first stage and the summary does not give the full clean-up cost or timeline. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

@@ -1,13 +1,30 @@
 [
  {
+  "date": "2026-11-18",
+  "count": 8,
+  "auto": 8,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-18@reel",
+  "titles": [
+   "US jets strike Iran's Qeshm Island; Kuwait says it repelled an Iranian attack",
+   "Fresh clashes at the Eritrean border raise fears of a wider Horn of Africa war",
+   "Saudi-led coalition hits 60 Houthi military sites as Houthis near Aden",
+   "European Commission approves a proposal for $49.5 billion more for Ukraine",
+   "Japan's prime minister and China's president share a cordial handshake at APEC",
+   "Fears grow of US sanctions on ICJ judges ahead of Myanmar genocide ruling",
+   "US-backed Lobito Corridor aims to secure DR Congo critical minerals",
+   "US, Chinese and Russian presidents meet in Shenzhen on Ukraine and Iran"
+  ]
+ },
+ {
   "date": "2026-11-17",
-  "count": 7,
-  "auto": 7,
+  "count": 8,
+  "auto": 8,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-17@reel",
   "titles": [
    "A Russian double-tap strike in southern Ukraine kills 72, officials say",
    "Ukraine critically damages the Kerch bridge linking Crimea with Russia",
    "Russian aircraft enter Japanese and South Korean air zones, jets scrambled",
+   "UN says 2026 civilian casualties in Ukraine far exceed any year since 2022",
    "UK sanctions eight Israeli construction firms over West Bank settlements",
    "Mozambique's opposition leader faces trial over deadly 2024 election unrest",
    "Rio Tinto agrees to pay US$250 million toward cleaning up the Panguna mine",
@@ -1211,16 +1228,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-05-14@reel",
   "titles": [
    "Taiwan responds to U.S.-China summit"
-  ]
- },
- {
-  "date": "2026-05-07",
-  "count": 2,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-05-07@reel",
-  "titles": [
-   "UN experts warn of humanitarian effects of Cuba fuel restrictions",
-   "Thailand and Cambodia commit to trust-building measures"
   ]
  }
 ]

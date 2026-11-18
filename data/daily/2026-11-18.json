@@ -1,0 +1,343 @@
+[
+  {
+    "id": "d-20261118-shenzhen-trilateral",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US, Chinese and Russian presidents meet in Shenzhen on Ukraine and Iran",
+    "note": "The Kremlin says Russia's and China's presidents discussed ending the war in Ukraine during talks in Shenzhen, ahead of a trilateral with the US president on the sidelines of APEC. The agenda is also expected to cover the Iran war and nuclear disarmament.",
+    "mechanisms": [
+      "private-information",
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Russia",
+      "Ukraine",
+      "Iran"
+    ],
+    "lon": 114.06,
+    "lat": 22.54,
+    "place": "Shenzhen, China",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/trump-putin-xi-meet-in-china-to-discuss-global-issues/"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "The account of the talks comes from a Kremlin spokesperson, and no joint outcome is confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-qeshm-strike-kuwait",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "US jets strike Iran's Qeshm Island; Kuwait says it repelled an Iranian attack",
+    "note": "A US official says fighter jets hit a Revolutionary Guard missile launch site on Qeshm Island. Kuwait says it repelled its first Iranian attack in two months and Bahrain says it was also attacked, which widens the Gulf theatre.",
+    "mechanisms": [
+      "steps-to-war",
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Iran",
+      "Kuwait",
+      "Bahrain"
+    ],
+    "lon": 55.9,
+    "lat": 26.8,
+    "place": "Qeshm Island, Strait of Hormuz",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        55.9,
+        26.8
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "The strike is described by an unnamed US official and the attack claims come from governments party to the conflict. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-saudi-coalition-houthi-sites",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi-led coalition hits 60 Houthi military sites as Houthis near Aden",
+    "note": "The Saudi-led coalition reports precision strikes on about 60 Houthi military targets while fierce fighting continues around Taiz and the Houthis advance toward Aden. The fighting is renewing a war that had been largely frozen.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.02,
+    "lat": 13.58,
+    "place": "Taiz and Aden, Yemen",
+    "arc": [
+      [
+        46.7,
+        24.7
+      ],
+      [
+        44.02,
+        13.58
+      ]
+    ],
+    "global": false,
+    "metric": "60 sites",
+    "metricName": "Houthi military sites reportedly struck",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites?traffic_source=rss"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "Strike counts and battlefield claims come from the coalition and cannot be independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-ukraine-civilian-toll-2026",
+    "date": "2026-11-17",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN says 2026 civilian casualties in Ukraine far exceed any year since 2022",
+    "note": "The UN human rights monitoring mission says this year has seen dramatically higher civilian casualties than any year since the full-scale invasion began in February 2022. It points to intensifying long-range strikes on cities and energy systems.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 31.2,
+    "lat": 49,
+    "place": "Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168828"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "The summary gives no totals, and the monitoring mission counts only casualties it has verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-ethiopia-eritrea-border",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Fresh clashes at the Eritrean border raise fears of a wider Horn of Africa war",
+    "note": "DW reports that Ethiopian troops are pushing Tigrayan forces toward Eritrea while tensions rise between Ethiopia, Eritrea and Sudan. Analysts warn the fighting could draw in neighbouring states.",
+    "mechanisms": [
+      "security-dilemma",
+      "alliance-entanglement",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Eritrea",
+      "Sudan"
+    ],
+    "lon": 38.9,
+    "lat": 14.2,
+    "place": "Ethiopia-Eritrea border",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "DW",
+      "url": "https://www.dw.com/en/fresh-clashes-at-the-eritrean-border-is-ethiopia-sliding-into-a-regional-war/a-79970353?maca=en-rss-en-world-4025-rdf"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "The item is an analysis piece, and battlefield claims are hard to verify independently. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-icj-myanmar-sanctions-fear",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Fears grow of US sanctions on ICJ judges ahead of Myanmar genocide ruling",
+    "note": "The International Court of Justice is due to rule on whether Myanmar committed genocide against the Rohingya, and there are fears Washington could sanction judges. A finding could set a precedent for the court's case on Israel's actions in Gaza.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Myanmar",
+      "United States",
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 4.29,
+    "lat": 52.09,
+    "place": "The Hague, Netherlands",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        4.29,
+        52.09
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "The sanctions risk is based on unnamed concerns, and no US decision has been announced. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-japan-china-handshake",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "Japan's prime minister and China's president share a cordial handshake at APEC",
+    "note": "Japan's Japan Times reports a surprisingly warm first encounter since Tokyo's remarks last year on possible military intervention in a Taiwan crisis. It is a small sign of easing in a dispute that had chilled relations.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "Japan",
+      "China",
+      "Taiwan"
+    ],
+    "lon": 114.06,
+    "lat": 22.54,
+    "place": "Shenzhen, China",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/18/japan/politics/takaichi-xi-china-japan-apec/"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "A handshake does not show any change in either side's policy on Taiwan. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-lobito-corridor-minerals",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Critical minerals and strategic resources",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "US-backed Lobito Corridor aims to secure DR Congo critical minerals",
+    "note": "The BBC examines the Lobito Corridor, a US-backed rail route intended to carry Central African critical minerals to Angola's Atlantic coast. It asks whether the project can bring peace and prosperity to a region torn by conflict over mineral wealth.",
+    "mechanisms": [
+      "power-transition",
+      "state-weakness"
+    ],
+    "countries": [
+      "Democratic Republic of the Congo",
+      "Angola",
+      "United States"
+    ],
+    "lon": 13.55,
+    "lat": -12.35,
+    "place": "Lobito Corridor, Angola and DR Congo",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "The item is a feature that frames the corridor's promise, and it does not establish its effect on conflict. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261118-ec-ukraine-49bn",
+    "date": "2026-11-18",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Contextual",
+    "mag": 2,
+    "title": "European Commission approves a proposal for $49.5 billion more for Ukraine",
+    "note": "The Commission proposes additional budget support for Ukraine, conditional on reforms including rule of law and anti-corruption. The funding would help Kyiv sustain its budget and war effort.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Ukraine",
+      "European NATO member countries"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels, Belgium",
+    "arc": [
+      [
+        4.35,
+        50.85
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "49.5 USD billion",
+    "metricName": "proposed additional EU support for Ukraine",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/"
+    },
+    "checked": "2026-11-18",
+    "auto": true,
+    "limitations": "This is a proposal that still needs approval from member states, and its timing and size may change. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

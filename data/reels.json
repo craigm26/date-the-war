@@ -1,15 +1,32 @@
 [
  {
+  "date": "2026-11-19",
+  "count": 7,
+  "auto": 7,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-19@reel",
+  "titles": [
+   "Ukraine hits the Crimean Bridge again with missiles; Russia halts rail traffic",
+   "Iran escalates attacks on ships in Hormuz and strikes several Gulf states",
+   "UN nuclear watchdog says North Korea is expanding a uranium enrichment facility",
+   "Danish parliament unanimously approves an Arctic security pact with the US",
+   "US consortium beats Chinese rivals for Kenya's Mrima Hill critical minerals deal",
+   "US, Chinese and Russian presidents agree a nuclear war must never be fought",
+   "South Korea's top court overturns a 15-year term for a former PM over martial law"
+  ]
+ },
+ {
   "date": "2026-11-18",
-  "count": 8,
-  "auto": 8,
+  "count": 10,
+  "auto": 10,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-18@reel",
   "titles": [
    "US jets strike Iran's Qeshm Island; Kuwait says it repelled an Iranian attack",
    "Fresh clashes at the Eritrean border raise fears of a wider Horn of Africa war",
    "Saudi-led coalition hits 60 Houthi military sites as Houthis near Aden",
+   "Israeli tanks cross the Gaza yellow line for the first time since the ceasefire",
    "European Commission approves a proposal for $49.5 billion more for Ukraine",
    "Japan's prime minister and China's president share a cordial handshake at APEC",
+   "US sanctions a Hizballah front organization and Iran-backed financial network",
    "Fears grow of US sanctions on ICJ judges ahead of Myanmar genocide ruling",
    "US-backed Lobito Corridor aims to secure DR Congo critical minerals",
    "US, Chinese and Russian presidents meet in Shenzhen on Ukraine and Iran"
@@ -1219,15 +1236,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-05-22@reel",
   "titles": [
    "NPT review conference ends without consensus"
-  ]
- },
- {
-  "date": "2026-05-14",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-05-14@reel",
-  "titles": [
-   "Taiwan responds to U.S.-China summit"
   ]
  }
 ]

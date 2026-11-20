@@ -1,16 +1,32 @@
 [
  {
+  "date": "2026-11-20",
+  "count": 6,
+  "auto": 6,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-20@reel",
+  "titles": [
+   "US military says vessels bypassing the Iran blockade may be boarded or seized",
+   "Ukraine strikes the Kaleykino oil pumping station feeding Druzhba in Tatarstan",
+   "Russian missiles and a drone fall in Poland during a mass attack on Ukraine",
+   "Russia fires 84 cruise missiles and 404 drones at Ukraine overnight",
+   "More than 1.3 million Rohingya remain displaced as the ICJ rules on Myanmar",
+   "Saudi Arabia and Japan agree a deal to replenish depleted oil stockpiles"
+  ]
+ },
+ {
   "date": "2026-11-19",
-  "count": 7,
-  "auto": 7,
+  "count": 9,
+  "auto": 9,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-19@reel",
   "titles": [
    "Ukraine hits the Crimean Bridge again with missiles; Russia halts rail traffic",
    "Iran escalates attacks on ships in Hormuz and strikes several Gulf states",
+   "Violent protests and killings in Bangladesh ahead of an exiled ex-premier's return",
    "UN nuclear watchdog says North Korea is expanding a uranium enrichment facility",
    "Danish parliament unanimously approves an Arctic security pact with the US",
    "US consortium beats Chinese rivals for Kenya's Mrima Hill critical minerals deal",
    "US, Chinese and Russian presidents agree a nuclear war must never be fought",
+   "IAEA issues its first report on South Korea's nuclear-powered submarine project",
    "South Korea's top court overturns a 15-year term for a former PM over martial law"
   ]
  },
@@ -1227,15 +1243,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-06-02@reel",
   "titles": [
    "WMO urges preparation for El Nino"
-  ]
- },
- {
-  "date": "2026-05-22",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-05-22@reel",
-  "titles": [
-   "NPT review conference ends without consensus"
   ]
  }
 ]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "d-20261121-iran-us-drones-hormuz",
+    "date": "2026-11-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Iran says it downed US drones over Hormuz as efforts to end the war stall",
+    "note": "Al Jazeera reports Iran's Revolutionary Guards claim to have shot down US drones over the Strait of Hormuz, while Tehran restates its conditions for reopening the strait. The US also sanctioned four Iranians it calls oil trustees, so combat and economic pressure continue together.",
+    "mechanisms": [
+      "steps-to-war",
+      "commitment-problem"
+    ],
+    "countries": [
+      "Iran",
+      "United States"
+    ],
+    "lon": 56.3,
+    "lat": 26.6,
+    "place": "Strait of Hormuz",
+    "arc": [
+      [
+        56.3,
+        26.6
+      ],
+      [
+        -77,
+        38.9
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/21/irans-irgc-downs-us-drone-over-hormuz-as-efforts-to-end-war-remain-stalled?traffic_source=rss"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "The drone shootdown is an Iranian claim and the report does not independently confirm it. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261121-kyiv-bridges-struck",
+    "date": "2026-11-20",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Russia strikes three Kyiv bridges in a massive aerial assault, at least 9 dead",
+    "note": "The Kyiv Independent reports Russian missiles and drones hit three bridges in the capital, with at least nine people killed. Attacks on transport links in the capital raise the cost of the war for civilians and for logistics.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 30.5,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.6,
+        55.75
+      ],
+      [
+        30.5,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "at least 9 people",
+    "metricName": "reported killed",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-3-kyiv-bridges-in-massive-aerial-assault-on-ukraine-at-least-9-dead/"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "Casualty figures are preliminary and come from Ukrainian officials. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261121-west-bank-settler-attacks-record",
+    "date": "2026-11-20",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Record settler attacks mar the West Bank olive harvest, UN agencies say",
+    "note": "UN agencies and NGOs report more than 400 settler attacks causing casualties or damage this harvest, the most in any season, including damage to over 4,000 trees. The UN urges Israel to protect farmers, and rising violence adds pressure to an already fragile setting.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Palestine",
+      "Israel"
+    ],
+    "lon": 35.25,
+    "lat": 32,
+    "place": "West Bank",
+    "arc": null,
+    "global": false,
+    "metric": "more than 400 attacks",
+    "metricName": "settler attacks with casualties or damage this harvest",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168849"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "Counts come from UN agencies and humanitarian groups and use their own criteria. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261121-wfp-91-million-2027",
+    "date": "2026-11-20",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 3,
+    "title": "WFP plans to assist 91 million people in 2027 as the hunger crisis deepens",
+    "note": "The World Food Programme says it needs 12.1 billion US dollars to reach 91 million people next year and warns funding shortfalls will leave millions more hungry. It also warns another global food crisis looms, a known driver of unrest and displacement.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "Worldwide",
+    "arc": null,
+    "global": true,
+    "metric": "91 million people; 12.1 USD billion",
+    "metricName": "people WFP plans to assist in 2027; funding required",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168846"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "These are agency planning figures and funding needs, not measured hunger totals. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261121-haiti-el-salvador-troops",
+    "date": "2026-11-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "El Salvador troops fight gangs in Port-au-Prince, welcomed but with unease",
+    "note": "The Guardian reports many Haitians welcome the foreign combatants after years of gang control of the capital, while some fear the offensive could worsen an unstable situation. It shows an outside force filling a gap left by a weak state.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Haiti",
+      "El Salvador"
+    ],
+    "lon": -72.34,
+    "lat": 18.54,
+    "place": "Port-au-Prince, Haiti",
+    "arc": [
+      [
+        -89.2,
+        13.7
+      ],
+      [
+        -72.34,
+        18.54
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "Reflects interviews with residents and cannot show overall local opinion or battlefield results. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261121-indonesia-china-south-china-sea",
+    "date": "2026-11-20",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Indonesia and China discuss future South China Sea cooperation",
+    "note": "The Japan Times reports the leaders of Indonesia and China discussed cooperation in the waterway. Such accords have long made other claimants wary that they could be read as legitimizing Beijing's claims.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "Indonesia",
+      "China"
+    ],
+    "lon": 114,
+    "lat": 10,
+    "place": "South China Sea",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/indonesia-south-china-sea-xi/"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "The summary does not give the terms or scope of any cooperation agreed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261121-us-uae-sudan-truce-call",
+    "date": "2026-11-20",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US and UAE foreign ministers discuss ending the war in Sudan",
+    "note": "The US State Department says its secretary and the UAE foreign minister discussed the need to end the Sudan war, stressing a humanitarian truce, durable peace and a transition to civilian government. The UAE's role in the conflict is disputed, so its engagement matters for any truce.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "United States",
+      "United Arab Emirates",
+      "Sudan"
+    ],
+    "lon": 32.5,
+    "lat": 15.6,
+    "place": "Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/secretary-rubios-call-with-uae-deputy-prime-minister-and-foreign-minister-sheikh-abdullah-bin-zayed-al-nahyan-6/"
+    },
+    "checked": "2026-11-21",
+    "auto": true,
+    "limitations": "A short readout from one party that announces no concrete steps or commitments. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

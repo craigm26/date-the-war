@@ -1,18 +1,32 @@
 [
  {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "count": 2,
   "auto": 2,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-22@reel",
+  "titles": [
+   "Saudi Arabia intercepts a drone and missile as Houthis report an attack on Sanaa",
+   "China and ASEAN struggle to agree a South China Sea code of conduct"
+  ]
+ },
+ {
+  "date": "2026-11-21",
+  "count": 6,
+  "auto": 6,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-21@reel",
   "titles": [
    "Iran says it downed US drones over Hormuz as efforts to end the war stall",
-   "El Salvador troops fight gangs in Port-au-Prince, welcomed but with unease"
+   "Finland says the war is spilling over after a drone hits a Russian ship",
+   "El Salvador troops fight gangs in Port-au-Prince, welcomed but with unease",
+   "UK and Ukraine agree to build long-range and middle strike drones in Britain",
+   "UN talks in Geneva fail to deliver binding rules on autonomous weapons",
+   "Haiti's farmers face gang violence, displacement and El Niño as hunger spreads"
   ]
  },
  {
   "date": "2026-11-20",
-  "count": 11,
-  "auto": 11,
+  "count": 12,
+  "auto": 12,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-20@reel",
   "titles": [
    "US military says vessels bypassing the Iran blockade may be boarded or seized",
@@ -23,6 +37,7 @@
    "More than 1.3 million Rohingya remain displaced as the ICJ rules on Myanmar",
    "Record settler attacks mar the West Bank olive harvest, UN agencies say",
    "WFP plans to assist 91 million people in 2027 as the hunger crisis deepens",
+   "US sanctions four Iranian insiders it says sell oil to fund the military",
    "US and UAE foreign ministers discuss ending the war in Sudan",
    "Saudi Arabia and Japan agree a deal to replenish depleted oil stockpiles",
    "Indonesia and China discuss future South China Sea cooperation"
@@ -1240,15 +1255,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-06-09@reel",
   "titles": [
    "UCDP reports record state-based conflict count for 2025"
-  ]
- },
- {
-  "date": "2026-06-08",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-06-08@reel",
-  "titles": [
-   "SIPRI publishes January 2026 nuclear inventory estimates"
   ]
  }
 ]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "d-20261122-finland-ship-spillover",
+    "date": "2026-11-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Finland says the war is spilling over after a drone hits a Russian ship",
+    "note": "A drone set fire to a Russian military-linked cargo ship on a US sanctions list in the Gulf of Finland, and Finnish forces say Ukraine was likely behind it. Finland also reports a suspected Russian helicopter violation of its airspace, which its defence ministry links to the strike.",
+    "mechanisms": [
+      "steps-to-war",
+      "misperception"
+    ],
+    "countries": [
+      "Finland",
+      "Russia",
+      "Ukraine"
+    ],
+    "lon": 26,
+    "lat": 59.9,
+    "place": "Gulf of Finland",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "Attribution of the drone strike rests on Finnish assessments and Ukraine has not confirmed it in the source. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261122-uk-drones-ukraine",
+    "date": "2026-11-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UK and Ukraine agree to build long-range and middle strike drones in Britain",
+    "note": "Ukraine's Defense Ministry says the two governments finalized a deal for the United Kingdom to manufacture middle strike and long-range drones for Ukraine on British soil. It deepens allied industrial support for Ukraine's strike capacity.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Ukraine"
+    ],
+    "lon": -0.12,
+    "lat": 51.5,
+    "place": "London and Kyiv",
+    "arc": [
+      [
+        -0.12,
+        51.5
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/uk-to-produce-middle-strike-long-range-drones-for-ukraine-in-britain/"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "Based on an announcement by Ukraine's Defense Ministry, with no figures on volumes or timing in the excerpt. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261122-saudi-houthi-sanaa",
+    "date": "2026-11-22",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi Arabia intercepts a drone and missile as Houthis report an attack on Sanaa",
+    "note": "Houthi media say several people were injured in an attack on an oil company, while Saudi air defences down a drone and a missile. The exchange continues the Saudi-Houthi fighting already on the ledger.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Saudi Arabia",
+      "Yemen"
+    ],
+    "lon": 44.2,
+    "lat": 15.35,
+    "place": "Sanaa, Yemen",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "Casualty claims come from Houthi media and the attacker in Sanaa is not independently identified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261122-us-sanctions-iran-oil",
+    "date": "2026-11-20",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US sanctions four Iranian insiders it says sell oil to fund the military",
+    "note": "The US State Department designates four Iranian figures, including a former Revolutionary Guard intelligence officer and the son of the head of an airline it says moves weapons and fighters. It frames the action as part of a campaign to cut off oil revenue funding the military.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "United States",
+      "Iran"
+    ],
+    "lon": 51.4,
+    "lat": 35.7,
+    "place": "Washington and Tehran",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        51.4,
+        35.7
+      ]
+    ],
+    "global": false,
+    "metric": "4 designations",
+    "metricName": "Iranian individuals sanctioned",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/sanctioning-iranian-regime-insiders-who-profit-from-stolen-oil-wealth/"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "This is a US government statement and the allegations about oil sales are not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261122-autonomous-weapons-talks",
+    "date": "2026-11-21",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN talks in Geneva fail to deliver binding rules on autonomous weapons",
+    "note": "NPR reports the Geneva talks ended without legally binding rules on autonomous weapons. Humanitarian groups warn that military AI is advancing faster than diplomacy.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "Multiple countries",
+      "Switzerland"
+    ],
+    "lon": 6.14,
+    "lat": 46.2,
+    "place": "Geneva",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "NPR",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "The excerpt does not detail which states blocked a binding text. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261122-scs-code-of-conduct",
+    "date": "2026-11-22",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "China and ASEAN struggle to agree a South China Sea code of conduct",
+    "note": "The Philippines wanted a code in place by 2026, but persistent disagreements between China and ASEAN states are slowing progress. Without a code, incidents at sea have fewer agreed rules for de-escalation.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "China",
+      "Philippines",
+      "Multiple countries"
+    ],
+    "lon": 115,
+    "lat": 12,
+    "place": "South China Sea",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "DW",
+      "url": "https://www.dw.com/en/china-asean-countries-struggle-over-south-china-sea-code-of-conduct/a-80009799?maca=en-rss-en-world-4025-rdf"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "The summary does not name the specific clauses in dispute. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261122-haiti-hunger-elnino",
+    "date": "2026-11-21",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Haiti's farmers face gang violence, displacement and El Niño as hunger spreads",
+    "note": "UN News reports years of insecurity, displacement, poor harvests and climate shocks have left millions of Haitians struggling to meet their food needs. Abandoned homes and failing harvests deepen state weakness and humanitarian need.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Haiti"
+    ],
+    "lon": -72.3,
+    "lat": 18.9,
+    "place": "Haiti",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168834"
+    },
+    "checked": "2026-11-22",
+    "auto": true,
+    "limitations": "The excerpt gives no precise count of people in food need. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

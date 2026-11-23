@@ -1,12 +1,30 @@
 [
  {
+  "date": "2026-11-23",
+  "count": 8,
+  "auto": 8,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-23@reel",
+  "titles": [
+   "EU and Indonesia sign a trade deal covering 730 million people",
+   "Germany takes seriously reports Russia may launch a nuclear-armed satellite",
+   "Iran says it will use all available means to counter the US naval blockade",
+   "Drone strikes hit homes and a UN building in Sudan's capital",
+   "Moscow says Estonia is on the verge of unleashing open war with Russia",
+   "Report finds Gaza's contamination threatens public health for generations",
+   "South Korean and Mongolian foreign ministers discuss critical minerals and trade",
+   "South Korea asks Qatar to prioritize its LNG once production and shipping normalize"
+  ]
+ },
+ {
   "date": "2026-11-22",
-  "count": 2,
-  "auto": 2,
+  "count": 4,
+  "auto": 4,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-22@reel",
   "titles": [
+   "Ukraine says sea drones sank a Russian corvette at Benghazi, Libya",
    "Saudi Arabia intercepts a drone and missile as Houthis report an attack on Sanaa",
-   "China and ASEAN struggle to agree a South China Sea code of conduct"
+   "China and ASEAN struggle to agree a South China Sea code of conduct",
+   "COP31 ends in Turkey without a climate pact after a split over fossil fuels"
   ]
  },
  {
@@ -1246,15 +1264,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-06-11@reel",
   "titles": [
    "UNHCR publishes global forced-displacement baseline"
-  ]
- },
- {
-  "date": "2026-06-09",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-06-09@reel",
-  "titles": [
-   "UCDP reports record state-based conflict count for 2025"
   ]
  }
 ]

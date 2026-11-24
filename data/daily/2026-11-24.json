@@ -1,0 +1,217 @@
+[
+  {
+    "id": "d-20261124-korea-kadiz-russian-jets",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate tensions and proxy support",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "South Korea scrambles jets and issues an air raid alert over Russian warplanes",
+    "note": "Japan Times reports South Korea scrambled jets as Russian warplanes entered its air defense zone. Seoul's warnings over such flights are rare, so an alert on an eastern island raises the risk of a miscalculated encounter.",
+    "mechanisms": [
+      "misperception",
+      "steps-to-war"
+    ],
+    "countries": [
+      "South Korea",
+      "Russia"
+    ],
+    "lon": 130,
+    "lat": 37.5,
+    "place": "Off South Korea's east coast",
+    "arc": [
+      [
+        132,
+        43
+      ],
+      [
+        130,
+        37.5
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/24/asia-pacific/south-korea-jets-russia-warplanes/"
+    },
+    "checked": "2026-11-24",
+    "auto": true,
+    "limitations": "The summary does not give the number of aircraft or whether they entered sovereign airspace, only the air defense zone. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-unsc-ukraine-winter-grain",
+    "date": "2026-11-23",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN officials warn of winter grid attacks and Black Sea shipping strikes",
+    "note": "UN officials told the Security Council that Russian strikes on Ukraine's power grid deepen humanitarian needs. They also said attacks on Black Sea shipping disrupt grain exports and push up food prices far beyond the region.",
+    "mechanisms": [],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 31,
+    "lat": 44,
+    "place": "Black Sea",
+    "arc": [
+      [
+        37.6,
+        55.8
+      ],
+      [
+        30.5,
+        50.4
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/sc16517.doc.htm"
+    },
+    "checked": "2026-11-24",
+    "auto": true,
+    "limitations": "This is a briefing summary, and the scale of the price effect is not quantified in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-uk-sanctions-myanmar-military",
+    "date": "2026-11-23",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "UK sanctions top Myanmar military leaders after the genocide ruling",
+    "note": "BBC reports the UK imposed sanctions on senior Myanmar military figures, joined by several other nations in recognising the ICJ ruling that Myanmar carried out genocide. The measures add external pressure on the ruling military but may harden its stance.",
+    "mechanisms": [],
+    "countries": [
+      "United Kingdom",
+      "Myanmar"
+    ],
+    "lon": 96.1,
+    "lat": 19.8,
+    "place": "London and Naypyidaw",
+    "arc": [
+      [
+        -0.1,
+        51.5
+      ],
+      [
+        96.1,
+        19.8
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-24",
+    "auto": true,
+    "limitations": "The summary does not list the individuals sanctioned or the other countries involved. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-south-sudan-cattle-camp-attack",
+    "date": "2026-11-23",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Attack on a cattle camp in north-west South Sudan kills and injures civilians",
+    "note": "The UN spokesperson's briefing says an attack on a cattle camp reportedly killed and injured many civilians and displaced families. The UN mission has sent a peacekeeping patrol and is working with authorities to prevent further violence.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "South Sudan"
+    ],
+    "lon": 26.5,
+    "lat": 8.5,
+    "place": "North-west South Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN Press",
+      "url": "https://press.un.org/en/2026/261123.doc.htm"
+    },
+    "checked": "2026-11-24",
+    "auto": true,
+    "limitations": "The briefing says casualties are reported, with no figures, exact location or attacker identified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-moldova-eu-sanctions-alignment",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Moldova to align its Russia and Belarus sanctions with the EU",
+    "note": "Kyiv Independent reports Moldova will bring its sanctions in line with the EU as a membership requirement. The EU has sanctioned over 4,700 individuals and entities over the war on Ukraine, and candidates must adopt every restriction.",
+    "mechanisms": [
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Moldova",
+      "Russia",
+      "Belarus"
+    ],
+    "lon": 28.86,
+    "lat": 47.01,
+    "place": "Chisinau, Moldova",
+    "arc": null,
+    "global": false,
+    "metric": "over 4,700 individuals and entities",
+    "metricName": "EU sanctions listings over the war on Ukraine",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/moldova-to-bring-its-russia-belarus-sanctions-in-line-with-eu-as-part-of-membership-requirements/"
+    },
+    "checked": "2026-11-24",
+    "auto": true,
+    "limitations": "The summary does not give a timetable for Moldova's alignment or say how the measures would be enforced. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-colombia-peace-deal-decade",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "UN chief urges Colombia to fully implement its landmark peace deal",
+    "note": "UN News reports the UN Secretary-General commended progress in the decade since the Final Peace Agreement ended more than 50 years of insurgency. The UN stresses the need to fully implement its provisions, a reminder that peace deals can stall without follow-through.",
+    "mechanisms": [
+      "commitment-problem"
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "lon": -74.07,
+    "lat": 4.71,
+    "place": "Bogota, Colombia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "UN News",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168864"
+    },
+    "checked": "2026-11-24",
+    "auto": true,
+    "limitations": "The item is a statement of praise and appeal and does not detail which provisions remain unimplemented. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

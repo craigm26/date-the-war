@@ -1,8 +1,19 @@
 [
  {
+  "date": "2026-11-24",
+  "count": 3,
+  "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-24@reel",
+  "titles": [
+   "South Korea scrambles jets and issues an air raid alert over Russian warplanes",
+   "UN chief urges Colombia to fully implement its landmark peace deal",
+   "Moldova to align its Russia and Belarus sanctions with the EU"
+  ]
+ },
+ {
   "date": "2026-11-23",
-  "count": 8,
-  "auto": 8,
+  "count": 11,
+  "auto": 11,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-23@reel",
   "titles": [
    "EU and Indonesia sign a trade deal covering 730 million people",
@@ -10,6 +21,9 @@
    "Iran says it will use all available means to counter the US naval blockade",
    "Drone strikes hit homes and a UN building in Sudan's capital",
    "Moscow says Estonia is on the verge of unleashing open war with Russia",
+   "Attack on a cattle camp in north-west South Sudan kills and injures civilians",
+   "UN officials warn of winter grid attacks and Black Sea shipping strikes",
+   "UK sanctions top Myanmar military leaders after the genocide ruling",
    "Report finds Gaza's contamination threatens public health for generations",
    "South Korean and Mongolian foreign ministers discuss critical minerals and trade",
    "South Korea asks Qatar to prioritize its LNG once production and shipping normalize"
@@ -1255,15 +1269,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-06-17@reel",
   "titles": [
    "Islamabad Memorandum ends the war on paper"
-  ]
- },
- {
-  "date": "2026-06-11",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-06-11@reel",
-  "titles": [
-   "UNHCR publishes global forced-displacement baseline"
   ]
  }
 ]

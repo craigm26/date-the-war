@@ -1,13 +1,29 @@
 [
  {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "count": 3,
   "auto": 3,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-25@reel",
+  "titles": [
+   "Ukraine strikes two Russian oil refineries in a large attack on Samara Oblast",
+   "Sudan's RSF drone attacks kill at least 19 in Blue Nile state",
+   "US rules out troops and bases in Ukraine under post-war security guarantees"
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "count": 8,
+  "auto": 8,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-24@reel",
   "titles": [
+   "Israeli air strike kills Hamas internal security chief in Gaza",
    "South Korea scrambles jets and issues an air raid alert over Russian warplanes",
+   "North Korea's Yongbyon expansion may boost weapons-grade uranium output",
+   "US welcomes latest round of Venezuela reconciliation talks",
    "UN chief urges Colombia to fully implement its landmark peace deal",
-   "Moldova to align its Russia and Belarus sanctions with the EU"
+   "Moldova to align its Russia and Belarus sanctions with the EU",
+   "Land mine casualties soar in Syria two years after the war",
+   "Wave of AI fake videos targets Taiwan's ruling party before local elections"
   ]
  },
  {
@@ -1260,15 +1276,6 @@
   "url": "https://craigmerry.com/date-the-war/#day@2026-06-19@reel",
   "titles": [
    "Israel-Hezbollah ceasefire announced with international mediation"
-  ]
- },
- {
-  "date": "2026-06-17",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-06-17@reel",
-  "titles": [
-   "Islamabad Memorandum ends the war on paper"
   ]
  }
 ]

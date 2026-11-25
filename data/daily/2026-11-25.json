@@ -1,0 +1,279 @@
+[
+  {
+    "id": "d-20261125-rsf-blue-nile-drones",
+    "date": "2026-11-25",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Non-state conflict and state capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Sudan's RSF drone attacks kill at least 19 in Blue Nile state",
+    "note": "Al Jazeera reports overnight RSF drone attacks on Blue Nile state killed at least 19 people and wounded at least 20, including strikes on a residential area in Al Damazin. The report describes a drone war that is quickly escalating.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Sudan"
+    ],
+    "lon": 34.36,
+    "lat": 11.79,
+    "place": "Al Damazin, Blue Nile, Sudan",
+    "arc": null,
+    "global": false,
+    "metric": "at least 19 people killed",
+    "metricName": "reported deaths from drone attacks",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "Casualty figures are preliminary and the summary does not say who supplied them. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261125-samara-refineries-strike",
+    "date": "2026-11-25",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Interstate combat and intervention",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine strikes two Russian oil refineries in a large attack on Samara Oblast",
+    "note": "Kyiv Independent reports Ukraine's General Staff confirmed a strike on two refineries in Samara Oblast, carried out in coordination with a resistance movement inside Russia. Hits on refining capacity deep in Russia reduce fuel output and extend the war's reach.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 50.1,
+    "lat": 53.2,
+    "place": "Samara Oblast, Russia",
+    "arc": [
+      [
+        31,
+        49
+      ],
+      [
+        50.1,
+        53.2
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "The account relies on Ukraine's General Staff and the extent of damage is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261125-us-no-troops-ukraine-guarantees",
+    "date": "2026-11-25",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Diplomacy and crisis management",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US rules out troops and bases in Ukraine under post-war security guarantees",
+    "note": "Kyiv Independent reports the US has excluded troops and military bases from post-war guarantees, falling short of Kyiv's expectations. A readout of a Coalition of the Willing meeting says France, Italy and the UK back bringing Ukraine into NATO.",
+    "mechanisms": [
+      "commitment-problem",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "United States",
+      "Ukraine",
+      "France",
+      "Italy",
+      "United Kingdom"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/exclusive-us-rules-out-troops-military-bases-in-ukraine-under-post-war-security-guarantees-falling-short-of-kyivs-expectations/"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "This is an exclusive based on unnamed sources and a meeting readout, not an official public statement. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-israel-kills-hamas-security-chief",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+    "note": "BBC reports an Israeli air strike killed Hamas's internal security chief, one of seven Palestinians reportedly killed in strikes on Tuesday. Long War Journal says the US-backed ceasefire is stalled and Israeli forces are targeting senior Hamas officials.",
+    "mechanisms": [
+      "commitment-problem",
+      "steps-to-war"
+    ],
+    "countries": [
+      "Israel",
+      "Palestine"
+    ],
+    "lon": 34.45,
+    "lat": 31.5,
+    "place": "Gaza",
+    "arc": [
+      [
+        34.8,
+        31.8
+      ],
+      [
+        34.45,
+        31.5
+      ]
+    ],
+    "global": false,
+    "metric": "7 people",
+    "metricName": "Palestinians reportedly killed in strikes on the day",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "Casualty counts are reported as 'reportedly' and attribution of ceasefire violations is contested by both sides. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-yongbyon-enrichment-expansion",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Nuclear weapons and arms control",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "North Korea's Yongbyon expansion may boost weapons-grade uranium output",
+    "note": "Yonhap reports a US think tank (ISIS) assessment that North Korea's latest expansion of its uranium enrichment site at Yongbyon may aim to raise weapons-grade uranium production. More fissile material would grow the arsenal and harden the nuclear standoff.",
+    "mechanisms": [
+      "security-dilemma"
+    ],
+    "countries": [
+      "North Korea"
+    ],
+    "lon": 125.75,
+    "lat": 39.8,
+    "place": "Yongbyon, North Korea",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Yonhap",
+      "url": "https://en.yna.co.kr/view/AEN20261125000300315"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "The finding is an outside analyst's inference from imagery and the source text is truncated, so purpose and output are not confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-venezuela-reconciliation-talks",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "De-escalatory",
+    "mag": 2,
+    "title": "US welcomes latest round of Venezuela reconciliation talks",
+    "note": "The US State Department says the latest round of talks between Venezuela's 2015 National Assembly and the interim government has concluded. It describes the Venezuelan-led process as advancing reforms toward free and credible elections.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Venezuela",
+      "United States"
+    ],
+    "lon": -66.9,
+    "lat": 10.48,
+    "place": "Caracas, Venezuela",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/venezuelas-reconciliation-talks-continued-progress-toward-an-enduring-democracy/"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "This is a US government press statement and does not describe the content of the talks or any agreed terms. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-taiwan-ai-fake-videos",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "Technology",
+    "sub": "Cyber and hybrid activity",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Wave of AI fake videos targets Taiwan's ruling party before local elections",
+    "note": "BBC asks whether China is behind a network of AI-generated videos attacking leading figures of Taiwan's ruling party and a mayoral candidate. DW separately reports disinformation claiming the US is pulling back support for the island.",
+    "mechanisms": [
+      "misperception"
+    ],
+    "countries": [
+      "Taiwan",
+      "China",
+      "United States"
+    ],
+    "lon": 121.56,
+    "lat": 25.04,
+    "place": "Taipei, Taiwan",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "The headline poses attribution to China as a question, and the summary does not establish who runs the network. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261124-syria-landmine-casualties",
+    "date": "2026-11-24",
+    "era": "daily",
+    "group": "Social",
+    "sub": "Humanitarian consequences",
+    "dir": "Contextual",
+    "mag": 1,
+    "title": "Land mine casualties soar in Syria two years after the war",
+    "note": "BBC reports figures showing nearly 1,000 children are among those killed or injured by explosives left over from Syria's conflict. Unexploded ordnance slows returns and recovery, which keeps the state fragile.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Syria"
+    ],
+    "lon": 38,
+    "lat": 35,
+    "place": "Syria",
+    "arc": null,
+    "global": false,
+    "metric": "nearly 1,000 children",
+    "metricName": "children killed or injured by leftover explosives",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-25",
+    "auto": true,
+    "limitations": "The summary does not give the source of the figures, the time period covered or the total casualty count. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]

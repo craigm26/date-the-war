@@ -1,13 +1,30 @@
 [
  {
+  "date": "2026-11-27",
+  "count": 8,
+  "auto": 8,
+  "url": "https://craigmerry.com/date-the-war/#day@2026-11-27@reel",
+  "titles": [
+   "Ukraine stops electricity exports as Russian attacks strain its grid",
+   "Chinese military tests new Taiwan landing tactics in coastal drills",
+   "Four EU states complicate a 45 billion loan for Ukraine",
+   "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+   "Saudi strike reportedly kills 11 civilians in Yemen's Taiz",
+   "UN warns famine will rise as conflict and El Nino add new hotspots",
+   "US tariff plan could lift rates on most Japanese goods to 15 percent",
+   "US president adds Ukraine to NATO warning on widening war, altering joint text"
+  ]
+ },
+ {
   "date": "2026-11-26",
-  "count": 4,
-  "auto": 4,
+  "count": 5,
+  "auto": 5,
   "url": "https://craigmerry.com/date-the-war/#day@2026-11-26@reel",
   "titles": [
    "Insurgents in Mali and beyond use cheap drones to erode government air superiority",
    "North Korea's leader calls for more nuclear weapons and tactical deployment",
    "Oil feud deepens rift between Baghdad and Iraq's Kurdish region",
+   "Armenia plans full withdrawal of Russian border guards in coming years",
    "Australia delays final vote on LNG gas reservation law to February"
   ]
  },
@@ -1273,15 +1290,6 @@
    "Ceasefire collapses over shipping in Hormuz",
    "NATO announces new procurement and manufacturing commitments",
    "IMF July update combines weaker growth and renewed inflation pressure"
-  ]
- },
- {
-  "date": "2026-06-20",
-  "count": 1,
-  "auto": 0,
-  "url": "https://craigmerry.com/date-the-war/#day@2026-06-20@reel",
-  "titles": [
-   "Gaza health report describes dialysis-treatment shortages"
   ]
  }
 ]

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "d-20261127-us-tariff-japan-15pct",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Trade coercion and sanctions",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "US tariff plan could lift rates on most Japanese goods to 15 percent",
+    "note": "Japan is questioning and pushing back on a US plan that could raise tariffs on most Japanese goods from 12.5 percent to 15 percent. Higher tariffs between allies strain trade ties and the wider alliance relationship.",
+    "mechanisms": [
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Japan",
+      "United States"
+    ],
+    "lon": 139.69,
+    "lat": 35.69,
+    "place": "Tokyo",
+    "arc": [
+      [
+        -77.04,
+        38.9
+      ],
+      [
+        139.69,
+        35.69
+      ]
+    ],
+    "global": false,
+    "metric": "15 percent",
+    "metricName": "proposed US tariff rate on most Japanese goods (currently 12.5 percent)",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/11/27/trump-tariff-japan/"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The item describes a plan under discussion, so final rates and scope are not confirmed. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-ukraine-halts-power-exports",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "Economic",
+    "sub": "Energy and maritime chokepoints",
+    "dir": "Escalatory",
+    "mag": 4,
+    "title": "Ukraine stops electricity exports as Russian attacks strain its grid",
+    "note": "Ukraine has halted power exports and increasingly relies on imports as Russian strikes damage its grid. Separate reports say Russia launched 155 drones overnight, with outages across six oblasts, as winter begins.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Ukraine",
+      "Russia"
+    ],
+    "lon": 30.52,
+    "lat": 50.45,
+    "place": "Kyiv, Ukraine",
+    "arc": [
+      [
+        37.62,
+        55.75
+      ],
+      [
+        30.52,
+        50.45
+      ]
+    ],
+    "global": false,
+    "metric": "155 drones",
+    "metricName": "launched at Ukraine overnight, per the Air Force",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/ukraine-stops-electricity-exports-as-russian-attacks-strain-power-grid/"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The scale of grid damage and the duration of the export halt are not detailed in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-eu-ukraine-loan-holdouts",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Mobilization and war economy",
+    "dir": "Mixed",
+    "mag": 3,
+    "title": "Four EU states complicate a 45 billion loan for Ukraine",
+    "note": "Bulgaria, Czechia, Hungary and Slovakia are complicating the EU push for a Ukraine loan, with Slovakia's government calling it a pure grant because repayment depends on Russian reparations. France and Germany want an EU budget deal by year-end to lock in aid.",
+    "mechanisms": [
+      "domestic-incentives",
+      "alliance-entanglement"
+    ],
+    "countries": [
+      "Ukraine",
+      "Bulgaria",
+      "Czech Republic",
+      "Hungary",
+      "European NATO member countries"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels, Belgium",
+    "arc": null,
+    "global": false,
+    "metric": "45 billion loan",
+    "metricName": "proposed EU loan to Ukraine (currency not stated in the item)",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/why-bulgaria-czechia-hungary-and-slovakia-are-complicating-the-latest-eu-push-for-a-ukraine-loan/"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The item does not say whether the objecting states will block the loan or only delay it. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-nato-statement-ukraine-wording",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "US president adds Ukraine to NATO warning on widening war, altering joint text",
+    "note": "A NATO official told Politico that both sides had agreed the original statement and that the US president then changed the wording unilaterally to add Ukraine. The episode shows how US and European positions on the war can diverge in alliance language.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "misperception"
+    ],
+    "countries": [
+      "United States",
+      "Ukraine",
+      "European NATO member countries"
+    ],
+    "lon": 4.35,
+    "lat": 50.85,
+    "place": "Brussels, Belgium",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/trump-adds-ukraine-to-warning-against-expanding-war-diverging-from-joint-nato-statement/"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The account rests on an anonymous NATO official quoted by Politico, and the exact wording is not given in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-taiz-saudi-strike",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Conflict incidence and internationalization",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Saudi strike reportedly kills 11 civilians in Yemen's Taiz",
+    "note": "Houthi media report that a Saudi strike killed 11 civilians in Taiz as hostilities between the Houthis and the Saudi-backed coalition continue. Fighting around Taiz is also blocking food and medicine access for families there.",
+    "mechanisms": [
+      "steps-to-war"
+    ],
+    "countries": [
+      "Yemen",
+      "Saudi Arabia"
+    ],
+    "lon": 44.02,
+    "lat": 13.58,
+    "place": "Taiz, Yemen",
+    "arc": [
+      [
+        46.7,
+        24.71
+      ],
+      [
+        44.02,
+        13.58
+      ]
+    ],
+    "global": false,
+    "metric": "11 people",
+    "metricName": "civilians reported killed",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media?traffic_source=rss"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The casualty figure comes from Houthi media and is not independently verified. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-china-taiwan-landing-drills",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+    "note": "Satellite images and a research report show China testing a way to land troops by linking civilian vessels into a makeshift floating bridge. The work points to growing amphibious preparation as Taiwan heads into local elections.",
+    "mechanisms": [
+      "security-dilemma",
+      "steps-to-war"
+    ],
+    "countries": [
+      "China",
+      "Taiwan"
+    ],
+    "lon": 119.5,
+    "lat": 24.5,
+    "place": "Taiwan Strait",
+    "arc": [
+      [
+        118.1,
+        24.5
+      ],
+      [
+        121,
+        24
+      ]
+    ],
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "The Japan Times",
+      "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "Drill purpose and scale are inferred from satellite imagery and a research report, not from official statements. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-guinea-bissau-junta-delay",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "Political",
+    "sub": "Domestic institutions and legitimacy",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+    "note": "A year after a coup, the military leaders have pushed back their promised 12-month return to civilian rule to 2028. Extended military rule weakens legitimacy and raises the risk of further instability.",
+    "mechanisms": [
+      "state-weakness",
+      "commitment-problem",
+      "domestic-incentives"
+    ],
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "lon": -15.6,
+    "lat": 11.86,
+    "place": "Bissau, Guinea-Bissau",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The item does not give the junta's stated reasons or any reaction from regional bodies. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-armenia-russian-border-guards",
+    "date": "2026-11-26",
+    "era": "daily",
+    "group": "War / conflict",
+    "sub": "Alliances and military capacity",
+    "dir": "Mixed",
+    "mag": 2,
+    "title": "Armenia plans full withdrawal of Russian border guards in coming years",
+    "note": "Armenia's prime minister says Russian FSB border guards, present under a 1992 agreement and covering the borders with Turkey and Iran, will be phased out entirely. The move continues Yerevan's shift away from Russian security guarantees and may alter regional deterrence.",
+    "mechanisms": [
+      "alliance-entanglement",
+      "power-transition"
+    ],
+    "countries": [
+      "Armenia",
+      "Russia",
+      "Turkey",
+      "Iran"
+    ],
+    "lon": 44.51,
+    "lat": 40.18,
+    "place": "Yerevan, Armenia",
+    "arc": null,
+    "global": false,
+    "metric": "",
+    "metricName": "",
+    "source": {
+      "label": "Kyiv Independent",
+      "url": "https://kyivindependent.com/armenia-plans-full-withdrawal-of-russian-border-guards-in-coming-years-prime-minister-says/"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The timetable is described only as the coming years, and Russia's response is not covered in the item. Drafted by an automated daily job from the linked report; not yet reviewed."
+  },
+  {
+    "id": "d-20261127-un-famine-hotspots-el-nino",
+    "date": "2026-11-27",
+    "era": "daily",
+    "group": "Environmental",
+    "sub": "Food security and climate stress",
+    "dir": "Escalatory",
+    "mag": 3,
+    "title": "UN warns famine will rise as conflict and El Nino add new hotspots",
+    "note": "The UN identifies four newly flagged hunger hotspots, with El Nino a major driver of three of them, mainly in parts of Africa. The warning ties conflict and climate stress together as drivers of famine risk.",
+    "mechanisms": [
+      "state-weakness"
+    ],
+    "countries": [
+      "Multiple countries"
+    ],
+    "lon": 0,
+    "lat": 20,
+    "place": "World-wide",
+    "arc": null,
+    "global": true,
+    "metric": "4 hotspots",
+    "metricName": "newly identified famine hotspots",
+    "source": {
+      "label": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un?traffic_source=rss"
+    },
+    "checked": "2026-11-27",
+    "auto": true,
+    "limitations": "The item summary does not name the hotspots or give the population at risk. Drafted by an automated daily job from the linked report; not yet reviewed."
+  }
+]
